@@ -1,0 +1,56 @@
+name: Edges
+
+on:
+  workflow_dispatch:
+    inputs:
+      away:
+        description: "Away team code (example: NE)"
+        default: "NE"
+        required: true
+      home:
+        description: "Home team code (example: MIA)"
+        default: "MIA"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  edges:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install requirements
+        run: pip install -r requirements.txt
+
+      - name: Run backtest if it has never run
+        run: |
+          if [ ! -f settings.json ]; then
+            python nfl_sim.py backtest
+          fi
+
+      - name: Compare with Kalshi and Polymarket
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          AWAY: ${{ inputs.away }}
+          HOME_TEAM: ${{ inputs.home }}
+        run: python edges.py "$AWAY" "$HOME_TEAM"
+
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for f in edges.md settings.json backtest_results.md; do
+            if [ -f "$f" ]; then git add "$f"; fi
+          done
+          git diff --cached --quiet || git commit -m "Update edges"
+          git push
