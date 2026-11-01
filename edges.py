@@ -26,6 +26,10 @@ STATS_URL = (
     "https://github.com/nflverse/nflverse-data/releases/download/"
     "stats_player/stats_player_week_{season}.csv"
 )
+INJURY_URL = (
+    "https://github.com/nflverse/nflverse-data/releases/download/"
+    "injuries/injuries_{season}.csv"
+)
 N_SIMS = 10000
 PLAYER_GAMES = 8  # recent games used per player
 MIN_PLAYER_GAMES = 3
@@ -127,6 +131,22 @@ def load_player_games(season, week):
         key=stats["player_display_name"].fillna("").map(norm_name),
     )
     return stats.sort_values(["season", "week"])
+
+
+def load_injuries(season, week, teams):
+    # This week's injury report: player name -> Out, Doubtful or Questionable.
+    try:
+        report = pd.read_csv(INJURY_URL.format(season=season), low_memory=False)
+    except Exception:
+        print("injury report not available")
+        return {}
+    report = report[
+        (report["season"] == season)
+        & (report["week"] == week)
+        & (report["team"].isin(teams))
+        & report["report_status"].notna()
+    ]
+    return {norm_name(str(n)): s for n, s in zip(report["full_name"], report["report_status"])}
 
 
 def draw(recent, stat, rng, n):
@@ -255,7 +275,7 @@ def win_prob(margin):
 
 # ---------- markets ----------
 
-def kalshi_markets(event_code, away, home, sims, stats, rng, cache, out, skipped):
+def kalshi_markets(event_code, away, home, sims, stats, rng, cache, out, skipped, injuries):
     series_info = get_json(f"{KALSHI}/series?category=Sports")
     fee_mult = {
         item["ticker"]: float(item.get("fee_multiplier") or 1)
@@ -282,23 +302,35 @@ def kalshi_markets(event_code, away, home, sims, stats, rng, cache, out, skipped
             strike = m.get("floor_strike")
             team = team_of.get((m.get("custom_strike") or {}).get("football_team"))
             kind = "game"
+            proj = None
             if series == "KXNFLGAME":
                 p_yes = win_prob(margin[team])
+                proj = float(margin[team].mean())
             elif series == "KXNFLSPREAD" and team in margin:
                 p_yes = float(np.mean(margin[team] > strike))
+                proj = float(margin[team].mean())
             elif series == "KXNFLTOTAL":
                 p_yes = float(np.mean(total > strike))
+                proj = float(total.mean())
             elif series == "KXNFLTEAMTOTAL" and team in points:
                 p_yes = float(np.mean(points[team] > strike))
+                proj = float(points[team].mean())
             elif series in KALSHI_PLAYER_SERIES and ":" in title:
                 kind = "player (untested)"
                 name = title.split(":")[0].strip()
+                status = injuries.get(norm_name(name), "")
+                if status in ("Out", "Doubtful"):
+                    skipped.append(f"Kalshi | {title} | injury report: {status}")
+                    continue
+                if status == "Questionable":
+                    kind = "player (untested, Q)"
                 player, games_used = player_sims(
                     stats, name, KALSHI_PLAYER_SERIES[series], rng, cache
                 )
                 if player is None:
                     skipped.append(f"Kalshi | {title} | only {games_used} past games")
                     continue
+                proj = float(player.mean())
                 p_yes = player_prob(player, KALSHI_PLAYER_SERIES[series], strike)
                 if p_yes is None:
                     skipped.append(f"Kalshi | {title} | no calibration for this stat")
@@ -318,10 +350,11 @@ def kalshi_markets(event_code, away, home, sims, stats, rng, cache, out, skipped
                     "site": "Kalshi", "market": title, "side": side, "kind": kind,
                     "price": ask, "fee": fee, "sim": prob, "edge": prob - ask - fee,
                     "volume": m.get("volume_fp") or "",
+                    "proj": proj,
                 })
 
 
-def poly_markets(slug_base, away, home, names, sims, stats, rng, cache, out, skipped):
+def poly_markets(slug_base, away, home, names, sims, stats, rng, cache, out, skipped, injuries):
     margin = {home: sims["home"] - sims["away"], away: sims["away"] - sims["home"]}
     points = {home: sims["home"], away: sims["away"]}
     total = sims["home"] + sims["away"]
@@ -345,28 +378,39 @@ def poly_markets(slug_base, away, home, names, sims, stats, rng, cache, out, ski
                 first = outcomes[0]
                 kind = "game"
                 p_first = None
+                proj = None
                 if kind_type == "moneyline":
                     team = names.get(first)
                     if team:
                         p_first = win_prob(margin[team])
+                        proj = float(margin[team].mean())
                 elif kind_type == "spreads" and line is not None:
                     team = names.get(first)
                     if team:
                         p_first = float(np.mean(margin[team] > -float(line)))
+                        proj = float(margin[team].mean())
                 elif kind_type == "totals" and line is not None and first.lower() == "over":
                     p_first = float(np.mean(total > float(line)))
+                    proj = float(total.mean())
                 elif kind_type in POLY_PLAYER_TYPES and ":" in question:
                     kind = "player (untested)"
                     stat, fixed = POLY_PLAYER_TYPES[kind_type]
                     cut = fixed if fixed is not None else line
                     if cut is not None and first.lower() in ("over", "yes"):
                         name = question.split(":")[0].strip()
+                        status = injuries.get(norm_name(name), "")
+                        if status in ("Out", "Doubtful"):
+                            skipped.append(f"Polymarket | {question} | injury report: {status}")
+                            continue
+                        if status == "Questionable":
+                            kind = "player (untested, Q)"
                         player, games_used = player_sims(
                             stats, name, stat, rng, cache
                         )
                         if player is None:
                             skipped.append(f"Polymarket | {question} | only {games_used} past games")
                             continue
+                        proj = float(player.mean())
                         p_first = player_prob(player, stat, float(cut))
                 if p_first is None:
                     skipped.append(f"Polymarket | {question} | not modeled ({kind_type})")
@@ -386,6 +430,7 @@ def poly_markets(slug_base, away, home, names, sims, stats, rng, cache, out, ski
                         "site": "Polymarket", "market": question, "side": side, "kind": kind,
                         "price": ask, "fee": fee, "sim": prob, "edge": prob - ask - fee,
                         "volume": m.get("volumeNum") or m.get("volume") or "",
+                        "proj": proj,
                     })
     if found == 0:
         skipped.append(f"Polymarket | no open markets found for {slug_base}")
@@ -417,15 +462,16 @@ def main():
     sims = {"home": home_pts, "away": away_pts}
     stats = load_player_games(int(row["season"]), int(row["week"]))
     calibration = fit_calibration(stats, int(row["season"]), rng)
+    injuries = load_injuries(int(row["season"]), int(row["week"]), {away, home})
     cache = {}
     out = []
     skipped = []
 
     event_code = today.strftime("%y%b%d").upper() + away + home
-    kalshi_markets(event_code, away, home, sims, stats, rng, cache, out, skipped)
+    kalshi_markets(event_code, away, home, sims, stats, rng, cache, out, skipped, injuries)
 
     slug_base = f"nfl-{away.lower()}-{home.lower()}-{today.isoformat()}"
-    poly_markets(slug_base, away, home, NICKNAMES, sims, stats, rng, cache, out, skipped)
+    poly_markets(slug_base, away, home, NICKNAMES, sims, stats, rng, cache, out, skipped, injuries)
 
     write_report(away, home, today, sims, out, skipped, calibration)
 
@@ -450,6 +496,7 @@ def pct(value):
 def write_report(away, home, today, sims, out, skipped, calibration):
     out.sort(key=lambda r: r["edge"], reverse=True)
     flagged = [r for r in out if r["edge"] >= FLAG]
+    top10 = [r for r in out if "Q" not in r["kind"]][:10]
     margin = sims["home"] - sims["away"]
     lines = [
         f"# Edges: {away} @ {home}, {today}",
@@ -466,6 +513,18 @@ def write_report(away, home, today, sims, out, skipped, calibration):
         f"{PLAYER_GAMES} games only (no injuries, matchup, weather or game script), then corrected "
         "with the check below.",
         "- Edge = sim chance - price - fee. Flagged = 5 points or more.",
+        "- Players listed Out or Doubtful on the injury report are left out. Questionable players are marked Q and kept out of the Top 10.",
+        "- Sim projected = the 10,000-sim average: the stat for player props, the team's winning margin for winner and spread markets (negative means it loses), total points for totals, the team's points for team totals.",
+        "",
+        "## Top 10 (most edge first)",
+        "",
+        "| rank | site | market | buy | sim projected | price | sim % | edge (pts) |",
+        "|---:|---|---|---|---:|---:|---:|---:|",
+        *[
+            f"| {i} | {r['site']} | {r['market']} | {r['side']} | {r['proj']:.1f} | "
+            f"{r['price']:.2f} | {pct(r['sim'])} | {100 * r['edge']:.1f} |"
+            for i, r in enumerate(top10, 1)
+        ],
         "",
         f"## Flagged ({len(flagged)})",
         "",
@@ -507,15 +566,12 @@ def write_report(away, home, today, sims, out, skipped, calibration):
     with open("edges.md", "w", encoding="utf-8") as handle:
         handle.write("\n".join(lines))
 
-    if flagged:
-        top = [
-            f"{r['site']}: {r['market']} -> {r['side']} @ {r['price']:.2f} "
-            f"(sim {pct(r['sim'])}%, edge {100 * r['edge']:.1f}, {r['kind']})"
-            for r in flagged[:10]
-        ]
-        message = f"{away} @ {home}: {len(flagged)} flagged\n" + "\n".join(top)
-    else:
-        message = f"{away} @ {home}: no edges of 5+ points after fees"
+    alert = [
+        f"{i}. {r['site']}: {r['market']} -> {r['side']} @ {r['price']:.2f} | "
+        f"sim proj {r['proj']:.1f} | sim {pct(r['sim'])}% | edge {100 * r['edge']:.1f}"
+        for i, r in enumerate(top10, 1)
+    ]
+    message = f"{away} @ {home} Top 10 (untested, check injuries)\n" + "\n".join(alert)
     nfl_sim._send_push(message)
 
 
