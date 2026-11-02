@@ -69,6 +69,7 @@ POLY_PLAYER_TYPES = {
     "two_plus_touchdowns": ("touchdowns", 1.5),
 }
 COUNT_STATS = {"passing_tds", "passing_interceptions", "touchdowns"}
+VOLUME_STATS = {"receptions", "carries", "attempts", "completions"}
 
 
 def get_json(url):
@@ -151,10 +152,19 @@ def load_injuries(season, week, teams):
 
 def draw(recent, stat, rng, n):
     mean = recent.mean()
+    if mean <= 0:
+        return np.zeros(n)
     if stat in COUNT_STATS:
         return rng.poisson(mean, n).astype(float)
-    sd = max(recent.std(ddof=1), np.sqrt(max(mean, 1.0)))
-    return np.maximum(np.rint(rng.normal(mean, sd, n)), 0)
+    var = max(recent.var(ddof=1), mean)
+    if stat in VOLUME_STATS:
+        if var <= mean:
+            return rng.poisson(mean, n).astype(float)
+        size = mean * mean / (var - mean)
+        return rng.negative_binomial(size, size / (size + mean), n).astype(float)
+    # Yards: a gamma curve allows the occasional big game that a bell curve misses.
+    shape = mean * mean / var
+    return np.rint(rng.gamma(shape, var / mean, n))
 
 
 def player_sims(stats, name, stat, rng, cache):
@@ -180,6 +190,8 @@ STAT_FLOOR = {
 }
 MULTIPLES = (0.5, 0.75, 1.0, 1.25, 1.5, 2.0)
 CALIBRATION = {}
+PROP_CAL_FILE = "prop_calibration.json"
+PROP_CAL = None
 
 
 def logit(p):
@@ -244,11 +256,26 @@ def fit_calibration(stats, season, rng):
     return report
 
 
+def player_raw_prob(sims, line):
+    return float(np.mean(sims > line))
+
+
 def player_prob(sims, stat, line):
-    raw = float(np.mean(sims > line))
-    if stat not in CALIBRATION:
+    # Prefer the correction fitted on real Kalshi lines (prop_backtest.py writes it).
+    global PROP_CAL
+    if PROP_CAL is None:
+        try:
+            with open(PROP_CAL_FILE, encoding="utf-8") as handle:
+                PROP_CAL = json.load(handle)
+        except FileNotFoundError:
+            PROP_CAL = {}
+    raw = player_raw_prob(sims, line)
+    if PROP_CAL:
+        a, b = PROP_CAL.get(stat, PROP_CAL["_all"])
+    elif stat in CALIBRATION:
+        a, b = CALIBRATION[stat]
+    else:
         return None
-    a, b = CALIBRATION[stat]
     return float(1 / (1 + np.exp(-(a + b * logit(raw)))))
 
 
@@ -303,6 +330,7 @@ def kalshi_markets(event_code, away, home, sims, stats, rng, cache, out, skipped
             team = team_of.get((m.get("custom_strike") or {}).get("football_team"))
             kind = "game"
             proj = None
+            group = title
             if series == "KXNFLGAME":
                 p_yes = win_prob(margin[team])
                 proj = float(margin[team].mean())
@@ -318,6 +346,7 @@ def kalshi_markets(event_code, away, home, sims, stats, rng, cache, out, skipped
             elif series in KALSHI_PLAYER_SERIES and ":" in title:
                 kind = "player (untested)"
                 name = title.split(":")[0].strip()
+                group = f"{norm_name(name)}|{KALSHI_PLAYER_SERIES[series]}"
                 status = injuries.get(norm_name(name), "")
                 if status in ("Out", "Doubtful"):
                     skipped.append(f"Kalshi | {title} | injury report: {status}")
@@ -351,6 +380,7 @@ def kalshi_markets(event_code, away, home, sims, stats, rng, cache, out, skipped
                     "price": ask, "fee": fee, "sim": prob, "edge": prob - ask - fee,
                     "volume": m.get("volume_fp") or "",
                     "proj": proj,
+                    "group": group,
                 })
 
 
@@ -379,6 +409,7 @@ def poly_markets(slug_base, away, home, names, sims, stats, rng, cache, out, ski
                 kind = "game"
                 p_first = None
                 proj = None
+                group = question
                 if kind_type == "moneyline":
                     team = names.get(first)
                     if team:
@@ -398,6 +429,7 @@ def poly_markets(slug_base, away, home, names, sims, stats, rng, cache, out, ski
                     cut = fixed if fixed is not None else line
                     if cut is not None and first.lower() in ("over", "yes"):
                         name = question.split(":")[0].strip()
+                        group = f"{norm_name(name)}|{stat}"
                         status = injuries.get(norm_name(name), "")
                         if status in ("Out", "Doubtful"):
                             skipped.append(f"Polymarket | {question} | injury report: {status}")
@@ -431,6 +463,7 @@ def poly_markets(slug_base, away, home, names, sims, stats, rng, cache, out, ski
                         "price": ask, "fee": fee, "sim": prob, "edge": prob - ask - fee,
                         "volume": m.get("volumeNum") or m.get("volume") or "",
                         "proj": proj,
+                        "group": group,
                     })
     if found == 0:
         skipped.append(f"Polymarket | no open markets found for {slug_base}")
@@ -496,7 +529,15 @@ def pct(value):
 def write_report(away, home, today, sims, out, skipped, calibration):
     out.sort(key=lambda r: r["edge"], reverse=True)
     flagged = [r for r in out if r["edge"] >= FLAG]
-    top10 = [r for r in out if "Q" not in r["kind"]][:10]
+    top10 = []
+    seen = set()
+    for r in out:
+        if "Q" in r["kind"] or r["group"] in seen:
+            continue
+        seen.add(r["group"])
+        top10.append(r)
+        if len(top10) == 10:
+            break
     margin = sims["home"] - sims["away"]
     lines = [
         f"# Edges: {away} @ {home}, {today}",
@@ -513,6 +554,7 @@ def write_report(away, home, today, sims, out, skipped, calibration):
         f"{PLAYER_GAMES} games only (no injuries, matchup, weather or game script), then corrected "
         "with the check below.",
         "- Edge = sim chance - price - fee. Flagged = 5 points or more.",
+        "- The Top 10 shows only the best line for each player and stat.",
         "- Players listed Out or Doubtful on the injury report are left out. Questionable players are marked Q and kept out of the Top 10.",
         "- Sim projected = the 10,000-sim average: the stat for player props, the team's winning margin for winner and spread markets (negative means it loses), total points for totals, the team's points for team totals.",
         "",

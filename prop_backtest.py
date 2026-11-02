@@ -1,4 +1,5 @@
 """Test the player-prop model on past Kalshi prices. Usage: python prop_backtest.py download | test"""
+import json
 import os
 import sys
 import time
@@ -27,8 +28,8 @@ COLUMNS = [
     "season", "week", "away", "home", "kickoff", "yes_ask", "yes_bid",
 ]
 RESULT_COLUMNS = [
-    "month", "ticker", "stat", "p", "result", "yes_price", "no_price",
-    "bet", "model_profit", "yes_profit", "no_profit",
+    "month", "ticker", "stat", "raw", "result", "yes_price", "no_price",
+    "yes_fee", "no_fee", "yes_profit", "no_profit",
 ]
 SUMMARY_COLUMNS = [
     "month", "markets", "model bets", "model YES bets", "model NO bets",
@@ -267,6 +268,33 @@ def _write_report(month_rows, totals, check_rows):
         handle.write("\n".join(lines))
 
 
+def fit_prop_calibration(setup):
+    # Fit chance = 1 / (1 + exp(-(a + b * logit(raw)))) on SETUP months only, per stat.
+    hit = (setup["result"] == "yes").to_numpy(dtype=float)
+    cal = {"_all": list(edges.fit_line(edges.logit(setup["raw"].to_numpy()), hit))}
+    for stat, part in setup.groupby("stat"):
+        if len(part) >= 150:
+            part_hit = (part["result"] == "yes").to_numpy(dtype=float)
+            cal[stat] = list(edges.fit_line(edges.logit(part["raw"].to_numpy()), part_hit))
+    with open(edges.PROP_CAL_FILE, "w", encoding="utf-8") as handle:
+        json.dump(cal, handle, indent=1)
+    return cal
+
+
+def score(table):
+    setup = table[table["month"] < JUDGE_FROM]
+    cal = fit_prop_calibration(setup)
+    ab = np.array([cal.get(stat, cal["_all"]) for stat in table["stat"]])
+    table["p"] = 1 / (1 + np.exp(-(ab[:, 0] + ab[:, 1] * edges.logit(table["raw"].to_numpy()))))
+    yes_edge = table["p"] - table["yes_price"] - table["yes_fee"]
+    no_edge = (1 - table["p"]) - table["no_price"] - table["no_fee"]
+    take_yes = (yes_edge >= no_edge) & (yes_edge >= edges.FLAG)
+    take_no = (no_edge > yes_edge) & (no_edge >= edges.FLAG)
+    table["bet"] = np.where(take_yes, "YES", np.where(take_no, "NO", ""))
+    table["model_profit"] = np.where(take_yes, table["yes_profit"], np.where(take_no, table["no_profit"], 0.0))
+    return table
+
+
 def test():
     data = pd.read_csv(DATA)
     data["mid"] = (data["yes_ask"] + data["yes_bid"]) / 2
@@ -278,7 +306,6 @@ def test():
         season = int(season)
         week = int(week)
         stats = edges.load_player_games(season, week)
-        edges.fit_calibration(stats, season, rng)
         for _event_ticker, event in week_rows.groupby("event_ticker", sort=True):
             away = event["away"].iloc[0]
             home = event["home"].iloc[0]
@@ -296,43 +323,31 @@ def test():
                 strike = market["strike"]
                 if pd.isna(strike):
                     continue
-                p = edges.player_prob(sims, stat, float(strike))
-                if p is None:
-                    continue
+                raw = edges.player_raw_prob(sims, float(strike))
                 yes_price = float(market["yes_ask"])
                 no_price = 1.0 - float(market["yes_bid"])
                 if not (0 < yes_price < 1 and 0 < no_price < 1):
                     continue
                 yes_fee = edges.kalshi_fee(yes_price, 1.0)
                 no_fee = edges.kalshi_fee(no_price, 1.0)
-                yes_edge = p - yes_price - yes_fee
-                no_edge = (1.0 - p) - no_price - no_fee
                 result = market["result"]
                 yes_profit = (1.0 if result == "yes" else 0.0) - yes_price - yes_fee
                 no_profit = (1.0 if result == "no" else 0.0) - no_price - no_fee
-                if yes_edge >= no_edge and yes_edge >= edges.FLAG:
-                    bet = "YES"
-                    model_profit = yes_profit
-                elif no_edge > yes_edge and no_edge >= edges.FLAG:
-                    bet = "NO"
-                    model_profit = no_profit
-                else:
-                    bet = ""
-                    model_profit = 0.0
                 results.append({
                     "month": market["month"],
                     "ticker": market["ticker"],
                     "stat": stat,
-                    "p": p,
+                    "raw": raw,
                     "result": result,
                     "yes_price": yes_price,
                     "no_price": no_price,
-                    "bet": bet,
-                    "model_profit": float(model_profit),
+                    "yes_fee": yes_fee,
+                    "no_fee": no_fee,
                     "yes_profit": float(yes_profit),
                     "no_profit": float(no_profit),
                 })
     table = pd.DataFrame(results, columns=RESULT_COLUMNS)
+    table = score(table)
     if len(table):
         month_rows = [
             _summary(month, part)

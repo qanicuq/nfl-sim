@@ -45,7 +45,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          for f in data/kalshi_props.csv.gz prop_backtest_results.md settings.json; do
+          for f in data/kalshi_props.csv.gz prop_backtest_results.md settings.json prop_calibration.json; do
             if [ -f "$f" ]; then git add "$f"; fi
           done
           git diff --cached --quiet || git commit -m "Update prop backtest"
