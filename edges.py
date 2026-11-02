@@ -30,6 +30,9 @@ INJURY_URL = (
     "https://github.com/nflverse/nflverse-data/releases/download/"
     "injuries/injuries_{season}.csv"
 )
+ESPN = "https://site.api.espn.com/apis/site/v2/sports/football/nfl"
+ESPN_TEAM = {"WSH": "WAS", "LAR": "LA"}
+ESPN_STATUS = {"Injured Reserve": "Out", "Suspended": "Out", "Physically Unable to Perform": "Out"}
 N_SIMS = 10000
 PLAYER_GAMES = 8  # recent games used per player
 MIN_PLAYER_GAMES = 3
@@ -70,6 +73,14 @@ POLY_PLAYER_TYPES = {
 }
 COUNT_STATS = {"passing_tds", "passing_interceptions", "touchdowns"}
 VOLUME_STATS = {"receptions", "carries", "attempts", "completions"}
+PASS_STATS = {"passing_yards", "attempts", "completions", "passing_tds", "passing_interceptions"}
+ROLE_VOLUME = {
+    "rushing_yards": ["carries"],
+    "carries": ["carries"],
+    "receiving_yards": ["targets"],
+    "receptions": ["targets"],
+    "rush_rec_yards": ["carries", "targets"],
+}
 
 
 def get_json(url):
@@ -150,6 +161,37 @@ def load_injuries(season, week, teams):
     return {norm_name(str(n)): s for n, s in zip(report["full_name"], report["report_status"])}
 
 
+def load_espn_injuries(away, home, today):
+    # Today's ESPN injury report for this game: player name -> status.
+    try:
+        board = get_json(f"{ESPN}/scoreboard?dates={today:%Y%m%d}")
+    except Exception:
+        print("ESPN scoreboard not available")
+        return {}
+    for event in board.get("events", []):
+        codes = {
+            ESPN_TEAM.get(c["team"]["abbreviation"], c["team"]["abbreviation"])
+            for c in event["competitions"][0]["competitors"]
+        }
+        if codes != {away, home}:
+            continue
+        try:
+            summary = get_json(f"{ESPN}/summary?event={event['id']}")
+        except Exception:
+            print("ESPN injury report not available")
+            return {}
+        report = {}
+        for team in summary.get("injuries", []):
+            for item in team.get("injuries", []):
+                name = (item.get("athlete") or {}).get("displayName")
+                status = item.get("status") or ""
+                if name:
+                    report[norm_name(name)] = ESPN_STATUS.get(status, status)
+        return report
+    print("ESPN game not found")
+    return {}
+
+
 def draw(recent, stat, rng, n):
     mean = recent.mean()
     if mean <= 0:
@@ -167,14 +209,40 @@ def draw(recent, stat, rng, n):
     return np.rint(rng.gamma(shape, var / mean, n))
 
 
+def starter_rows(stats, rows):
+    # Passing stats come from games the QB started (15+ attempts). A QB with fewer
+    # than 3 starts gets his team's starting-QB line from each recent game instead.
+    starts = rows[rows["attempts"] >= 15]
+    if len(starts) >= MIN_PLAYER_GAMES or rows.empty:
+        return starts
+    team_rows = stats[stats["team"] == rows["team"].iloc[-1]]
+    best = team_rows.sort_values("attempts").groupby(["season", "week"]).tail(1)
+    return best.sort_values(["season", "week"])
+
+
+def td_sims(stats, rows, rng):
+    # Touchdowns are rare, so 8 games say little. Use his average touches
+    # (carries + targets) times the league touchdown rate per touch for his position.
+    recent = rows.tail(PLAYER_GAMES)
+    touches = float((recent["carries"] + recent["targets"]).mean())
+    same = stats[stats["position"] == rows["position"].iloc[-1]]
+    volume = float((same["carries"] + same["targets"]).sum())
+    rate = float(same["touchdowns"].sum()) / volume if volume > 0 else 0.0
+    return rng.poisson(touches * rate, N_SIMS).astype(float)
+
+
 def player_sims(stats, name, stat, rng, cache):
     key = (norm_name(name), stat)
     if key in cache:
         return cache[key]
     rows = stats[stats["key"] == key[0]]
+    if stat in PASS_STATS:
+        rows = starter_rows(stats, rows)
     recent = rows[stat].tail(PLAYER_GAMES).to_numpy(dtype=float)
     if len(recent) < MIN_PLAYER_GAMES:
         cache[key] = (None, len(recent))
+    elif stat == "touchdowns":
+        cache[key] = (td_sims(stats, rows, rng), len(recent))
     else:
         cache[key] = (draw(recent, stat, rng, N_SIMS), len(recent))
     return cache[key]
@@ -279,6 +347,36 @@ def player_prob(sims, stat, line):
     return float(1 / (1 + np.exp(-(a + b * logit(raw)))))
 
 
+def role_scale(stats, name, stat, sims, injuries):
+    # Give a player his share of an Out or Doubtful teammate's carries or targets.
+    # Only a teammate who played the team's last game counts; otherwise recent games already show it.
+    cols = ROLE_VOLUME.get(stat)
+    key = norm_name(name)
+    rows = stats[stats["key"] == key]
+    if cols is None or rows.empty:
+        return sims, 1.0
+    team = rows["team"].iloc[-1]
+    position = rows["position"].iloc[-1]
+    team_rows = stats[stats["team"] == team]
+    weeks = team_rows[["season", "week"]].drop_duplicates().tail(PLAYER_GAMES)
+    recent = team_rows.merge(weeks, on=["season", "week"])
+    recent = recent[recent["position"] == position]
+    last = weeks.iloc[-1]
+    played_last = set(recent.loc[(recent["season"] == last["season"]) & (recent["week"] == last["week"]), "key"])
+    volume = recent[cols].sum(axis=1).groupby(recent["key"]).sum()
+    total = volume.sum()
+    if total <= 0 or volume.get(key, 0) <= 0:
+        return sims, 1.0
+    share = volume / total
+    out = [k for k in share.index if injuries.get(k, "") in ("Out", "Doubtful") and k in played_last]
+    out_share = float(share[out].sum())
+    left = 1.0 - out_share
+    if out_share <= 0 or left <= 0:
+        return sims, 1.0
+    factor = min(1.0 + out_share / left, 2.0)
+    return np.rint(sims * factor), factor
+
+
 # ---------- game model ----------
 
 def game_sims(games, row, rng):
@@ -359,8 +457,11 @@ def kalshi_markets(event_code, away, home, sims, stats, rng, cache, out, skipped
                 if player is None:
                     skipped.append(f"Kalshi | {title} | only {games_used} past games")
                     continue
+                player, factor = role_scale(stats, name, KALSHI_PLAYER_SERIES[series], player, injuries)
+                if factor > 1:
+                    kind = kind.replace(")", f", role x{factor:.2f})")
                 proj = float(player.mean())
-                p_yes = player_prob(player, KALSHI_PLAYER_SERIES[series], strike)
+                p_yes = player_raw_prob(player, strike)
                 if p_yes is None:
                     skipped.append(f"Kalshi | {title} | no calibration for this stat")
                     continue
@@ -442,8 +543,11 @@ def poly_markets(slug_base, away, home, names, sims, stats, rng, cache, out, ski
                         if player is None:
                             skipped.append(f"Polymarket | {question} | only {games_used} past games")
                             continue
+                        player, factor = role_scale(stats, name, stat, player, injuries)
+                        if factor > 1:
+                            kind = kind.replace(")", f", role x{factor:.2f})")
                         proj = float(player.mean())
-                        p_first = player_prob(player, stat, float(cut))
+                        p_first = player_raw_prob(player, float(cut))
                 if p_first is None:
                     skipped.append(f"Polymarket | {question} | not modeled ({kind_type})")
                     continue
@@ -496,6 +600,7 @@ def main():
     stats = load_player_games(int(row["season"]), int(row["week"]))
     calibration = fit_calibration(stats, int(row["season"]), rng)
     injuries = load_injuries(int(row["season"]), int(row["week"]), {away, home})
+    injuries.update(load_espn_injuries(away, home, today))
     cache = {}
     out = []
     skipped = []
@@ -520,6 +625,15 @@ NICKNAMES = {
     "Jets": "NYJ", "Eagles": "PHI", "Steelers": "PIT", "Seahawks": "SEA",
     "49ers": "SF", "Buccaneers": "TB", "Titans": "TEN", "Commanders": "WAS",
 }
+
+
+def american(p):
+    # Chance (0-1) -> American odds, like -122 or +133.
+    if p <= 0 or p >= 1:
+        return "n/a"
+    if p >= 0.5:
+        return f"-{round(100 * p / (1 - p))}"
+    return f"+{round(100 * (1 - p) / p)}"
 
 
 def pct(value):
@@ -550,9 +664,13 @@ def write_report(away, home, today, sims, out, skipped, calibration):
         "",
         "Read this first:",
         "- Game lines: this model was LESS accurate than the Vegas line in the 2022-2025 test and lost money.",
-        "- Player props: never tested against real prices. Each player is simulated from his last "
-        f"{PLAYER_GAMES} games only (no injuries, matchup, weather or game script), then corrected "
-        "with the check below.",
+        "- Player props: the hit count is straight from the 10,000 sims of that player's last "
+        f"{PLAYER_GAMES} games. On past Kalshi props these sims did NOT beat the market.",
+        "- If a teammate at the same position is Out or Doubtful (ESPN injury report, read when this ran), "
+        "the player gets his share of that teammate's carries or targets (shown as role x1.40). "
+        "A backup QB uses his team's starting-QB games.",
+        "- Market odds include the site's fee.",
+        "- Touchdowns: his recent touches (carries + targets) times the league touchdown rate for his position.",
         "- Edge = sim chance - price - fee. Flagged = 5 points or more.",
         "- The Top 10 shows only the best line for each player and stat.",
         "- Players listed Out or Doubtful on the injury report are left out. Questionable players are marked Q and kept out of the Top 10.",
@@ -560,11 +678,12 @@ def write_report(away, home, today, sims, out, skipped, calibration):
         "",
         "## Top 10 (most edge first)",
         "",
-        "| rank | site | market | buy | sim projected | price | sim % | edge (pts) |",
-        "|---:|---|---|---|---:|---:|---:|---:|",
+        "| rank | site | market | buy | sim projected | hit in sims | sim fair odds | price | market odds | edge (pts) |",
+        "|---:|---|---|---|---:|---:|---:|---:|---:|---:|",
         *[
             f"| {i} | {r['site']} | {r['market']} | {r['side']} | {r['proj']:.1f} | "
-            f"{r['price']:.2f} | {pct(r['sim'])} | {100 * r['edge']:.1f} |"
+            f"{round(r['sim'] * N_SIMS):,} of {N_SIMS:,} | {american(r['sim'])} | "
+            f"{r['price']:.2f} | {american(r['price'] + r['fee'])} | {100 * r['edge']:.1f} |"
             for i, r in enumerate(top10, 1)
         ],
         "",
@@ -609,11 +728,13 @@ def write_report(away, home, today, sims, out, skipped, calibration):
         handle.write("\n".join(lines))
 
     alert = [
-        f"{i}. {r['site']}: {r['market']} -> {r['side']} @ {r['price']:.2f} | "
-        f"sim proj {r['proj']:.1f} | sim {pct(r['sim'])}% | edge {100 * r['edge']:.1f}"
+        f"{i}. {r['site']}: {r['market']} -> {r['side']} | "
+        f"sims {round(r['sim'] * N_SIMS):,}/{N_SIMS:,} (fair {american(r['sim'])}) | "
+        f"price {r['price']:.2f} ({american(r['price'] + r['fee'])}) | "
+        f"proj {r['proj']:.1f} | edge {100 * r['edge']:.1f}"
         for i, r in enumerate(top10, 1)
     ]
-    message = f"{away} @ {home} Top 10 (untested, check injuries)\n" + "\n".join(alert)
+    message = f"{away} @ {home} Top 10 (player sims unproven vs market)\n" + "\n".join(alert)
     nfl_sim._send_push(message)
 
 
