@@ -1,8 +1,8 @@
-# Edges: NE @ MIA, 2026-11-01
+# Edges: PHI @ WAS, 2026-11-01
 
-Run at 2026-11-01 04:22 PM New York time. Prices are the ask (what you would pay right now), and fees are taken out.
+Run at 2026-11-01 07:51 PM New York time. Prices are the ask (what you would pay right now), and fees are taken out.
 
-Sim: MIA wins 39.7%, average score NE 23.5 - MIA 19.7.
+Sim: WAS wins 44.6%, average score PHI 23.0 - WAS 20.9.
 
 Read this first:
 - Game lines: this model was LESS accurate than the Vegas line in the 2022-2025 test and lost money.
@@ -15,1680 +15,1005 @@ Read this first:
 
 | rank | site | market | buy | sim projected | price | sim % | edge (pts) |
 |---:|---|---|---|---:|---:|---:|---:|
-| 1 | Kalshi | Rhamondre Stevenson: 50+ rushing yards | NO | 38.7 | 0.37 | 74.2 | 35.6 |
-| 2 | Kalshi | Ollie Gordon II: 10+ receiving yards | NO | 3.1 | 0.51 | 87.7 | 35.0 |
-| 3 | Kalshi | Ollie Gordon II: 30+ rushing yards | NO | 47.5 | 0.18 | 51.6 | 32.6 |
-| 4 | Kalshi | Rhamondre Stevenson: 60+ rushing yards | NO | 38.7 | 0.53 | 85.8 | 31.0 |
-| 5 | Kalshi | Ollie Gordon II: 40+ rushing yards | NO | 47.5 | 0.25 | 57.1 | 30.8 |
-| 6 | Kalshi | Rhamondre Stevenson: 40+ rushing yards | NO | 38.7 | 0.29 | 60.1 | 29.7 |
-| 7 | Kalshi | Rhamondre Stevenson: 30+ rushing yards | NO | 38.7 | 0.14 | 44.4 | 29.6 |
-| 8 | Kalshi | Rhamondre Stevenson: 13+ rushing attempts | NO | 10.5 | 0.35 | 66.2 | 29.6 |
-| 9 | Kalshi | Rhamondre Stevenson: 70+ rushing yards | NO | 38.7 | 0.63 | 93.5 | 28.9 |
-| 10 | Kalshi | Rhamondre Stevenson: 10+ rushing attempts | NO | 10.5 | 0.17 | 46.7 | 28.7 |
+| 1 | Kalshi | Rachaad White: 10+ rushing attempts | NO | 6.3 | 0.31 | 85.2 | 52.7 |
+| 2 | Kalshi | Tanner McKee: 15+ passing completions | NO | 13.3 | 0.14 | 57.7 | 42.8 |
+| 3 | Kalshi | Rachaad White: 13+ rushing attempts | NO | 6.3 | 0.59 | 97.9 | 37.2 |
+| 4 | Kalshi | Tanner McKee: 125+ passing yards | NO | 126.1 | 0.14 | 52.0 | 37.2 |
+| 5 | Kalshi | Tanner McKee: 150+ passing yards | NO | 126.1 | 0.22 | 58.5 | 35.3 |
+| 6 | Kalshi | Darius Cooper: 2+ receptions | NO | 1.3 | 0.28 | 64.2 | 34.8 |
+| 7 | Kalshi | Darius Cooper: 3+ receptions | NO | 1.3 | 0.52 | 87.1 | 33.3 |
+| 8 | Kalshi | Tanner McKee: 29+ passing attempts | NO | 22.3 | 0.28 | 62.2 | 32.8 |
+| 9 | Kalshi | Rachaad White: 40+ rushing yards | NO | 28.0 | 0.46 | 79.0 | 31.3 |
+| 10 | Kalshi | Rachaad White: 45+ rushing yards | NO | 28.0 | 0.53 | 85.7 | 31.0 |
 
-## Flagged (307)
+## Flagged (221)
 
 | site | market | buy | price | fee | sim % | edge (pts) | kind | volume |
 |---|---|---|---:|---:|---:|---:|---|---:|
-| Polymarket | A.J. Brown: Receiving Yards O/U 19.5 | Over | 0.02 | 0.001 | 68.8 | 66.7 | player (untested, Q) |  |
-| Polymarket | A.J. Brown: Receiving Yards O/U 29.5 | Over | 0.02 | 0.001 | 61.0 | 58.9 | player (untested, Q) |  |
-| Polymarket | A.J. Brown: Receptions O/U 3.5 | Over | 0.02 | 0.001 | 55.6 | 53.7 | player (untested, Q) | 95.99 |
-| Polymarket | A.J. Brown: Receiving Yards O/U 39.5 | Over | 0.02 | 0.001 | 52.9 | 50.9 | player (untested, Q) |  |
-| Polymarket | TreVeyon Henderson: Rushing Yards O/U 19.5 | Over | 0.05 | 0.001 | 50.7 | 45.7 | player (untested, Q) | 200 |
-| Polymarket | A.J. Brown: Receiving Yards O/U 49.5 | Over | 0.02 | 0.001 | 44.8 | 42.8 | player (untested, Q) | 95.99 |
-| Polymarket | A.J. Brown: Receptions O/U 4.5 | Over | 0.02 | 0.001 | 40.5 | 38.6 | player (untested, Q) | 75.92 |
-| Kalshi | Rhamondre Stevenson: 50+ rushing yards | NO | 0.37 | 0.016 | 74.2 | 35.6 | player (untested) | 4974.67 |
-| Polymarket | A.J. Brown: Receiving Yards O/U 59.5 | Over | 0.02 | 0.001 | 37.3 | 35.4 | player (untested, Q) | 135.32999999999998 |
-| Polymarket | TreVeyon Henderson: Rushing Yards O/U 29.5 | Over | 0.05 | 0.001 | 40.1 | 35.0 | player (untested, Q) |  |
-| Kalshi | Ollie Gordon II: 10+ receiving yards | NO | 0.51 | 0.017 | 87.7 | 35.0 | player (untested) | 6779.07 |
-| Kalshi | Ollie Gordon II: 30+ rushing yards | NO | 0.18 | 0.010 | 51.6 | 32.6 | player (untested) | 330.80 |
-| Kalshi | Rhamondre Stevenson: 60+ rushing yards | NO | 0.53 | 0.017 | 85.8 | 31.0 | player (untested) | 16517.20 |
-| Kalshi | Ollie Gordon II: 40+ rushing yards | NO | 0.25 | 0.013 | 57.1 | 30.8 | player (untested) | 295.18 |
-| Kalshi | Rhamondre Stevenson: 40+ rushing yards | NO | 0.29 | 0.014 | 60.1 | 29.7 | player (untested) | 462.29 |
-| Kalshi | Rhamondre Stevenson: 30+ rushing yards | NO | 0.14 | 0.008 | 44.4 | 29.6 | player (untested) | 74.87 |
-| Kalshi | Rhamondre Stevenson: 13+ rushing attempts | NO | 0.35 | 0.016 | 66.2 | 29.6 | player (untested) | 6913.81 |
-| Kalshi | Rhamondre Stevenson: 70+ rushing yards | NO | 0.63 | 0.016 | 93.5 | 28.9 | player (untested) | 779.24 |
-| Kalshi | Rhamondre Stevenson: 10+ rushing attempts | NO | 0.17 | 0.010 | 46.7 | 28.7 | player (untested) | 50.00 |
-| Kalshi | Efton Chism III: 2+ receptions | NO | 0.29 | 0.014 | 59.0 | 28.5 | player (untested) | 7618.90 |
-| Polymarket | A.J. Brown: Receiving Yards O/U 69.5 | Over | 0.02 | 0.001 | 30.2 | 28.3 | player (untested, Q) | 95.99 |
-| Kalshi | Ollie Gordon II: 15+ receiving yards | NO | 0.67 | 0.015 | 96.8 | 28.3 | player (untested) | 44.14 |
-| Kalshi | Efton Chism III: 10+ receiving yards | NO | 0.21 | 0.012 | 49.8 | 27.6 | player (untested) | 788.55 |
-| Polymarket | Rhamondre Stevenson: Rushing Yards O/U 59.5 | Under | 0.58 | 0.007 | 85.8 | 27.1 | player (untested) | 26.625 |
-| Polymarket | Rhamondre Stevenson: Rushing Yards O/U 39.5 | Under | 0.33 | 0.007 | 60.1 | 26.5 | player (untested) |  |
-| Polymarket | Efton Chism III: Receptions O/U 2.5 | Under | 0.51 | 0.007 | 78.1 | 26.3 | player (untested) | 80.631579 |
-| Polymarket | Ollie Gordon II: Rushing Yards O/U 39.5 | Under | 0.31 | 0.006 | 57.1 | 25.4 | player (untested) |  |
-| Kalshi | Corey Kiner: 25+ rushing yards | NO | 0.36 | 0.016 | 62.9 | 25.3 | player (untested) | 224.69 |
-| Kalshi | Efton Chism III: 3+ receptions | NO | 0.51 | 0.017 | 78.1 | 25.3 | player (untested) | 7731.99 |
-| Kalshi | Ollie Gordon II: 13+ rushing attempts | NO | 0.34 | 0.016 | 60.8 | 25.2 | player (untested) | 117.47 |
-| Polymarket | A.J. Brown: Receptions O/U 5.5 | Over | 0.02 | 0.001 | 26.9 | 24.9 | player (untested, Q) | 95.99 |
-| Kalshi | Efton Chism III: 15+ receiving yards | NO | 0.29 | 0.014 | 55.4 | 24.9 | player (untested) | 244.16 |
-| Polymarket | TreVeyon Henderson: Rushing Yards O/U 39.5 | Over | 0.05 | 0.001 | 29.9 | 24.9 | player (untested, Q) |  |
-| Kalshi | Corey Kiner: 20+ rushing yards | NO | 0.32 | 0.015 | 57.8 | 24.3 | player (untested) | 165.00 |
-| Polymarket | Rhamondre Stevenson: Anytime Touchdown | No | 0.46 | 0.007 | 70.7 | 24.0 | player (untested) | 840.288147 |
-| Kalshi | Corey Kiner: 15+ rushing yards | NO | 0.27 | 0.014 | 52.3 | 23.9 | player (untested) | 270.10 |
-| Kalshi | Rhamondre Stevenson: 80+ rushing yards | NO | 0.73 | 0.014 | 97.5 | 23.1 | player (untested) | 237.00 |
-| Kalshi | Ollie Gordon II: 50+ rushing yards | NO | 0.38 | 0.016 | 62.2 | 22.6 | player (untested) | 240.33 |
-| Polymarket | Efton Chism III: Receptions O/U 1.5 | Under | 0.36 | 0.007 | 59.0 | 22.3 | player (untested) | 53 |
-| Kalshi | Corey Kiner: 30+ rushing yards | NO | 0.44 | 0.017 | 68.0 | 22.2 | player (untested) | 455.41 |
-| Polymarket | Efton Chism III: Receiving Yards O/U 9.5 | Under | 0.27 | 0.006 | 49.8 | 22.2 | player (untested) |  |
-| Kalshi | Efton Chism III: 20+ receiving yards | NO | 0.37 | 0.016 | 60.8 | 22.2 | player (untested) | 2053.42 |
-| Kalshi | Corey Kiner: 1+ touchdowns | NO | 0.76 | 0.013 | 99.3 | 22.1 | player (untested) | 225248.88 |
-| Polymarket | A.J. Brown: Receiving Yards O/U 79.5 | Over | 0.02 | 0.001 | 24.0 | 22.0 | player (untested, Q) | 95.99 |
-| Kalshi | Rhamondre Stevenson: 1+ touchdowns | NO | 0.47 | 0.017 | 70.7 | 22.0 | player (untested) | 35254.70 |
-| Kalshi | Ollie Gordon II: 2+ receptions | NO | 0.51 | 0.017 | 74.5 | 21.7 | player (untested) | 560.70 |
-| Polymarket | Corey Kiner: Anytime Touchdown | No | 0.78 | 0.005 | 99.3 | 20.8 | player (untested) | 91.8 |
-| Kalshi | Corey Kiner: 40+ rushing and receiving yards combined | NO | 0.49 | 0.017 | 71.5 | 20.7 | player (untested) | 1024.54 |
-| Kalshi | Rhamondre Stevenson: 16+ rushing attempts | NO | 0.60 | 0.017 | 82.3 | 20.6 | player (untested) | 2670.60 |
-| Kalshi | Malik Willis: 24+ passing attempts | NO | 0.31 | 0.015 | 52.8 | 20.3 | player (untested) | 94.63 |
-| Kalshi | Corey Kiner: 35+ rushing yards | NO | 0.51 | 0.017 | 72.7 | 19.9 | player (untested) | 4371.66 |
-| Kalshi | Kyle Williams: 2+ receptions | NO | 0.55 | 0.017 | 76.5 | 19.8 | player (untested) | 1950.85 |
-| Polymarket | Kyle Williams: Receptions O/U 1.5 | Under | 0.56 | 0.007 | 76.5 | 19.8 | player (untested) |  |
-| Kalshi | Ollie Gordon II: 20+ receiving yards | NO | 0.76 | 0.013 | 97.0 | 19.7 | player (untested) | 6551.34 |
-| Kalshi | Rhamondre Stevenson: 80+ rushing and receiving yards combined | NO | 0.43 | 0.017 | 64.4 | 19.7 | player (untested) | 4308.58 |
-| Kalshi | Kyle Williams: 10+ receiving yards | NO | 0.30 | 0.015 | 51.1 | 19.6 | player (untested) | 929.28 |
-| Kalshi | Efton Chism III: 4+ receptions | NO | 0.70 | 0.015 | 90.7 | 19.3 | player (untested) | 1533.18 |
-| Kalshi | Malik Washington: 15+ receiving yards | NO | 0.15 | 0.009 | 34.3 | 18.4 | player (untested) | 283.30 |
-| Kalshi | Malik Willis: 1+ passing interceptions | NO | 0.45 | 0.017 | 65.1 | 18.4 | player (untested) | 2663.12 |
-| Polymarket | Corey Kiner: Rushing Yards O/U 29.5 | Under | 0.49 | 0.007 | 68.0 | 18.2 | player (untested) |  |
-| Polymarket | Efton Chism III: Receiving Yards O/U 19.5 | Under | 0.42 | 0.007 | 60.8 | 18.1 | player (untested) |  |
-| Kalshi | Efton Chism III: 25+ receiving yards | NO | 0.46 | 0.017 | 65.8 | 18.0 | player (untested) | 7112.89 |
-| Kalshi | DeMario Douglas: 10+ receiving yards | NO | 0.13 | 0.008 | 31.8 | 18.0 | player (untested) | 173.83 |
-| Kalshi | Rhamondre Stevenson: 10+ receiving yards | NO | 0.22 | 0.012 | 40.9 | 17.7 | player (untested) | 52.97 |
-| Kalshi | Corey Kiner: 40+ rushing yards | NO | 0.58 | 0.017 | 77.3 | 17.6 | player (untested) | 327.57 |
-| Kalshi | Eli Raridon: 10+ receiving yards | NO | 0.21 | 0.012 | 39.7 | 17.5 | player (untested) | 21.00 |
-| Kalshi | Jaylen Wright: 8+ rushing attempts | YES | 0.16 | 0.009 | 34.4 | 17.5 | player (untested) | 1551.99 |
-| Kalshi | Malik Washington: 20+ receiving yards | NO | 0.21 | 0.012 | 39.2 | 17.1 | player (untested) | 0.00 |
-| Kalshi | DeMario Douglas: 15+ receiving yards | NO | 0.19 | 0.011 | 36.7 | 16.6 | player (untested) | 0.00 |
-| Polymarket | Caleb Douglas: Anytime Touchdown | Yes | 0.20 | 0.005 | 37.0 | 16.5 | player (untested) |  |
-| Kalshi | Caleb Douglas: 80+ receiving yards | YES | 0.14 | 0.008 | 31.3 | 16.4 | player (untested) | 169.10 |
-| Kalshi | Ollie Gordon II: 60+ rushing yards | NO | 0.49 | 0.017 | 67.0 | 16.3 | player (untested) | 22178.66 |
-| Polymarket | Spread: Patriots (-1.5) | Dolphins | 0.27 | 0.006 | 43.8 | 16.2 | game | 312.04053799999997 |
-| Polymarket | A.J. Brown: Receiving Yards O/U 89.5 | Over | 0.02 | 0.001 | 18.1 | 16.2 | player (untested, Q) | 95.99 |
-| Polymarket | Malik Willis: Passing Attempts O/U 23.5 | Under | 0.36 | 0.007 | 52.8 | 16.1 | player (untested) |  |
-| Kalshi | Caleb Douglas: 1+ touchdowns | YES | 0.20 | 0.011 | 37.0 | 15.9 | player (untested) | 31785.56 |
-| Kalshi | Caleb Douglas: 70+ receiving yards | YES | 0.20 | 0.011 | 37.0 | 15.8 | player (untested) | 118.36 |
-| Polymarket | Spread: Patriots (-2.5) | Dolphins | 0.30 | 0.006 | 46.4 | 15.8 | game | 614 |
-| Kalshi | Hunter Henry: 1+ touchdowns | NO | 0.66 | 0.016 | 83.2 | 15.7 | player (untested) | 29793.20 |
-| Polymarket | Malik Willis: Passing Attempts O/U 27.5 | Under | 0.53 | 0.007 | 69.2 | 15.5 | player (untested) |  |
-| Kalshi | New England wins by over 1.5 points? | NO | 0.27 | 0.014 | 43.8 | 15.4 | game | 7265.00 |
-| Kalshi | DeMario Douglas: 20+ receiving yards | NO | 0.25 | 0.013 | 41.7 | 15.4 | player (untested) | 185.00 |
-| Kalshi | Rhamondre Stevenson: 90+ rushing yards | NO | 0.81 | 0.011 | 97.5 | 15.4 | player (untested) | 0.00 |
-| Kalshi | Malik Washington: 25+ receiving yards | NO | 0.28 | 0.014 | 44.8 | 15.4 | player (untested) | 38.85 |
-| Kalshi | Ollie Gordon II: 80+ rushing and receiving yards combined | NO | 0.55 | 0.017 | 72.0 | 15.2 | player (untested) | 2704.99 |
-| Kalshi | Caleb Douglas: 90+ receiving yards | YES | 0.10 | 0.006 | 25.8 | 15.2 | player (untested) | 0.00 |
-| Kalshi | Efton Chism III: 30+ receiving yards | NO | 0.53 | 0.017 | 69.9 | 15.2 | player (untested) | 11420.97 |
-| Kalshi | Ollie Gordon II: 16+ rushing attempts | NO | 0.53 | 0.017 | 69.8 | 15.1 | player (untested) | 4243.70 |
-| Kalshi | New England wins by over 2.5 points? | NO | 0.30 | 0.015 | 46.4 | 15.0 | game | 12601.66 |
-| Polymarket | Spread: Dolphins (-3.5) | Dolphins | 0.15 | 0.004 | 30.3 | 14.9 | game | 11233.993327 |
-| Kalshi | Kyle Williams: 3+ receptions | NO | 0.79 | 0.012 | 95.0 | 14.8 | player (untested) | 2782.46 |
-| Kalshi | Drake Maye: 275+ passing yards | YES | 0.28 | 0.014 | 44.1 | 14.7 | player (untested) | 8766.71 |
-| Kalshi | Chris Bell: 10+ receiving yards | NO | 0.33 | 0.015 | 49.3 | 14.7 | player (untested) | 4910.04 |
-| Kalshi | Caleb Douglas: 60+ receiving yards | YES | 0.27 | 0.014 | 43.0 | 14.6 | player (untested) | 237.54 |
-| Kalshi | Rhamondre Stevenson: 105+ rushing and receiving yards combined | NO | 0.66 | 0.016 | 82.1 | 14.5 | player (untested) | 940.28 |
-| Kalshi | Drake Maye: 300+ passing yards | YES | 0.18 | 0.010 | 33.5 | 14.5 | player (untested) | 9642.44 |
-| Kalshi | Ollie Gordon II: 3+ receptions | NO | 0.77 | 0.012 | 92.7 | 14.4 | player (untested) | 6.00 |
-| Polymarket | Caleb Douglas: Receiving Yards O/U 59.5 | Over | 0.28 | 0.006 | 43.0 | 14.4 | player (untested) |  |
-| Polymarket | Patriots vs. Dolphins | Dolphins | 0.25 | 0.006 | 39.7 | 14.2 | game | 142886.189154 |
-| Kalshi | Kyle Williams: 15+ receiving yards | NO | 0.39 | 0.017 | 54.8 | 14.1 | player (untested) | 2624.68 |
-| Kalshi | Drake Maye: 250+ passing yards | YES | 0.39 | 0.017 | 54.7 | 14.0 | player (untested) | 69575.34 |
-| Polymarket | Corey Kiner: Rushing Yards O/U 39.5 | Under | 0.63 | 0.007 | 77.3 | 13.6 | player (untested) |  |
-| Kalshi | Malik Washington: 30+ receiving yards | NO | 0.35 | 0.016 | 50.2 | 13.6 | player (untested) | 13.65 |
-| Kalshi | Eli Raridon: 2+ receptions | NO | 0.30 | 0.015 | 45.0 | 13.5 | player (untested) | 1141.13 |
-| Polymarket | Kyle Williams: Receptions O/U 2.5 | Under | 0.81 | 0.005 | 95.0 | 13.5 | player (untested) |  |
-| Kalshi | Caleb Douglas: 100+ receiving yards | YES | 0.07 | 0.005 | 20.9 | 13.5 | player (untested) | 52.57 |
-| Kalshi | DeMario Douglas: 25+ receiving yards | NO | 0.31 | 0.015 | 45.9 | 13.4 | player (untested) | 27.00 |
-| Kalshi | Miami wins | YES | 0.25 | 0.013 | 39.7 | 13.4 | game | 661954.95 |
-| Kalshi | New England wins | NO | 0.25 | 0.013 | 39.7 | 13.4 | game | 1159060.84 |
-| Kalshi | Miami wins by over 3.5 points? | YES | 0.16 | 0.009 | 30.3 | 13.3 | game | 1163915.82 |
-| Polymarket | Hunter Henry: Receiving Yards O/U 39.5 | Under | 0.42 | 0.007 | 56.1 | 13.3 | player (untested) | 106.225807 |
-| Kalshi | Drake Maye: 2+ passing interceptions | YES | 0.18 | 0.010 | 32.3 | 13.3 | player (untested) | 188.64 |
-| Kalshi | Hunter Henry: 4+ receptions | NO | 0.39 | 0.017 | 53.9 | 13.3 | player (untested) | 5220.09 |
-| Kalshi | Hunter Henry: 25+ receiving yards | NO | 0.24 | 0.013 | 38.3 | 13.0 | player (untested) | 512.58 |
-| Kalshi | Miami wins by over 4.5 points? | YES | 0.14 | 0.008 | 27.9 | 13.0 | game | 817.86 |
-| Kalshi | Ollie Gordon II: 25+ receiving yards | NO | 0.83 | 0.010 | 97.0 | 13.0 | player (untested) | 1201.61 |
-| Kalshi | Hunter Henry: 30+ receiving yards | NO | 0.30 | 0.015 | 44.5 | 13.0 | player (untested) | 481.98 |
-| Kalshi | Hunter Henry: 15+ receiving yards | NO | 0.13 | 0.008 | 26.7 | 12.9 | player (untested) | 3557.27 |
-| Kalshi | Hunter Henry: 3+ receptions | NO | 0.21 | 0.012 | 35.0 | 12.9 | player (untested) | 421.55 |
-| Polymarket | Hunter Henry: Receptions O/U 4.5 | Under | 0.58 | 0.007 | 71.5 | 12.7 | player (untested) |  |
-| Kalshi | Miami over 17.5 points scored | YES | 0.44 | 0.017 | 58.3 | 12.6 | game | 730.25 |
-| Polymarket | Spread: Dolphins (-4.5) | Dolphins | 0.15 | 0.004 | 27.9 | 12.5 | game |  |
-| Kalshi | Hunter Henry: 6+ receptions | NO | 0.71 | 0.014 | 84.9 | 12.5 | player (untested) | 1573.03 |
-| Kalshi | Hunter Henry: 40+ receiving yards | NO | 0.42 | 0.017 | 56.1 | 12.3 | player (untested) | 18360.33 |
-| Polymarket | Spread: Dolphins (-6.5) | Dolphins | 0.11 | 0.003 | 23.6 | 12.3 | game | 39 |
-| Polymarket | Spread: Dolphins (-7.5) | Dolphins | 0.09 | 0.002 | 21.6 | 12.3 | game |  |
-| Kalshi | Eli Raridon: 15+ receiving yards | NO | 0.31 | 0.015 | 44.8 | 12.3 | player (untested) | 857.70 |
-| Kalshi | DeMario Douglas: 30+ receiving yards | NO | 0.37 | 0.016 | 50.8 | 12.1 | player (untested) | 1547.72 |
-| Kalshi | Malik Willis: 29+ passing attempts | NO | 0.59 | 0.017 | 72.8 | 12.1 | player (untested) | 403.10 |
-| Kalshi | Hunter Henry: 20+ receiving yards | NO | 0.19 | 0.011 | 32.2 | 12.1 | player (untested) | 30.19 |
-| Kalshi | Efton Chism III: 5+ receptions | NO | 0.84 | 0.009 | 97.0 | 12.0 | player (untested) | 2750.34 |
-| Kalshi | Miami wins by over 7.5 points? | YES | 0.09 | 0.006 | 21.6 | 12.0 | game | 214.00 |
-| Polymarket | Drake Maye: Passing Yards O/U 249.5 | Over | 0.42 | 0.007 | 54.7 | 12.0 | player (untested) |  |
-| Kalshi | Miami wins by over 6.5 points? | YES | 0.11 | 0.007 | 23.6 | 12.0 | game | 2854.72 |
-| Kalshi | Miami wins by over 5.5 points? | YES | 0.13 | 0.008 | 25.7 | 11.9 | game | 628.82 |
-| Kalshi | Corey Kiner: 50+ rushing yards | NO | 0.72 | 0.014 | 85.3 | 11.9 | player (untested) | 195.03 |
-| Kalshi | Eli Raridon: 3+ receptions | NO | 0.52 | 0.017 | 65.6 | 11.9 | player (untested) | 18820.84 |
-| Polymarket | Eli Raridon: Receptions O/U 2.5 | Under | 0.53 | 0.007 | 65.6 | 11.9 | player (untested) | 15.638298 |
-| Kalshi | Miami over 21.5 points scored | YES | 0.29 | 0.014 | 42.3 | 11.9 | game | 837.83 |
-| Kalshi | Hunter Henry: 5+ receptions | NO | 0.58 | 0.017 | 71.5 | 11.8 | player (untested) | 4720.20 |
-| Kalshi | Caleb Douglas: 50+ receiving yards | YES | 0.36 | 0.016 | 49.3 | 11.7 | player (untested) | 344.41 |
-| Kalshi | Miami wins by over 1.5 points? | YES | 0.23 | 0.012 | 35.9 | 11.7 | game | 625.68 |
-| Polymarket | Caleb Douglas: Receiving Yards O/U 49.5 | Over | 0.37 | 0.007 | 49.3 | 11.6 | player (untested) |  |
-| Polymarket | Spread: Dolphins (-2.5) | Dolphins | 0.21 | 0.005 | 33.1 | 11.6 | game | 144.63636400000001 |
-| Kalshi | Drake Maye: 325+ passing yards | YES | 0.12 | 0.007 | 24.1 | 11.4 | player (untested) | 822.38 |
-| Kalshi | Miami over 20.5 points scored | YES | 0.33 | 0.015 | 45.9 | 11.4 | game | 1464.44 |
-| Polymarket | Spread: Dolphins (-1.5) | Dolphins | 0.24 | 0.005 | 35.9 | 11.4 | game |  |
-| Polymarket | Spread: Dolphins (-5.5) | Dolphins | 0.14 | 0.004 | 25.7 | 11.3 | game |  |
-| Polymarket | Ollie Gordon II: Rushing Yards O/U 59.5 | Under | 0.55 | 0.007 | 67.0 | 11.3 | player (untested) |  |
-| Kalshi | Rhamondre Stevenson: 15+ receiving yards | NO | 0.32 | 0.015 | 44.8 | 11.3 | player (untested) | 204.68 |
-| Kalshi | Caleb Douglas: 110+ receiving yards | YES | 0.05 | 0.003 | 16.6 | 11.2 | player (untested) | 0.00 |
-| Polymarket | A.J. Brown: Receiving Yards O/U 99.5 | Over | 0.02 | 0.001 | 13.2 | 11.2 | player (untested, Q) | 95.99 |
-| Polymarket | Efton Chism III: Receiving Yards O/U 29.5 | Under | 0.58 | 0.007 | 69.9 | 11.2 | player (untested) | 9.433963 |
-| Kalshi | Ollie Gordon II: 30+ receiving yards | NO | 0.85 | 0.009 | 97.0 | 11.1 | player (untested) | 7093.85 |
-| Kalshi | Caleb Douglas: 10+ receiving yards | NO | 0.13 | 0.008 | 24.8 | 11.0 | player (untested) | 86.62 |
-| Kalshi | Miami over 24.5 points scored | YES | 0.19 | 0.011 | 31.1 | 11.0 | game | 2123.79 |
-| Polymarket | Drake Maye: Passing Yards O/U 299.5 | Over | 0.22 | 0.005 | 33.5 | 11.0 | player (untested) |  |
-| Kalshi | Miami wins by over 2.5 points? | YES | 0.21 | 0.012 | 33.1 | 10.9 | game | 2909.10 |
-| Kalshi | Drake Maye: 3+ passing touchdowns | YES | 0.22 | 0.012 | 33.9 | 10.7 | player (untested) | 3861.01 |
-| Polymarket | Corey Kiner: Rushing Yards O/U 49.5 | Under | 0.74 | 0.006 | 85.3 | 10.7 | player (untested) |  |
-| Kalshi | Drake Maye: 1+ passing interceptions | YES | 0.47 | 0.017 | 59.4 | 10.7 | player (untested) | 4881.92 |
-| Kalshi | Drake Maye: 35+ passing attempts | YES | 0.26 | 0.013 | 38.0 | 10.7 | player (untested) | 17.00 |
-| Polymarket | Spread: Patriots (-3.5) | Dolphins | 0.38 | 0.007 | 49.4 | 10.7 | game | 31.746032 |
-| Kalshi | Malik Washington: 5+ receptions | NO | 0.57 | 0.017 | 69.3 | 10.6 | player (untested) | 167.47 |
-| Kalshi | Greg Dulcich: 50+ receiving yards | YES | 0.24 | 0.013 | 35.9 | 10.6 | player (untested) | 561.00 |
-| Polymarket | Chris Bell: Receiving Yards O/U 9.5 | Under | 0.38 | 0.007 | 49.3 | 10.6 | player (untested) |  |
-| Polymarket | Eli Raridon: Receptions O/U 1.5 | Under | 0.34 | 0.007 | 45.0 | 10.3 | player (untested) |  |
-| Kalshi | Corey Kiner: 65+ rushing and receiving yards combined | NO | 0.78 | 0.012 | 89.5 | 10.3 | player (untested) | 13.27 |
-| Kalshi | Hunter Henry: 7+ receptions | NO | 0.82 | 0.010 | 93.3 | 10.2 | player (untested) | 1924.29 |
-| Polymarket | Spread: Patriots (-4.5) | Dolphins | 0.41 | 0.007 | 51.9 | 10.2 | game | 194.5 |
-| Kalshi | Efton Chism III: 1+ touchdowns | NO | 0.79 | 0.012 | 90.3 | 10.2 | player (untested) | 20168.13 |
-| Kalshi | Efton Chism III: 40+ receiving yards | NO | 0.67 | 0.015 | 78.7 | 10.2 | player (untested) | 3358.56 |
-| Polymarket | Eli Raridon: Receiving Yards O/U 9.5 | Under | 0.29 | 0.006 | 39.7 | 10.1 | player (untested) |  |
-| Kalshi | Chris Bell: 2+ receptions | NO | 0.48 | 0.017 | 59.7 | 10.0 | player (untested) | 760.84 |
-| Kalshi | Ollie Gordon II: 70+ rushing yards | NO | 0.60 | 0.017 | 71.6 | 10.0 | player (untested) | 5999.36 |
-| Kalshi | Greg Dulcich: 60+ receiving yards | YES | 0.16 | 0.009 | 26.8 | 9.9 | player (untested) | 0.00 |
-| Kalshi | New England wins by over 5.5 points? | NO | 0.43 | 0.017 | 54.5 | 9.8 | game | 31545.97 |
-| Polymarket | Spread: Patriots (-5.5) | Dolphins | 0.44 | 0.007 | 54.5 | 9.8 | game | 1947.840597 |
-| Polymarket | Spread: Dolphins (-10.5) | Dolphins | 0.06 | 0.002 | 16.0 | 9.8 | game |  |
-| Kalshi | New England wins by over 3.5 points? | NO | 0.38 | 0.016 | 49.4 | 9.7 | game | 8985.85 |
-| Kalshi | Rhamondre Stevenson: 100+ rushing yards | NO | 0.87 | 0.008 | 97.5 | 9.7 | player (untested) | 368.43 |
-| Kalshi | Greg Dulcich: 40+ receiving yards | YES | 0.35 | 0.016 | 46.2 | 9.6 | player (untested) | 36.09 |
-| Kalshi | Hunter Henry: 50+ receiving yards | NO | 0.56 | 0.017 | 67.3 | 9.6 | player (untested) | 5428.39 |
-| Kalshi | Miami wins by over 10.5 points? | YES | 0.06 | 0.004 | 16.0 | 9.6 | game | 43.08 |
-| Kalshi | Caleb Douglas: 2+ touchdowns | YES | 0.02 | 0.001 | 11.6 | 9.5 | player (untested) | 24067.28 |
-| Polymarket | Spread: Dolphins (-9.5) | Dolphins | 0.08 | 0.002 | 17.7 | 9.4 | game |  |
-| Kalshi | Malik Washington: 40+ receiving yards | NO | 0.49 | 0.017 | 60.1 | 9.4 | player (untested) | 3235.42 |
-| Polymarket | Spread: Dolphins (-8.5) | Dolphins | 0.10 | 0.003 | 19.6 | 9.4 | game |  |
-| Polymarket | Caleb Douglas: 2+ Touchdowns | Yes | 0.02 | 0.001 | 11.6 | 9.3 | player (untested) |  |
-| Kalshi | Malik Washington: 4+ receptions | NO | 0.41 | 0.017 | 52.0 | 9.3 | player (untested) | 3.00 |
-| Kalshi | New England wins by over 4.5 points? | NO | 0.41 | 0.017 | 51.9 | 9.2 | game | 8165.63 |
-| Kalshi | Rhamondre Stevenson: 130+ rushing and receiving yards combined | NO | 0.84 | 0.009 | 94.1 | 9.2 | player (untested) | 260.43 |
-| Kalshi | Eli Raridon: 20+ receiving yards | NO | 0.39 | 0.017 | 49.8 | 9.2 | player (untested) | 280.35 |
-| Kalshi | Miami wins by over 9.5 points? | YES | 0.08 | 0.005 | 17.7 | 9.1 | game | 47.03 |
-| Kalshi | Corey Kiner: 60+ rushing yards | NO | 0.81 | 0.011 | 91.2 | 9.1 | player (untested) | 998.28 |
-| Kalshi | Caleb Douglas: 40+ receiving yards | YES | 0.45 | 0.017 | 55.9 | 9.1 | player (untested) | 4557.59 |
-| Kalshi | Rhamondre Stevenson: 50+ receiving yards | YES | 0.18 | 0.010 | 28.1 | 9.1 | player (untested) | 326.45 |
-| Polymarket | DeMario Douglas: Receiving Yards O/U 19.5 | Under | 0.32 | 0.007 | 41.7 | 9.0 | player (untested) |  |
-| Kalshi | Malik Willis: 17+ passing completions | NO | 0.60 | 0.017 | 70.7 | 9.0 | player (untested) | 3327.90 |
-| Polymarket | Chris Bell: Receptions O/U 1.5 | Under | 0.50 | 0.007 | 59.7 | 9.0 | player (untested) |  |
-| Kalshi | Rhamondre Stevenson: 60+ receiving yards | YES | 0.12 | 0.007 | 21.7 | 9.0 | player (untested) | 24.18 |
-| Kalshi | Malik Washington: 3+ receptions | NO | 0.23 | 0.012 | 33.1 | 8.9 | player (untested) | 32.00 |
-| Kalshi | Malik Washington: 6+ receptions | NO | 0.73 | 0.014 | 83.2 | 8.8 | player (untested) | 123.00 |
-| Kalshi | Drake Maye: 4+ passing touchdowns | YES | 0.09 | 0.006 | 18.4 | 8.8 | player (untested) | 1183.18 |
-| Kalshi | Miami over 14.5 points scored | YES | 0.59 | 0.017 | 69.5 | 8.8 | game | 1663.80 |
-| Polymarket | Hunter Henry: Receiving Yards O/U 29.5 | Under | 0.35 | 0.007 | 44.5 | 8.8 | player (untested) |  |
-| Kalshi | Jaylen Wright: 2+ rushing attempts | NO | 0.11 | 0.007 | 20.4 | 8.8 | player (untested) | 36.00 |
-| Kalshi | Chris Bell: 1+ touchdowns | NO | 0.90 | 0.006 | 99.3 | 8.7 | player (untested) | 18689.36 |
-| Kalshi | Kyle Williams: 20+ receiving yards | NO | 0.48 | 0.017 | 58.4 | 8.6 | player (untested) | 51921.59 |
-| Kalshi | Eli Raridon: 4+ receptions | NO | 0.73 | 0.014 | 83.0 | 8.6 | player (untested) | 11604.15 |
-| Polymarket | Malik Willis: Anytime Touchdown | Yes | 0.26 | 0.006 | 35.2 | 8.6 | player (untested) |  |
-| Polymarket | Greg Dulcich: Receiving Yards O/U 39.5 | Over | 0.37 | 0.007 | 46.2 | 8.5 | player (untested) |  |
-| Kalshi | DeMario Douglas: 40+ receiving yards | NO | 0.49 | 0.017 | 59.3 | 8.5 | player (untested) | 6614.72 |
-| Kalshi | Hunter Henry: 60+ receiving yards | NO | 0.67 | 0.015 | 77.0 | 8.5 | player (untested) | 1422.20 |
-| Kalshi | Malik Willis: 15+ rushing yards | NO | 0.21 | 0.012 | 30.7 | 8.5 | player (untested) | 863.03 |
-| Kalshi | Malik Washington: 1+ touchdowns | NO | 0.80 | 0.011 | 89.6 | 8.5 | player (untested) | 44285.17 |
-| Kalshi | Drake Maye: 3+ passing interceptions | YES | 0.07 | 0.005 | 15.9 | 8.5 | player (untested) | 133.16 |
-| Kalshi | New England wins by over 6.5 points? | NO | 0.47 | 0.017 | 57.2 | 8.5 | game | 1945377.84 |
-| Polymarket | Spread: Patriots (-6.5) | Dolphins | 0.48 | 0.007 | 57.2 | 8.5 | game | 32554.639453 |
-| Polymarket | Drake Maye: Passing Touchdowns O/U 2.5 | Over | 0.25 | 0.006 | 33.9 | 8.4 | player (untested) | 17.24138 |
-| Kalshi | Hunter Henry: 70+ receiving yards | NO | 0.76 | 0.013 | 85.6 | 8.3 | player (untested) | 391.06 |
-| Kalshi | Rhamondre Stevenson: 2+ receptions | NO | 0.17 | 0.010 | 26.2 | 8.2 | player (untested) | 294.82 |
-| Kalshi | Chris Bell: 15+ receiving yards | NO | 0.44 | 0.017 | 53.9 | 8.2 | player (untested) | 60.43 |
-| Polymarket | Drake Maye: Passing Touchdowns O/U 3.5 | Over | 0.10 | 0.003 | 18.4 | 8.1 | player (untested) |  |
-| Polymarket | Caleb Douglas: Receiving Yards O/U 39.5 | Over | 0.47 | 0.007 | 55.9 | 8.1 | player (untested) |  |
-| Polymarket | Chris Bell: Anytime Touchdown | No | 0.91 | 0.002 | 99.3 | 8.1 | player (untested) |  |
-| Kalshi | Hunter Henry: 90+ receiving yards | NO | 0.87 | 0.008 | 95.9 | 8.1 | player (untested) | 0.00 |
-| Kalshi | Efton Chism III: 50+ receiving yards | NO | 0.77 | 0.012 | 86.3 | 8.0 | player (untested) | 2177.84 |
-| Kalshi | Miami over 28.5 points scored | YES | 0.10 | 0.006 | 18.6 | 8.0 | game | 1300.00 |
-| Polymarket | Ollie Gordon II: Rushing Yards O/U 69.5 | Under | 0.63 | 0.007 | 71.6 | 7.9 | player (untested) |  |
-| Polymarket | A.J. Brown: Anytime Touchdown | Yes | 0.02 | 0.001 | 10.0 | 7.9 | player (untested, Q) | 3502.92 |
-| Kalshi | Drake Maye: 26+ passing completions | YES | 0.12 | 0.007 | 20.6 | 7.9 | player (untested) | 350.30 |
-| Kalshi | Malik Washington: 50+ rushing and receiving yards combined | NO | 0.52 | 0.017 | 61.6 | 7.9 | player (untested) | 104.05 |
-| Kalshi | Malik Willis: 1+ touchdowns | YES | 0.26 | 0.013 | 35.2 | 7.9 | player (untested) | 6313.11 |
-| Kalshi | Hunter Henry: 80+ receiving yards | NO | 0.83 | 0.010 | 91.7 | 7.8 | player (untested) | 26.26 |
-| Kalshi | Kyle Williams: 4+ receptions | NO | 0.91 | 0.006 | 99.3 | 7.7 | player (untested) | 1066.60 |
-| Polymarket | Hunter Henry: Receiving Yards O/U 19.5 | Under | 0.24 | 0.005 | 32.2 | 7.6 | player (untested) |  |
-| Kalshi | Drake Maye: 225+ passing yards | YES | 0.56 | 0.017 | 65.3 | 7.6 | player (untested) | 93992.72 |
-| Kalshi | Efton Chism III: 6+ receptions | NO | 0.91 | 0.006 | 99.1 | 7.6 | player (untested) | 417.73 |
-| Polymarket | Drake Maye: Passing Yards O/U 224.5 | Over | 0.57 | 0.007 | 65.3 | 7.6 | player (untested) |  |
-| Kalshi | Malik Willis: 225+ passing yards | YES | 0.23 | 0.012 | 31.8 | 7.6 | player (untested) | 322.19 |
-| Kalshi | Malik Willis: 2+ passing interceptions | NO | 0.80 | 0.011 | 88.7 | 7.5 | player (untested) | 521.63 |
-| Kalshi | Malik Willis: 2+ touchdowns | YES | 0.03 | 0.002 | 10.8 | 7.5 | player (untested) | 42732.60 |
-| Kalshi | Rhamondre Stevenson: 70+ receiving yards | YES | 0.08 | 0.005 | 16.0 | 7.5 | player (untested) | 325.13 |
-| Kalshi | Drake Maye: 350+ passing yards | YES | 0.08 | 0.005 | 15.9 | 7.4 | player (untested) | 1506.46 |
-| Kalshi | Ollie Gordon II: 4+ receptions | NO | 0.91 | 0.006 | 98.8 | 7.3 | player (untested) | 4.00 |
-| Polymarket | Greg Dulcich: Receiving Yards O/U 49.5 | Over | 0.28 | 0.006 | 35.9 | 7.3 | player (untested) |  |
-| Polymarket | Kevin Coleman Jr.: Anytime Touchdown | Yes | 0.07 | 0.002 | 14.1 | 7.2 | player (untested) |  |
-| Kalshi | Malik Willis: 250+ passing yards | YES | 0.14 | 0.008 | 22.0 | 7.2 | player (untested) | 20.17 |
-| Polymarket | Hunter Henry: Receptions O/U 3.5 | Under | 0.46 | 0.007 | 53.9 | 7.2 | player (untested) | 7.692308 |
-| Kalshi | Jaylen Wright: 30+ rushing yards | YES | 0.20 | 0.011 | 28.2 | 7.1 | player (untested) | 2005.29 |
-| Kalshi | Hunter Henry: 2+ receptions | NO | 0.11 | 0.007 | 18.8 | 7.1 | player (untested) | 43.36 |
-| Polymarket | Malik Willis: 2+ Touchdowns | Yes | 0.04 | 0.001 | 10.8 | 7.0 | player (untested) |  |
-| Polymarket | DeMario Douglas: Receiving Yards O/U 29.5 | Under | 0.43 | 0.007 | 50.8 | 7.0 | player (untested) |  |
-| Polymarket | Jalen Tolbert: Anytime Touchdown | Yes | 0.03 | 0.001 | 9.9 | 7.0 | player (untested) |  |
-| Kalshi | Greg Dulcich: 70+ receiving yards | YES | 0.11 | 0.007 | 18.7 | 7.0 | player (untested) | 0.00 |
-| Kalshi | Drake Maye: 30+ passing attempts | YES | 0.53 | 0.017 | 61.5 | 6.8 | player (untested) | 249.25 |
-| Kalshi | Eli Raridon: 5+ receptions | NO | 0.86 | 0.008 | 93.5 | 6.7 | player (untested) | 11973.82 |
-| Kalshi | Drake Maye: 1+ passing touchdowns | NO | 0.15 | 0.009 | 22.6 | 6.7 | player (untested) | 272.37 |
-| Kalshi | Kevin Coleman Jr.: 1+ touchdowns | YES | 0.07 | 0.005 | 14.1 | 6.7 | player (untested) | 54399.67 |
-| Polymarket | Malik Willis: Passing Yards O/U 249.5 | Over | 0.15 | 0.004 | 22.0 | 6.7 | player (untested) |  |
-| Kalshi | Jaylen Wright: 5+ rushing attempts | YES | 0.49 | 0.017 | 57.4 | 6.6 | player (untested) | 90.31 |
-| Polymarket | Hunter Henry: Receiving Yards O/U 49.5 | Under | 0.60 | 0.007 | 67.3 | 6.6 | player (untested) |  |
-| Kalshi | Drake Maye: 21+ passing completions | YES | 0.44 | 0.017 | 52.3 | 6.5 | player (untested) | 274.31 |
-| Kalshi | Malik Willis: 60+ rushing yards | YES | 0.16 | 0.009 | 23.4 | 6.5 | player (untested) | 0.00 |
-| Kalshi | Malik Washington: 7+ receptions | NO | 0.85 | 0.009 | 92.3 | 6.4 | player (untested) | 0.00 |
-| Polymarket | Drake Maye: Passing Completions O/U 19.5 | Over | 0.52 | 0.007 | 59.1 | 6.3 | player (untested) |  |
-| Kalshi | Kyle Williams: 1+ touchdowns | NO | 0.83 | 0.010 | 90.3 | 6.3 | player (untested) | 33886.86 |
-| Kalshi | DeMario Douglas: 2+ receptions | NO | 0.17 | 0.010 | 24.3 | 6.3 | player (untested) | 0.00 |
-| Kalshi | Malik Willis: 4+ rushing attempts | NO | 0.17 | 0.010 | 24.3 | 6.3 | player (untested) | 749.09 |
-| Polymarket | Malik Willis: Passing Yards O/U 224.5 | Over | 0.25 | 0.006 | 31.8 | 6.2 | player (untested) |  |
-| Kalshi | Efton Chism III: 60+ receiving yards | NO | 0.85 | 0.009 | 92.0 | 6.1 | player (untested) | 1286.55 |
-| Polymarket | Spread: Dolphins (-13.5) | Dolphins | 0.05 | 0.001 | 11.4 | 6.1 | game |  |
-| Polymarket | Patriots vs. Dolphins: O/U 44.5 | Over | 0.39 | 0.007 | 45.8 | 6.1 | game | 3665.096523 |
-| Kalshi | Malik Washington: 2+ receptions | NO | 0.11 | 0.007 | 17.8 | 6.1 | player (untested) | 25.00 |
-| Kalshi | Malik Washington: 15+ rushing yards | YES | 0.16 | 0.009 | 23.0 | 6.0 | player (untested) | 18.83 |
-| Kalshi | Will Kacmarek: 20+ receiving yards | NO | 0.89 | 0.007 | 95.7 | 6.0 | player (untested) | 502.38 |
-| Kalshi | Jaylen Wright: 10+ rushing yards | NO | 0.39 | 0.017 | 46.6 | 6.0 | player (untested) | 0.00 |
-| Polymarket | Kyle Williams: Anytime Touchdown | No | 0.84 | 0.004 | 90.3 | 5.9 | player (untested) | 10.789474 |
-| Kalshi | Eli Raridon: 25+ receiving yards | NO | 0.47 | 0.017 | 54.6 | 5.9 | player (untested) | 2811.62 |
-| Kalshi | Rhamondre Stevenson: 110+ rushing yards | NO | 0.91 | 0.006 | 97.5 | 5.9 | player (untested) | 0.00 |
-| Kalshi | Miami over 10.5 points scored | YES | 0.74 | 0.013 | 81.2 | 5.9 | game | 1267.31 |
-| Kalshi | Rhamondre Stevenson: 40+ receiving yards | YES | 0.28 | 0.014 | 35.3 | 5.9 | player (untested) | 34.07 |
-| Kalshi | Greg Dulcich: 30+ receiving yards | YES | 0.49 | 0.017 | 56.6 | 5.8 | player (untested) | 947.20 |
-| Polymarket | Greg Dulcich: Receiving Yards O/U 29.5 | Over | 0.50 | 0.007 | 56.6 | 5.8 | player (untested) |  |
-| Kalshi | Ollie Gordon II: 80+ rushing yards | NO | 0.69 | 0.015 | 76.3 | 5.8 | player (untested) | 3405.97 |
-| Polymarket | Spread: Dolphins (-14.5) | Dolphins | 0.04 | 0.001 | 10.1 | 5.8 | game |  |
-| Kalshi | Drake Maye: 5+ passing touchdowns | YES | 0.03 | 0.002 | 9.0 | 5.8 | player (untested) | 325.23 |
-| Kalshi | Malik Willis: 200+ passing yards | YES | 0.35 | 0.016 | 42.4 | 5.8 | player (untested) | 1073.55 |
-| Kalshi | Drake Maye: 200+ passing yards | YES | 0.68 | 0.015 | 75.2 | 5.7 | player (untested) | 25122.95 |
-| Polymarket | Malik Willis: Passing Yards O/U 199.5 | Over | 0.36 | 0.007 | 42.4 | 5.7 | player (untested) |  |
-| Kalshi | Miami over 31.5 points scored | YES | 0.06 | 0.004 | 12.1 | 5.7 | game | 0.00 |
-| Kalshi | Malik Willis: 20+ rushing yards | NO | 0.29 | 0.014 | 36.1 | 5.7 | player (untested) | 801.90 |
-| Kalshi | Caleb Douglas: 15+ receiving yards | NO | 0.21 | 0.012 | 27.8 | 5.6 | player (untested) | 23.00 |
-| Kalshi | Rhamondre Stevenson: 2+ touchdowns | NO | 0.86 | 0.008 | 92.4 | 5.6 | player (untested) | 24117.73 |
-| Polymarket | DeMario Douglas: Receiving Yards O/U 39.5 | Under | 0.53 | 0.007 | 59.3 | 5.5 | player (untested) |  |
-| Polymarket | Spread: Patriots (-13.5) | Dolphins | 0.69 | 0.006 | 75.1 | 5.5 | game |  |
-| Kalshi | Ollie Gordon II: 1+ touchdowns | NO | 0.63 | 0.016 | 70.1 | 5.5 | player (untested) | 53077.02 |
-| Kalshi | New England wins by over 9.5 points? | NO | 0.58 | 0.017 | 65.1 | 5.4 | game | 28699.68 |
-| Polymarket | Spread: Patriots (-9.5) | Dolphins | 0.59 | 0.007 | 65.1 | 5.4 | game | 432.241037 |
-| Kalshi | Malik Washington: 8+ receptions | NO | 0.91 | 0.006 | 96.9 | 5.3 | player (untested) | 0.00 |
-| Polymarket | TreVeyon Henderson: Anytime Touchdown | Yes | 0.05 | 0.001 | 10.1 | 5.3 | player (untested, Q) | 96 |
-| Kalshi | Malik Washington: 50+ receiving yards | NO | 0.63 | 0.016 | 69.8 | 5.2 | player (untested) | 183.01 |
-| Kalshi | Full Game: over 44.5 points scored? | YES | 0.39 | 0.017 | 45.8 | 5.1 | game | 360971.70 |
-| Kalshi | Kyle Williams: 25+ receiving yards | NO | 0.55 | 0.017 | 61.9 | 5.1 | player (untested) | 30079.33 |
-| Polymarket | Malik Willis: Passing Yards O/U 274.5 | Over | 0.09 | 0.002 | 14.3 | 5.1 | player (untested) |  |
-| Kalshi | Miami wins by over 13.5 points? | YES | 0.06 | 0.004 | 11.4 | 5.0 | game | 1613.16 |
+| Kalshi | Rachaad White: 10+ rushing attempts | NO | 0.31 | 0.015 | 85.2 | 52.7 | player (untested) | 2450.83 |
+| Kalshi | Tanner McKee: 15+ passing completions | NO | 0.14 | 0.008 | 57.7 | 42.8 | player (untested) | 26.03 |
+| Kalshi | Rachaad White: 13+ rushing attempts | NO | 0.59 | 0.017 | 97.9 | 37.2 | player (untested) | 19141.74 |
+| Kalshi | Tanner McKee: 125+ passing yards | NO | 0.14 | 0.008 | 52.0 | 37.2 | player (untested) | 2538.04 |
+| Kalshi | Tanner McKee: 150+ passing yards | NO | 0.22 | 0.012 | 58.5 | 35.3 | player (untested) | 956.14 |
+| Kalshi | Darius Cooper: 2+ receptions | NO | 0.28 | 0.014 | 64.2 | 34.8 | player (untested) | 117.90 |
+| Kalshi | Darius Cooper: 3+ receptions | NO | 0.52 | 0.017 | 87.1 | 33.3 | player (untested) | 6470.30 |
+| Kalshi | Tanner McKee: 29+ passing attempts | NO | 0.28 | 0.014 | 62.2 | 32.8 | player (untested) | 65.37 |
+| Kalshi | Rachaad White: 40+ rushing yards | NO | 0.46 | 0.017 | 79.0 | 31.3 | player (untested) | 37890.53 |
+| Kalshi | Rachaad White: 45+ rushing yards | NO | 0.53 | 0.017 | 85.7 | 31.0 | player (untested) | 12590.52 |
+| Kalshi | Tanner McKee: 175+ passing yards | NO | 0.32 | 0.015 | 64.4 | 30.8 | player (untested) | 8124.72 |
+| Kalshi | Tanner McKee: 1+ passing interceptions | NO | 0.41 | 0.017 | 72.7 | 30.0 | player (untested) | 3915.74 |
+| Kalshi | Jeremy McNichols: 10+ rushing yards | NO | 0.30 | 0.015 | 61.3 | 29.8 | player (untested) | 70.65 |
+| Kalshi | Jeremy McNichols: 20+ rushing yards | NO | 0.51 | 0.017 | 81.5 | 28.8 | player (untested) | 24280.67 |
+| Kalshi | Makai Lemon: 20+ receiving yards | NO | 0.20 | 0.011 | 49.7 | 28.6 | player (untested) | 53.95 |
+| Kalshi | Rachaad White: 50+ rushing yards | NO | 0.61 | 0.017 | 91.1 | 28.4 | player (untested) | 24269.50 |
+| Kalshi | Jeremy McNichols: 15+ rushing yards | NO | 0.42 | 0.017 | 72.1 | 28.4 | player (untested) | 4814.94 |
+| Kalshi | Makai Lemon: 30+ receiving yards | NO | 0.31 | 0.015 | 60.4 | 27.9 | player (untested) | 222.74 |
+| Kalshi | Makai Lemon: 25+ receiving yards | NO | 0.26 | 0.013 | 55.0 | 27.7 | player (untested) | 51.27 |
+| Kalshi | Rachaad White: 30+ rushing yards | NO | 0.33 | 0.015 | 61.9 | 27.3 | player (untested) | 23610.83 |
+| Kalshi | Jeremy McNichols: 25+ rushing yards | NO | 0.61 | 0.017 | 88.6 | 26.0 | player (untested) | 33625.16 |
+| Kalshi | Philadelphia over 21.5 points scored | YES | 0.29 | 0.014 | 55.3 | 24.9 | game | 1450.16 |
+| Kalshi | Saquon Barkley: 3+ receptions | NO | 0.64 | 0.016 | 90.4 | 24.8 | player (untested) | 10332.30 |
+| Kalshi | Washington wins by over 2.5 points? | NO | 0.36 | 0.016 | 62.2 | 24.6 | game | 58730.59 |
+| Kalshi | Jeremy McNichols: 30+ rushing yards | NO | 0.68 | 0.015 | 93.8 | 24.3 | player (untested) | 64.22 |
+| Kalshi | Rachaad White: 60+ rushing yards | NO | 0.72 | 0.014 | 97.5 | 24.0 | player (untested) | 19201.36 |
+| Kalshi | Rachaad White: 25+ rushing yards | NO | 0.27 | 0.014 | 52.3 | 23.9 | player (untested) | 4113.19 |
+| Kalshi | Washington wins by over 1.5 points? | NO | 0.34 | 0.016 | 59.5 | 23.9 | game | 3446.11 |
+| Kalshi | Philadelphia over 20.5 points scored | YES | 0.34 | 0.016 | 59.2 | 23.7 | game | 2888.00 |
+| Kalshi | Tanner McKee: 200+ passing yards | NO | 0.45 | 0.017 | 70.4 | 23.6 | player (untested) | 25030.35 |
+| Kalshi | Philadelphia over 24.5 points scored | YES | 0.19 | 0.011 | 43.7 | 23.6 | game | 206.46 |
+| Kalshi | Philadelphia over 17.5 points scored | YES | 0.45 | 0.017 | 70.1 | 23.4 | game | 10347.21 |
+| Kalshi | Tanner McKee: 20+ passing completions | NO | 0.46 | 0.017 | 71.1 | 23.4 | player (untested) | 9810.00 |
+| Kalshi | Makai Lemon: 40+ receiving yards | NO | 0.45 | 0.017 | 70.0 | 23.2 | player (untested) | 7610.75 |
+| Kalshi | Darius Cooper: 4+ receptions | NO | 0.73 | 0.014 | 97.5 | 23.1 | player (untested) | 16.63 |
+| Kalshi | Washington wins | NO | 0.31 | 0.015 | 55.4 | 22.9 | game | 1264727.12 |
+| Kalshi | Philadelphia wins | YES | 0.31 | 0.015 | 55.4 | 22.9 | game | 3374283.62 |
+| Kalshi | Philadelphia wins by over 4.5 points? | YES | 0.20 | 0.011 | 43.5 | 22.4 | game | 10416.05 |
+| Kalshi | Saquon Barkley: 18+ rushing attempts | YES | 0.10 | 0.006 | 32.9 | 22.2 | player (untested) | 797.57 |
+| Kalshi | Stefon Diggs: 60+ receiving yards | NO | 0.68 | 0.015 | 91.7 | 22.2 | player (untested) | 3173.22 |
+| Kalshi | Darius Cooper: 10+ receiving yards | NO | 0.23 | 0.012 | 46.3 | 22.1 | player (untested) | 0.00 |
+| Kalshi | Makai Lemon: 5+ receptions | NO | 0.48 | 0.017 | 71.6 | 21.9 | player (untested) | 14942.02 |
+| Kalshi | Rachaad White: 1+ touchdowns | NO | 0.59 | 0.017 | 82.5 | 21.8 | player (untested) | 452879.29 |
+| Kalshi | Philadelphia wins by over 7.5 points? | YES | 0.13 | 0.008 | 35.6 | 21.8 | game | 2681.05 |
+| Kalshi | Tanner McKee: 1+ passing touchdowns | NO | 0.35 | 0.016 | 58.4 | 21.8 | player (untested) | 21222.89 |
+| Kalshi | Philadelphia wins by over 3.5 points? | YES | 0.23 | 0.012 | 46.0 | 21.8 | game | 23972.42 |
+| Kalshi | Makai Lemon: 45+ receiving yards | NO | 0.51 | 0.017 | 74.3 | 21.6 | player (untested) | 22770.55 |
+| Kalshi | Philadelphia wins by over 6.5 points? | YES | 0.16 | 0.009 | 38.2 | 21.3 | game | 53151.42 |
+| Kalshi | Dallas Goedert: 20+ receiving yards | NO | 0.18 | 0.010 | 40.3 | 21.2 | player (untested) | 1283.68 |
+| Kalshi | Saquon Barkley: 10+ receiving yards | NO | 0.45 | 0.017 | 67.7 | 21.0 | player (untested) | 1249.61 |
+| Kalshi | Philadelphia wins by over 1.5 points? | YES | 0.29 | 0.014 | 51.3 | 20.8 | game | 6697.13 |
+| Kalshi | Philadelphia wins by over 5.5 points? | YES | 0.19 | 0.011 | 40.8 | 20.8 | game | 9242.92 |
+| Kalshi | Saquon Barkley: 2+ receptions | NO | 0.45 | 0.017 | 67.4 | 20.7 | player (untested) | 6765.05 |
+| Kalshi | Dallas Goedert: 30+ receiving yards | NO | 0.28 | 0.014 | 50.0 | 20.6 | player (untested) | 475.05 |
+| Kalshi | Makai Lemon: 4+ receptions | NO | 0.32 | 0.015 | 53.7 | 20.1 | player (untested) | 1521.93 |
+| Kalshi | Dallas Goedert: 25+ receiving yards | NO | 0.24 | 0.013 | 45.3 | 20.0 | player (untested) | 2455.97 |
+| Kalshi | Dallas Goedert: 5+ receptions | NO | 0.43 | 0.017 | 64.5 | 19.8 | player (untested) | 31084.13 |
+| Kalshi | Jayden Daniels: 14+ passing completions | NO | 0.14 | 0.008 | 34.5 | 19.7 | player (untested) | 18.00 |
+| Kalshi | Jayden Daniels: 25+ passing attempts | NO | 0.25 | 0.013 | 45.8 | 19.5 | player (untested) | 6.39 |
+| Kalshi | Rachaad White: 60+ rushing and receiving yards combined | NO | 0.51 | 0.017 | 72.1 | 19.4 | player (untested) | 6257.25 |
+| Kalshi | Philadelphia wins by over 2.5 points? | YES | 0.28 | 0.014 | 48.6 | 19.2 | game | 27473.54 |
+| Kalshi | Jayden Daniels: 150+ passing yards | NO | 0.21 | 0.012 | 41.3 | 19.1 | player (untested) | 1644.86 |
+| Kalshi | Washington wins by over 3.5 points? | NO | 0.44 | 0.017 | 64.7 | 19.0 | game | 81743.93 |
+| Kalshi | Darius Cooper: 15+ receiving yards | NO | 0.31 | 0.015 | 51.4 | 18.9 | player (untested) | 3052.62 |
+| Kalshi | Washington wins by over 4.5 points? | NO | 0.47 | 0.017 | 67.6 | 18.8 | game | 823080.91 |
+| Kalshi | Jayden Daniels: 15+ rushing yards | NO | 0.13 | 0.008 | 32.4 | 18.6 | player (untested) | 59471.42 |
+| Kalshi | Stefon Diggs: 50+ receiving yards | NO | 0.58 | 0.017 | 78.3 | 18.5 | player (untested) | 13550.64 |
+| Kalshi | Dallas Goedert: 6+ receptions | NO | 0.59 | 0.017 | 79.2 | 18.5 | player (untested) | 5531.87 |
+| Kalshi | Washington wins by over 5.5 points? | NO | 0.50 | 0.018 | 70.1 | 18.4 | game | 1797160.71 |
+| Kalshi | Philadelphia wins by over 9.5 points? | YES | 0.11 | 0.007 | 30.0 | 18.3 | game | 3649.50 |
+| Kalshi | Philadelphia over 28.5 points scored | YES | 0.10 | 0.006 | 28.9 | 18.3 | game | 113.82 |
+| Kalshi | Dallas Goedert: 40+ receiving yards | NO | 0.40 | 0.017 | 59.9 | 18.2 | player (untested) | 22528.83 |
+| Kalshi | Philadelphia over 14.5 points scored | YES | 0.60 | 0.017 | 79.7 | 18.0 | game | 3303.81 |
+| Kalshi | Philadelphia wins by over 10.5 points? | YES | 0.09 | 0.006 | 27.6 | 18.0 | game | 4409.51 |
+| Kalshi | Stefon Diggs: 70+ receiving yards | NO | 0.78 | 0.012 | 97.0 | 17.8 | player (untested) | 1886.23 |
+| Kalshi | Makai Lemon: 50+ receiving yards | NO | 0.59 | 0.017 | 78.5 | 17.8 | player (untested) | 9373.51 |
+| Kalshi | Saquon Barkley: 15+ rushing attempts | YES | 0.24 | 0.013 | 43.0 | 17.7 | player (untested) | 3292.61 |
+| Kalshi | Saquon Barkley: 80+ rushing yards | YES | 0.17 | 0.010 | 35.4 | 17.4 | player (untested) | 9170.96 |
+| Kalshi | Jayden Daniels: 175+ passing yards | NO | 0.33 | 0.015 | 51.9 | 17.3 | player (untested) | 6437.58 |
+| Kalshi | Makai Lemon: 6+ receptions | NO | 0.66 | 0.016 | 84.9 | 17.3 | player (untested) | 2755.51 |
+| Kalshi | Saquon Barkley: 100+ rushing yards | YES | 0.08 | 0.005 | 25.7 | 17.2 | player (untested) | 14849.10 |
+| Kalshi | Saquon Barkley: 25+ receiving yards | NO | 0.75 | 0.013 | 93.5 | 17.2 | player (untested) | 630.38 |
+| Kalshi | Chig Okonkwo: 10+ receiving yards | NO | 0.16 | 0.009 | 33.7 | 16.8 | player (untested) | 1035.26 |
+| Kalshi | Dallas Goedert: 7+ receptions | NO | 0.72 | 0.014 | 90.1 | 16.7 | player (untested) | 2320.98 |
+| Kalshi | Saquon Barkley: 90+ rushing yards | YES | 0.13 | 0.008 | 30.4 | 16.6 | player (untested) | 5500.84 |
+| Kalshi | Makai Lemon: 60+ receiving yards | NO | 0.68 | 0.015 | 86.0 | 16.5 | player (untested) | 2687.74 |
+| Kalshi | Jeremy McNichols: 40+ rushing yards | NO | 0.80 | 0.011 | 97.5 | 16.3 | player (untested) | 791.96 |
+| Kalshi | Rachaad White: 70+ rushing yards | NO | 0.80 | 0.011 | 97.5 | 16.3 | player (untested) | 9755.56 |
+| Kalshi | Jeremy McNichols: 1+ touchdowns | NO | 0.82 | 0.010 | 99.3 | 16.3 | player (untested) | 19576.70 |
+| Kalshi | Makai Lemon: 3+ receptions | NO | 0.18 | 0.010 | 35.3 | 16.2 | player (untested) | 2.38 |
+| Kalshi | Jayden Daniels: 125+ passing yards | NO | 0.14 | 0.008 | 31.0 | 16.2 | player (untested) | 2388.91 |
+| Kalshi | Darius Cooper: 20+ receiving yards | NO | 0.39 | 0.017 | 56.8 | 16.2 | player (untested) | 3001.00 |
+| Kalshi | Dallas Goedert: 4+ receptions | NO | 0.29 | 0.014 | 46.6 | 16.2 | player (untested) | 3581.17 |
+| Kalshi | Washington wins by over 6.5 points? | NO | 0.55 | 0.017 | 72.7 | 16.0 | game | 454239.81 |
+| Kalshi | Saquon Barkley: 20+ receiving yards | NO | 0.70 | 0.015 | 87.4 | 15.9 | player (untested) | 881.64 |
+| Kalshi | Saquon Barkley: 15+ receiving yards | NO | 0.61 | 0.017 | 78.5 | 15.8 | player (untested) | 2321.11 |
+| Kalshi | Tanner McKee: 34+ passing attempts | NO | 0.51 | 0.017 | 68.5 | 15.8 | player (untested) | 2235.60 |
+| Kalshi | Rachaad White: 16+ rushing attempts | NO | 0.82 | 0.010 | 98.4 | 15.4 | player (untested) | 2580.51 |
+| Kalshi | Jayden Daniels: 1+ passing touchdowns | NO | 0.21 | 0.012 | 37.3 | 15.2 | player (untested) | 368.59 |
+| Kalshi | Makai Lemon: 7+ receptions | NO | 0.77 | 0.012 | 93.3 | 15.1 | player (untested) | 1408.14 |
+| Kalshi | Saquon Barkley: 1+ touchdowns | NO | 0.66 | 0.016 | 82.6 | 15.0 | player (untested) | 275150.82 |
+| Kalshi | Tanner McKee: 2+ passing interceptions | NO | 0.77 | 0.012 | 93.1 | 14.9 | player (untested) | 542.66 |
+| Kalshi | Saquon Barkley: 70+ rushing yards | YES | 0.25 | 0.013 | 41.1 | 14.8 | player (untested) | 7308.40 |
+| Kalshi | Saquon Barkley: 4+ receptions | NO | 0.83 | 0.010 | 98.6 | 14.6 | player (untested) | 1118.23 |
+| Kalshi | Jayden Daniels: 20+ rushing yards | NO | 0.21 | 0.012 | 36.5 | 14.3 | player (untested) | 7360.33 |
+| Kalshi | Philadelphia wins by over 14.5 points? | YES | 0.05 | 0.003 | 19.5 | 14.1 | game | 4143.09 |
+| Kalshi | Chig Okonkwo: 15+ receiving yards | NO | 0.23 | 0.012 | 38.1 | 13.9 | player (untested) | 12.32 |
+| Kalshi | Philadelphia over 31.5 points scored | YES | 0.06 | 0.004 | 20.2 | 13.8 | game | 140.73 |
+| Kalshi | Saquon Barkley: 110+ rushing yards | YES | 0.07 | 0.005 | 21.3 | 13.8 | player (untested) | 2109.79 |
+| Kalshi | Philadelphia wins by over 13.5 points? | YES | 0.07 | 0.005 | 21.2 | 13.8 | game | 3994.80 |
+| Kalshi | Stefon Diggs: 40+ receiving yards | NO | 0.45 | 0.017 | 60.5 | 13.8 | player (untested) | 27568.93 |
+| Kalshi | Washington wins by over 9.5 points? | NO | 0.64 | 0.016 | 78.9 | 13.3 | game | 32793.49 |
+| Kalshi | Saquon Barkley: 60+ rushing yards | YES | 0.32 | 0.015 | 46.6 | 13.0 | player (untested) | 4652.33 |
+| Kalshi | Stefon Diggs: 80+ receiving yards | NO | 0.83 | 0.010 | 97.0 | 13.0 | player (untested) | 1531.92 |
+| Kalshi | Washington wins by over 7.5 points? | NO | 0.60 | 0.017 | 74.7 | 13.0 | game | 179582.65 |
+| Kalshi | Darius Cooper: 25+ receiving yards | NO | 0.47 | 0.017 | 61.7 | 12.9 | player (untested) | 359.86 |
+| Kalshi | Makai Lemon: 70+ receiving yards | NO | 0.78 | 0.012 | 91.7 | 12.5 | player (untested) | 907.88 |
+| Kalshi | Rachaad White: 85+ rushing and receiving yards combined | NO | 0.77 | 0.012 | 90.7 | 12.5 | player (untested) | 5978.45 |
+| Kalshi | Darius Cooper: 1+ touchdowns | YES | 0.17 | 0.010 | 30.3 | 12.3 | player (untested) | 119765.73 |
+| Kalshi | Chig Okonkwo: 20+ receiving yards | NO | 0.29 | 0.014 | 42.7 | 12.2 | player (untested) | 72.19 |
+| Kalshi | Dallas Goedert: 50+ receiving yards | NO | 0.55 | 0.017 | 68.8 | 12.1 | player (untested) | 22191.69 |
+| Kalshi | Jayden Daniels: 200+ passing yards | NO | 0.48 | 0.017 | 61.8 | 12.0 | player (untested) | 68265.37 |
+| Kalshi | Washington wins by over 13.5 points? | NO | 0.73 | 0.014 | 86.0 | 11.7 | game | 12832.30 |
+| Kalshi | Philadelphia over 10.5 points scored | YES | 0.76 | 0.013 | 88.9 | 11.7 | game | 1036.61 |
+| Kalshi | Rachaad White: 80+ rushing yards | NO | 0.85 | 0.009 | 97.5 | 11.6 | player (untested) | 6078.20 |
+| Kalshi | Antonio Williams: 20+ receiving yards | NO | 0.26 | 0.013 | 38.9 | 11.5 | player (untested) | 81.34 |
+| Kalshi | Darius Cooper: 5+ receptions | NO | 0.87 | 0.008 | 99.3 | 11.5 | player (untested) | 29.35 |
+| Kalshi | Jayden Daniels: 30+ passing attempts | NO | 0.52 | 0.017 | 65.2 | 11.5 | player (untested) | 3575.75 |
+| Kalshi | Antonio Williams: 15+ receiving yards | NO | 0.20 | 0.011 | 32.3 | 11.2 | player (untested) | 30.09 |
+| Kalshi | Saquon Barkley: 95+ rushing and receiving yards combined | YES | 0.21 | 0.012 | 33.4 | 11.2 | player (untested) | 3399.18 |
+| Kalshi | Tanner McKee: 10+ rushing yards | NO | 0.81 | 0.011 | 93.2 | 11.1 | player (untested) | 8390.32 |
+| Kalshi | Dallas Goedert: 3+ receptions | NO | 0.17 | 0.010 | 29.1 | 11.1 | player (untested) | 85.65 |
+| Kalshi | Tanner McKee: 225+ passing yards | NO | 0.63 | 0.016 | 75.6 | 11.0 | player (untested) | 3410.87 |
+| Kalshi | Antonio Williams: 10+ receiving yards | NO | 0.14 | 0.008 | 25.7 | 10.8 | player (untested) | 1722.23 |
+| Kalshi | Antonio Williams: 25+ receiving yards | NO | 0.33 | 0.015 | 45.4 | 10.8 | player (untested) | 47.66 |
+| Kalshi | Makai Lemon: 80+ receiving yards | NO | 0.84 | 0.009 | 95.7 | 10.8 | player (untested) | 1377.73 |
+| Kalshi | Saquon Barkley: 120+ rushing yards | YES | 0.06 | 0.004 | 17.2 | 10.8 | player (untested) | 1027.38 |
+| Kalshi | Dallas Goedert: 1+ touchdowns | YES | 0.27 | 0.014 | 39.2 | 10.8 | player (untested) | 216727.06 |
+| Kalshi | Darius Cooper: 30+ receiving yards | NO | 0.54 | 0.017 | 66.5 | 10.7 | player (untested) | 981.55 |
+| Kalshi | Austin Ekeler: 1+ touchdowns | NO | 0.88 | 0.007 | 99.3 | 10.6 | player (untested) | 51093.72 |
+| Kalshi | Saquon Barkley: 120+ rushing and receiving yards combined | YES | 0.11 | 0.007 | 22.2 | 10.6 | player (untested) | 938.42 |
+| Kalshi | Full Game: over 44.5 points scored? | YES | 0.36 | 0.016 | 48.1 | 10.5 | game | 47761.77 |
+| Kalshi | Washington wins by over 10.5 points? | NO | 0.69 | 0.015 | 80.9 | 10.4 | game | 14571.98 |
+| Kalshi | Antonio Williams: 30+ receiving yards | NO | 0.40 | 0.017 | 52.0 | 10.3 | player (untested) | 6733.91 |
+| Kalshi | Makai Lemon: 1+ touchdowns | NO | 0.78 | 0.012 | 89.4 | 10.2 | player (untested) | 111161.15 |
+| Kalshi | Saquon Barkley: 30+ receiving yards | NO | 0.86 | 0.008 | 97.0 | 10.1 | player (untested) | 750.53 |
+| Kalshi | Antonio Williams: 50+ receiving yards | NO | 0.64 | 0.016 | 75.7 | 10.1 | player (untested) | 3905.36 |
+| Kalshi | Antonio Williams: 60+ receiving yards | NO | 0.73 | 0.014 | 84.5 | 10.1 | player (untested) | 4367.18 |
+| Kalshi | Dallas Goedert: 8+ receptions | NO | 0.85 | 0.009 | 95.9 | 10.0 | player (untested) | 7666.56 |
+| Kalshi | Full Game: over 47.5 points scored? | YES | 0.28 | 0.014 | 39.4 | 10.0 | game | 7438.88 |
+| Kalshi | Makai Lemon: 8+ receptions | NO | 0.87 | 0.008 | 97.7 | 9.9 | player (untested) | 375.00 |
+| Kalshi | Jayden Daniels: 70+ rushing yards | YES | 0.13 | 0.008 | 23.6 | 9.8 | player (untested) | 134.79 |
+| Kalshi | Makai Lemon: 2+ receptions | NO | 0.09 | 0.006 | 19.4 | 9.8 | player (untested) | 69.82 |
+| Kalshi | Dallas Goedert: 2+ touchdowns | YES | 0.04 | 0.003 | 13.9 | 9.6 | player (untested) | 30230.70 |
+| Kalshi | Jayden Daniels: 25+ rushing yards | NO | 0.30 | 0.015 | 41.0 | 9.5 | player (untested) | 2729.14 |
+| Kalshi | Antonio Williams: 40+ receiving yards | NO | 0.53 | 0.017 | 64.2 | 9.5 | player (untested) | 30436.87 |
+| Kalshi | Antonio Williams: 1+ touchdowns | NO | 0.77 | 0.012 | 87.6 | 9.3 | player (untested) | 263419.79 |
+| Kalshi | Full Game: over 43.5 points scored? | YES | 0.40 | 0.017 | 50.9 | 9.2 | game | 62241.22 |
+| Kalshi | Jayden Daniels: 19+ passing completions | NO | 0.52 | 0.017 | 62.9 | 9.2 | player (untested) | 1842.01 |
+| Kalshi | Antonio Williams: 70+ receiving yards | NO | 0.81 | 0.011 | 91.2 | 9.2 | player (untested) | 835.83 |
+| Kalshi | Washington wins by over 16.5 points? | NO | 0.80 | 0.011 | 90.1 | 9.0 | game | 5843.61 |
+| Kalshi | Tanner McKee: 2+ passing touchdowns | NO | 0.74 | 0.013 | 84.3 | 8.9 | player (untested) | 5525.40 |
+| Kalshi | Jeremy McNichols: 50+ rushing yards | NO | 0.88 | 0.007 | 97.5 | 8.7 | player (untested) | 190.62 |
+| Kalshi | Dyami Brown: 1+ touchdowns | NO | 0.90 | 0.006 | 99.3 | 8.7 | player (untested) | 10727.38 |
+| Kalshi | Treylon Burks: 10+ receiving yards | NO | 0.30 | 0.015 | 40.0 | 8.6 | player (untested, Q) | 6.00 |
+| Kalshi | Dallas Goedert: 60+ receiving yards | NO | 0.67 | 0.015 | 77.1 | 8.5 | player (untested) | 2183.04 |
+| Kalshi | Washington wins by over 14.5 points? | NO | 0.78 | 0.012 | 87.6 | 8.4 | game | 14788.62 |
+| Kalshi | Washington over 14.5 points scored | NO | 0.17 | 0.010 | 26.3 | 8.3 | game | 3135.82 |
+| Kalshi | Full Game: over 50.5 points scored? | YES | 0.22 | 0.012 | 31.5 | 8.3 | game | 10762.10 |
+| Kalshi | Jayden Daniels: 80+ rushing yards | YES | 0.09 | 0.006 | 17.8 | 8.3 | player (untested) | 10735.38 |
+| Kalshi | Saquon Barkley: 130+ rushing yards | YES | 0.05 | 0.003 | 13.5 | 8.1 | player (untested) | 2986.23 |
+| Kalshi | Philadelphia over 35.5 points scored | YES | 0.03 | 0.002 | 11.3 | 8.1 | game | 0.00 |
+| Kalshi | Full Game: over 42.5 points scored? | YES | 0.44 | 0.017 | 53.7 | 8.0 | game | 51059.93 |
+| Kalshi | Dyami Brown: 10+ receiving yards | NO | 0.45 | 0.017 | 54.6 | 7.9 | player (untested) | 7402.00 |
+| Kalshi | Chig Okonkwo: 25+ receiving yards | NO | 0.38 | 0.016 | 47.5 | 7.9 | player (untested) | 1030.13 |
+| Kalshi | Full Game: over 53.5 points scored? | YES | 0.16 | 0.009 | 24.8 | 7.9 | game | 8308.40 |
+| Kalshi | Dallas Goedert: 2+ receptions | NO | 0.07 | 0.005 | 15.3 | 7.8 | player (untested) | 80.00 |
+| Kalshi | Saquon Barkley: 5+ receptions | NO | 0.91 | 0.006 | 99.3 | 7.7 | player (untested) | 195.25 |
+| Kalshi | Full Game: over 41.5 points scored? | YES | 0.47 | 0.017 | 56.4 | 7.7 | game | 75877.77 |
+| Kalshi | Saquon Barkley: 50+ rushing yards | YES | 0.43 | 0.017 | 52.4 | 7.7 | player (untested) | 38354.47 |
+| Kalshi | Dallas Goedert: 70+ receiving yards | NO | 0.75 | 0.013 | 83.9 | 7.6 | player (untested) | 2527.88 |
+| Kalshi | Jayden Daniels: 60+ rushing yards | YES | 0.22 | 0.012 | 30.8 | 7.6 | player (untested) | 2241.73 |
+| Kalshi | Makai Lemon: 90+ receiving yards | NO | 0.89 | 0.007 | 97.0 | 7.3 | player (untested) | 790.71 |
+| Kalshi | Jayden Daniels: 1+ passing interceptions | NO | 0.62 | 0.016 | 70.9 | 7.3 | player (untested) | 5229.86 |
+| Kalshi | Antonio Williams: 80+ receiving yards | NO | 0.88 | 0.007 | 95.9 | 7.2 | player (untested) | 3304.97 |
+| Kalshi | Rachaad White: 90+ rushing yards | NO | 0.90 | 0.006 | 97.5 | 6.8 | player (untested) | 8457.30 |
+| Kalshi | Tanner McKee: 15+ rushing yards | NO | 0.90 | 0.006 | 97.5 | 6.8 | player (untested) | 3069.12 |
+| Kalshi | Tanner McKee: 1+ touchdowns | NO | 0.92 | 0.005 | 99.3 | 6.8 | player (untested) | 263868.62 |
+| Kalshi | Philadelphia over 7.5 points scored | YES | 0.86 | 0.008 | 93.7 | 6.8 | game | 417.45 |
+| Kalshi | Saquon Barkley: 55+ rushing yards | YES | 0.41 | 0.017 | 49.5 | 6.8 | player (untested) | 9902.76 |
+| Kalshi | Chig Okonkwo: 30+ receiving yards | NO | 0.44 | 0.017 | 52.5 | 6.8 | player (untested) | 31686.90 |
+| Kalshi | Washington over 22.5 points scored | NO | 0.48 | 0.017 | 56.5 | 6.8 | game | 17291.30 |
+| Kalshi | Full Game: over 40.5 points scored? | YES | 0.51 | 0.017 | 59.2 | 6.4 | game | 963813.64 |
+| Kalshi | Dallas Goedert: 80+ receiving yards | NO | 0.82 | 0.010 | 89.5 | 6.4 | player (untested) | 8084.74 |
+| Kalshi | Darius Cooper: 50+ receiving yards | NO | 0.75 | 0.013 | 82.7 | 6.4 | player (untested) | 2577.81 |
+| Kalshi | Antonio Williams: 90+ receiving yards | NO | 0.90 | 0.006 | 97.0 | 6.4 | player (untested) | 2915.12 |
+| Kalshi | Stefon Diggs: 90+ receiving yards | NO | 0.90 | 0.006 | 97.0 | 6.4 | player (untested) | 1311.03 |
+| Kalshi | Washington wins by over 17.5 points? | NO | 0.84 | 0.009 | 91.3 | 6.3 | game | 251330.89 |
+| Kalshi | Dallas Goedert: 9+ receptions | NO | 0.92 | 0.005 | 98.7 | 6.2 | player (untested) | 13508.47 |
+| Kalshi | Full Game: over 39.5 points scored? | YES | 0.54 | 0.017 | 61.9 | 6.1 | game | 577333.50 |
+| Kalshi | Jayden Daniels: 90+ rushing yards | YES | 0.06 | 0.004 | 12.5 | 6.1 | player (untested) | 451.74 |
+| Kalshi | Full Game: over 56.5 points scored? | YES | 0.12 | 0.007 | 18.9 | 6.1 | game | 56505.72 |
+| Kalshi | Washington over 10.5 points scored | NO | 0.09 | 0.006 | 15.7 | 6.1 | game | 6653.55 |
+| Kalshi | Van Jefferson: 1+ touchdowns | YES | 0.04 | 0.003 | 10.3 | 6.0 | player (untested) | 1948.42 |
+| Kalshi | Jayden Daniels: 2+ passing touchdowns | NO | 0.57 | 0.017 | 64.6 | 5.9 | player (untested) | 38903.47 |
+| Kalshi | Darius Cooper: 60+ receiving yards | NO | 0.82 | 0.010 | 88.9 | 5.9 | player (untested) | 3841.69 |
+| Kalshi | Dallas Goedert: 10+ receptions | NO | 0.93 | 0.005 | 99.3 | 5.9 | player (untested) | 5778.53 |
+| Kalshi | Full Game: over 38.5 points scored? | YES | 0.57 | 0.017 | 64.4 | 5.7 | game | 161514.88 |
+| Kalshi | Rachaad White: 2+ touchdowns | NO | 0.91 | 0.006 | 97.2 | 5.7 | player (untested) | 214839.80 |
+| Kalshi | Darius Cooper: 2+ touchdowns | YES | 0.02 | 0.001 | 7.8 | 5.6 | player (untested) | 3033.77 |
+| Kalshi | Saquon Barkley: 12+ rushing attempts | YES | 0.46 | 0.017 | 53.4 | 5.6 | player (untested) | 13924.08 |
+| Kalshi | Darius Cooper: 40+ receiving yards | NO | 0.68 | 0.015 | 75.1 | 5.6 | player (untested) | 3271.24 |
+| Kalshi | Saquon Barkley: 40+ receiving yards | NO | 0.91 | 0.006 | 97.0 | 5.4 | player (untested) | 899.13 |
+| Kalshi | Washington wins by over 20.5 points? | NO | 0.88 | 0.007 | 94.2 | 5.4 | game | 8964.06 |
+| Kalshi | Rachaad White: 110+ rushing and receiving yards combined | NO | 0.91 | 0.006 | 96.9 | 5.4 | player (untested) | 765.64 |
+| Kalshi | Antonio Williams: 3+ receptions | NO | 0.38 | 0.016 | 44.9 | 5.2 | player (untested) | 1421.76 |
+| Kalshi | Full Game: over 59.5 points scored? | YES | 0.08 | 0.005 | 13.7 | 5.2 | game | 851.55 |
+| Kalshi | Washington over 21.5 points scored | NO | 0.46 | 0.017 | 52.9 | 5.1 | game | 6814.04 |
+| Kalshi | Rachaad White: 10+ receiving yards | NO | 0.41 | 0.017 | 47.8 | 5.1 | player (untested) | 1866.87 |
+| Kalshi | Washington over 17.5 points scored | NO | 0.30 | 0.015 | 36.6 | 5.1 | game | 2237.28 |
+| Kalshi | Jayden Daniels: 225+ passing yards | NO | 0.65 | 0.016 | 71.7 | 5.1 | player (untested) | 51919.29 |
 
-## Every priced side (1347)
+## Every priced side (758)
 
 | site | market | buy | price | sim % | edge (pts) | kind |
 |---|---|---|---:|---:|---:|---|
-| Polymarket | A.J. Brown: Receiving Yards O/U 19.5 | Over | 0.02 | 68.8 | 66.7 | player (untested, Q) |
-| Polymarket | A.J. Brown: Receiving Yards O/U 29.5 | Over | 0.02 | 61.0 | 58.9 | player (untested, Q) |
-| Polymarket | A.J. Brown: Receptions O/U 3.5 | Over | 0.02 | 55.6 | 53.7 | player (untested, Q) |
-| Polymarket | A.J. Brown: Receiving Yards O/U 39.5 | Over | 0.02 | 52.9 | 50.9 | player (untested, Q) |
-| Polymarket | TreVeyon Henderson: Rushing Yards O/U 19.5 | Over | 0.05 | 50.7 | 45.7 | player (untested, Q) |
-| Polymarket | A.J. Brown: Receiving Yards O/U 49.5 | Over | 0.02 | 44.8 | 42.8 | player (untested, Q) |
-| Polymarket | A.J. Brown: Receptions O/U 4.5 | Over | 0.02 | 40.5 | 38.6 | player (untested, Q) |
-| Kalshi | Rhamondre Stevenson: 50+ rushing yards | NO | 0.37 | 74.2 | 35.6 | player (untested) |
-| Polymarket | A.J. Brown: Receiving Yards O/U 59.5 | Over | 0.02 | 37.3 | 35.4 | player (untested, Q) |
-| Polymarket | TreVeyon Henderson: Rushing Yards O/U 29.5 | Over | 0.05 | 40.1 | 35.0 | player (untested, Q) |
-| Kalshi | Ollie Gordon II: 10+ receiving yards | NO | 0.51 | 87.7 | 35.0 | player (untested) |
-| Kalshi | Ollie Gordon II: 30+ rushing yards | NO | 0.18 | 51.6 | 32.6 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 60+ rushing yards | NO | 0.53 | 85.8 | 31.0 | player (untested) |
-| Kalshi | Ollie Gordon II: 40+ rushing yards | NO | 0.25 | 57.1 | 30.8 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 40+ rushing yards | NO | 0.29 | 60.1 | 29.7 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 30+ rushing yards | NO | 0.14 | 44.4 | 29.6 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 13+ rushing attempts | NO | 0.35 | 66.2 | 29.6 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 70+ rushing yards | NO | 0.63 | 93.5 | 28.9 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 10+ rushing attempts | NO | 0.17 | 46.7 | 28.7 | player (untested) |
-| Kalshi | Efton Chism III: 2+ receptions | NO | 0.29 | 59.0 | 28.5 | player (untested) |
-| Polymarket | A.J. Brown: Receiving Yards O/U 69.5 | Over | 0.02 | 30.2 | 28.3 | player (untested, Q) |
-| Kalshi | Ollie Gordon II: 15+ receiving yards | NO | 0.67 | 96.8 | 28.3 | player (untested) |
-| Kalshi | Efton Chism III: 10+ receiving yards | NO | 0.21 | 49.8 | 27.6 | player (untested) |
-| Polymarket | Rhamondre Stevenson: Rushing Yards O/U 59.5 | Under | 0.58 | 85.8 | 27.1 | player (untested) |
-| Polymarket | Rhamondre Stevenson: Rushing Yards O/U 39.5 | Under | 0.33 | 60.1 | 26.5 | player (untested) |
-| Polymarket | Efton Chism III: Receptions O/U 2.5 | Under | 0.51 | 78.1 | 26.3 | player (untested) |
-| Polymarket | Ollie Gordon II: Rushing Yards O/U 39.5 | Under | 0.31 | 57.1 | 25.4 | player (untested) |
-| Kalshi | Corey Kiner: 25+ rushing yards | NO | 0.36 | 62.9 | 25.3 | player (untested) |
-| Kalshi | Efton Chism III: 3+ receptions | NO | 0.51 | 78.1 | 25.3 | player (untested) |
-| Kalshi | Ollie Gordon II: 13+ rushing attempts | NO | 0.34 | 60.8 | 25.2 | player (untested) |
-| Polymarket | A.J. Brown: Receptions O/U 5.5 | Over | 0.02 | 26.9 | 24.9 | player (untested, Q) |
-| Kalshi | Efton Chism III: 15+ receiving yards | NO | 0.29 | 55.4 | 24.9 | player (untested) |
-| Polymarket | TreVeyon Henderson: Rushing Yards O/U 39.5 | Over | 0.05 | 29.9 | 24.9 | player (untested, Q) |
-| Kalshi | Corey Kiner: 20+ rushing yards | NO | 0.32 | 57.8 | 24.3 | player (untested) |
-| Polymarket | Rhamondre Stevenson: Anytime Touchdown | No | 0.46 | 70.7 | 24.0 | player (untested) |
-| Kalshi | Corey Kiner: 15+ rushing yards | NO | 0.27 | 52.3 | 23.9 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 80+ rushing yards | NO | 0.73 | 97.5 | 23.1 | player (untested) |
-| Kalshi | Ollie Gordon II: 50+ rushing yards | NO | 0.38 | 62.2 | 22.6 | player (untested) |
-| Polymarket | Efton Chism III: Receptions O/U 1.5 | Under | 0.36 | 59.0 | 22.3 | player (untested) |
-| Kalshi | Corey Kiner: 30+ rushing yards | NO | 0.44 | 68.0 | 22.2 | player (untested) |
-| Polymarket | Efton Chism III: Receiving Yards O/U 9.5 | Under | 0.27 | 49.8 | 22.2 | player (untested) |
-| Kalshi | Efton Chism III: 20+ receiving yards | NO | 0.37 | 60.8 | 22.2 | player (untested) |
-| Kalshi | Corey Kiner: 1+ touchdowns | NO | 0.76 | 99.3 | 22.1 | player (untested) |
-| Polymarket | A.J. Brown: Receiving Yards O/U 79.5 | Over | 0.02 | 24.0 | 22.0 | player (untested, Q) |
-| Kalshi | Rhamondre Stevenson: 1+ touchdowns | NO | 0.47 | 70.7 | 22.0 | player (untested) |
-| Kalshi | Ollie Gordon II: 2+ receptions | NO | 0.51 | 74.5 | 21.7 | player (untested) |
-| Polymarket | Corey Kiner: Anytime Touchdown | No | 0.78 | 99.3 | 20.8 | player (untested) |
-| Kalshi | Corey Kiner: 40+ rushing and receiving yards combined | NO | 0.49 | 71.5 | 20.7 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 16+ rushing attempts | NO | 0.60 | 82.3 | 20.6 | player (untested) |
-| Kalshi | Malik Willis: 24+ passing attempts | NO | 0.31 | 52.8 | 20.3 | player (untested) |
-| Kalshi | Corey Kiner: 35+ rushing yards | NO | 0.51 | 72.7 | 19.9 | player (untested) |
-| Kalshi | Kyle Williams: 2+ receptions | NO | 0.55 | 76.5 | 19.8 | player (untested) |
-| Polymarket | Kyle Williams: Receptions O/U 1.5 | Under | 0.56 | 76.5 | 19.8 | player (untested) |
-| Kalshi | Ollie Gordon II: 20+ receiving yards | NO | 0.76 | 97.0 | 19.7 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 80+ rushing and receiving yards combined | NO | 0.43 | 64.4 | 19.7 | player (untested) |
-| Kalshi | Kyle Williams: 10+ receiving yards | NO | 0.30 | 51.1 | 19.6 | player (untested) |
-| Kalshi | Efton Chism III: 4+ receptions | NO | 0.70 | 90.7 | 19.3 | player (untested) |
-| Kalshi | Malik Washington: 15+ receiving yards | NO | 0.15 | 34.3 | 18.4 | player (untested) |
-| Kalshi | Malik Willis: 1+ passing interceptions | NO | 0.45 | 65.1 | 18.4 | player (untested) |
-| Polymarket | Corey Kiner: Rushing Yards O/U 29.5 | Under | 0.49 | 68.0 | 18.2 | player (untested) |
-| Polymarket | Efton Chism III: Receiving Yards O/U 19.5 | Under | 0.42 | 60.8 | 18.1 | player (untested) |
-| Kalshi | Efton Chism III: 25+ receiving yards | NO | 0.46 | 65.8 | 18.0 | player (untested) |
-| Kalshi | DeMario Douglas: 10+ receiving yards | NO | 0.13 | 31.8 | 18.0 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 10+ receiving yards | NO | 0.22 | 40.9 | 17.7 | player (untested) |
-| Kalshi | Corey Kiner: 40+ rushing yards | NO | 0.58 | 77.3 | 17.6 | player (untested) |
-| Kalshi | Eli Raridon: 10+ receiving yards | NO | 0.21 | 39.7 | 17.5 | player (untested) |
-| Kalshi | Jaylen Wright: 8+ rushing attempts | YES | 0.16 | 34.4 | 17.5 | player (untested) |
-| Kalshi | Malik Washington: 20+ receiving yards | NO | 0.21 | 39.2 | 17.1 | player (untested) |
-| Kalshi | DeMario Douglas: 15+ receiving yards | NO | 0.19 | 36.7 | 16.6 | player (untested) |
-| Polymarket | Caleb Douglas: Anytime Touchdown | Yes | 0.20 | 37.0 | 16.5 | player (untested) |
-| Kalshi | Caleb Douglas: 80+ receiving yards | YES | 0.14 | 31.3 | 16.4 | player (untested) |
-| Kalshi | Ollie Gordon II: 60+ rushing yards | NO | 0.49 | 67.0 | 16.3 | player (untested) |
-| Polymarket | Spread: Patriots (-1.5) | Dolphins | 0.27 | 43.8 | 16.2 | game |
-| Polymarket | A.J. Brown: Receiving Yards O/U 89.5 | Over | 0.02 | 18.1 | 16.2 | player (untested, Q) |
-| Polymarket | Malik Willis: Passing Attempts O/U 23.5 | Under | 0.36 | 52.8 | 16.1 | player (untested) |
-| Kalshi | Caleb Douglas: 1+ touchdowns | YES | 0.20 | 37.0 | 15.9 | player (untested) |
-| Kalshi | Caleb Douglas: 70+ receiving yards | YES | 0.20 | 37.0 | 15.8 | player (untested) |
-| Polymarket | Spread: Patriots (-2.5) | Dolphins | 0.30 | 46.4 | 15.8 | game |
-| Kalshi | Hunter Henry: 1+ touchdowns | NO | 0.66 | 83.2 | 15.7 | player (untested) |
-| Polymarket | Malik Willis: Passing Attempts O/U 27.5 | Under | 0.53 | 69.2 | 15.5 | player (untested) |
-| Kalshi | New England wins by over 1.5 points? | NO | 0.27 | 43.8 | 15.4 | game |
-| Kalshi | DeMario Douglas: 20+ receiving yards | NO | 0.25 | 41.7 | 15.4 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 90+ rushing yards | NO | 0.81 | 97.5 | 15.4 | player (untested) |
-| Kalshi | Malik Washington: 25+ receiving yards | NO | 0.28 | 44.8 | 15.4 | player (untested) |
-| Kalshi | Ollie Gordon II: 80+ rushing and receiving yards combined | NO | 0.55 | 72.0 | 15.2 | player (untested) |
-| Kalshi | Caleb Douglas: 90+ receiving yards | YES | 0.10 | 25.8 | 15.2 | player (untested) |
-| Kalshi | Efton Chism III: 30+ receiving yards | NO | 0.53 | 69.9 | 15.2 | player (untested) |
-| Kalshi | Ollie Gordon II: 16+ rushing attempts | NO | 0.53 | 69.8 | 15.1 | player (untested) |
-| Kalshi | New England wins by over 2.5 points? | NO | 0.30 | 46.4 | 15.0 | game |
-| Polymarket | Spread: Dolphins (-3.5) | Dolphins | 0.15 | 30.3 | 14.9 | game |
-| Kalshi | Kyle Williams: 3+ receptions | NO | 0.79 | 95.0 | 14.8 | player (untested) |
-| Kalshi | Drake Maye: 275+ passing yards | YES | 0.28 | 44.1 | 14.7 | player (untested) |
-| Kalshi | Chris Bell: 10+ receiving yards | NO | 0.33 | 49.3 | 14.7 | player (untested) |
-| Kalshi | Caleb Douglas: 60+ receiving yards | YES | 0.27 | 43.0 | 14.6 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 105+ rushing and receiving yards combined | NO | 0.66 | 82.1 | 14.5 | player (untested) |
-| Kalshi | Drake Maye: 300+ passing yards | YES | 0.18 | 33.5 | 14.5 | player (untested) |
-| Kalshi | Ollie Gordon II: 3+ receptions | NO | 0.77 | 92.7 | 14.4 | player (untested) |
-| Polymarket | Caleb Douglas: Receiving Yards O/U 59.5 | Over | 0.28 | 43.0 | 14.4 | player (untested) |
-| Polymarket | Patriots vs. Dolphins | Dolphins | 0.25 | 39.7 | 14.2 | game |
-| Kalshi | Kyle Williams: 15+ receiving yards | NO | 0.39 | 54.8 | 14.1 | player (untested) |
-| Kalshi | Drake Maye: 250+ passing yards | YES | 0.39 | 54.7 | 14.0 | player (untested) |
-| Polymarket | Corey Kiner: Rushing Yards O/U 39.5 | Under | 0.63 | 77.3 | 13.6 | player (untested) |
-| Kalshi | Malik Washington: 30+ receiving yards | NO | 0.35 | 50.2 | 13.6 | player (untested) |
-| Kalshi | Eli Raridon: 2+ receptions | NO | 0.30 | 45.0 | 13.5 | player (untested) |
-| Polymarket | Kyle Williams: Receptions O/U 2.5 | Under | 0.81 | 95.0 | 13.5 | player (untested) |
-| Kalshi | Caleb Douglas: 100+ receiving yards | YES | 0.07 | 20.9 | 13.5 | player (untested) |
-| Kalshi | DeMario Douglas: 25+ receiving yards | NO | 0.31 | 45.9 | 13.4 | player (untested) |
-| Kalshi | Miami wins | YES | 0.25 | 39.7 | 13.4 | game |
-| Kalshi | New England wins | NO | 0.25 | 39.7 | 13.4 | game |
-| Kalshi | Miami wins by over 3.5 points? | YES | 0.16 | 30.3 | 13.3 | game |
-| Polymarket | Hunter Henry: Receiving Yards O/U 39.5 | Under | 0.42 | 56.1 | 13.3 | player (untested) |
-| Kalshi | Drake Maye: 2+ passing interceptions | YES | 0.18 | 32.3 | 13.3 | player (untested) |
-| Kalshi | Hunter Henry: 4+ receptions | NO | 0.39 | 53.9 | 13.3 | player (untested) |
-| Kalshi | Hunter Henry: 25+ receiving yards | NO | 0.24 | 38.3 | 13.0 | player (untested) |
-| Kalshi | Miami wins by over 4.5 points? | YES | 0.14 | 27.9 | 13.0 | game |
-| Kalshi | Ollie Gordon II: 25+ receiving yards | NO | 0.83 | 97.0 | 13.0 | player (untested) |
-| Kalshi | Hunter Henry: 30+ receiving yards | NO | 0.30 | 44.5 | 13.0 | player (untested) |
-| Kalshi | Hunter Henry: 15+ receiving yards | NO | 0.13 | 26.7 | 12.9 | player (untested) |
-| Kalshi | Hunter Henry: 3+ receptions | NO | 0.21 | 35.0 | 12.9 | player (untested) |
-| Polymarket | Hunter Henry: Receptions O/U 4.5 | Under | 0.58 | 71.5 | 12.7 | player (untested) |
-| Kalshi | Miami over 17.5 points scored | YES | 0.44 | 58.3 | 12.6 | game |
-| Polymarket | Spread: Dolphins (-4.5) | Dolphins | 0.15 | 27.9 | 12.5 | game |
-| Kalshi | Hunter Henry: 6+ receptions | NO | 0.71 | 84.9 | 12.5 | player (untested) |
-| Kalshi | Hunter Henry: 40+ receiving yards | NO | 0.42 | 56.1 | 12.3 | player (untested) |
-| Polymarket | Spread: Dolphins (-6.5) | Dolphins | 0.11 | 23.6 | 12.3 | game |
-| Polymarket | Spread: Dolphins (-7.5) | Dolphins | 0.09 | 21.6 | 12.3 | game |
-| Kalshi | Eli Raridon: 15+ receiving yards | NO | 0.31 | 44.8 | 12.3 | player (untested) |
-| Kalshi | DeMario Douglas: 30+ receiving yards | NO | 0.37 | 50.8 | 12.1 | player (untested) |
-| Kalshi | Malik Willis: 29+ passing attempts | NO | 0.59 | 72.8 | 12.1 | player (untested) |
-| Kalshi | Hunter Henry: 20+ receiving yards | NO | 0.19 | 32.2 | 12.1 | player (untested) |
-| Kalshi | Efton Chism III: 5+ receptions | NO | 0.84 | 97.0 | 12.0 | player (untested) |
-| Kalshi | Miami wins by over 7.5 points? | YES | 0.09 | 21.6 | 12.0 | game |
-| Polymarket | Drake Maye: Passing Yards O/U 249.5 | Over | 0.42 | 54.7 | 12.0 | player (untested) |
-| Kalshi | Miami wins by over 6.5 points? | YES | 0.11 | 23.6 | 12.0 | game |
-| Kalshi | Miami wins by over 5.5 points? | YES | 0.13 | 25.7 | 11.9 | game |
-| Kalshi | Corey Kiner: 50+ rushing yards | NO | 0.72 | 85.3 | 11.9 | player (untested) |
-| Kalshi | Eli Raridon: 3+ receptions | NO | 0.52 | 65.6 | 11.9 | player (untested) |
-| Polymarket | Eli Raridon: Receptions O/U 2.5 | Under | 0.53 | 65.6 | 11.9 | player (untested) |
-| Kalshi | Miami over 21.5 points scored | YES | 0.29 | 42.3 | 11.9 | game |
-| Kalshi | Hunter Henry: 5+ receptions | NO | 0.58 | 71.5 | 11.8 | player (untested) |
-| Kalshi | Caleb Douglas: 50+ receiving yards | YES | 0.36 | 49.3 | 11.7 | player (untested) |
-| Kalshi | Miami wins by over 1.5 points? | YES | 0.23 | 35.9 | 11.7 | game |
-| Polymarket | Caleb Douglas: Receiving Yards O/U 49.5 | Over | 0.37 | 49.3 | 11.6 | player (untested) |
-| Polymarket | Spread: Dolphins (-2.5) | Dolphins | 0.21 | 33.1 | 11.6 | game |
-| Kalshi | Drake Maye: 325+ passing yards | YES | 0.12 | 24.1 | 11.4 | player (untested) |
-| Kalshi | Miami over 20.5 points scored | YES | 0.33 | 45.9 | 11.4 | game |
-| Polymarket | Spread: Dolphins (-1.5) | Dolphins | 0.24 | 35.9 | 11.4 | game |
-| Polymarket | Spread: Dolphins (-5.5) | Dolphins | 0.14 | 25.7 | 11.3 | game |
-| Polymarket | Ollie Gordon II: Rushing Yards O/U 59.5 | Under | 0.55 | 67.0 | 11.3 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 15+ receiving yards | NO | 0.32 | 44.8 | 11.3 | player (untested) |
-| Kalshi | Caleb Douglas: 110+ receiving yards | YES | 0.05 | 16.6 | 11.2 | player (untested) |
-| Polymarket | A.J. Brown: Receiving Yards O/U 99.5 | Over | 0.02 | 13.2 | 11.2 | player (untested, Q) |
-| Polymarket | Efton Chism III: Receiving Yards O/U 29.5 | Under | 0.58 | 69.9 | 11.2 | player (untested) |
-| Kalshi | Ollie Gordon II: 30+ receiving yards | NO | 0.85 | 97.0 | 11.1 | player (untested) |
-| Kalshi | Caleb Douglas: 10+ receiving yards | NO | 0.13 | 24.8 | 11.0 | player (untested) |
-| Kalshi | Miami over 24.5 points scored | YES | 0.19 | 31.1 | 11.0 | game |
-| Polymarket | Drake Maye: Passing Yards O/U 299.5 | Over | 0.22 | 33.5 | 11.0 | player (untested) |
-| Kalshi | Miami wins by over 2.5 points? | YES | 0.21 | 33.1 | 10.9 | game |
-| Kalshi | Drake Maye: 3+ passing touchdowns | YES | 0.22 | 33.9 | 10.7 | player (untested) |
-| Polymarket | Corey Kiner: Rushing Yards O/U 49.5 | Under | 0.74 | 85.3 | 10.7 | player (untested) |
-| Kalshi | Drake Maye: 1+ passing interceptions | YES | 0.47 | 59.4 | 10.7 | player (untested) |
-| Kalshi | Drake Maye: 35+ passing attempts | YES | 0.26 | 38.0 | 10.7 | player (untested) |
-| Polymarket | Spread: Patriots (-3.5) | Dolphins | 0.38 | 49.4 | 10.7 | game |
-| Kalshi | Malik Washington: 5+ receptions | NO | 0.57 | 69.3 | 10.6 | player (untested) |
-| Kalshi | Greg Dulcich: 50+ receiving yards | YES | 0.24 | 35.9 | 10.6 | player (untested) |
-| Polymarket | Chris Bell: Receiving Yards O/U 9.5 | Under | 0.38 | 49.3 | 10.6 | player (untested) |
-| Polymarket | Eli Raridon: Receptions O/U 1.5 | Under | 0.34 | 45.0 | 10.3 | player (untested) |
-| Kalshi | Corey Kiner: 65+ rushing and receiving yards combined | NO | 0.78 | 89.5 | 10.3 | player (untested) |
-| Kalshi | Hunter Henry: 7+ receptions | NO | 0.82 | 93.3 | 10.2 | player (untested) |
-| Polymarket | Spread: Patriots (-4.5) | Dolphins | 0.41 | 51.9 | 10.2 | game |
-| Kalshi | Efton Chism III: 1+ touchdowns | NO | 0.79 | 90.3 | 10.2 | player (untested) |
-| Kalshi | Efton Chism III: 40+ receiving yards | NO | 0.67 | 78.7 | 10.2 | player (untested) |
-| Polymarket | Eli Raridon: Receiving Yards O/U 9.5 | Under | 0.29 | 39.7 | 10.1 | player (untested) |
-| Kalshi | Chris Bell: 2+ receptions | NO | 0.48 | 59.7 | 10.0 | player (untested) |
-| Kalshi | Ollie Gordon II: 70+ rushing yards | NO | 0.60 | 71.6 | 10.0 | player (untested) |
-| Kalshi | Greg Dulcich: 60+ receiving yards | YES | 0.16 | 26.8 | 9.9 | player (untested) |
-| Kalshi | New England wins by over 5.5 points? | NO | 0.43 | 54.5 | 9.8 | game |
-| Polymarket | Spread: Patriots (-5.5) | Dolphins | 0.44 | 54.5 | 9.8 | game |
-| Polymarket | Spread: Dolphins (-10.5) | Dolphins | 0.06 | 16.0 | 9.8 | game |
-| Kalshi | New England wins by over 3.5 points? | NO | 0.38 | 49.4 | 9.7 | game |
-| Kalshi | Rhamondre Stevenson: 100+ rushing yards | NO | 0.87 | 97.5 | 9.7 | player (untested) |
-| Kalshi | Greg Dulcich: 40+ receiving yards | YES | 0.35 | 46.2 | 9.6 | player (untested) |
-| Kalshi | Hunter Henry: 50+ receiving yards | NO | 0.56 | 67.3 | 9.6 | player (untested) |
-| Kalshi | Miami wins by over 10.5 points? | YES | 0.06 | 16.0 | 9.6 | game |
-| Kalshi | Caleb Douglas: 2+ touchdowns | YES | 0.02 | 11.6 | 9.5 | player (untested) |
-| Polymarket | Spread: Dolphins (-9.5) | Dolphins | 0.08 | 17.7 | 9.4 | game |
-| Kalshi | Malik Washington: 40+ receiving yards | NO | 0.49 | 60.1 | 9.4 | player (untested) |
-| Polymarket | Spread: Dolphins (-8.5) | Dolphins | 0.10 | 19.6 | 9.4 | game |
-| Polymarket | Caleb Douglas: 2+ Touchdowns | Yes | 0.02 | 11.6 | 9.3 | player (untested) |
-| Kalshi | Malik Washington: 4+ receptions | NO | 0.41 | 52.0 | 9.3 | player (untested) |
-| Kalshi | New England wins by over 4.5 points? | NO | 0.41 | 51.9 | 9.2 | game |
-| Kalshi | Rhamondre Stevenson: 130+ rushing and receiving yards combined | NO | 0.84 | 94.1 | 9.2 | player (untested) |
-| Kalshi | Eli Raridon: 20+ receiving yards | NO | 0.39 | 49.8 | 9.2 | player (untested) |
-| Kalshi | Miami wins by over 9.5 points? | YES | 0.08 | 17.7 | 9.1 | game |
-| Kalshi | Corey Kiner: 60+ rushing yards | NO | 0.81 | 91.2 | 9.1 | player (untested) |
-| Kalshi | Caleb Douglas: 40+ receiving yards | YES | 0.45 | 55.9 | 9.1 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 50+ receiving yards | YES | 0.18 | 28.1 | 9.1 | player (untested) |
-| Polymarket | DeMario Douglas: Receiving Yards O/U 19.5 | Under | 0.32 | 41.7 | 9.0 | player (untested) |
-| Kalshi | Malik Willis: 17+ passing completions | NO | 0.60 | 70.7 | 9.0 | player (untested) |
-| Polymarket | Chris Bell: Receptions O/U 1.5 | Under | 0.50 | 59.7 | 9.0 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 60+ receiving yards | YES | 0.12 | 21.7 | 9.0 | player (untested) |
-| Kalshi | Malik Washington: 3+ receptions | NO | 0.23 | 33.1 | 8.9 | player (untested) |
-| Kalshi | Malik Washington: 6+ receptions | NO | 0.73 | 83.2 | 8.8 | player (untested) |
-| Kalshi | Drake Maye: 4+ passing touchdowns | YES | 0.09 | 18.4 | 8.8 | player (untested) |
-| Kalshi | Miami over 14.5 points scored | YES | 0.59 | 69.5 | 8.8 | game |
-| Polymarket | Hunter Henry: Receiving Yards O/U 29.5 | Under | 0.35 | 44.5 | 8.8 | player (untested) |
-| Kalshi | Jaylen Wright: 2+ rushing attempts | NO | 0.11 | 20.4 | 8.8 | player (untested) |
-| Kalshi | Chris Bell: 1+ touchdowns | NO | 0.90 | 99.3 | 8.7 | player (untested) |
-| Kalshi | Kyle Williams: 20+ receiving yards | NO | 0.48 | 58.4 | 8.6 | player (untested) |
-| Kalshi | Eli Raridon: 4+ receptions | NO | 0.73 | 83.0 | 8.6 | player (untested) |
-| Polymarket | Malik Willis: Anytime Touchdown | Yes | 0.26 | 35.2 | 8.6 | player (untested) |
-| Polymarket | Greg Dulcich: Receiving Yards O/U 39.5 | Over | 0.37 | 46.2 | 8.5 | player (untested) |
-| Kalshi | DeMario Douglas: 40+ receiving yards | NO | 0.49 | 59.3 | 8.5 | player (untested) |
-| Kalshi | Hunter Henry: 60+ receiving yards | NO | 0.67 | 77.0 | 8.5 | player (untested) |
-| Kalshi | Malik Willis: 15+ rushing yards | NO | 0.21 | 30.7 | 8.5 | player (untested) |
-| Kalshi | Malik Washington: 1+ touchdowns | NO | 0.80 | 89.6 | 8.5 | player (untested) |
-| Kalshi | Drake Maye: 3+ passing interceptions | YES | 0.07 | 15.9 | 8.5 | player (untested) |
-| Kalshi | New England wins by over 6.5 points? | NO | 0.47 | 57.2 | 8.5 | game |
-| Polymarket | Spread: Patriots (-6.5) | Dolphins | 0.48 | 57.2 | 8.5 | game |
-| Polymarket | Drake Maye: Passing Touchdowns O/U 2.5 | Over | 0.25 | 33.9 | 8.4 | player (untested) |
-| Kalshi | Hunter Henry: 70+ receiving yards | NO | 0.76 | 85.6 | 8.3 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 2+ receptions | NO | 0.17 | 26.2 | 8.2 | player (untested) |
-| Kalshi | Chris Bell: 15+ receiving yards | NO | 0.44 | 53.9 | 8.2 | player (untested) |
-| Polymarket | Drake Maye: Passing Touchdowns O/U 3.5 | Over | 0.10 | 18.4 | 8.1 | player (untested) |
-| Polymarket | Caleb Douglas: Receiving Yards O/U 39.5 | Over | 0.47 | 55.9 | 8.1 | player (untested) |
-| Polymarket | Chris Bell: Anytime Touchdown | No | 0.91 | 99.3 | 8.1 | player (untested) |
-| Kalshi | Hunter Henry: 90+ receiving yards | NO | 0.87 | 95.9 | 8.1 | player (untested) |
-| Kalshi | Efton Chism III: 50+ receiving yards | NO | 0.77 | 86.3 | 8.0 | player (untested) |
-| Kalshi | Miami over 28.5 points scored | YES | 0.10 | 18.6 | 8.0 | game |
-| Polymarket | Ollie Gordon II: Rushing Yards O/U 69.5 | Under | 0.63 | 71.6 | 7.9 | player (untested) |
-| Polymarket | A.J. Brown: Anytime Touchdown | Yes | 0.02 | 10.0 | 7.9 | player (untested, Q) |
-| Kalshi | Drake Maye: 26+ passing completions | YES | 0.12 | 20.6 | 7.9 | player (untested) |
-| Kalshi | Malik Washington: 50+ rushing and receiving yards combined | NO | 0.52 | 61.6 | 7.9 | player (untested) |
-| Kalshi | Malik Willis: 1+ touchdowns | YES | 0.26 | 35.2 | 7.9 | player (untested) |
-| Kalshi | Hunter Henry: 80+ receiving yards | NO | 0.83 | 91.7 | 7.8 | player (untested) |
-| Kalshi | Kyle Williams: 4+ receptions | NO | 0.91 | 99.3 | 7.7 | player (untested) |
-| Polymarket | Hunter Henry: Receiving Yards O/U 19.5 | Under | 0.24 | 32.2 | 7.6 | player (untested) |
-| Kalshi | Drake Maye: 225+ passing yards | YES | 0.56 | 65.3 | 7.6 | player (untested) |
-| Kalshi | Efton Chism III: 6+ receptions | NO | 0.91 | 99.1 | 7.6 | player (untested) |
-| Polymarket | Drake Maye: Passing Yards O/U 224.5 | Over | 0.57 | 65.3 | 7.6 | player (untested) |
-| Kalshi | Malik Willis: 225+ passing yards | YES | 0.23 | 31.8 | 7.6 | player (untested) |
-| Kalshi | Malik Willis: 2+ passing interceptions | NO | 0.80 | 88.7 | 7.5 | player (untested) |
-| Kalshi | Malik Willis: 2+ touchdowns | YES | 0.03 | 10.8 | 7.5 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 70+ receiving yards | YES | 0.08 | 16.0 | 7.5 | player (untested) |
-| Kalshi | Drake Maye: 350+ passing yards | YES | 0.08 | 15.9 | 7.4 | player (untested) |
-| Kalshi | Ollie Gordon II: 4+ receptions | NO | 0.91 | 98.8 | 7.3 | player (untested) |
-| Polymarket | Greg Dulcich: Receiving Yards O/U 49.5 | Over | 0.28 | 35.9 | 7.3 | player (untested) |
-| Polymarket | Kevin Coleman Jr.: Anytime Touchdown | Yes | 0.07 | 14.1 | 7.2 | player (untested) |
-| Kalshi | Malik Willis: 250+ passing yards | YES | 0.14 | 22.0 | 7.2 | player (untested) |
-| Polymarket | Hunter Henry: Receptions O/U 3.5 | Under | 0.46 | 53.9 | 7.2 | player (untested) |
-| Kalshi | Jaylen Wright: 30+ rushing yards | YES | 0.20 | 28.2 | 7.1 | player (untested) |
-| Kalshi | Hunter Henry: 2+ receptions | NO | 0.11 | 18.8 | 7.1 | player (untested) |
-| Polymarket | Malik Willis: 2+ Touchdowns | Yes | 0.04 | 10.8 | 7.0 | player (untested) |
-| Polymarket | DeMario Douglas: Receiving Yards O/U 29.5 | Under | 0.43 | 50.8 | 7.0 | player (untested) |
-| Polymarket | Jalen Tolbert: Anytime Touchdown | Yes | 0.03 | 9.9 | 7.0 | player (untested) |
-| Kalshi | Greg Dulcich: 70+ receiving yards | YES | 0.11 | 18.7 | 7.0 | player (untested) |
-| Kalshi | Drake Maye: 30+ passing attempts | YES | 0.53 | 61.5 | 6.8 | player (untested) |
-| Kalshi | Eli Raridon: 5+ receptions | NO | 0.86 | 93.5 | 6.7 | player (untested) |
-| Kalshi | Drake Maye: 1+ passing touchdowns | NO | 0.15 | 22.6 | 6.7 | player (untested) |
-| Kalshi | Kevin Coleman Jr.: 1+ touchdowns | YES | 0.07 | 14.1 | 6.7 | player (untested) |
-| Polymarket | Malik Willis: Passing Yards O/U 249.5 | Over | 0.15 | 22.0 | 6.7 | player (untested) |
-| Kalshi | Jaylen Wright: 5+ rushing attempts | YES | 0.49 | 57.4 | 6.6 | player (untested) |
-| Polymarket | Hunter Henry: Receiving Yards O/U 49.5 | Under | 0.60 | 67.3 | 6.6 | player (untested) |
-| Kalshi | Drake Maye: 21+ passing completions | YES | 0.44 | 52.3 | 6.5 | player (untested) |
-| Kalshi | Malik Willis: 60+ rushing yards | YES | 0.16 | 23.4 | 6.5 | player (untested) |
-| Kalshi | Malik Washington: 7+ receptions | NO | 0.85 | 92.3 | 6.4 | player (untested) |
-| Polymarket | Drake Maye: Passing Completions O/U 19.5 | Over | 0.52 | 59.1 | 6.3 | player (untested) |
-| Kalshi | Kyle Williams: 1+ touchdowns | NO | 0.83 | 90.3 | 6.3 | player (untested) |
-| Kalshi | DeMario Douglas: 2+ receptions | NO | 0.17 | 24.3 | 6.3 | player (untested) |
-| Kalshi | Malik Willis: 4+ rushing attempts | NO | 0.17 | 24.3 | 6.3 | player (untested) |
-| Polymarket | Malik Willis: Passing Yards O/U 224.5 | Over | 0.25 | 31.8 | 6.2 | player (untested) |
-| Kalshi | Efton Chism III: 60+ receiving yards | NO | 0.85 | 92.0 | 6.1 | player (untested) |
-| Polymarket | Spread: Dolphins (-13.5) | Dolphins | 0.05 | 11.4 | 6.1 | game |
-| Polymarket | Patriots vs. Dolphins: O/U 44.5 | Over | 0.39 | 45.8 | 6.1 | game |
-| Kalshi | Malik Washington: 2+ receptions | NO | 0.11 | 17.8 | 6.1 | player (untested) |
-| Kalshi | Malik Washington: 15+ rushing yards | YES | 0.16 | 23.0 | 6.0 | player (untested) |
-| Kalshi | Will Kacmarek: 20+ receiving yards | NO | 0.89 | 95.7 | 6.0 | player (untested) |
-| Kalshi | Jaylen Wright: 10+ rushing yards | NO | 0.39 | 46.6 | 6.0 | player (untested) |
-| Polymarket | Kyle Williams: Anytime Touchdown | No | 0.84 | 90.3 | 5.9 | player (untested) |
-| Kalshi | Eli Raridon: 25+ receiving yards | NO | 0.47 | 54.6 | 5.9 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 110+ rushing yards | NO | 0.91 | 97.5 | 5.9 | player (untested) |
-| Kalshi | Miami over 10.5 points scored | YES | 0.74 | 81.2 | 5.9 | game |
-| Kalshi | Rhamondre Stevenson: 40+ receiving yards | YES | 0.28 | 35.3 | 5.9 | player (untested) |
-| Kalshi | Greg Dulcich: 30+ receiving yards | YES | 0.49 | 56.6 | 5.8 | player (untested) |
-| Polymarket | Greg Dulcich: Receiving Yards O/U 29.5 | Over | 0.50 | 56.6 | 5.8 | player (untested) |
-| Kalshi | Ollie Gordon II: 80+ rushing yards | NO | 0.69 | 76.3 | 5.8 | player (untested) |
-| Polymarket | Spread: Dolphins (-14.5) | Dolphins | 0.04 | 10.1 | 5.8 | game |
-| Kalshi | Drake Maye: 5+ passing touchdowns | YES | 0.03 | 9.0 | 5.8 | player (untested) |
-| Kalshi | Malik Willis: 200+ passing yards | YES | 0.35 | 42.4 | 5.8 | player (untested) |
-| Kalshi | Drake Maye: 200+ passing yards | YES | 0.68 | 75.2 | 5.7 | player (untested) |
-| Polymarket | Malik Willis: Passing Yards O/U 199.5 | Over | 0.36 | 42.4 | 5.7 | player (untested) |
-| Kalshi | Miami over 31.5 points scored | YES | 0.06 | 12.1 | 5.7 | game |
-| Kalshi | Malik Willis: 20+ rushing yards | NO | 0.29 | 36.1 | 5.7 | player (untested) |
-| Kalshi | Caleb Douglas: 15+ receiving yards | NO | 0.21 | 27.8 | 5.6 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 2+ touchdowns | NO | 0.86 | 92.4 | 5.6 | player (untested) |
-| Polymarket | DeMario Douglas: Receiving Yards O/U 39.5 | Under | 0.53 | 59.3 | 5.5 | player (untested) |
-| Polymarket | Spread: Patriots (-13.5) | Dolphins | 0.69 | 75.1 | 5.5 | game |
-| Kalshi | Ollie Gordon II: 1+ touchdowns | NO | 0.63 | 70.1 | 5.5 | player (untested) |
-| Kalshi | New England wins by over 9.5 points? | NO | 0.58 | 65.1 | 5.4 | game |
-| Polymarket | Spread: Patriots (-9.5) | Dolphins | 0.59 | 65.1 | 5.4 | game |
-| Kalshi | Malik Washington: 8+ receptions | NO | 0.91 | 96.9 | 5.3 | player (untested) |
-| Polymarket | TreVeyon Henderson: Anytime Touchdown | Yes | 0.05 | 10.1 | 5.3 | player (untested, Q) |
-| Kalshi | Malik Washington: 50+ receiving yards | NO | 0.63 | 69.8 | 5.2 | player (untested) |
-| Kalshi | Full Game: over 44.5 points scored? | YES | 0.39 | 45.8 | 5.1 | game |
-| Kalshi | Kyle Williams: 25+ receiving yards | NO | 0.55 | 61.9 | 5.1 | player (untested) |
-| Polymarket | Malik Willis: Passing Yards O/U 274.5 | Over | 0.09 | 14.3 | 5.1 | player (untested) |
-| Kalshi | Miami wins by over 13.5 points? | YES | 0.06 | 11.4 | 5.0 | game |
-| Polymarket | Malik Willis: Rushing Yards O/U 59.5 | Over | 0.18 | 23.4 | 5.0 | player (untested) |
-| Kalshi | Hunter Henry: 9+ receptions | NO | 0.94 | 99.3 | 4.9 | player (untested) |
-| Kalshi | Full Game: over 53.5 points scored? | YES | 0.17 | 22.8 | 4.8 | game |
-| Kalshi | Jaylen Wright: 25+ rushing yards | YES | 0.28 | 34.2 | 4.8 | player (untested) |
-| Kalshi | Kyle Williams: 30+ receiving yards | NO | 0.59 | 65.5 | 4.8 | player (untested) |
-| Kalshi | Miami wins by over 14.5 points? | YES | 0.05 | 10.1 | 4.8 | game |
-| Kalshi | Malik Willis: 275+ passing yards | YES | 0.09 | 14.3 | 4.8 | player (untested) |
-| Kalshi | Ollie Gordon II: 105+ rushing and receiving yards combined | NO | 0.76 | 82.0 | 4.7 | player (untested) |
-| Kalshi | Full Game: over 47.5 points scored? | YES | 0.31 | 37.2 | 4.7 | game |
-| Polymarket | Patriots vs. Dolphins: O/U 42.5 | Over | 0.46 | 51.4 | 4.7 | game |
-| Kalshi | Jaylen Wright: 40+ rushing yards | YES | 0.12 | 17.4 | 4.6 | player (untested) |
-| Polymarket | Kyle Williams: Receiving Yards O/U 19.5 | Under | 0.53 | 58.4 | 4.6 | player (untested) |
-| Kalshi | New England wins by over 13.5 points? | NO | 0.69 | 75.1 | 4.6 | game |
-| Polymarket | Drake Maye: Passing Yards O/U 199.5 | Over | 0.70 | 75.2 | 4.6 | player (untested) |
-| Kalshi | Greg Dulcich: 80+ receiving yards | YES | 0.07 | 12.0 | 4.6 | player (untested) |
-| Kalshi | Eli Raridon: 6+ receptions | NO | 0.93 | 98.0 | 4.5 | player (untested) |
-| Kalshi | Malik Willis: 10+ rushing attempts | YES | 0.17 | 22.5 | 4.5 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 4+ receptions | NO | 0.56 | 62.2 | 4.4 | player (untested) |
-| Kalshi | Malik Washington: 100+ rushing and receiving yards combined | NO | 0.92 | 96.9 | 4.4 | player (untested) |
-| Polymarket | Ollie Gordon II: Anytime Touchdown | No | 0.65 | 70.1 | 4.4 | player (untested) |
-| Kalshi | New England wins by over 10.5 points? | NO | 0.62 | 68.0 | 4.3 | game |
-| Kalshi | Full Game: over 50.5 points scored? | YES | 0.24 | 29.6 | 4.3 | game |
-| Kalshi | Greg Dulcich: 1+ touchdowns | NO | 0.85 | 90.2 | 4.3 | player (untested) |
-| Polymarket | Spread: Patriots (-10.5) | Dolphins | 0.63 | 68.0 | 4.3 | game |
-| Kalshi | Full Game: over 45.5 points scored? | YES | 0.37 | 42.8 | 4.1 | game |
-| Polymarket | Patriots vs. Dolphins: O/U 46.5 | Over | 0.35 | 39.8 | 4.1 | game |
-| Polymarket | Rhamondre Stevenson: 2+ Touchdowns | No | 0.88 | 92.4 | 4.1 | player (untested) |
-| Kalshi | Greg Dulcich: 4+ receptions | YES | 0.41 | 46.8 | 4.1 | player (untested) |
-| Kalshi | Malik Willis: 1+ passing touchdowns | NO | 0.42 | 47.8 | 4.1 | player (untested) |
-| Kalshi | Hunter Henry: 8+ receptions | NO | 0.93 | 97.5 | 4.1 | player (untested) |
-| Kalshi | New England over 14.5 points scored | NO | 0.14 | 18.9 | 4.1 | game |
-| Polymarket | Malik Willis: Passing Touchdowns O/U 0.5 | Under | 0.43 | 47.8 | 4.0 | player (untested) |
-| Polymarket | Greg Dulcich: Receptions O/U 3.5 | Over | 0.42 | 46.8 | 4.0 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 5+ receptions | NO | 0.73 | 78.4 | 4.0 | player (untested) |
-| Polymarket | Patriots vs. Dolphins: O/U 50.5 | Over | 0.25 | 29.6 | 4.0 | game |
-| Kalshi | Rhamondre Stevenson: 20+ receiving yards | NO | 0.43 | 48.7 | 4.0 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 3+ receptions | NO | 0.38 | 43.6 | 3.9 | player (untested) |
-| Kalshi | Drake Maye: 1+ touchdowns | NO | 0.78 | 83.1 | 3.9 | player (untested) |
-| Kalshi | Caleb Douglas: 6+ receptions | NO | 0.88 | 92.7 | 3.9 | player (untested) |
-| Kalshi | Malik Washington: 60+ receiving yards | NO | 0.73 | 78.3 | 3.9 | player (untested) |
-| Polymarket | Patriots vs. Dolphins: O/U 48.5 | Over | 0.30 | 34.5 | 3.9 | game |
-| Kalshi | Greg Dulcich: 10+ receiving yards | NO | 0.18 | 22.9 | 3.8 | player (untested) |
-| Kalshi | Full Game: over 43.5 points scored? | YES | 0.43 | 48.5 | 3.8 | game |
-| Kalshi | Greg Dulcich: 3+ receptions | YES | 0.60 | 65.5 | 3.8 | player (untested) |
-| Kalshi | Malik Washington: 75+ rushing and receiving yards combined | NO | 0.80 | 84.9 | 3.8 | player (untested) |
-| Polymarket | Greg Dulcich: Receptions O/U 2.5 | Over | 0.61 | 65.5 | 3.8 | player (untested) |
-| Polymarket | Ryan Miller: Anytime Touchdown | Yes | 0.06 | 10.1 | 3.8 | player (untested) |
-| Kalshi | Corey Kiner: 70+ rushing yards | NO | 0.91 | 95.3 | 3.8 | player (untested) |
-| Kalshi | New England wins by over 16.5 points? | NO | 0.76 | 81.0 | 3.7 | game |
-| Polymarket | Spread: Patriots (-14.5) | Dolphins | 0.73 | 77.3 | 3.7 | game |
-| Kalshi | Malik Washington: 10+ rushing yards | YES | 0.31 | 36.2 | 3.7 | player (untested) |
-| Kalshi | Full Game: over 42.5 points scored? | YES | 0.46 | 51.4 | 3.7 | game |
-| Polymarket | Drake Maye: Anytime Touchdown | No | 0.79 | 83.1 | 3.6 | player (untested) |
-| Kalshi | Full Game: over 56.5 points scored? | YES | 0.13 | 17.4 | 3.6 | game |
-| Polymarket | Patriots vs. Dolphins: O/U 54.5 | Over | 0.17 | 21.0 | 3.6 | game |
-| Kalshi | Hunter Henry: 100+ receiving yards | NO | 0.93 | 97.0 | 3.5 | player (untested) |
-| Kalshi | Will Kacmarek: 25+ receiving yards | NO | 0.93 | 97.0 | 3.5 | player (untested) |
-| Polymarket | Spread: Patriots (-8.5) | Dolphins | 0.58 | 62.3 | 3.5 | game |
-| Polymarket | Spread: Patriots (-16.5) | Dolphins | 0.77 | 81.0 | 3.5 | game |
-| Polymarket | Patriots vs. Dolphins: O/U 52.5 | Over | 0.21 | 25.0 | 3.5 | game |
-| Kalshi | Corey Kiner: 90+ rushing and receiving yards combined | NO | 0.93 | 96.9 | 3.5 | player (untested) |
-| Kalshi | New England over 26.5 points scored | NO | 0.57 | 62.2 | 3.4 | game |
-| Kalshi | Full Game: over 41.5 points scored? | YES | 0.49 | 54.2 | 3.4 | game |
-| Kalshi | DeMario Douglas: 3+ receptions | NO | 0.34 | 39.0 | 3.4 | player (untested) |
-| Kalshi | New England over 21.5 points scored | NO | 0.38 | 43.0 | 3.4 | game |
-| Kalshi | Will Kacmarek: 15+ receiving yards | NO | 0.84 | 88.3 | 3.4 | player (untested) |
-| Kalshi | Greg Dulcich: 25+ receiving yards | YES | 0.57 | 62.0 | 3.3 | player (untested) |
-| Kalshi | Full Game: over 46.5 points scored? | YES | 0.35 | 39.8 | 3.2 | game |
-| Polymarket | Patriots vs. Dolphins: O/U 40.5 | Over | 0.53 | 57.0 | 3.2 | game |
-| Kalshi | Malik Willis: 70+ rushing yards | YES | 0.12 | 15.9 | 3.2 | player (untested) |
-| Kalshi | New England over 20.5 points scored | NO | 0.34 | 38.7 | 3.1 | game |
-| Kalshi | New England wins by over 7.5 points? | NO | 0.55 | 59.9 | 3.1 | game |
-| Polymarket | Spread: Patriots (-7.5) | Dolphins | 0.56 | 59.9 | 3.1 | game |
-| Kalshi | Chris Bell: 40+ receiving yards | YES | 0.21 | 25.3 | 3.1 | player (untested) |
-| Kalshi | Hunter Henry: 2+ touchdowns | NO | 0.94 | 97.4 | 3.0 | player (untested) |
-| Polymarket | Patriots vs. Dolphins: O/U 56.5 | Over | 0.14 | 17.4 | 3.0 | game |
-| Kalshi | Malik Willis: 300+ passing yards | YES | 0.05 | 8.4 | 3.0 | player (untested) |
-| Kalshi | Full Game: over 59.5 points scored? | YES | 0.09 | 12.6 | 3.0 | game |
-| Kalshi | New England over 17.5 points scored | NO | 0.24 | 28.3 | 3.0 | game |
-| Kalshi | DeMario Douglas: 50+ receiving yards | NO | 0.63 | 67.6 | 3.0 | player (untested) |
-| Kalshi | Malik Washington: 80+ receiving yards | NO | 0.87 | 90.7 | 2.9 | player (untested) |
-| Kalshi | Greg Dulcich: 90+ receiving yards | YES | 0.04 | 7.2 | 2.9 | player (untested) |
-| Kalshi | Chris Bell: 20+ receiving yards | NO | 0.54 | 58.6 | 2.9 | player (untested) |
-| Polymarket | Rhamondre Stevenson: Receptions O/U 2.5 | Under | 0.40 | 43.6 | 2.9 | player (untested) |
-| Kalshi | New England over 10.5 points scored | NO | 0.07 | 10.3 | 2.9 | game |
-| Kalshi | Caleb Douglas: 20+ receiving yards | NO | 0.27 | 31.2 | 2.8 | player (untested) |
-| Polymarket | Kyle Williams: Receiving Yards O/U 29.5 | Under | 0.62 | 65.5 | 2.8 | player (untested) |
-| Kalshi | Miami over 35.5 points scored | YES | 0.03 | 6.0 | 2.8 | game |
-| Kalshi | New England wins by over 17.5 points? | NO | 0.79 | 82.9 | 2.7 | game |
-| Polymarket | Patriots vs. Dolphins: O/U 58.5 | Over | 0.11 | 14.0 | 2.7 | game |
-| Kalshi | New England over 7.5 points scored | NO | 0.03 | 5.8 | 2.6 | game |
-| Kalshi | Jaylen Wright: 20+ rushing yards | YES | 0.36 | 40.2 | 2.6 | player (untested) |
-| Kalshi | Ollie Gordon II: 40+ receiving yards | NO | 0.94 | 97.0 | 2.6 | player (untested) |
-| Kalshi | Corey Kiner: 25+ receiving yards | NO | 0.94 | 97.0 | 2.6 | player (untested) |
-| Kalshi | Corey Kiner: 20+ receiving yards | NO | 0.94 | 97.0 | 2.6 | player (untested) |
-| Kalshi | Malik Willis: 50+ rushing yards | YES | 0.28 | 32.0 | 2.6 | player (untested) |
-| Kalshi | Malik Willis: 12+ passing completions | NO | 0.24 | 27.9 | 2.6 | player (untested) |
-| Polymarket | Malik Willis: Rushing Yards O/U 69.5 | Over | 0.13 | 15.9 | 2.6 | player (untested) |
-| Kalshi | Eli Raridon: 30+ receiving yards | NO | 0.55 | 59.3 | 2.5 | player (untested) |
-| Polymarket | Spread: Patriots (-17.5) | Dolphins | 0.80 | 82.9 | 2.4 | game |
-| Polymarket | Spread: Patriots (-20.5) | Dolphins | 0.85 | 87.8 | 2.4 | game |
-| Kalshi | Will Kacmarek: 3+ receptions | NO | 0.94 | 96.8 | 2.4 | player (untested) |
-| Kalshi | Chris Bell: 60+ receiving yards | YES | 0.09 | 12.0 | 2.4 | player (untested) |
-| Polymarket | Malik Willis: Passing Completions O/U 15.5 | Under | 0.60 | 63.0 | 2.3 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 7+ receptions | NO | 0.93 | 95.7 | 2.3 | player (untested) |
-| Kalshi | Chris Bell: 50+ receiving yards | YES | 0.15 | 18.1 | 2.3 | player (untested) |
-| Kalshi | Chris Bell: 3+ receptions | NO | 0.74 | 77.6 | 2.2 | player (untested) |
-| Kalshi | Malik Willis: 34+ passing attempts | NO | 0.84 | 87.2 | 2.2 | player (untested) |
-| Kalshi | Malik Washington: 70+ receiving yards | NO | 0.82 | 85.2 | 2.2 | player (untested) |
-| Kalshi | Will Kacmarek: 1+ touchdowns | NO | 0.97 | 99.3 | 2.1 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 120+ rushing yards | NO | 0.95 | 97.5 | 2.1 | player (untested) |
-| Kalshi | Corey Kiner: 80+ rushing yards | NO | 0.95 | 97.5 | 2.1 | player (untested) |
-| Kalshi | Drake Maye: 60+ rushing yards | NO | 0.92 | 94.6 | 2.1 | player (untested) |
-| Kalshi | Caleb Douglas: 2+ receptions | NO | 0.23 | 26.3 | 2.1 | player (untested) |
-| Kalshi | Caleb Douglas: 7+ receptions | NO | 0.95 | 97.4 | 2.1 | player (untested) |
-| Kalshi | Jaylen Wright: 50+ rushing yards | YES | 0.07 | 9.5 | 2.1 | player (untested) |
-| Polymarket | Caleb Douglas: Receptions O/U 4.5 | Under | 0.80 | 82.5 | 2.0 | player (untested) |
-| Polymarket | Patriots vs. Dolphins: O/U 60.5 | Over | 0.09 | 11.2 | 2.0 | game |
-| Kalshi | New England wins by over 14.5 points? | NO | 0.74 | 77.3 | 1.9 | game |
-| Kalshi | New England wins by over 20.5 points? | NO | 0.85 | 87.8 | 1.9 | game |
-| Kalshi | Ollie Gordon II: 90+ rushing yards | NO | 0.77 | 80.1 | 1.9 | player (untested) |
-| Kalshi | Malik Willis: 25+ rushing yards | NO | 0.38 | 41.5 | 1.9 | player (untested) |
-| Kalshi | New England wins by over 23.5 points? | NO | 0.89 | 91.5 | 1.8 | game |
-| Kalshi | DeMario Douglas: 60+ receiving yards | NO | 0.72 | 75.2 | 1.8 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 6+ receptions | NO | 0.87 | 89.6 | 1.8 | player (untested) |
-| Polymarket | Caleb Douglas: Receptions O/U 3.5 | Under | 0.64 | 66.5 | 1.8 | player (untested) |
-| Kalshi | Malik Washington: 9+ receptions | NO | 0.97 | 99.0 | 1.8 | player (untested) |
-| Kalshi | Greg Dulcich: 5+ receptions | YES | 0.26 | 29.1 | 1.8 | player (untested) |
-| Kalshi | Malik Willis: 3+ passing interceptions | NO | 0.95 | 97.0 | 1.7 | player (untested) |
-| Kalshi | Drake Maye: 40+ rushing yards | YES | 0.24 | 27.0 | 1.7 | player (untested) |
-| Polymarket | Patriots vs. Dolphins: O/U 62.5 | Over | 0.07 | 8.9 | 1.7 | game |
-| Kalshi | Full Game: over 65.5 points scored? | YES | 0.04 | 5.9 | 1.7 | game |
-| Kalshi | Drake Maye: 10+ rushing yards | NO | 0.17 | 19.7 | 1.7 | player (untested) |
-| Kalshi | Will Kacmarek: 30+ receiving yards | NO | 0.95 | 97.0 | 1.7 | player (untested) |
-| Kalshi | DeMario Douglas: 70+ receiving yards | NO | 0.79 | 81.8 | 1.7 | player (untested) |
-| Kalshi | Malik Willis: 3+ touchdowns | YES | 0.01 | 2.7 | 1.6 | player (untested) |
-| Kalshi | Kyle Williams: 40+ receiving yards | NO | 0.69 | 72.1 | 1.6 | player (untested) |
-| Kalshi | Jaylen Wright: 1+ touchdowns | NO | 0.88 | 90.4 | 1.6 | player (untested) |
-| Polymarket | Patriots vs. Dolphins: O/U 38.5 | Over | 0.60 | 62.3 | 1.6 | game |
-| Kalshi | Drake Maye: 30+ rushing yards | YES | 0.40 | 43.2 | 1.5 | player (untested) |
-| Polymarket | Eli Raridon: 2+ Touchdowns | Yes | 0.03 | 4.6 | 1.5 | player (untested) |
-| Polymarket | Greg Dulcich: Receptions O/U 4.5 | Over | 0.27 | 29.1 | 1.5 | player (untested) |
-| Polymarket | Malik Willis: Passing Touchdowns O/U 2.5 | Over | 0.07 | 8.7 | 1.5 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 8+ receptions | NO | 0.97 | 98.7 | 1.5 | player (untested) |
-| Kalshi | Caleb Douglas: 3+ receptions | NO | 0.43 | 46.2 | 1.5 | player (untested) |
-| Polymarket | Rhamondre Stevenson: Receptions O/U 3.5 | Under | 0.60 | 62.2 | 1.5 | player (untested) |
-| Kalshi | Malik Willis: 2+ passing touchdowns | YES | 0.22 | 24.6 | 1.4 | player (untested) |
-| Kalshi | DeMario Douglas: 80+ receiving yards | NO | 0.85 | 87.3 | 1.4 | player (untested) |
-| Kalshi | Full Game: over 62.5 points scored? | YES | 0.07 | 8.9 | 1.4 | game |
-| Kalshi | Eli Raridon: 2+ touchdowns | YES | 0.03 | 4.6 | 1.4 | player (untested) |
-| Kalshi | DeMario Douglas: 1+ touchdowns | NO | 0.73 | 75.8 | 1.4 | player (untested) |
-| Kalshi | Malik Willis: 80+ rushing yards | YES | 0.08 | 9.9 | 1.4 | player (untested) |
-| Kalshi | Caleb Douglas: 5+ receptions | NO | 0.80 | 82.5 | 1.4 | player (untested) |
-| Polymarket | Malik Willis: Rushing Yards O/U 49.5 | Over | 0.30 | 32.0 | 1.4 | player (untested) |
-| Kalshi | Malik Willis: 3+ passing touchdowns | YES | 0.07 | 8.7 | 1.3 | player (untested) |
-| Kalshi | Miami over 7.5 points scored | YES | 0.86 | 88.1 | 1.2 | game |
-| Kalshi | Rhamondre Stevenson: 25+ receiving yards | NO | 0.50 | 53.0 | 1.2 | player (untested) |
-| Polymarket | DeMario Douglas: Anytime Touchdown | No | 0.74 | 75.8 | 1.2 | player (untested) |
-| Kalshi | Corey Kiner: 2+ touchdowns | NO | 0.98 | 99.3 | 1.2 | player (untested) |
-| Kalshi | Drake Maye: 70+ rushing yards | NO | 0.96 | 97.5 | 1.2 | player (untested) |
-| Kalshi | Kyle Williams: 5+ receptions | NO | 0.98 | 99.3 | 1.2 | player (untested) |
-| Kalshi | Ollie Gordon II: 5+ receptions | NO | 0.98 | 99.3 | 1.2 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 3+ touchdowns | NO | 0.97 | 98.4 | 1.2 | player (untested) |
-| Polymarket | Malik Willis: Passing Yards O/U 174.5 | Over | 0.52 | 53.9 | 1.1 | player (untested) |
-| Kalshi | Malik Willis: 175+ passing yards | YES | 0.51 | 53.9 | 1.1 | player (untested) |
-| Kalshi | Caleb Douglas: 8+ receptions | NO | 0.98 | 99.3 | 1.1 | player (untested) |
-| Kalshi | Efton Chism III: 2+ touchdowns | NO | 0.98 | 99.2 | 1.1 | player (untested) |
-| Kalshi | Greg Dulcich: 6+ receptions | YES | 0.14 | 15.9 | 1.1 | player (untested) |
-| Polymarket | Chris Bell: Receptions O/U 2.5 | Under | 0.76 | 77.6 | 1.0 | player (untested) |
-| Kalshi | Chris Bell: 70+ receiving yards | YES | 0.06 | 7.4 | 1.0 | player (untested) |
-| Kalshi | Eli Raridon: 1+ touchdowns | NO | 0.76 | 78.3 | 1.0 | player (untested) |
-| Kalshi | Miami over 38.5 points scored | YES | 0.02 | 3.1 | 1.0 | game |
-| Polymarket | Rhamondre Stevenson: Receiving Yards O/U 19.5 | Under | 0.47 | 48.7 | 1.0 | player (untested) |
-| Polymarket | DeMario Douglas: Receiving Yards O/U 49.5 | Under | 0.66 | 67.6 | 1.0 | player (untested) |
-| Kalshi | Drake Maye: 5+ rushing attempts | YES | 0.55 | 57.6 | 0.9 | player (untested) |
-| Polymarket | Spread: Patriots (-19.5) | Dolphins | 0.85 | 86.3 | 0.9 | game |
-| Kalshi | Caleb Douglas: 4+ receptions | NO | 0.64 | 66.5 | 0.9 | player (untested) |
-| Kalshi | New England over 28.5 points scored | NO | 0.67 | 69.4 | 0.9 | game |
-| Kalshi | New England wins by over 27.5 points? | NO | 0.94 | 95.2 | 0.9 | game |
-| Polymarket | Spread: Patriots (-21.5) | Dolphins | 0.88 | 89.1 | 0.8 | game |
-| Kalshi | DeMario Douglas: 2+ touchdowns | YES | 0.04 | 5.1 | 0.8 | player (untested) |
-| Kalshi | Ollie Gordon II: 2+ touchdowns | YES | 0.07 | 8.2 | 0.8 | player (untested) |
-| Kalshi | New England over 24.5 points scored | NO | 0.52 | 54.5 | 0.7 | game |
-| Kalshi | Ollie Gordon II: 130+ rushing and receiving yards combined | NO | 0.89 | 90.4 | 0.7 | player (untested) |
-| Kalshi | Full Game: over 23.5 points scored? | NO | 0.07 | 8.2 | 0.7 | game |
-| Kalshi | Malik Washington: 100+ receiving yards | NO | 0.96 | 97.0 | 0.7 | player (untested) |
-| Kalshi | Malik Washington: 90+ receiving yards | NO | 0.94 | 95.1 | 0.7 | player (untested) |
-| Polymarket | Patriots vs. Dolphins: O/U 26.5 | Under | 0.11 | 12.0 | 0.7 | game |
-| Polymarket | Malik Willis: Rushing Yards O/U 79.5 | Over | 0.09 | 9.9 | 0.6 | player (untested) |
-| Kalshi | DeMario Douglas: 90+ receiving yards | NO | 0.91 | 92.2 | 0.6 | player (untested) |
-| Kalshi | Full Game: over 38.5 points scored? | YES | 0.60 | 62.3 | 0.6 | game |
-| Kalshi | Malik Willis: 40+ rushing yards | YES | 0.40 | 42.3 | 0.6 | player (untested) |
-| Polymarket | Patriots vs. Dolphins: O/U 36.5 | Over | 0.66 | 67.2 | 0.6 | game |
-| Kalshi | Caleb Douglas: 30+ receiving yards | YES | 0.60 | 62.3 | 0.6 | player (untested) |
-| Polymarket | Caleb Douglas: Receiving Yards O/U 29.5 | Over | 0.61 | 62.3 | 0.5 | player (untested) |
-| Kalshi | Drake Maye: 16+ passing completions | YES | 0.81 | 82.6 | 0.5 | player (untested) |
-| Kalshi | Drake Maye: 25+ rushing yards | YES | 0.50 | 52.3 | 0.5 | player (untested) |
-| Polymarket | DeMario Douglas: 2+ Touchdowns | Yes | 0.04 | 5.1 | 0.5 | player (untested) |
-| Polymarket | Jaylen Wright: Rushing Yards O/U 19.5 | Over | 0.39 | 40.2 | 0.5 | player (untested) |
-| Kalshi | Drake Maye: 25+ passing attempts | YES | 0.80 | 81.6 | 0.5 | player (untested) |
-| Polymarket | Patriots vs. Dolphins: O/U 64.5 | Over | 0.06 | 6.7 | 0.5 | game |
-| Kalshi | DeMario Douglas: 5+ receptions | NO | 0.69 | 70.9 | 0.4 | player (untested) |
-| Kalshi | Ollie Gordon II: 140+ rushing yards | YES | 0.05 | 5.8 | 0.4 | player (untested) |
-| Kalshi | Jaylen Wright: 60+ rushing yards | YES | 0.04 | 4.7 | 0.4 | player (untested) |
-| Kalshi | Ollie Gordon II: 120+ rushing yards | YES | 0.09 | 9.9 | 0.4 | player (untested) |
-| Polymarket | Ollie Gordon II: 2+ Touchdowns | Yes | 0.08 | 8.2 | 0.3 | player (untested) |
-| Kalshi | Malik Willis: 22+ passing completions | NO | 0.95 | 95.6 | 0.3 | player (untested) |
-| Kalshi | New England over 3.5 points scored | NO | 0.02 | 2.4 | 0.3 | game |
-| Kalshi | Full Game: over 26.5 points scored? | NO | 0.11 | 12.0 | 0.3 | game |
-| Kalshi | Eli Raridon: 70+ receiving yards | YES | 0.09 | 9.8 | 0.3 | player (untested) |
-| Kalshi | Eli Raridon: 3+ touchdowns | NO | 0.99 | 99.3 | 0.3 | player (untested) |
-| Kalshi | Malik Washington: 30+ rushing yards | NO | 0.97 | 97.5 | 0.3 | player (untested) |
-| Kalshi | Corey Kiner: 90+ rushing yards | NO | 0.97 | 97.5 | 0.3 | player (untested) |
-| Kalshi | Malik Washington: 10+ receptions | NO | 0.99 | 99.3 | 0.2 | player (untested) |
-| Kalshi | New England over 31.5 points scored | NO | 0.77 | 78.5 | 0.2 | game |
-| Kalshi | Malik Willis: 30+ rushing yards | NO | 0.45 | 46.9 | 0.2 | player (untested) |
-| Kalshi | Ollie Gordon II: 130+ rushing yards | YES | 0.07 | 7.6 | 0.2 | player (untested) |
-| Kalshi | Kyle Williams: 2+ touchdowns | NO | 0.99 | 99.2 | 0.1 | player (untested) |
-| Kalshi | Drake Maye: 175+ passing yards | YES | 0.82 | 83.1 | 0.1 | player (untested) |
-| Kalshi | Eli Raridon: 60+ receiving yards | YES | 0.15 | 16.0 | 0.1 | player (untested) |
-| Kalshi | Greg Dulcich: 8+ receptions | NO | 0.97 | 97.3 | 0.1 | player (untested) |
-| Polymarket | Malik Willis: Passing Touchdowns O/U 1.5 | Over | 0.24 | 24.6 | 0.1 | player (untested) |
-| Kalshi | Jaylen Wright: 2+ touchdowns | NO | 0.99 | 99.2 | 0.1 | player (untested) |
-| Kalshi | Drake Maye: 2+ passing touchdowns | YES | 0.53 | 54.8 | 0.0 | player (untested) |
-| Polymarket | Drake Maye: Passing Touchdowns O/U 1.5 | Over | 0.54 | 54.8 | 0.0 | player (untested) |
-| Kalshi | Greg Dulcich: 15+ receiving yards | NO | 0.26 | 27.4 | 0.0 | player (untested) |
-| Kalshi | Kyle Williams: 70+ receiving yards | YES | 0.11 | 11.7 | 0.0 | player (untested) |
-| Kalshi | Greg Dulcich: 2+ touchdowns | NO | 0.99 | 99.1 | 0.0 | player (untested) |
-| Kalshi | Ollie Gordon II: 110+ rushing yards | YES | 0.12 | 12.7 | -0.0 | player (untested) |
-| Kalshi | Malik Washington: 2+ touchdowns | NO | 0.99 | 99.1 | -0.0 | player (untested) |
-| Kalshi | Greg Dulcich: 20+ receiving yards | YES | 0.66 | 67.6 | -0.0 | player (untested) |
-| Polymarket | Patriots vs. Dolphins: O/U 24.5 | Under | 0.09 | 9.2 | -0.0 | game |
-| Kalshi | Ollie Gordon II: 100+ rushing yards | NO | 0.83 | 83.9 | -0.1 | player (untested) |
-| Polymarket | Greg Dulcich: Receiving Yards O/U 19.5 | Over | 0.67 | 67.6 | -0.1 | player (untested) |
-| Polymarket | Chris Bell: Receiving Yards O/U 19.5 | Under | 0.58 | 58.6 | -0.1 | player (untested) |
-| Kalshi | Ollie Gordon II: 50+ receiving yards | NO | 0.97 | 97.0 | -0.2 | player (untested) |
-| Kalshi | Hunter Henry: 110+ receiving yards | NO | 0.97 | 97.0 | -0.2 | player (untested) |
-| Kalshi | Corey Kiner: 30+ receiving yards | NO | 0.97 | 97.0 | -0.2 | player (untested) |
-| Kalshi | Chris Bell: 6+ receptions | NO | 0.99 | 98.8 | -0.3 | player (untested) |
-| Kalshi | DeMario Douglas: 4+ receptions | NO | 0.54 | 55.4 | -0.3 | player (untested) |
-| Polymarket | DeMario Douglas: Receptions O/U 3.5 | Under | 0.55 | 55.4 | -0.3 | player (untested) |
-| Kalshi | New England over 38.5 points scored | YES | 0.07 | 7.1 | -0.3 | game |
-| Kalshi | DeMario Douglas: 3+ touchdowns | YES | 0.01 | 0.8 | -0.3 | player (untested) |
-| Kalshi | Miami over 42.5 points scored | NO | 0.99 | 98.8 | -0.3 | game |
-| Polymarket | Patriots vs. Dolphins: O/U 28.5 | Under | 0.15 | 15.0 | -0.3 | game |
-| Polymarket | Chris Bell: 2+ Touchdowns | Yes | 0.01 | 0.7 | -0.4 | player (untested) |
-| Polymarket | Patriots vs. Dolphins: O/U 34.5 | Over | 0.72 | 72.2 | -0.4 | game |
-| Kalshi | Drake Maye: 3+ touchdowns | YES | 0.01 | 0.7 | -0.4 | player (untested) |
-| Kalshi | Hunter Henry: 3+ touchdowns | YES | 0.01 | 0.7 | -0.4 | player (untested) |
-| Kalshi | Corey Kiner: 3+ touchdowns | YES | 0.01 | 0.7 | -0.4 | player (untested) |
-| Kalshi | Kyle Williams: 3+ touchdowns | YES | 0.01 | 0.7 | -0.4 | player (untested) |
-| Kalshi | Chris Bell: 2+ touchdowns | YES | 0.01 | 0.7 | -0.4 | player (untested) |
-| Kalshi | Malik Willis: 7+ rushing attempts | YES | 0.47 | 48.3 | -0.4 | player (untested) |
-| Kalshi | Ollie Gordon II: 3+ touchdowns | YES | 0.02 | 1.7 | -0.4 | player (untested) |
-| Polymarket | Drake Maye: 2+ Touchdowns | Yes | 0.03 | 2.7 | -0.4 | player (untested) |
-| Kalshi | Malik Willis: 150+ passing yards | NO | 0.34 | 35.1 | -0.4 | player (untested) |
-| Kalshi | DeMario Douglas: 9+ receptions | NO | 0.99 | 98.6 | -0.5 | player (untested) |
-| Polymarket | Drake Maye: Rushing Yards O/U 24.5 | Over | 0.52 | 52.3 | -0.5 | player (untested) |
-| Polymarket | Cameron Latu: Anytime Touchdown | No | 1.00 | 99.3 | -0.5 | player (untested) |
-| Polymarket | Kaytron Allen: Anytime Touchdown | No | 1.00 | 99.3 | -0.5 | player (untested) |
-| Polymarket | Jaylen Wright: 2+ Touchdowns | Yes | 0.01 | 0.8 | -0.5 | player (untested) |
-| Kalshi | Kyle Williams: 60+ receiving yards | YES | 0.16 | 16.4 | -0.5 | player (untested) |
-| Polymarket | Drake Maye: Rushing Yards O/U 29.5 | Over | 0.43 | 43.2 | -0.5 | player (untested) |
-| Kalshi | DeMario Douglas: 8+ receptions | YES | 0.04 | 3.8 | -0.5 | player (untested) |
-| Kalshi | Drake Maye: 2+ touchdowns | YES | 0.03 | 2.7 | -0.5 | player (untested) |
-| Polymarket | Greg Dulcich: 2+ Touchdowns | Yes | 0.01 | 0.9 | -0.6 | player (untested) |
-| Kalshi | Chris Bell: 30+ receiving yards | YES | 0.32 | 33.0 | -0.6 | player (untested) |
-| Polymarket | Chris Bell: 2+ Touchdowns | No | 1.00 | 99.3 | -0.6 | player (untested) |
-| Polymarket | Will Kacmarek: Anytime Touchdown | No | 1.00 | 99.3 | -0.6 | player (untested) |
-| Kalshi | Chris Bell: 4+ receptions | NO | 0.89 | 89.1 | -0.6 | player (untested) |
-| Kalshi | Greg Dulcich: 2+ receptions | YES | 0.81 | 81.4 | -0.6 | player (untested) |
-| Kalshi | Full Game: over 35.5 points scored? | YES | 0.69 | 69.8 | -0.7 | game |
-| Kalshi | Drake Maye: 20+ rushing yards | YES | 0.61 | 62.0 | -0.7 | player (untested) |
-| Kalshi | Corey Kiner: 15+ receiving yards | NO | 0.91 | 90.9 | -0.7 | player (untested) |
-| Kalshi | Chris Bell: 25+ receiving yards | NO | 0.62 | 62.9 | -0.7 | player (untested) |
-| Polymarket | Jaylen Wright: 2+ Touchdowns | No | 1.00 | 99.2 | -0.8 | player (untested) |
-| Kalshi | Ollie Gordon II: 3+ touchdowns | NO | 0.99 | 98.3 | -0.8 | player (untested) |
-| Kalshi | Drake Maye: 2+ touchdowns | NO | 0.98 | 97.3 | -0.8 | player (untested) |
-| Kalshi | Caleb Douglas: 25+ receiving yards | NO | 0.34 | 34.7 | -0.9 | player (untested) |
-| Kalshi | Drake Maye: 50+ rushing yards | YES | 0.14 | 14.0 | -0.9 | player (untested) |
-| Kalshi | Miami over 42.5 points scored | YES | 0.02 | 1.2 | -0.9 | game |
-| Kalshi | Drake Maye: 150+ passing yards | YES | 0.90 | 89.7 | -0.9 | player (untested) |
-| Kalshi | New England over 35.5 points scored | NO | 0.88 | 87.8 | -0.9 | game |
-| Kalshi | Eli Raridon: 40+ receiving yards | NO | 0.68 | 68.5 | -1.0 | player (untested) |
-| Kalshi | Full Game: over 32.5 points scored? | NO | 0.23 | 23.2 | -1.0 | game |
-| Kalshi | DeMario Douglas: 7+ receptions | NO | 0.92 | 91.5 | -1.0 | player (untested) |
-| Kalshi | Full Game: over 29.5 points scored? | NO | 0.17 | 17.0 | -1.0 | game |
-| Kalshi | Malik Washington: 20+ rushing yards | YES | 0.13 | 12.8 | -1.0 | player (untested) |
-| Kalshi | Will Kacmarek: 2+ receptions | NO | 0.83 | 82.9 | -1.1 | player (untested) |
-| Kalshi | New England over 42.5 points scored | YES | 0.04 | 3.1 | -1.1 | game |
-| Kalshi | Malik Washington: 2+ touchdowns | YES | 0.02 | 0.9 | -1.2 | player (untested) |
-| Kalshi | Eli Raridon: 50+ receiving yards | NO | 0.77 | 77.0 | -1.2 | player (untested) |
-| Kalshi | Chris Bell: 5+ receptions | NO | 0.97 | 96.0 | -1.2 | player (untested) |
-| Kalshi | Will Kacmarek: 1+ receptions | NO | 0.52 | 52.5 | -1.2 | player (untested) |
-| Kalshi | Miami over 3.5 points scored | YES | 0.95 | 94.1 | -1.2 | game |
-| Kalshi | Greg Dulcich: 2+ touchdowns | YES | 0.02 | 0.9 | -1.2 | player (untested) |
-| Polymarket | Drake Maye: Passing Yards O/U 174.5 | Over | 0.84 | 83.1 | -1.3 | player (untested) |
-| Polymarket | A.J. Brown: 2+ Touchdowns | Yes | 0.02 | 0.8 | -1.3 | player (untested, Q) |
-| Kalshi | New England over 42.5 points scored | NO | 0.98 | 96.9 | -1.3 | game |
-| Kalshi | Jaylen Wright: 2+ touchdowns | YES | 0.02 | 0.8 | -1.3 | player (untested) |
-| Polymarket | Patriots vs. Dolphins: O/U 32.5 | Under | 0.24 | 23.2 | -1.3 | game |
-| Kalshi | Kyle Williams: 50+ receiving yards | YES | 0.22 | 21.9 | -1.3 | player (untested) |
-| Kalshi | Kyle Williams: 2+ touchdowns | YES | 0.02 | 0.8 | -1.4 | player (untested) |
-| Kalshi | Drake Maye: 150+ passing yards | NO | 0.11 | 10.3 | -1.4 | player (untested) |
-| Kalshi | Jaylen Wright: 15+ rushing yards | NO | 0.53 | 53.3 | -1.4 | player (untested) |
-| Kalshi | Greg Dulcich: 7+ receptions | YES | 0.08 | 7.1 | -1.5 | player (untested) |
-| Polymarket | Malik Willis: Rushing Yards O/U 39.5 | Over | 0.43 | 42.3 | -1.5 | player (untested) |
-| Polymarket | Patriots vs. Dolphins: O/U 30.5 | Under | 0.20 | 19.0 | -1.5 | game |
-| Kalshi | Eli Raridon: 3+ touchdowns | YES | 0.02 | 0.7 | -1.5 | player (untested) |
-| Kalshi | New England over 3.5 points scored | YES | 0.99 | 97.6 | -1.5 | game |
-| Kalshi | Malik Washington: 25+ rushing yards | YES | 0.07 | 5.9 | -1.5 | player (untested) |
-| Kalshi | New England over 38.5 points scored | NO | 0.94 | 92.8 | -1.5 | game |
-| Kalshi | Malik Willis: 125+ passing yards | NO | 0.25 | 24.8 | -1.5 | player (untested) |
-| Kalshi | Miami over 3.5 points scored | NO | 0.07 | 5.9 | -1.6 | game |
-| Kalshi | Will Kacmarek: 10+ receiving yards | YES | 0.26 | 25.8 | -1.6 | player (untested) |
-| Polymarket | Rhamondre Stevenson: Rushing Yards O/U 79.5 | Under | 0.99 | 97.5 | -1.6 | player (untested) |
-| Kalshi | New England over 35.5 points scored | YES | 0.13 | 12.2 | -1.6 | game |
-| Polymarket | Chris Bell: Receiving Yards O/U 29.5 | Over | 0.34 | 33.0 | -1.7 | player (untested) |
-| Polymarket | Malik Willis: Passing Touchdowns O/U 3.5 | Under | 0.99 | 97.3 | -1.7 | player (untested) |
-| Polymarket | DeMario Douglas: Receptions O/U 2.5 | Under | 0.40 | 39.0 | -1.8 | player (untested) |
-| Kalshi | Drake Maye: 50+ rushing yards | NO | 0.87 | 86.0 | -1.8 | player (untested) |
-| Kalshi | Drake Maye: 15+ rushing yards | YES | 0.72 | 71.6 | -1.8 | player (untested) |
-| Polymarket | Kyle Williams: 2+ Touchdowns | Yes | 0.03 | 0.8 | -1.8 | player (untested) |
-| Kalshi | DeMario Douglas: 6+ receptions | NO | 0.84 | 83.1 | -1.8 | player (untested) |
-| Polymarket | Patriots vs. Dolphins: O/U 34.5 | Under | 0.29 | 27.8 | -1.8 | game |
-| Kalshi | DeMario Douglas: 8+ receptions | NO | 0.98 | 96.2 | -1.9 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 30+ receiving yards | YES | 0.43 | 42.8 | -1.9 | player (untested) |
-| Kalshi | Full Game: over 29.5 points scored? | YES | 0.84 | 83.0 | -1.9 | game |
-| Polymarket | Malik Washington: 2+ Touchdowns | Yes | 0.03 | 0.9 | -1.9 | player (untested) |
-| Kalshi | Ollie Gordon II: 19+ rushing attempts | NO | 0.79 | 78.2 | -2.0 | player (untested) |
-| Kalshi | Ollie Gordon II: 130+ rushing yards | NO | 0.94 | 92.4 | -2.0 | player (untested) |
-| Kalshi | Kyle Williams: 50+ receiving yards | NO | 0.79 | 78.1 | -2.0 | player (untested) |
-| Kalshi | Drake Maye: 15+ rushing yards | NO | 0.29 | 28.4 | -2.1 | player (untested) |
-| Polymarket | Eli Raridon: Receiving Yards O/U 39.5 | Under | 0.70 | 68.5 | -2.1 | player (untested) |
-| Kalshi | Corey Kiner: 10+ receiving yards | NO | 0.79 | 78.0 | -2.2 | player (untested) |
-| Kalshi | DeMario Douglas: 6+ receptions | YES | 0.18 | 16.9 | -2.2 | player (untested) |
-| Kalshi | Miami over 38.5 points scored | NO | 0.99 | 96.9 | -2.2 | game |
-| Kalshi | Malik Washington: 25+ rushing yards | NO | 0.96 | 94.1 | -2.2 | player (untested) |
-| Polymarket | Patriots vs. Dolphins: O/U 26.5 | Over | 0.90 | 88.0 | -2.2 | game |
-| Kalshi | Corey Kiner: 10+ receiving yards | YES | 0.23 | 22.0 | -2.2 | player (untested) |
-| Kalshi | DeMario Douglas: 2+ touchdowns | NO | 0.97 | 94.9 | -2.3 | player (untested) |
-| Kalshi | Eli Raridon: 50+ receiving yards | YES | 0.24 | 23.0 | -2.3 | player (untested) |
-| Kalshi | Ollie Gordon II: 50+ receiving yards | YES | 0.05 | 3.0 | -2.3 | player (untested) |
-| Kalshi | Kyle Williams: 60+ receiving yards | NO | 0.85 | 83.6 | -2.3 | player (untested) |
-| Kalshi | Kyle Williams: 70+ receiving yards | NO | 0.90 | 88.3 | -2.4 | player (untested) |
-| Kalshi | Chris Bell: 5+ receptions | YES | 0.06 | 4.0 | -2.4 | player (untested) |
-| Kalshi | Greg Dulcich: 7+ receptions | NO | 0.95 | 92.9 | -2.4 | player (untested) |
-| Kalshi | Ollie Gordon II: 110+ rushing yards | NO | 0.89 | 87.3 | -2.4 | player (untested) |
-| Kalshi | Efton Chism III: 2+ touchdowns | YES | 0.03 | 0.8 | -2.4 | player (untested) |
-| Kalshi | Full Game: over 32.5 points scored? | YES | 0.78 | 76.8 | -2.4 | game |
-| Polymarket | Patriots vs. Dolphins: O/U 30.5 | Over | 0.83 | 81.0 | -2.4 | game |
-| Kalshi | Ollie Gordon II: 120+ rushing yards | NO | 0.92 | 90.1 | -2.5 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 30+ receiving yards | NO | 0.58 | 57.2 | -2.5 | player (untested) |
-| Kalshi | Full Game: over 23.5 points scored? | YES | 0.94 | 91.8 | -2.6 | game |
-| Kalshi | Full Game: over 26.5 points scored? | YES | 0.90 | 88.0 | -2.6 | game |
-| Kalshi | Ollie Gordon II: 2+ touchdowns | NO | 0.94 | 91.8 | -2.6 | player (untested) |
-| Kalshi | Drake Maye: 2+ rushing attempts | YES | 0.91 | 88.9 | -2.6 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 3+ touchdowns | YES | 0.04 | 1.6 | -2.6 | player (untested) |
-| Kalshi | Greg Dulcich: 8+ receptions | YES | 0.05 | 2.7 | -2.6 | player (untested) |
-| Kalshi | New England wins by over 27.5 points? | YES | 0.07 | 4.8 | -2.7 | game |
-| Polymarket | Cameron Latu: Anytime Touchdown | Yes | 0.03 | 0.7 | -2.7 | player (untested) |
-| Polymarket | Drake Maye: Rushing Yards O/U 19.5 | Over | 0.64 | 62.0 | -2.7 | player (untested) |
-| Polymarket | Patriots vs. Dolphins: O/U 32.5 | Over | 0.79 | 76.8 | -2.7 | game |
-| Kalshi | Drake Maye: 2+ rushing attempts | NO | 0.13 | 11.1 | -2.7 | player (untested) |
-| Kalshi | Eli Raridon: 2+ touchdowns | NO | 0.98 | 95.4 | -2.8 | player (untested) |
-| Kalshi | Malik Washington: 30+ rushing yards | YES | 0.05 | 2.5 | -2.8 | player (untested) |
-| Polymarket | Kaytron Allen: Anytime Touchdown | Yes | 0.03 | 0.7 | -2.8 | player (untested) |
-| Kalshi | Jaylen Wright: 60+ rushing yards | NO | 0.98 | 95.3 | -2.8 | player (untested) |
-| Polymarket | Eli Raridon: Anytime Touchdown | Yes | 0.24 | 21.7 | -2.8 | player (untested) |
-| Kalshi | DeMario Douglas: 9+ receptions | YES | 0.04 | 1.4 | -2.9 | player (untested) |
-| Kalshi | Chris Bell: 4+ receptions | YES | 0.13 | 10.9 | -2.9 | player (untested) |
-| Polymarket | Rhamondre Stevenson: Receiving Yards O/U 29.5 | Over | 0.45 | 42.8 | -2.9 | player (untested) |
-| Kalshi | Ollie Gordon II: 140+ rushing yards | NO | 0.97 | 94.2 | -3.0 | player (untested) |
-| Kalshi | Ollie Gordon II: 100+ rushing yards | YES | 0.18 | 16.1 | -3.0 | player (untested) |
-| Kalshi | Will Kacmarek: 2+ receptions | YES | 0.19 | 17.1 | -3.0 | player (untested) |
-| Kalshi | Malik Willis: 125+ passing yards | YES | 0.77 | 75.2 | -3.0 | player (untested) |
-| Kalshi | Jaylen Wright: 15+ rushing yards | YES | 0.48 | 46.7 | -3.0 | player (untested) |
-| Kalshi | Will Kacmarek: 10+ receiving yards | NO | 0.76 | 74.2 | -3.1 | player (untested) |
-| Kalshi | Chris Bell: 6+ receptions | YES | 0.04 | 1.2 | -3.1 | player (untested) |
-| Kalshi | Eli Raridon: 40+ receiving yards | YES | 0.33 | 31.5 | -3.1 | player (untested) |
-| Kalshi | Malik Willis: 3+ passing touchdowns | NO | 0.94 | 91.3 | -3.1 | player (untested) |
-| Kalshi | Full Game: over 65.5 points scored? | NO | 0.97 | 94.1 | -3.1 | game |
-| Kalshi | Ollie Gordon II: 130+ rushing and receiving yards combined | YES | 0.12 | 9.6 | -3.2 | player (untested) |
-| Kalshi | DeMario Douglas: 7+ receptions | YES | 0.11 | 8.5 | -3.2 | player (untested) |
-| Kalshi | Drake Maye: 175+ passing yards | NO | 0.19 | 16.9 | -3.2 | player (untested) |
-| Kalshi | Caleb Douglas: 25+ receiving yards | YES | 0.67 | 65.3 | -3.3 | player (untested) |
-| Kalshi | Full Game: over 62.5 points scored? | NO | 0.94 | 91.1 | -3.3 | game |
-| Kalshi | Eli Raridon: 70+ receiving yards | NO | 0.93 | 90.2 | -3.3 | player (untested) |
-| Polymarket | Kyle Williams: Receiving Yards O/U 49.5 | Under | 0.81 | 78.1 | -3.3 | player (untested) |
-| Kalshi | Full Game: over 35.5 points scored? | NO | 0.32 | 30.2 | -3.3 | game |
-| Kalshi | Hunter Henry: 110+ receiving yards | YES | 0.06 | 3.0 | -3.4 | player (untested) |
-| Kalshi | Corey Kiner: 30+ receiving yards | YES | 0.06 | 3.0 | -3.4 | player (untested) |
-| Polymarket | Will Kacmarek: Anytime Touchdown | Yes | 0.04 | 0.7 | -3.5 | player (untested) |
-| Kalshi | Ollie Gordon II: 19+ rushing attempts | YES | 0.24 | 21.8 | -3.5 | player (untested) |
-| Kalshi | Caleb Douglas: 8+ receptions | YES | 0.04 | 0.7 | -3.5 | player (untested) |
-| Kalshi | Chris Bell: 25+ receiving yards | YES | 0.39 | 37.1 | -3.6 | player (untested) |
-| Kalshi | Malik Washington: 10+ receptions | YES | 0.04 | 0.7 | -3.6 | player (untested) |
-| Polymarket | Chris Bell: Receiving Yards O/U 29.5 | Under | 0.70 | 67.0 | -3.6 | player (untested) |
-| Kalshi | Greg Dulcich: 2+ receptions | NO | 0.21 | 18.6 | -3.6 | player (untested) |
-| Kalshi | Corey Kiner: 2+ touchdowns | YES | 0.04 | 0.7 | -3.6 | player (untested) |
-| Kalshi | Will Kacmarek: 1+ touchdowns | YES | 0.04 | 0.7 | -3.6 | player (untested) |
-| Polymarket | Eli Raridon: Receiving Yards O/U 49.5 | Over | 0.26 | 23.0 | -3.6 | player (untested) |
-| Kalshi | Drake Maye: 20+ rushing yards | NO | 0.40 | 38.0 | -3.6 | player (untested) |
-| Polymarket | Drake Maye: Rushing Yards O/U 39.5 | Over | 0.30 | 27.0 | -3.7 | player (untested) |
-| Kalshi | Chris Bell: 70+ receiving yards | NO | 0.96 | 92.6 | -3.7 | player (untested) |
-| Kalshi | Malik Willis: 150+ passing yards | YES | 0.67 | 64.9 | -3.7 | player (untested) |
-| Kalshi | Greg Dulcich: 15+ receiving yards | YES | 0.75 | 72.6 | -3.7 | player (untested) |
-| Kalshi | New England over 31.5 points scored | YES | 0.24 | 21.5 | -3.7 | game |
-| Polymarket | Patriots vs. Dolphins: O/U 64.5 | Under | 0.97 | 93.3 | -3.8 | game |
-| Kalshi | Eli Raridon: 60+ receiving yards | NO | 0.87 | 84.0 | -3.8 | player (untested) |
-| Kalshi | Drake Maye: 25+ passing attempts | NO | 0.21 | 18.4 | -3.8 | player (untested) |
-| Polymarket | Malik Willis: Passing Yards O/U 149.5 | Over | 0.68 | 64.9 | -3.8 | player (untested) |
-| Polymarket | Efton Chism III: Anytime Touchdown | No | 0.94 | 90.3 | -3.8 | player (untested) |
-| Kalshi | Corey Kiner: 90+ rushing yards | YES | 0.06 | 2.5 | -3.9 | player (untested) |
-| Kalshi | Drake Maye: 70+ rushing yards | YES | 0.06 | 2.5 | -3.9 | player (untested) |
-| Polymarket | Corey Kiner: 2+ Touchdowns | Yes | 0.04 | 0.7 | -3.9 | player (untested) |
-| Kalshi | DeMario Douglas: 90+ receiving yards | YES | 0.11 | 7.8 | -3.9 | player (untested) |
-| Polymarket | Patriots vs. Dolphins: O/U 36.5 | Under | 0.36 | 32.8 | -3.9 | game |
-| Kalshi | New England over 7.5 points scored | YES | 0.98 | 94.2 | -4.0 | game |
-| Kalshi | Miami over 7.5 points scored | NO | 0.15 | 11.9 | -4.0 | game |
-| Kalshi | Rhamondre Stevenson: 8+ receptions | YES | 0.05 | 1.3 | -4.0 | player (untested) |
-| Polymarket | Patriots vs. Dolphins: O/U 62.5 | Under | 0.95 | 91.1 | -4.0 | game |
-| Kalshi | Drake Maye: 8+ rushing attempts | YES | 0.24 | 21.2 | -4.0 | player (untested) |
-| Polymarket | Malik Willis: Rushing Yards O/U 79.5 | Under | 0.94 | 90.1 | -4.1 | player (untested) |
-| Kalshi | Malik Willis: 7+ rushing attempts | NO | 0.54 | 51.7 | -4.1 | player (untested) |
-| Polymarket | TreVeyon Henderson: 2+ Touchdowns | Yes | 0.05 | 1.0 | -4.1 | player (untested, Q) |
-| Kalshi | Miami over 35.5 points scored | NO | 0.98 | 94.0 | -4.1 | game |
-| Kalshi | Jaylen Wright: 1+ touchdowns | YES | 0.13 | 9.6 | -4.1 | player (untested) |
-| Kalshi | Greg Dulcich: 20+ receiving yards | NO | 0.35 | 32.4 | -4.1 | player (untested) |
-| Kalshi | DeMario Douglas: 4+ receptions | YES | 0.47 | 44.6 | -4.2 | player (untested) |
-| Polymarket | Caleb Douglas: Receptions O/U 3.5 | Over | 0.37 | 33.5 | -4.2 | player (untested) |
-| Kalshi | Drake Maye: 60+ rushing yards | YES | 0.09 | 5.4 | -4.2 | player (untested) |
-| Polymarket | Spread: Dolphins (-20.5) | Patriots | 1.00 | 95.7 | -4.2 | game |
-| Kalshi | Will Kacmarek: 3+ receptions | YES | 0.07 | 3.2 | -4.3 | player (untested) |
-| Kalshi | New England wins by over 23.5 points? | YES | 0.12 | 8.5 | -4.3 | game |
-| Kalshi | DeMario Douglas: 80+ receiving yards | YES | 0.16 | 12.7 | -4.3 | player (untested) |
-| Kalshi | Will Kacmarek: 1+ receptions | YES | 0.50 | 47.5 | -4.3 | player (untested) |
-| Polymarket | Hunter Henry: 2+ Touchdowns | Yes | 0.07 | 2.6 | -4.3 | player (untested) |
-| Polymarket | Patriots vs. Dolphins: O/U 24.5 | Over | 0.95 | 90.8 | -4.4 | game |
-| Kalshi | Chris Bell: 30+ receiving yards | NO | 0.70 | 67.0 | -4.4 | player (untested) |
-| Kalshi | Malik Washington: 100+ receiving yards | YES | 0.07 | 3.0 | -4.4 | player (untested) |
-| Kalshi | Will Kacmarek: 30+ receiving yards | YES | 0.07 | 3.0 | -4.4 | player (untested) |
-| Kalshi | DeMario Douglas: 5+ receptions | YES | 0.32 | 29.1 | -4.5 | player (untested) |
-| Polymarket | Spread: Patriots (-21.5) | Patriots | 0.15 | 10.9 | -4.5 | game |
-| Kalshi | Drake Maye: 2+ passing touchdowns | NO | 0.48 | 45.2 | -4.5 | player (untested) |
-| Polymarket | Malik Willis: Passing Yards O/U 149.5 | Under | 0.39 | 35.1 | -4.6 | player (untested) |
-| Polymarket | Caleb Douglas: Receptions O/U 2.5 | Under | 0.50 | 46.2 | -4.6 | player (untested) |
-| Kalshi | Drake Maye: 10+ rushing yards | YES | 0.84 | 80.3 | -4.6 | player (untested) |
-| Kalshi | Eli Raridon: 1+ touchdowns | YES | 0.25 | 21.7 | -4.6 | player (untested) |
-| Kalshi | Kyle Williams: 5+ receptions | YES | 0.05 | 0.7 | -4.7 | player (untested) |
-| Kalshi | Ollie Gordon II: 5+ receptions | YES | 0.05 | 0.7 | -4.7 | player (untested) |
-| Kalshi | Greg Dulcich: 6+ receptions | NO | 0.88 | 84.1 | -4.7 | player (untested) |
-| Kalshi | Malik Willis: 30+ rushing yards | YES | 0.56 | 53.1 | -4.7 | player (untested) |
-| Kalshi | Malik Washington: 90+ receiving yards | YES | 0.09 | 4.9 | -4.7 | player (untested) |
-| Polymarket | Malik Willis: Rushing Yards O/U 29.5 | Over | 0.57 | 53.1 | -4.7 | player (untested) |
-| Polymarket | Jaylen Wright: Anytime Touchdown | Yes | 0.14 | 9.6 | -4.7 | player (untested) |
-| Kalshi | New England over 10.5 points scored | YES | 0.94 | 89.7 | -4.7 | game |
-| Kalshi | New England wins by over 20.5 points? | YES | 0.16 | 12.2 | -4.8 | game |
-| Kalshi | Malik Willis: 2+ passing touchdowns | NO | 0.79 | 75.4 | -4.8 | player (untested) |
-| Polymarket | Malik Willis: Passing Touchdowns O/U 2.5 | Under | 0.96 | 91.3 | -4.8 | player (untested) |
-| Kalshi | Jaylen Wright: 50+ rushing yards | NO | 0.95 | 90.5 | -4.8 | player (untested) |
-| Kalshi | Caleb Douglas: 7+ receptions | YES | 0.07 | 2.6 | -4.8 | player (untested) |
-| Kalshi | Hunter Henry: 2+ touchdowns | YES | 0.07 | 2.6 | -4.9 | player (untested) |
-| Polymarket | Caleb Douglas: Receptions O/U 2.5 | Over | 0.58 | 53.8 | -4.9 | player (untested) |
-| Kalshi | Malik Willis: 40+ rushing yards | NO | 0.61 | 57.7 | -4.9 | player (untested) |
-| Kalshi | Caleb Douglas: 30+ receiving yards | NO | 0.41 | 37.7 | -4.9 | player (untested) |
-| Kalshi | Full Game: over 38.5 points scored? | NO | 0.41 | 37.7 | -5.0 | game |
-| Kalshi | New England over 28.5 points scored | YES | 0.34 | 30.6 | -5.0 | game |
-| Polymarket | Eli Raridon: Receiving Yards O/U 29.5 | Over | 0.45 | 40.7 | -5.0 | player (untested) |
-| Polymarket | Patriots vs. Dolphins: O/U 38.5 | Under | 0.42 | 37.7 | -5.0 | game |
-| Kalshi | DeMario Douglas: 70+ receiving yards | YES | 0.22 | 18.2 | -5.0 | player (untested) |
-| Kalshi | Drake Maye: 25+ rushing yards | NO | 0.51 | 47.7 | -5.0 | player (untested) |
-| Kalshi | Full Game: over 59.5 points scored? | NO | 0.92 | 87.4 | -5.1 | game |
-| Kalshi | Caleb Douglas: 4+ receptions | YES | 0.37 | 33.5 | -5.1 | player (untested) |
-| Polymarket | Malik Willis: Passing Touchdowns O/U 1.5 | Under | 0.80 | 75.4 | -5.1 | player (untested) |
-| Polymarket | DeMario Douglas: Receptions O/U 3.5 | Over | 0.49 | 44.6 | -5.2 | player (untested) |
-| Kalshi | DeMario Douglas: 1+ touchdowns | YES | 0.28 | 24.2 | -5.2 | player (untested) |
-| Kalshi | Malik Willis: 22+ passing completions | YES | 0.09 | 4.4 | -5.2 | player (untested) |
-| Kalshi | Drake Maye: 40+ rushing yards | NO | 0.77 | 73.0 | -5.2 | player (untested) |
-| Kalshi | Malik Willis: 80+ rushing yards | NO | 0.95 | 90.1 | -5.2 | player (untested) |
-| Kalshi | New England over 24.5 points scored | YES | 0.49 | 45.5 | -5.2 | game |
-| Polymarket | Spread: Patriots (-20.5) | Patriots | 0.17 | 12.2 | -5.2 | game |
-| Kalshi | Malik Washington: 20+ rushing yards | NO | 0.92 | 87.2 | -5.3 | player (untested) |
-| Polymarket | Patriots vs. Dolphins: O/U 28.5 | Over | 0.90 | 85.0 | -5.3 | game |
-| Kalshi | Greg Dulcich: 90+ receiving yards | NO | 0.98 | 92.8 | -5.3 | player (untested) |
-| Kalshi | Malik Washington: 70+ receiving yards | YES | 0.19 | 14.8 | -5.3 | player (untested) |
-| Kalshi | Malik Washington: 9+ receptions | YES | 0.06 | 1.0 | -5.4 | player (untested) |
-| Kalshi | Ollie Gordon II: 90+ rushing yards | YES | 0.24 | 19.9 | -5.4 | player (untested) |
-| Kalshi | Drake Maye: 5+ rushing attempts | NO | 0.46 | 42.4 | -5.4 | player (untested) |
-| Polymarket | DeMario Douglas: Anytime Touchdown | Yes | 0.29 | 24.2 | -5.4 | player (untested) |
-| Polymarket | Spread: Patriots (-17.5) | Patriots | 0.22 | 17.1 | -5.4 | game |
-| Kalshi | Chris Bell: 60+ receiving yards | NO | 0.93 | 88.0 | -5.4 | player (untested) |
-| Kalshi | Caleb Douglas: 2+ receptions | YES | 0.78 | 73.7 | -5.5 | player (untested) |
-| Kalshi | Ollie Gordon II: 40+ receiving yards | YES | 0.08 | 3.0 | -5.5 | player (untested) |
-| Kalshi | Corey Kiner: 25+ receiving yards | YES | 0.08 | 3.0 | -5.5 | player (untested) |
-| Polymarket | Rhamondre Stevenson: Rushing Yards O/U 69.5 | Under | 0.99 | 93.5 | -5.5 | player (untested) |
-| Polymarket | Malik Willis: Passing Touchdowns O/U 3.5 | Over | 0.08 | 2.7 | -5.5 | player (untested) |
-| Polymarket | Drake Maye: Passing Touchdowns O/U 1.5 | Under | 0.50 | 45.2 | -5.5 | player (untested) |
-| Kalshi | Malik Washington: 80+ receiving yards | YES | 0.14 | 9.3 | -5.6 | player (untested) |
-| Kalshi | Malik Willis: 300+ passing yards | NO | 0.97 | 91.6 | -5.6 | player (untested) |
-| Kalshi | Malik Willis: 70+ rushing yards | NO | 0.89 | 84.1 | -5.6 | player (untested) |
-| Polymarket | Spread: Patriots (-7.5) | Patriots | 0.45 | 40.2 | -5.6 | game |
-| Kalshi | Malik Willis: 175+ passing yards | NO | 0.50 | 46.1 | -5.6 | player (untested) |
-| Kalshi | Kyle Williams: 40+ receiving yards | YES | 0.32 | 27.9 | -5.6 | player (untested) |
-| Polymarket | Ollie Gordon II: Rushing Yards O/U 89.5 | Over | 0.25 | 19.9 | -5.7 | player (untested) |
-| Kalshi | New England wins by over 14.5 points? | YES | 0.27 | 22.7 | -5.7 | game |
-| Polymarket | Patriots vs. Dolphins: O/U 40.5 | Under | 0.48 | 43.0 | -5.7 | game |
-| Kalshi | Caleb Douglas: 5+ receptions | YES | 0.22 | 17.5 | -5.7 | player (untested) |
-| Polymarket | Kyle Williams: Receiving Yards O/U 49.5 | Over | 0.27 | 21.9 | -5.7 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 25+ receiving yards | YES | 0.51 | 47.0 | -5.7 | player (untested) |
-| Kalshi | Drake Maye: 16+ passing completions | NO | 0.22 | 17.4 | -5.8 | player (untested) |
-| Kalshi | Caleb Douglas: 3+ receptions | YES | 0.58 | 53.8 | -5.9 | player (untested) |
-| Kalshi | Drake Maye: 30+ rushing yards | NO | 0.61 | 56.8 | -5.9 | player (untested) |
-| Polymarket | Spread: Patriots (-14.5) | Patriots | 0.28 | 22.7 | -5.9 | game |
-| Kalshi | Chris Bell: 50+ receiving yards | NO | 0.87 | 81.9 | -5.9 | player (untested) |
-| Kalshi | Chris Bell: 3+ receptions | YES | 0.27 | 22.4 | -6.0 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 120+ rushing yards | YES | 0.08 | 2.5 | -6.0 | player (untested) |
-| Polymarket | Spread: Patriots (-8.5) | Patriots | 0.43 | 37.8 | -6.0 | game |
-| Kalshi | New England wins by over 17.5 points? | YES | 0.22 | 17.1 | -6.1 | game |
-| Polymarket | Patriots vs. Dolphins: O/U 48.5 | Under | 0.71 | 65.5 | -6.1 | game |
-| Kalshi | Malik Willis: 25+ rushing yards | YES | 0.63 | 58.5 | -6.1 | player (untested) |
-| Polymarket | Malik Willis: Rushing Yards O/U 69.5 | Under | 0.90 | 84.1 | -6.2 | player (untested) |
-| Kalshi | Drake Maye: 8+ rushing attempts | NO | 0.84 | 78.8 | -6.2 | player (untested) |
-| Polymarket | Chris Bell: Receptions O/U 2.5 | Over | 0.28 | 22.4 | -6.2 | player (untested) |
-| Kalshi | Malik Willis: 34+ passing attempts | YES | 0.18 | 12.8 | -6.2 | player (untested) |
-| Kalshi | Will Kacmarek: 15+ receiving yards | YES | 0.17 | 11.7 | -6.3 | player (untested) |
-| Polymarket | Patriots vs. Dolphins: O/U 60.5 | Under | 0.95 | 88.8 | -6.3 | game |
-| Kalshi | Rhamondre Stevenson: 7+ receptions | YES | 0.10 | 4.3 | -6.4 | player (untested) |
-| Kalshi | Miami wins by over 14.5 points? | NO | 0.96 | 89.9 | -6.4 | game |
-| Kalshi | Malik Willis: 50+ rushing yards | NO | 0.73 | 68.0 | -6.4 | player (untested) |
-| Kalshi | Chris Bell: 40+ receiving yards | NO | 0.80 | 74.7 | -6.4 | player (untested) |
-| Kalshi | Greg Dulcich: 5+ receptions | NO | 0.76 | 70.9 | -6.4 | player (untested) |
-| Polymarket | Patriots vs. Dolphins: O/U 52.5 | Under | 0.81 | 75.0 | -6.4 | game |
-| Kalshi | Caleb Douglas: 6+ receptions | YES | 0.13 | 7.3 | -6.5 | player (untested) |
-| Kalshi | Caleb Douglas: 20+ receiving yards | YES | 0.74 | 68.8 | -6.5 | player (untested) |
-| Kalshi | New England over 17.5 points scored | YES | 0.77 | 71.7 | -6.5 | game |
-| Kalshi | Rhamondre Stevenson: 6+ receptions | YES | 0.16 | 10.4 | -6.5 | player (untested) |
-| Kalshi | Hunter Henry: 100+ receiving yards | YES | 0.09 | 3.0 | -6.6 | player (untested) |
-| Kalshi | Will Kacmarek: 25+ receiving yards | YES | 0.09 | 3.0 | -6.6 | player (untested) |
-| Polymarket | Spread: Patriots (-16.5) | Patriots | 0.25 | 19.0 | -6.6 | game |
-| Kalshi | Malik Willis: 3+ passing interceptions | YES | 0.09 | 3.0 | -6.6 | player (untested) |
-| Polymarket | Patriots vs. Dolphins: O/U 56.5 | Under | 0.89 | 82.6 | -6.7 | game |
-| Kalshi | DeMario Douglas: 60+ receiving yards | YES | 0.30 | 24.8 | -6.7 | player (untested) |
-| Kalshi | New England over 14.5 points scored | YES | 0.87 | 81.1 | -6.7 | game |
-| Polymarket | Caleb Douglas: Receiving Yards O/U 19.5 | Over | 0.75 | 68.8 | -6.7 | player (untested) |
-| Kalshi | Corey Kiner: 15+ receiving yards | YES | 0.15 | 9.1 | -6.8 | player (untested) |
-| Polymarket | Spread: Patriots (-19.5) | Patriots | 0.20 | 13.7 | -6.8 | game |
-| Kalshi | Miami wins by over 13.5 points? | NO | 0.95 | 88.6 | -6.8 | game |
-| Kalshi | Hunter Henry: 9+ receptions | YES | 0.07 | 0.7 | -6.8 | player (untested) |
-| Polymarket | Spread: Dolphins (-17.5) | Patriots | 1.00 | 93.1 | -6.8 | game |
-| Polymarket | Spread: Dolphins (-16.5) | Patriots | 0.99 | 92.2 | -6.8 | game |
-| Kalshi | Jaylen Wright: 20+ rushing yards | NO | 0.65 | 59.8 | -6.8 | player (untested) |
-| Kalshi | Greg Dulcich: 10+ receiving yards | YES | 0.83 | 77.1 | -6.9 | player (untested) |
-| Polymarket | Rhamondre Stevenson: Receptions O/U 3.5 | Over | 0.44 | 37.8 | -6.9 | player (untested) |
-| Kalshi | Corey Kiner: 80+ rushing yards | YES | 0.09 | 2.5 | -7.0 | player (untested) |
-| Polymarket | Caleb Douglas: Receptions O/U 4.5 | Over | 0.24 | 17.5 | -7.0 | player (untested) |
-| Kalshi | Jaylen Wright: 40+ rushing yards | NO | 0.89 | 82.6 | -7.1 | player (untested) |
-| Kalshi | Full Game: over 56.5 points scored? | NO | 0.89 | 82.6 | -7.1 | game |
-| Kalshi | Greg Dulcich: 1+ touchdowns | YES | 0.16 | 9.8 | -7.1 | player (untested) |
-| Polymarket | Patriots vs. Dolphins: O/U 50.5 | Under | 0.77 | 70.4 | -7.1 | game |
-| Kalshi | Drake Maye: 5+ passing touchdowns | NO | 0.98 | 91.0 | -7.1 | player (untested) |
-| Polymarket | Patriots vs. Dolphins: O/U 42.5 | Under | 0.55 | 48.6 | -7.1 | game |
-| Polymarket | Spread: Dolphins (-14.5) | Patriots | 0.97 | 89.9 | -7.2 | game |
-| Polymarket | Patriots vs. Dolphins: O/U 58.5 | Under | 0.93 | 86.0 | -7.2 | game |
-| Polymarket | Eli Raridon: Receiving Yards O/U 39.5 | Over | 0.38 | 31.5 | -7.3 | player (untested) |
-| Kalshi | New England over 20.5 points scored | YES | 0.67 | 61.3 | -7.3 | game |
-| Polymarket | Greg Dulcich: Receiving Yards O/U 9.5 | Over | 0.84 | 77.1 | -7.3 | player (untested) |
-| Kalshi | DeMario Douglas: 50+ receiving yards | YES | 0.38 | 32.4 | -7.3 | player (untested) |
-| Kalshi | New England wins by over 16.5 points? | YES | 0.25 | 19.0 | -7.3 | game |
-| Kalshi | Full Game: over 46.5 points scored? | NO | 0.66 | 60.2 | -7.4 | game |
-| Kalshi | Greg Dulcich: 80+ receiving yards | NO | 0.95 | 88.0 | -7.4 | player (untested) |
-| Kalshi | Drake Maye: 1+ touchdowns | YES | 0.23 | 16.9 | -7.4 | player (untested) |
-| Polymarket | Patriots vs. Dolphins: O/U 46.5 | Under | 0.67 | 60.2 | -7.5 | game |
-| Kalshi | Malik Washington: 8+ receptions | YES | 0.10 | 3.1 | -7.6 | player (untested) |
-| Kalshi | Malik Washington: 100+ rushing and receiving yards combined | YES | 0.10 | 3.1 | -7.6 | player (untested) |
-| Kalshi | Corey Kiner: 90+ rushing and receiving yards combined | YES | 0.10 | 3.1 | -7.6 | player (untested) |
-| Polymarket | Spread: Dolphins (-13.5) | Patriots | 0.96 | 88.6 | -7.6 | game |
-| Polymarket | Greg Dulcich: Anytime Touchdown | Yes | 0.17 | 9.8 | -7.6 | player (untested) |
-| Kalshi | New England wins by over 7.5 points? | YES | 0.46 | 40.2 | -7.6 | game |
-| Polymarket | DeMario Douglas: Receptions O/U 2.5 | Over | 0.68 | 61.0 | -7.6 | player (untested) |
-| Kalshi | Corey Kiner: 20+ receiving yards | YES | 0.10 | 3.0 | -7.6 | player (untested) |
-| Kalshi | Malik Washington: 10+ rushing yards | NO | 0.70 | 63.8 | -7.7 | player (untested) |
-| Kalshi | New England over 21.5 points scored | YES | 0.63 | 57.0 | -7.7 | game |
-| Polymarket | Spread: Patriots (-10.5) | Patriots | 0.39 | 32.0 | -7.7 | game |
-| Kalshi | Malik Washington: 60+ receiving yards | YES | 0.28 | 21.7 | -7.7 | player (untested) |
-| Polymarket | Drake Maye: Anytime Touchdown | Yes | 0.24 | 16.9 | -7.7 | player (untested) |
-| Kalshi | Greg Dulcich: 25+ receiving yards | NO | 0.44 | 38.0 | -7.7 | player (untested) |
-| Kalshi | Full Game: over 53.5 points scored? | NO | 0.84 | 77.2 | -7.8 | game |
-| Polymarket | Spread: Patriots (-13.5) | Patriots | 0.32 | 24.9 | -7.8 | game |
-| Polymarket | Kyle Williams: Receiving Yards O/U 39.5 | Over | 0.35 | 27.9 | -7.8 | player (untested) |
-| Kalshi | Full Game: over 50.5 points scored? | NO | 0.77 | 70.4 | -7.8 | game |
-| Kalshi | Rhamondre Stevenson: 5+ receptions | YES | 0.28 | 21.6 | -7.8 | player (untested) |
-| Polymarket | Spread: Patriots (-9.5) | Patriots | 0.42 | 34.9 | -7.9 | game |
-| Kalshi | New England over 26.5 points scored | YES | 0.44 | 37.8 | -7.9 | game |
-| Kalshi | Full Game: over 41.5 points scored? | NO | 0.52 | 45.8 | -7.9 | game |
-| Kalshi | Eli Raridon: 30+ receiving yards | YES | 0.47 | 40.7 | -8.0 | player (untested) |
-| Kalshi | Malik Willis: 12+ passing completions | YES | 0.79 | 72.1 | -8.0 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 110+ rushing yards | YES | 0.10 | 2.5 | -8.1 | player (untested) |
-| Kalshi | Full Game: over 42.5 points scored? | NO | 0.55 | 48.6 | -8.1 | game |
-| Kalshi | Hunter Henry: 8+ receptions | YES | 0.10 | 2.5 | -8.2 | player (untested) |
-| Kalshi | Greg Dulcich: 3+ receptions | NO | 0.41 | 34.5 | -8.2 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 3+ receptions | YES | 0.63 | 56.4 | -8.2 | player (untested) |
-| Kalshi | Full Game: over 43.5 points scored? | NO | 0.58 | 51.4 | -8.3 | game |
-| Polymarket | Rhamondre Stevenson: Receptions O/U 2.5 | Over | 0.64 | 56.4 | -8.3 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 2+ touchdowns | YES | 0.15 | 7.6 | -8.3 | player (untested) |
-| Polymarket | Patriots vs. Dolphins: O/U 54.5 | Under | 0.87 | 79.0 | -8.3 | game |
-| Kalshi | Miami over 31.5 points scored | NO | 0.96 | 87.9 | -8.3 | game |
-| Kalshi | Malik Willis: 10+ rushing attempts | NO | 0.85 | 77.5 | -8.4 | player (untested) |
-| Kalshi | Full Game: over 45.5 points scored? | NO | 0.64 | 57.2 | -8.4 | game |
-| Kalshi | Chris Bell: 20+ receiving yards | YES | 0.48 | 41.4 | -8.4 | player (untested) |
-| Polymarket | Chris Bell: Receiving Yards O/U 19.5 | Over | 0.49 | 41.4 | -8.4 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 20+ receiving yards | YES | 0.58 | 51.3 | -8.4 | player (untested) |
-| Kalshi | Will Kacmarek: 20+ receiving yards | YES | 0.12 | 4.3 | -8.4 | player (untested) |
-| Kalshi | Greg Dulcich: 4+ receptions | NO | 0.60 | 53.2 | -8.5 | player (untested) |
-| Kalshi | Malik Willis: 1+ passing touchdowns | YES | 0.59 | 52.2 | -8.5 | player (untested) |
-| Polymarket | Greg Dulcich: Receptions O/U 3.5 | Under | 0.61 | 53.2 | -8.5 | player (untested) |
-| Kalshi | DeMario Douglas: 3+ receptions | YES | 0.68 | 61.0 | -8.5 | player (untested) |
-| Polymarket | Malik Willis: Passing Touchdowns O/U 0.5 | Over | 0.60 | 52.2 | -8.5 | player (untested) |
-| Polymarket | Patriots vs. Dolphins: O/U 44.5 | Under | 0.62 | 54.2 | -8.5 | game |
-| Kalshi | Kevin Coleman Jr.: 1+ touchdowns | NO | 0.94 | 85.9 | -8.5 | player (untested) |
-| Kalshi | Jaylen Wright: 25+ rushing yards | NO | 0.73 | 65.8 | -8.6 | player (untested) |
-| Kalshi | Eli Raridon: 6+ receptions | YES | 0.10 | 2.0 | -8.6 | player (untested) |
-| Kalshi | New England wins by over 10.5 points? | YES | 0.39 | 32.0 | -8.6 | game |
-| Kalshi | New England wins by over 13.5 points? | YES | 0.32 | 24.9 | -8.7 | game |
-| Kalshi | Full Game: over 47.5 points scored? | NO | 0.70 | 62.8 | -8.7 | game |
-| Polymarket | Jaylen Wright: Anytime Touchdown | No | 0.99 | 90.4 | -8.7 | player (untested) |
-| Kalshi | Malik Willis: 275+ passing yards | NO | 0.94 | 85.7 | -8.7 | player (untested) |
-| Polymarket | Rhamondre Stevenson: 2+ Touchdowns | Yes | 0.16 | 7.6 | -8.8 | player (untested) |
-| Kalshi | Malik Willis: 2+ touchdowns | NO | 0.98 | 89.2 | -8.9 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 4+ receptions | YES | 0.45 | 37.8 | -8.9 | player (untested) |
-| Polymarket | Malik Washington: Receiving Yards O/U 59.5 | Over | 0.30 | 21.7 | -8.9 | player (untested) |
-| Kalshi | Caleb Douglas: 15+ receiving yards | YES | 0.80 | 72.2 | -8.9 | player (untested) |
-| Kalshi | Efton Chism III: 60+ receiving yards | YES | 0.16 | 8.0 | -9.0 | player (untested) |
-| Polymarket | Eli Raridon: Anytime Touchdown | No | 0.87 | 78.3 | -9.1 | player (untested) |
-| Kalshi | Corey Kiner: 70+ rushing yards | YES | 0.13 | 4.7 | -9.1 | player (untested) |
-| Kalshi | Malik Washington: 75+ rushing and receiving yards combined | YES | 0.23 | 15.1 | -9.2 | player (untested) |
-| Kalshi | Kyle Williams: 30+ receiving yards | YES | 0.42 | 34.5 | -9.2 | player (untested) |
-| Kalshi | Malik Willis: 4+ rushing attempts | YES | 0.84 | 75.7 | -9.2 | player (untested) |
-| Kalshi | Greg Dulcich: 70+ receiving yards | NO | 0.90 | 81.3 | -9.3 | player (untested) |
-| Polymarket | Drake Maye: Passing Yards O/U 149.5 | Over | 0.99 | 89.7 | -9.3 | player (untested) |
-| Kalshi | Malik Willis: 60+ rushing yards | NO | 0.85 | 76.6 | -9.3 | player (untested) |
-| Kalshi | Malik Washington: 2+ receptions | YES | 0.91 | 82.2 | -9.3 | player (untested) |
-| Kalshi | Ollie Gordon II: 105+ rushing and receiving yards combined | YES | 0.26 | 18.0 | -9.3 | player (untested) |
-| Kalshi | Kyle Williams: 1+ touchdowns | YES | 0.18 | 9.7 | -9.3 | player (untested) |
-| Kalshi | Drake Maye: 1+ passing touchdowns | YES | 0.86 | 77.4 | -9.4 | player (untested) |
-| Kalshi | Full Game: over 44.5 points scored? | NO | 0.62 | 54.2 | -9.4 | game |
-| Kalshi | Malik Washington: 50+ receiving yards | YES | 0.38 | 30.2 | -9.5 | player (untested) |
-| Kalshi | Malik Willis: 20+ rushing yards | YES | 0.72 | 63.9 | -9.5 | player (untested) |
-| Kalshi | Kyle Williams: 25+ receiving yards | YES | 0.46 | 38.1 | -9.6 | player (untested) |
-| Kalshi | Miami over 10.5 points scored | NO | 0.27 | 18.8 | -9.6 | game |
-| Polymarket | Malik Willis: Passing Yards O/U 174.5 | Under | 0.55 | 46.1 | -9.6 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 40+ receiving yards | NO | 0.73 | 64.7 | -9.7 | player (untested) |
-| Polymarket | Malik Willis: Rushing Yards O/U 19.5 | Over | 0.73 | 63.9 | -9.7 | player (untested) |
-| Kalshi | Ollie Gordon II: 1+ touchdowns | YES | 0.38 | 29.9 | -9.7 | player (untested) |
-| Kalshi | Drake Maye: 200+ passing yards | NO | 0.33 | 24.8 | -9.8 | player (untested) |
-| Polymarket | Kyle Williams: Anytime Touchdown | Yes | 0.19 | 9.7 | -9.8 | player (untested) |
-| Kalshi | Efton Chism III: 6+ receptions | YES | 0.10 | 0.9 | -9.8 | player (untested) |
-| Polymarket | Malik Willis: Rushing Yards O/U 59.5 | Under | 0.86 | 76.6 | -9.8 | player (untested) |
-| Polymarket | Ollie Gordon II: Anytime Touchdown | Yes | 0.39 | 29.9 | -9.8 | player (untested) |
-| Kalshi | Ollie Gordon II: 80+ rushing yards | YES | 0.32 | 23.7 | -9.8 | player (untested) |
-| Kalshi | New England wins by over 9.5 points? | YES | 0.43 | 34.9 | -9.8 | game |
-| Polymarket | Jalen Tolbert: Anytime Touchdown | No | 1.00 | 90.1 | -9.9 | player (untested) |
-| Polymarket | Ryan Miller: Anytime Touchdown | No | 1.00 | 89.9 | -9.9 | player (untested) |
-| Polymarket | Drake Maye: Passing Touchdowns O/U 0.5 | Over | 0.87 | 77.4 | -9.9 | player (untested) |
-| Kalshi | Malik Willis: 200+ passing yards | NO | 0.66 | 57.6 | -9.9 | player (untested) |
-| Kalshi | Kyle Williams: 4+ receptions | YES | 0.10 | 0.7 | -9.9 | player (untested) |
-| Polymarket | Ollie Gordon II: Rushing Yards O/U 79.5 | Over | 0.33 | 23.7 | -10.0 | player (untested) |
-| Polymarket | Caleb Douglas: Receiving Yards O/U 29.5 | Under | 0.47 | 37.7 | -10.0 | player (untested) |
-| Kalshi | Miami over 28.5 points scored | NO | 0.91 | 81.4 | -10.2 | game |
-| Kalshi | Malik Washington: 7+ receptions | YES | 0.17 | 7.7 | -10.3 | player (untested) |
-| Kalshi | Drake Maye: 350+ passing yards | NO | 0.94 | 84.1 | -10.3 | player (untested) |
-| Kalshi | Jaylen Wright: 10+ rushing yards | YES | 0.62 | 53.4 | -10.3 | player (untested) |
-| Kalshi | Jaylen Wright: 30+ rushing yards | NO | 0.81 | 71.8 | -10.3 | player (untested) |
-| Kalshi | Greg Dulcich: 30+ receiving yards | NO | 0.52 | 43.4 | -10.3 | player (untested) |
-| Polymarket | Greg Dulcich: Receiving Yards O/U 29.5 | Under | 0.53 | 43.4 | -10.3 | player (untested) |
-| Polymarket | Malik Willis: Passing Yards O/U 249.5 | Under | 0.88 | 78.0 | -10.4 | player (untested) |
-| Kalshi | Eli Raridon: 25+ receiving yards | YES | 0.54 | 45.4 | -10.4 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 70+ receiving yards | NO | 0.94 | 84.0 | -10.4 | player (untested) |
-| Polymarket | Rhamondre Stevenson: Receiving Yards O/U 19.5 | Over | 0.61 | 51.3 | -10.4 | player (untested) |
-| Kalshi | Ollie Gordon II: 4+ receptions | YES | 0.11 | 1.2 | -10.5 | player (untested) |
-| Polymarket | Rhamondre Stevenson: Receptions O/U 1.5 | Over | 0.84 | 73.8 | -10.6 | player (untested) |
-| Polymarket | Drake Maye: Passing Touchdowns O/U 3.5 | Under | 0.92 | 81.6 | -10.6 | player (untested) |
-| Kalshi | Caleb Douglas: 2+ touchdowns | NO | 0.99 | 88.4 | -10.7 | player (untested) |
-| Kalshi | Hunter Henry: 90+ receiving yards | YES | 0.14 | 4.1 | -10.7 | player (untested) |
-| Kalshi | Hunter Henry: 80+ receiving yards | YES | 0.18 | 8.3 | -10.8 | player (untested) |
-| Kalshi | Drake Maye: 4+ passing touchdowns | NO | 0.92 | 81.6 | -10.9 | player (untested) |
-| Polymarket | Spread: Patriots (-6.5) | Patriots | 0.53 | 42.8 | -11.0 | game |
-| Polymarket | DeMario Douglas: Receiving Yards O/U 39.5 | Over | 0.51 | 40.7 | -11.0 | player (untested) |
-| Kalshi | Malik Willis: 225+ passing yards | NO | 0.78 | 68.2 | -11.0 | player (untested) |
-| Kalshi | Chris Bell: 1+ touchdowns | YES | 0.11 | 0.7 | -11.0 | player (untested) |
-| Kalshi | Jaylen Wright: 2+ rushing attempts | YES | 0.90 | 79.6 | -11.1 | player (untested) |
-| Kalshi | Miami wins by over 9.5 points? | NO | 0.93 | 82.3 | -11.1 | game |
-| Kalshi | Rhamondre Stevenson: 2+ receptions | YES | 0.84 | 73.8 | -11.1 | player (untested) |
-| Kalshi | Jaylen Wright: 5+ rushing attempts | NO | 0.52 | 42.6 | -11.1 | player (untested) |
-| Kalshi | DeMario Douglas: 2+ receptions | YES | 0.86 | 75.7 | -11.1 | player (untested) |
-| Polymarket | Kyle Williams: Receiving Yards O/U 29.5 | Over | 0.45 | 34.5 | -11.2 | player (untested) |
-| Kalshi | Drake Maye: 30+ passing attempts | NO | 0.48 | 38.5 | -11.3 | player (untested) |
-| Kalshi | Drake Maye: 26+ passing completions | NO | 0.90 | 79.4 | -11.3 | player (untested) |
-| Kalshi | Hunter Henry: 2+ receptions | YES | 0.92 | 81.2 | -11.3 | player (untested) |
-| Kalshi | Miami wins by over 10.5 points? | NO | 0.95 | 84.0 | -11.3 | game |
-| Polymarket | DeMario Douglas: Receiving Yards O/U 49.5 | Over | 0.43 | 32.4 | -11.4 | player (untested) |
-| Polymarket | Malik Willis: Passing Yards O/U 274.5 | Under | 0.97 | 85.7 | -11.4 | player (untested) |
-| Kalshi | Malik Willis: 1+ touchdowns | NO | 0.75 | 64.8 | -11.5 | player (untested) |
-| Kalshi | Eli Raridon: 5+ receptions | YES | 0.17 | 6.5 | -11.5 | player (untested) |
-| Kalshi | Efton Chism III: 50+ receiving yards | YES | 0.24 | 13.7 | -11.6 | player (untested) |
-| Polymarket | Malik Washington: Receiving Yards O/U 49.5 | Over | 0.41 | 30.2 | -11.6 | player (untested) |
-| Polymarket | DeMario Douglas: Receptions O/U 1.5 | Over | 0.87 | 75.7 | -11.6 | player (untested) |
-| Polymarket | Chris Bell: Anytime Touchdown | Yes | 0.12 | 0.7 | -11.7 | player (untested) |
-| Kalshi | Malik Washington: 15+ rushing yards | NO | 0.88 | 77.0 | -11.7 | player (untested) |
-| Kalshi | Malik Willis: 250+ passing yards | NO | 0.89 | 78.0 | -11.7 | player (untested) |
-| Kalshi | Malik Washington: 1+ touchdowns | YES | 0.21 | 10.4 | -11.8 | player (untested) |
-| Kalshi | Malik Willis: 15+ rushing yards | YES | 0.80 | 69.3 | -11.8 | player (untested) |
-| Polymarket | Drake Maye: Passing Completions O/U 19.5 | Under | 0.52 | 40.9 | -11.8 | player (untested) |
-| Polymarket | Spread: Dolphins (-9.5) | Patriots | 0.94 | 82.3 | -11.8 | game |
-| Polymarket | Efton Chism III: Anytime Touchdown | Yes | 0.21 | 9.7 | -11.8 | player (untested) |
-| Kalshi | Malik Willis: 2+ passing interceptions | YES | 0.22 | 11.3 | -11.9 | player (untested) |
-| Kalshi | Hunter Henry: 70+ receiving yards | YES | 0.25 | 14.4 | -11.9 | player (untested) |
-| Polymarket | Spread: Dolphins (-10.5) | Patriots | 0.96 | 84.0 | -12.1 | game |
-| Kalshi | Rhamondre Stevenson: 50+ receiving yards | NO | 0.83 | 71.9 | -12.1 | player (untested) |
-| Polymarket | Malik Willis: Passing Yards O/U 124.5 | Over | 0.87 | 75.2 | -12.1 | player (untested) |
-| Polymarket | Malik Washington: Anytime Touchdown | Yes | 0.22 | 10.4 | -12.1 | player (untested) |
-| Kalshi | Drake Maye: 3+ passing interceptions | NO | 0.96 | 84.1 | -12.2 | player (untested) |
-| Polymarket | Spread: Patriots (-5.5) | Patriots | 0.57 | 45.5 | -12.3 | game |
-| Kalshi | Rhamondre Stevenson: 100+ rushing yards | YES | 0.14 | 2.5 | -12.3 | player (untested) |
-| Kalshi | Malik Washington: 3+ receptions | YES | 0.78 | 66.9 | -12.3 | player (untested) |
-| Kalshi | Corey Kiner: 60+ rushing yards | YES | 0.20 | 8.8 | -12.3 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 60+ receiving yards | NO | 0.90 | 78.3 | -12.4 | player (untested) |
-| Kalshi | Chris Bell: 15+ receiving yards | YES | 0.57 | 46.1 | -12.6 | player (untested) |
-| Kalshi | Hunter Henry: 60+ receiving yards | YES | 0.34 | 23.0 | -12.6 | player (untested) |
-| Kalshi | Malik Washington: 6+ receptions | YES | 0.28 | 16.8 | -12.6 | player (untested) |
-| Polymarket | Spread: Patriots (-4.5) | Patriots | 0.60 | 48.1 | -12.7 | game |
-| Polymarket | Malik Willis: Anytime Touchdown | No | 0.77 | 64.8 | -12.7 | player (untested) |
-| Polymarket | Efton Chism III: Receiving Yards O/U 49.5 | Under | 0.99 | 86.3 | -12.8 | player (untested) |
-| Polymarket | Malik Willis: Passing Completions O/U 15.5 | Over | 0.49 | 37.0 | -12.8 | player (untested) |
-| Kalshi | New England wins by over 6.5 points? | YES | 0.54 | 42.8 | -13.0 | game |
-| Kalshi | Drake Maye: 21+ passing completions | NO | 0.59 | 47.7 | -13.0 | player (untested) |
-| Kalshi | DeMario Douglas: 40+ receiving yards | YES | 0.52 | 40.7 | -13.0 | player (untested) |
-| Kalshi | Drake Maye: 225+ passing yards | NO | 0.46 | 34.7 | -13.0 | player (untested) |
-| Polymarket | A.J. Brown: Receiving Yards O/U 99.5 | Under | 1.00 | 86.8 | -13.1 | player (untested, Q) |
-| Polymarket | Spread: Patriots (-3.5) | Patriots | 0.63 | 50.6 | -13.1 | game |
-| Kalshi | Kyle Williams: 20+ receiving yards | YES | 0.53 | 41.6 | -13.1 | player (untested) |
-| Kalshi | Miami over 14.5 points scored | NO | 0.42 | 30.5 | -13.2 | game |
-| Polymarket | Jaylen Wright: Rushing Yards O/U 9.5 | Over | 0.66 | 53.4 | -13.3 | player (untested) |
-| Kalshi | Hunter Henry: 7+ receptions | YES | 0.19 | 6.7 | -13.3 | player (untested) |
-| Kalshi | Malik Washington: 50+ rushing and receiving yards combined | YES | 0.50 | 38.4 | -13.4 | player (untested) |
-| Kalshi | Eli Raridon: 4+ receptions | YES | 0.29 | 17.0 | -13.5 | player (untested) |
-| Kalshi | Efton Chism III: 1+ touchdowns | YES | 0.22 | 9.7 | -13.5 | player (untested) |
-| Kalshi | Caleb Douglas: 10+ receiving yards | YES | 0.88 | 75.2 | -13.6 | player (untested) |
-| Polymarket | Spread: Dolphins (-2.5) | Patriots | 0.80 | 66.9 | -13.6 | game |
-| Kalshi | Caleb Douglas: 40+ receiving yards | NO | 0.56 | 44.1 | -13.6 | player (untested) |
-| Kalshi | New England wins by over 4.5 points? | YES | 0.60 | 48.1 | -13.6 | game |
-| Kalshi | Malik Washington: 4+ receptions | YES | 0.60 | 48.0 | -13.6 | player (untested) |
-| Kalshi | Greg Dulcich: 60+ receiving yards | NO | 0.86 | 73.2 | -13.7 | player (untested) |
-| Kalshi | Caleb Douglas: 110+ receiving yards | NO | 0.97 | 83.4 | -13.8 | player (untested) |
-| Polymarket | Malik Washington: Receptions O/U 5.5 | Over | 0.30 | 16.8 | -13.8 | player (untested) |
-| Polymarket | Hunter Henry: Anytime Touchdown | No | 0.97 | 83.2 | -13.9 | player (untested) |
-| Kalshi | Malik Washington: 40+ receiving yards | YES | 0.52 | 39.9 | -13.9 | player (untested) |
-| Polymarket | Malik Washington: Receiving Yards O/U 39.5 | Over | 0.53 | 39.9 | -13.9 | player (untested) |
-| Polymarket | Kevin Coleman Jr.: Anytime Touchdown | No | 1.00 | 85.9 | -13.9 | player (untested) |
-| Kalshi | Ollie Gordon II: 30+ receiving yards | YES | 0.16 | 3.0 | -13.9 | player (untested) |
-| Kalshi | New England wins by over 3.5 points? | YES | 0.63 | 50.6 | -14.0 | game |
-| Kalshi | Hunter Henry: 50+ receiving yards | YES | 0.45 | 32.7 | -14.0 | player (untested) |
-| Kalshi | Greg Dulcich: 50+ receiving yards | NO | 0.77 | 64.1 | -14.1 | player (untested) |
-| Kalshi | Drake Maye: 3+ passing touchdowns | NO | 0.79 | 66.1 | -14.1 | player (untested) |
-| Kalshi | Miami wins by over 7.5 points? | NO | 0.92 | 78.4 | -14.1 | game |
-| Kalshi | Miami over 24.5 points scored | NO | 0.82 | 68.9 | -14.1 | game |
-| Kalshi | Miami wins by over 2.5 points? | NO | 0.80 | 66.9 | -14.2 | game |
-| Kalshi | Rhamondre Stevenson: 130+ rushing and receiving yards combined | YES | 0.19 | 5.9 | -14.2 | player (untested) |
-| Kalshi | New England wins by over 5.5 points? | YES | 0.58 | 45.5 | -14.2 | game |
-| Kalshi | Miami wins by over 6.5 points? | NO | 0.90 | 76.4 | -14.3 | game |
-| Kalshi | Efton Chism III: 40+ receiving yards | YES | 0.34 | 21.3 | -14.3 | player (untested) |
-| Kalshi | Ollie Gordon II: 70+ rushing yards | YES | 0.41 | 28.4 | -14.3 | player (untested) |
-| Polymarket | Ollie Gordon II: Rushing Yards O/U 69.5 | Over | 0.42 | 28.4 | -14.4 | player (untested) |
-| Kalshi | Malik Willis: 17+ passing completions | YES | 0.42 | 29.3 | -14.4 | player (untested) |
-| Kalshi | Miami wins by over 5.5 points? | NO | 0.88 | 74.3 | -14.4 | game |
-| Kalshi | Eli Raridon: 20+ receiving yards | YES | 0.63 | 50.2 | -14.5 | player (untested) |
-| Kalshi | Chris Bell: 2+ receptions | YES | 0.53 | 40.3 | -14.5 | player (untested) |
-| Polymarket | Chris Bell: Receptions O/U 1.5 | Over | 0.54 | 40.3 | -14.5 | player (untested) |
-| Polymarket | Spread: Dolphins (-8.5) | Patriots | 0.95 | 80.4 | -14.8 | game |
-| Kalshi | Greg Dulcich: 40+ receiving yards | NO | 0.67 | 53.8 | -14.8 | player (untested) |
-| Kalshi | Corey Kiner: 65+ rushing and receiving yards combined | YES | 0.24 | 10.5 | -14.8 | player (untested) |
-| Kalshi | Drake Maye: 325+ passing yards | NO | 0.90 | 75.9 | -14.8 | player (untested) |
-| Polymarket | Spread: Dolphins (-7.5) | Patriots | 0.93 | 78.4 | -14.8 | game |
-| Polymarket | Spread: Dolphins (-6.5) | Patriots | 0.91 | 76.4 | -14.9 | game |
-| Polymarket | Drake Maye: Passing Yards O/U 349.5 | Under | 0.99 | 84.1 | -14.9 | player (untested) |
-| Polymarket | Spread: Dolphins (-5.5) | Patriots | 0.89 | 74.3 | -15.0 | game |
-| Polymarket | Malik Willis: Passing Yards O/U 99.5 | Over | 0.99 | 84.0 | -15.0 | player (untested) |
-| Kalshi | Malik Washington: 5+ receptions | YES | 0.44 | 30.7 | -15.0 | player (untested) |
-| Polymarket | Malik Washington: Receptions O/U 4.5 | Over | 0.45 | 30.7 | -15.1 | player (untested) |
-| Kalshi | Miami wins by over 1.5 points? | NO | 0.78 | 64.1 | -15.1 | game |
-| Kalshi | Drake Maye: 1+ passing interceptions | NO | 0.54 | 40.6 | -15.2 | player (untested) |
-| Polymarket | Eli Raridon: Receptions O/U 2.5 | Over | 0.49 | 34.4 | -15.4 | player (untested) |
-| Polymarket | Spread: Dolphins (-1.5) | Patriots | 0.79 | 64.1 | -15.4 | game |
-| Kalshi | Miami wins by over 4.5 points? | NO | 0.87 | 72.1 | -15.7 | game |
-| Kalshi | Miami over 21.5 points scored | NO | 0.72 | 57.7 | -15.7 | game |
-| Polymarket | Hunter Henry: Receiving Yards O/U 59.5 | Over | 0.38 | 23.0 | -15.7 | player (untested) |
-| Polymarket | Malik Washington: Receptions O/U 5.5 | Under | 0.99 | 83.2 | -15.8 | player (untested) |
-| Polymarket | Efton Chism III: Receiving Yards O/U 49.5 | Over | 0.29 | 13.7 | -15.9 | player (untested) |
-| Kalshi | Efton Chism III: 5+ receptions | YES | 0.18 | 3.0 | -16.0 | player (untested) |
-| Kalshi | Ollie Gordon II: 25+ receiving yards | YES | 0.18 | 3.0 | -16.0 | player (untested) |
-| Polymarket | Kyle Williams: Receiving Yards O/U 19.5 | Over | 0.57 | 41.6 | -16.1 | player (untested) |
-| Kalshi | Hunter Henry: 20+ receiving yards | YES | 0.83 | 67.8 | -16.2 | player (untested) |
-| Kalshi | Hunter Henry: 3+ receptions | YES | 0.80 | 65.0 | -16.2 | player (untested) |
-| Kalshi | Miami wins by over 3.5 points? | NO | 0.85 | 69.7 | -16.2 | game |
-| Polymarket | Spread: Dolphins (-4.5) | Patriots | 0.88 | 72.1 | -16.2 | game |
-| Kalshi | Hunter Henry: 5+ receptions | YES | 0.43 | 28.5 | -16.2 | player (untested) |
-| Polymarket | Hunter Henry: Receptions O/U 4.5 | Over | 0.44 | 28.5 | -16.2 | player (untested) |
-| Kalshi | Caleb Douglas: 100+ receiving yards | NO | 0.95 | 79.1 | -16.2 | player (untested) |
-| Polymarket | Patriots vs. Dolphins | Patriots | 0.76 | 60.3 | -16.3 | game |
-| Kalshi | Rhamondre Stevenson: 15+ receiving yards | YES | 0.70 | 55.2 | -16.3 | player (untested) |
-| Kalshi | Drake Maye: 35+ passing attempts | NO | 0.77 | 62.0 | -16.3 | player (untested) |
-| Kalshi | Eli Raridon: 3+ receptions | YES | 0.49 | 34.4 | -16.4 | player (untested) |
-| Polymarket | Drake Maye: Passing Touchdowns O/U 2.5 | Under | 0.82 | 66.1 | -16.4 | player (untested) |
-| Kalshi | DeMario Douglas: 30+ receiving yards | YES | 0.64 | 49.2 | -16.4 | player (untested) |
-| Kalshi | Hunter Henry: 6+ receptions | YES | 0.30 | 15.1 | -16.4 | player (untested) |
-| Kalshi | Hunter Henry: 15+ receiving yards | YES | 0.89 | 73.3 | -16.4 | player (untested) |
-| Kalshi | Miami over 20.5 points scored | NO | 0.69 | 54.1 | -16.4 | game |
-| Polymarket | Hunter Henry: Receptions O/U 2.5 | Over | 0.81 | 65.0 | -16.5 | player (untested) |
-| Polymarket | Eli Raridon: Receiving Yards O/U 19.5 | Over | 0.66 | 50.2 | -16.5 | player (untested) |
-| Kalshi | Hunter Henry: 25+ receiving yards | YES | 0.77 | 61.7 | -16.6 | player (untested) |
-| Polymarket | Hunter Henry: Receiving Yards O/U 19.5 | Over | 0.84 | 67.8 | -16.6 | player (untested) |
-| Polymarket | Spread: Dolphins (-3.5) | Patriots | 0.86 | 69.7 | -16.6 | game |
-| Polymarket | Malik Washington: Receptions O/U 3.5 | Over | 0.64 | 48.0 | -16.7 | player (untested) |
-| Kalshi | Hunter Henry: 40+ receiving yards | YES | 0.59 | 43.9 | -16.7 | player (untested) |
-| Kalshi | Corey Kiner: 50+ rushing yards | YES | 0.30 | 14.7 | -16.8 | player (untested) |
-| Polymarket | Malik Washington: Receiving Yards O/U 29.5 | Over | 0.66 | 49.8 | -16.9 | player (untested) |
-| Kalshi | Hunter Henry: 30+ receiving yards | YES | 0.71 | 55.5 | -16.9 | player (untested) |
-| Kalshi | Caleb Douglas: 50+ receiving yards | NO | 0.66 | 50.7 | -16.9 | player (untested) |
-| Kalshi | Miami wins | NO | 0.76 | 60.3 | -17.0 | game |
-| Kalshi | New England wins | YES | 0.76 | 60.3 | -17.0 | game |
-| Kalshi | Miami over 17.5 points scored | NO | 0.57 | 41.7 | -17.0 | game |
-| Polymarket | Efton Chism III: Receiving Yards O/U 39.5 | Over | 0.38 | 21.3 | -17.4 | player (untested) |
-| Kalshi | Drake Maye: 300+ passing yards | NO | 0.83 | 66.5 | -17.5 | player (untested) |
-| Kalshi | Malik Willis: 29+ passing attempts | YES | 0.43 | 27.2 | -17.5 | player (untested) |
-| Polymarket | Caleb Douglas: Receiving Yards O/U 39.5 | Under | 0.61 | 44.1 | -17.6 | player (untested) |
-| Kalshi | Hunter Henry: 4+ receptions | YES | 0.62 | 46.1 | -17.6 | player (untested) |
-| Polymarket | Hunter Henry: Receiving Yards O/U 39.5 | Over | 0.61 | 43.9 | -17.8 | player (untested) |
-| Kalshi | Malik Washington: 30+ receiving yards | YES | 0.66 | 49.8 | -17.8 | player (untested) |
-| Polymarket | Caleb Douglas: Receiving Yards O/U 49.5 | Under | 0.68 | 50.7 | -18.0 | player (untested) |
-| Polymarket | A.J. Brown: Receiving Yards O/U 89.5 | Under | 1.00 | 81.9 | -18.0 | player (untested, Q) |
-| Polymarket | Drake Maye: Passing Yards O/U 224.5 | Under | 0.52 | 34.7 | -18.1 | player (untested) |
-| Kalshi | Kyle Williams: 3+ receptions | YES | 0.22 | 5.0 | -18.2 | player (untested) |
-| Kalshi | Drake Maye: 2+ passing interceptions | NO | 0.85 | 67.7 | -18.2 | player (untested) |
-| Kalshi | Eli Raridon: 15+ receiving yards | YES | 0.72 | 55.2 | -18.2 | player (untested) |
-| Kalshi | Caleb Douglas: 90+ receiving yards | NO | 0.92 | 74.2 | -18.3 | player (untested) |
-| Kalshi | Drake Maye: 250+ passing yards | NO | 0.62 | 45.3 | -18.3 | player (untested) |
-| Polymarket | Spread: Patriots (-1.5) | Patriots | 0.74 | 56.2 | -18.4 | game |
-| Kalshi | DeMario Douglas: 25+ receiving yards | YES | 0.71 | 54.1 | -18.4 | player (untested) |
-| Kalshi | Eli Raridon: 2+ receptions | YES | 0.72 | 55.0 | -18.4 | player (untested) |
-| Polymarket | DeMario Douglas: Receiving Yards O/U 29.5 | Over | 0.67 | 49.2 | -18.4 | player (untested) |
-| Kalshi | Drake Maye: 275+ passing yards | NO | 0.73 | 55.9 | -18.5 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 90+ rushing yards | YES | 0.20 | 2.5 | -18.6 | player (untested) |
-| Kalshi | Chris Bell: 10+ receiving yards | YES | 0.68 | 50.7 | -18.8 | player (untested) |
-| Kalshi | New England wins by over 2.5 points? | YES | 0.71 | 53.6 | -18.9 | game |
-| Polymarket | Chris Bell: Receiving Yards O/U 9.5 | Over | 0.69 | 50.7 | -18.9 | player (untested) |
-| Polymarket | Hunter Henry: Anytime Touchdown | Yes | 0.35 | 16.8 | -18.9 | player (untested) |
-| Polymarket | Ollie Gordon II: Rushing Yards O/U 89.5 | Under | 0.99 | 80.1 | -18.9 | player (untested) |
-| Polymarket | Malik Willis: Passing Attempts O/U 27.5 | Over | 0.49 | 30.8 | -19.0 | player (untested) |
-| Kalshi | Ollie Gordon II: 3+ receptions | YES | 0.25 | 7.3 | -19.0 | player (untested) |
-| Polymarket | Spread: Patriots (-2.5) | Patriots | 0.72 | 53.6 | -19.0 | game |
-| Polymarket | Hunter Henry: Receiving Yards O/U 29.5 | Over | 0.74 | 55.5 | -19.0 | player (untested) |
-| Polymarket | Hunter Henry: Receiving Yards O/U 49.5 | Over | 0.51 | 32.7 | -19.1 | player (untested) |
-| Kalshi | Caleb Douglas: 1+ touchdowns | NO | 0.81 | 63.0 | -19.1 | player (untested) |
-| Kalshi | New England wins by over 1.5 points? | YES | 0.74 | 56.2 | -19.1 | game |
-| Kalshi | Malik Washington: 25+ receiving yards | YES | 0.73 | 55.2 | -19.2 | player (untested) |
-| Polymarket | Eli Raridon: Receiving Yards O/U 9.5 | Over | 0.79 | 60.3 | -19.2 | player (untested) |
-| Kalshi | Caleb Douglas: 60+ receiving yards | NO | 0.75 | 57.0 | -19.3 | player (untested) |
-| Polymarket | Drake Maye: Passing Yards O/U 249.5 | Under | 0.64 | 45.3 | -19.4 | player (untested) |
-| Kalshi | Kyle Williams: 15+ receiving yards | YES | 0.63 | 45.2 | -19.4 | player (untested) |
-| Polymarket | Kyle Williams: Receptions O/U 2.5 | Over | 0.24 | 5.0 | -19.5 | player (untested) |
-| Kalshi | Ollie Gordon II: 16+ rushing attempts | YES | 0.48 | 30.2 | -19.6 | player (untested) |
-| Polymarket | Hunter Henry: Receptions O/U 3.5 | Over | 0.65 | 46.1 | -19.6 | player (untested) |
-| Kalshi | Efton Chism III: 30+ receiving yards | YES | 0.48 | 30.1 | -19.7 | player (untested) |
-| Kalshi | Hunter Henry: 1+ touchdowns | YES | 0.35 | 16.8 | -19.8 | player (untested) |
-| Kalshi | DeMario Douglas: 20+ receiving yards | YES | 0.77 | 58.3 | -19.9 | player (untested) |
-| Polymarket | Corey Kiner: Rushing Yards O/U 49.5 | Over | 0.34 | 14.7 | -20.0 | player (untested) |
-| Kalshi | Caleb Douglas: 70+ receiving yards | NO | 0.82 | 63.0 | -20.0 | player (untested) |
-| Polymarket | DeMario Douglas: Receiving Yards O/U 9.5 | Over | 0.88 | 68.2 | -20.1 | player (untested) |
-| Polymarket | Efton Chism III: Receiving Yards O/U 39.5 | Under | 0.99 | 78.7 | -20.3 | player (untested) |
-| Kalshi | Malik Washington: 20+ receiving yards | YES | 0.80 | 60.8 | -20.3 | player (untested) |
-| Polymarket | Eli Raridon: Receptions O/U 1.5 | Over | 0.75 | 55.0 | -20.6 | player (untested) |
-| Kalshi | DeMario Douglas: 15+ receiving yards | YES | 0.83 | 63.3 | -20.7 | player (untested) |
-| Polymarket | Drake Maye: Passing Yards O/U 274.5 | Under | 0.76 | 55.9 | -20.7 | player (untested) |
-| Polymarket | Efton Chism III: Receiving Yards O/U 29.5 | Over | 0.50 | 30.1 | -20.7 | player (untested) |
-| Kalshi | Ollie Gordon II: 80+ rushing and receiving yards combined | YES | 0.47 | 28.0 | -20.7 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 105+ rushing and receiving yards combined | YES | 0.37 | 17.9 | -20.7 | player (untested) |
-| Polymarket | Malik Washington: Receiving Yards O/U 59.5 | Under | 0.99 | 78.3 | -20.7 | player (untested) |
-| Kalshi | Ollie Gordon II: 60+ rushing yards | YES | 0.52 | 33.0 | -20.8 | player (untested) |
-| Kalshi | Caleb Douglas: 80+ receiving yards | NO | 0.89 | 68.7 | -20.9 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 10+ receiving yards | YES | 0.79 | 59.1 | -21.1 | player (untested) |
-| Kalshi | Malik Washington: 15+ receiving yards | YES | 0.86 | 65.7 | -21.1 | player (untested) |
-| Polymarket | DeMario Douglas: Receiving Yards O/U 19.5 | Over | 0.79 | 58.3 | -21.2 | player (untested) |
-| Kalshi | Jaylen Wright: 8+ rushing attempts | NO | 0.86 | 65.6 | -21.3 | player (untested) |
-| Polymarket | Caleb Douglas: Anytime Touchdown | No | 0.84 | 63.0 | -21.4 | player (untested) |
-| Kalshi | DeMario Douglas: 10+ receiving yards | YES | 0.89 | 68.2 | -21.5 | player (untested) |
-| Polymarket | Malik Washington: Receiving Yards O/U 19.5 | Over | 0.82 | 60.8 | -21.7 | player (untested) |
-| Kalshi | Eli Raridon: 10+ receiving yards | YES | 0.81 | 60.3 | -21.7 | player (untested) |
-| Polymarket | Ollie Gordon II: Rushing Yards O/U 59.5 | Over | 0.54 | 33.0 | -21.8 | player (untested) |
-| Polymarket | Hunter Henry: Receiving Yards O/U 59.5 | Under | 0.99 | 77.0 | -22.0 | player (untested) |
-| Polymarket | Eli Raridon: Receiving Yards O/U 49.5 | Under | 0.99 | 77.0 | -22.0 | player (untested) |
-| Kalshi | Corey Kiner: 40+ rushing yards | YES | 0.43 | 22.7 | -22.0 | player (untested) |
-| Polymarket | Corey Kiner: Rushing Yards O/U 39.5 | Over | 0.44 | 22.7 | -22.1 | player (untested) |
-| Polymarket | Rhamondre Stevenson: Receiving Yards O/U 9.5 | Over | 0.81 | 59.1 | -22.4 | player (untested) |
-| Kalshi | Efton Chism III: 25+ receiving yards | YES | 0.55 | 34.2 | -22.5 | player (untested) |
-| Kalshi | Malik Willis: 1+ passing interceptions | YES | 0.56 | 34.9 | -22.8 | player (untested) |
-| Polymarket | Drake Maye: Passing Yards O/U 324.5 | Under | 0.99 | 75.9 | -23.2 | player (untested) |
-| Kalshi | Efton Chism III: 4+ receptions | YES | 0.31 | 9.3 | -23.2 | player (untested) |
-| Kalshi | Ollie Gordon II: 20+ receiving yards | YES | 0.25 | 3.0 | -23.3 | player (untested) |
-| Kalshi | Kyle Williams: 10+ receiving yards | YES | 0.71 | 48.9 | -23.5 | player (untested) |
-| Polymarket | Eli Raridon: Receptions O/U 0.5 | Over | 0.99 | 75.2 | -23.9 | player (untested) |
-| Kalshi | Kyle Williams: 2+ receptions | YES | 0.46 | 23.5 | -24.2 | player (untested) |
-| Polymarket | Kyle Williams: Receptions O/U 1.5 | Over | 0.47 | 23.5 | -24.2 | player (untested) |
-| Kalshi | Malik Willis: 24+ passing attempts | YES | 0.70 | 47.2 | -24.3 | player (untested) |
-| Kalshi | Corey Kiner: 35+ rushing yards | YES | 0.50 | 27.3 | -24.4 | player (untested) |
-| Polymarket | Malik Willis: Passing Attempts O/U 23.5 | Over | 0.71 | 47.2 | -24.4 | player (untested) |
-| Polymarket | Rhamondre Stevenson: Rushing Yards O/U 49.5 | Under | 0.99 | 74.2 | -24.8 | player (untested) |
-| Polymarket | Malik Washington: Receptions O/U 4.5 | Under | 0.94 | 69.3 | -24.8 | player (untested) |
-| Polymarket | Corey Kiner: Anytime Touchdown | Yes | 0.25 | 0.7 | -24.9 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 80+ rushing and receiving yards combined | YES | 0.59 | 35.6 | -25.1 | player (untested) |
-| Polymarket | Kyle Williams: Receptions O/U 0.5 | Over | 0.82 | 56.9 | -25.5 | player (untested) |
-| Polymarket | Kyle Williams: Receiving Yards O/U 9.5 | Over | 0.74 | 48.9 | -25.6 | player (untested) |
-| Kalshi | Corey Kiner: 1+ touchdowns | YES | 0.25 | 0.7 | -25.7 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 16+ rushing attempts | YES | 0.42 | 17.7 | -26.0 | player (untested) |
-| Polymarket | Drake Maye: Rushing Yards O/U 39.5 | Under | 0.99 | 73.0 | -26.0 | player (untested) |
-| Polymarket | Rhamondre Stevenson: Rushing Yards O/U 89.5 | Over | 0.28 | 2.5 | -26.1 | player (untested) |
-| Kalshi | Ollie Gordon II: 2+ receptions | YES | 0.50 | 25.5 | -26.2 | player (untested) |
-| Kalshi | Corey Kiner: 40+ rushing and receiving yards combined | YES | 0.53 | 28.5 | -26.2 | player (untested) |
-| Kalshi | Efton Chism III: 20+ receiving yards | YES | 0.64 | 39.2 | -26.4 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 1+ touchdowns | YES | 0.54 | 29.3 | -26.5 | player (untested) |
-| Polymarket | Rhamondre Stevenson: Anytime Touchdown | Yes | 0.55 | 29.3 | -26.5 | player (untested) |
-| Polymarket | Corey Kiner: Rushing Yards O/U 19.5 | Over | 0.68 | 42.2 | -26.5 | player (untested) |
-| Kalshi | Corey Kiner: 30+ rushing yards | YES | 0.57 | 32.0 | -26.7 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 80+ rushing yards | YES | 0.28 | 2.5 | -26.9 | player (untested) |
-| Polymarket | Chris Bell: Receptions O/U 0.5 | Over | 0.88 | 61.0 | -27.3 | player (untested) |
-| Polymarket | Jaylen Wright: Rushing Yards O/U 29.5 | Under | 0.99 | 71.8 | -27.3 | player (untested) |
-| Kalshi | Ollie Gordon II: 50+ rushing yards | YES | 0.64 | 37.8 | -27.8 | player (untested) |
-| Polymarket | Ollie Gordon II: Rushing Yards O/U 49.5 | Over | 0.65 | 37.8 | -27.9 | player (untested) |
-| Polymarket | Ryan Miller: Receiving Yards O/U 29.5 | Under | 0.99 | 71.1 | -28.0 | player (untested) |
-| Polymarket | Greg Dulcich: Receptions O/U 4.5 | Under | 0.99 | 70.9 | -28.2 | player (untested) |
-| Kalshi | Corey Kiner: 15+ rushing yards | YES | 0.75 | 47.7 | -28.6 | player (untested) |
-| Polymarket | Drake Maye: Passing Attempts O/U 27.5 | Over | 0.99 | 70.4 | -28.6 | player (untested) |
-| Polymarket | Corey Kiner: Rushing Yards O/U 29.5 | Over | 0.60 | 32.0 | -28.7 | player (untested) |
-| Kalshi | Efton Chism III: 15+ receiving yards | YES | 0.72 | 44.6 | -28.8 | player (untested) |
-| Polymarket | Malik Washington: Receiving Yards O/U 49.5 | Under | 0.99 | 69.8 | -29.2 | player (untested) |
-| Kalshi | Corey Kiner: 20+ rushing yards | YES | 0.70 | 42.2 | -29.3 | player (untested) |
-| Kalshi | Corey Kiner: 25+ rushing yards | YES | 0.65 | 37.1 | -29.5 | player (untested) |
-| Polymarket | TreVeyon Henderson: Rushing Yards O/U 39.5 | Under | 1.00 | 70.1 | -29.8 | player (untested, Q) |
-| Polymarket | Efton Chism III: Receptions O/U 2.5 | Over | 0.51 | 21.9 | -29.8 | player (untested) |
-| Kalshi | Efton Chism III: 3+ receptions | YES | 0.50 | 21.9 | -29.8 | player (untested) |
-| Kalshi | Ollie Gordon II: 13+ rushing attempts | YES | 0.68 | 39.2 | -30.3 | player (untested) |
-| Polymarket | Malik Willis: Passing Yards O/U 224.5 | Under | 0.99 | 68.2 | -30.8 | player (untested) |
-| Kalshi | Efton Chism III: 10+ receiving yards | YES | 0.80 | 50.2 | -30.9 | player (untested) |
-| Polymarket | Malik Willis: Rushing Yards O/U 49.5 | Under | 0.99 | 68.0 | -31.0 | player (untested) |
-| Polymarket | Drake Maye: Passing Completions O/U 23.5 | Under | 0.99 | 67.7 | -31.3 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 10+ rushing attempts | YES | 0.84 | 53.3 | -31.6 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 30+ rushing yards | YES | 0.87 | 55.6 | -32.2 | player (untested) |
-| Polymarket | Efton Chism III: Receiving Yards O/U 9.5 | Over | 0.82 | 50.2 | -32.2 | player (untested) |
-| Kalshi | Ollie Gordon II: 15+ receiving yards | YES | 0.34 | 3.2 | -32.4 | player (untested) |
-| Kalshi | Efton Chism III: 2+ receptions | YES | 0.72 | 41.0 | -32.4 | player (untested) |
-| Polymarket | Drake Maye: Passing Yards O/U 299.5 | Under | 0.99 | 66.5 | -32.5 | player (untested) |
-| Polymarket | Rhamondre Stevenson: Rushing Yards O/U 29.5 | Over | 0.88 | 55.6 | -32.8 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 70+ rushing yards | YES | 0.38 | 6.5 | -33.2 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 13+ rushing attempts | YES | 0.66 | 33.8 | -33.7 | player (untested) |
-| Polymarket | Rhamondre Stevenson: Rushing Yards O/U 79.5 | Over | 0.36 | 2.5 | -34.2 | player (untested) |
-| Kalshi | Ollie Gordon II: 40+ rushing yards | YES | 0.76 | 42.9 | -34.3 | player (untested) |
-| Polymarket | Greg Dulcich: Receiving Yards O/U 49.5 | Under | 0.99 | 64.1 | -34.9 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 40+ rushing yards | YES | 0.74 | 39.9 | -35.5 | player (untested) |
-| Polymarket | Efton Chism III: Receptions O/U 1.5 | Over | 0.76 | 41.0 | -35.5 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 60+ rushing yards | YES | 0.48 | 14.2 | -35.5 | player (untested) |
-| Polymarket | Rhamondre Stevenson: Rushing Yards O/U 59.5 | Over | 0.49 | 14.2 | -35.5 | player (untested) |
-| Polymarket | Malik Willis: Passing Attempts O/U 19.5 | Over | 0.99 | 63.5 | -35.5 | player (untested) |
-| Polymarket | Ollie Gordon II: Rushing Yards O/U 39.5 | Over | 0.78 | 42.9 | -35.6 | player (untested) |
-| Polymarket | Efton Chism III: Receptions O/U 0.5 | Over | 0.99 | 63.0 | -36.0 | player (untested) |
-| Polymarket | Ryan Miller: Receiving Yards O/U 19.5 | Under | 0.99 | 63.0 | -36.1 | player (untested) |
-| Polymarket | Rhamondre Stevenson: Rushing Yards O/U 69.5 | Over | 0.42 | 6.5 | -36.2 | player (untested) |
-| Kalshi | Ollie Gordon II: 30+ rushing yards | YES | 0.84 | 48.4 | -36.6 | player (untested) |
-| Polymarket | Rhamondre Stevenson: Rushing Yards O/U 39.5 | Over | 0.76 | 39.9 | -36.7 | player (untested) |
-| Polymarket | Ollie Gordon II: Rushing Yards O/U 49.5 | Under | 0.99 | 62.2 | -36.8 | player (untested) |
-| Polymarket | Ollie Gordon II: Rushing Yards O/U 29.5 | Over | 0.85 | 48.4 | -37.0 | player (untested) |
-| Polymarket | A.J. Brown: Receiving Yards O/U 59.5 | Under | 1.00 | 62.7 | -37.2 | player (untested, Q) |
-| Polymarket | Malik Washington: Receiving Yards O/U 39.5 | Under | 0.99 | 60.1 | -38.9 | player (untested) |
-| Polymarket | Jaylen Wright: Rushing Yards O/U 19.5 | Under | 0.99 | 59.8 | -39.3 | player (untested) |
-| Kalshi | Ollie Gordon II: 10+ receiving yards | YES | 0.50 | 12.3 | -39.5 | player (untested) |
-| Polymarket | Eli Raridon: Receiving Yards O/U 29.5 | Under | 0.99 | 59.3 | -39.8 | player (untested) |
-| Kalshi | Rhamondre Stevenson: 50+ rushing yards | YES | 0.64 | 25.8 | -39.8 | player (untested) |
-| Polymarket | TreVeyon Henderson: Rushing Yards O/U 29.5 | Under | 1.00 | 59.9 | -40.0 | player (untested, Q) |
-| Polymarket | Corey Kiner: Rushing Yards O/U 19.5 | Under | 0.99 | 57.8 | -41.2 | player (untested) |
-| Polymarket | Malik Willis: Rushing Yards O/U 39.5 | Under | 0.99 | 57.7 | -41.3 | player (untested) |
-| Polymarket | Malik Willis: Passing Yards O/U 199.5 | Under | 0.99 | 57.6 | -41.4 | player (untested) |
-| Polymarket | Rhamondre Stevenson: Receiving Yards O/U 29.5 | Under | 0.99 | 57.2 | -41.8 | player (untested) |
-| Polymarket | Rhamondre Stevenson: Rushing Yards O/U 49.5 | Over | 0.67 | 25.8 | -41.9 | player (untested) |
-| Polymarket | Caleb Douglas: Receiving Yards O/U 59.5 | Under | 0.99 | 57.0 | -42.0 | player (untested) |
-| Polymarket | Drake Maye: Rushing Yards O/U 29.5 | Under | 0.99 | 56.8 | -42.3 | player (untested) |
-| Polymarket | Malik Willis: Passing Completions O/U 13.5 | Over | 0.99 | 55.0 | -44.0 | player (untested) |
-| Polymarket | Drake Maye: Passing Completions O/U 21.5 | Under | 0.99 | 54.8 | -44.2 | player (untested) |
-| Polymarket | Ryan Miller: Receiving Yards O/U 9.5 | Under | 0.99 | 54.5 | -44.6 | player (untested) |
-| Polymarket | Greg Dulcich: Receiving Yards O/U 39.5 | Under | 0.99 | 53.8 | -45.2 | player (untested) |
-| Polymarket | Drake Maye: Passing Attempts O/U 31.5 | Over | 0.99 | 51.9 | -47.1 | player (untested) |
-| Polymarket | Ollie Gordon II: Rushing Yards O/U 29.5 | Under | 0.99 | 51.6 | -47.4 | player (untested) |
-| Polymarket | Kyle Williams: Receiving Yards O/U 9.5 | Under | 0.99 | 51.1 | -48.0 | player (untested) |
-| Polymarket | Eli Raridon: Receiving Yards O/U 19.5 | Under | 0.99 | 49.8 | -49.2 | player (untested) |
-| Polymarket | TreVeyon Henderson: Rushing Yards O/U 19.5 | Under | 1.00 | 49.3 | -50.6 | player (untested, Q) |
-| Polymarket | Drake Maye: Passing Yards O/U 274.5 | Over | 0.96 | 44.1 | -52.0 | player (untested) |
-| Polymarket | Malik Willis: Rushing Yards O/U 29.5 | Under | 0.99 | 46.9 | -52.1 | player (untested) |
-| Polymarket | Corey Kiner: Rushing Yards O/U 9.5 | Under | 0.99 | 46.6 | -52.4 | player (untested) |
-| Polymarket | Ryan Miller: Receiving Yards O/U 9.5 | Over | 0.99 | 45.5 | -53.5 | player (untested) |
-| Polymarket | Drake Maye: Passing Completions O/U 21.5 | Over | 0.99 | 45.2 | -53.8 | player (untested) |
-| Polymarket | Rhamondre Stevenson: Rushing Yards O/U 29.5 | Under | 0.99 | 44.4 | -54.6 | player (untested) |
-| Polymarket | Kyle Williams: Receptions O/U 0.5 | Under | 0.99 | 43.1 | -55.9 | player (untested) |
-| Polymarket | Drake Maye: Rushing Yards O/U 34.5 | Over | 0.92 | 34.7 | -57.5 | player (untested) |
-| Polymarket | Rhamondre Stevenson: Receiving Yards O/U 9.5 | Under | 0.99 | 40.9 | -58.1 | player (untested) |
-| Polymarket | Malik Washington: Receiving Yards O/U 19.5 | Under | 0.99 | 39.2 | -59.8 | player (untested) |
-| Polymarket | Efton Chism III: Receiving Yards O/U 19.5 | Over | 0.99 | 39.2 | -59.8 | player (untested) |
-| Polymarket | Chris Bell: Receptions O/U 0.5 | Under | 0.99 | 39.0 | -60.1 | player (untested) |
-| Polymarket | Ryan Miller: Receiving Yards O/U 19.5 | Over | 0.99 | 37.0 | -62.0 | player (untested) |
-| Polymarket | Efton Chism III: Receptions O/U 0.5 | Under | 0.99 | 37.0 | -62.1 | player (untested) |
-| Polymarket | Hunter Henry: Receptions O/U 2.5 | Under | 0.99 | 35.0 | -64.0 | player (untested) |
-| Polymarket | Greg Dulcich: Receptions O/U 2.5 | Under | 0.99 | 34.5 | -64.5 | player (untested) |
-| Polymarket | Drake Maye: Passing Attempts O/U 35.5 | Over | 0.99 | 33.5 | -65.5 | player (untested) |
-| Polymarket | Greg Dulcich: Receiving Yards O/U 19.5 | Under | 0.99 | 32.4 | -66.6 | player (untested) |
-| Polymarket | Drake Maye: Passing Completions O/U 23.5 | Over | 0.99 | 32.3 | -66.7 | player (untested) |
-| Polymarket | DeMario Douglas: Receiving Yards O/U 9.5 | Under | 0.99 | 31.8 | -67.2 | player (untested) |
-| Polymarket | Caleb Douglas: Receiving Yards O/U 19.5 | Under | 0.99 | 31.2 | -67.9 | player (untested) |
-| Polymarket | Jaylen Wright: Rushing Yards O/U 29.5 | Over | 0.97 | 28.2 | -68.8 | player (untested) |
-| Polymarket | Drake Maye: Passing Yards O/U 324.5 | Over | 0.93 | 24.1 | -69.0 | player (untested) |
-| Polymarket | Ryan Miller: Receiving Yards O/U 29.5 | Over | 0.99 | 28.9 | -70.1 | player (untested) |
-| Polymarket | Rhamondre Stevenson: Receptions O/U 1.5 | Under | 0.99 | 26.2 | -72.8 | player (untested) |
-| Polymarket | Malik Willis: Passing Yards O/U 124.5 | Under | 0.99 | 24.8 | -74.3 | player (untested) |
-| Polymarket | Greg Dulcich: Receiving Yards O/U 9.5 | Under | 0.99 | 22.9 | -76.2 | player (untested) |
-| Polymarket | Drake Maye: Passing Yards O/U 349.5 | Over | 0.92 | 15.9 | -76.3 | player (untested) |
-| Polymarket | Drake Maye: Passing Touchdowns O/U 0.5 | Under | 0.99 | 22.6 | -76.4 | player (untested) |
-| Polymarket | Malik Willis: Passing Completions O/U 17.5 | Over | 0.99 | 21.9 | -77.2 | player (untested) |
-| Polymarket | Malik Willis: Passing Yards O/U 99.5 | Under | 0.99 | 16.0 | -83.1 | player (untested) |
-| Polymarket | Drake Maye: Passing Yards O/U 149.5 | Under | 0.99 | 10.3 | -88.8 | player (untested) |
-| Polymarket | Spread: Dolphins (-16.5) | Dolphins | 0.99 | 7.8 | -91.2 | game |
-| Polymarket | Spread: Dolphins (-17.5) | Dolphins | 1.00 | 6.9 | -93.0 | game |
-| Polymarket | Spread: Dolphins (-19.5) | Dolphins | 0.99 | 5.2 | -93.8 | game |
-| Polymarket | Spread: Dolphins (-21.5) | Dolphins | 0.99 | 3.8 | -95.2 | game |
-| Polymarket | Spread: Dolphins (-20.5) | Dolphins | 1.00 | 4.3 | -95.6 | game |
-| Polymarket | Efton Chism III: 2+ Touchdowns | Yes | 1.00 | 0.8 | -99.0 | player (untested) |
+| Kalshi | Rachaad White: 10+ rushing attempts | NO | 0.31 | 85.2 | 52.7 | player (untested) |
+| Kalshi | Tanner McKee: 15+ passing completions | NO | 0.14 | 57.7 | 42.8 | player (untested) |
+| Kalshi | Rachaad White: 13+ rushing attempts | NO | 0.59 | 97.9 | 37.2 | player (untested) |
+| Kalshi | Tanner McKee: 125+ passing yards | NO | 0.14 | 52.0 | 37.2 | player (untested) |
+| Kalshi | Tanner McKee: 150+ passing yards | NO | 0.22 | 58.5 | 35.3 | player (untested) |
+| Kalshi | Darius Cooper: 2+ receptions | NO | 0.28 | 64.2 | 34.8 | player (untested) |
+| Kalshi | Darius Cooper: 3+ receptions | NO | 0.52 | 87.1 | 33.3 | player (untested) |
+| Kalshi | Tanner McKee: 29+ passing attempts | NO | 0.28 | 62.2 | 32.8 | player (untested) |
+| Kalshi | Rachaad White: 40+ rushing yards | NO | 0.46 | 79.0 | 31.3 | player (untested) |
+| Kalshi | Rachaad White: 45+ rushing yards | NO | 0.53 | 85.7 | 31.0 | player (untested) |
+| Kalshi | Tanner McKee: 175+ passing yards | NO | 0.32 | 64.4 | 30.8 | player (untested) |
+| Kalshi | Tanner McKee: 1+ passing interceptions | NO | 0.41 | 72.7 | 30.0 | player (untested) |
+| Kalshi | Jeremy McNichols: 10+ rushing yards | NO | 0.30 | 61.3 | 29.8 | player (untested) |
+| Kalshi | Jeremy McNichols: 20+ rushing yards | NO | 0.51 | 81.5 | 28.8 | player (untested) |
+| Kalshi | Makai Lemon: 20+ receiving yards | NO | 0.20 | 49.7 | 28.6 | player (untested) |
+| Kalshi | Rachaad White: 50+ rushing yards | NO | 0.61 | 91.1 | 28.4 | player (untested) |
+| Kalshi | Jeremy McNichols: 15+ rushing yards | NO | 0.42 | 72.1 | 28.4 | player (untested) |
+| Kalshi | Makai Lemon: 30+ receiving yards | NO | 0.31 | 60.4 | 27.9 | player (untested) |
+| Kalshi | Makai Lemon: 25+ receiving yards | NO | 0.26 | 55.0 | 27.7 | player (untested) |
+| Kalshi | Rachaad White: 30+ rushing yards | NO | 0.33 | 61.9 | 27.3 | player (untested) |
+| Kalshi | Jeremy McNichols: 25+ rushing yards | NO | 0.61 | 88.6 | 26.0 | player (untested) |
+| Kalshi | Philadelphia over 21.5 points scored | YES | 0.29 | 55.3 | 24.9 | game |
+| Kalshi | Saquon Barkley: 3+ receptions | NO | 0.64 | 90.4 | 24.8 | player (untested) |
+| Kalshi | Washington wins by over 2.5 points? | NO | 0.36 | 62.2 | 24.6 | game |
+| Kalshi | Jeremy McNichols: 30+ rushing yards | NO | 0.68 | 93.8 | 24.3 | player (untested) |
+| Kalshi | Rachaad White: 60+ rushing yards | NO | 0.72 | 97.5 | 24.0 | player (untested) |
+| Kalshi | Rachaad White: 25+ rushing yards | NO | 0.27 | 52.3 | 23.9 | player (untested) |
+| Kalshi | Washington wins by over 1.5 points? | NO | 0.34 | 59.5 | 23.9 | game |
+| Kalshi | Philadelphia over 20.5 points scored | YES | 0.34 | 59.2 | 23.7 | game |
+| Kalshi | Tanner McKee: 200+ passing yards | NO | 0.45 | 70.4 | 23.6 | player (untested) |
+| Kalshi | Philadelphia over 24.5 points scored | YES | 0.19 | 43.7 | 23.6 | game |
+| Kalshi | Philadelphia over 17.5 points scored | YES | 0.45 | 70.1 | 23.4 | game |
+| Kalshi | Tanner McKee: 20+ passing completions | NO | 0.46 | 71.1 | 23.4 | player (untested) |
+| Kalshi | Makai Lemon: 40+ receiving yards | NO | 0.45 | 70.0 | 23.2 | player (untested) |
+| Kalshi | Darius Cooper: 4+ receptions | NO | 0.73 | 97.5 | 23.1 | player (untested) |
+| Kalshi | Washington wins | NO | 0.31 | 55.4 | 22.9 | game |
+| Kalshi | Philadelphia wins | YES | 0.31 | 55.4 | 22.9 | game |
+| Kalshi | Philadelphia wins by over 4.5 points? | YES | 0.20 | 43.5 | 22.4 | game |
+| Kalshi | Saquon Barkley: 18+ rushing attempts | YES | 0.10 | 32.9 | 22.2 | player (untested) |
+| Kalshi | Stefon Diggs: 60+ receiving yards | NO | 0.68 | 91.7 | 22.2 | player (untested) |
+| Kalshi | Darius Cooper: 10+ receiving yards | NO | 0.23 | 46.3 | 22.1 | player (untested) |
+| Kalshi | Makai Lemon: 5+ receptions | NO | 0.48 | 71.6 | 21.9 | player (untested) |
+| Kalshi | Rachaad White: 1+ touchdowns | NO | 0.59 | 82.5 | 21.8 | player (untested) |
+| Kalshi | Philadelphia wins by over 7.5 points? | YES | 0.13 | 35.6 | 21.8 | game |
+| Kalshi | Tanner McKee: 1+ passing touchdowns | NO | 0.35 | 58.4 | 21.8 | player (untested) |
+| Kalshi | Philadelphia wins by over 3.5 points? | YES | 0.23 | 46.0 | 21.8 | game |
+| Kalshi | Makai Lemon: 45+ receiving yards | NO | 0.51 | 74.3 | 21.6 | player (untested) |
+| Kalshi | Philadelphia wins by over 6.5 points? | YES | 0.16 | 38.2 | 21.3 | game |
+| Kalshi | Dallas Goedert: 20+ receiving yards | NO | 0.18 | 40.3 | 21.2 | player (untested) |
+| Kalshi | Saquon Barkley: 10+ receiving yards | NO | 0.45 | 67.7 | 21.0 | player (untested) |
+| Kalshi | Philadelphia wins by over 1.5 points? | YES | 0.29 | 51.3 | 20.8 | game |
+| Kalshi | Philadelphia wins by over 5.5 points? | YES | 0.19 | 40.8 | 20.8 | game |
+| Kalshi | Saquon Barkley: 2+ receptions | NO | 0.45 | 67.4 | 20.7 | player (untested) |
+| Kalshi | Dallas Goedert: 30+ receiving yards | NO | 0.28 | 50.0 | 20.6 | player (untested) |
+| Kalshi | Makai Lemon: 4+ receptions | NO | 0.32 | 53.7 | 20.1 | player (untested) |
+| Kalshi | Dallas Goedert: 25+ receiving yards | NO | 0.24 | 45.3 | 20.0 | player (untested) |
+| Kalshi | Dallas Goedert: 5+ receptions | NO | 0.43 | 64.5 | 19.8 | player (untested) |
+| Kalshi | Jayden Daniels: 14+ passing completions | NO | 0.14 | 34.5 | 19.7 | player (untested) |
+| Kalshi | Jayden Daniels: 25+ passing attempts | NO | 0.25 | 45.8 | 19.5 | player (untested) |
+| Kalshi | Rachaad White: 60+ rushing and receiving yards combined | NO | 0.51 | 72.1 | 19.4 | player (untested) |
+| Kalshi | Philadelphia wins by over 2.5 points? | YES | 0.28 | 48.6 | 19.2 | game |
+| Kalshi | Jayden Daniels: 150+ passing yards | NO | 0.21 | 41.3 | 19.1 | player (untested) |
+| Kalshi | Washington wins by over 3.5 points? | NO | 0.44 | 64.7 | 19.0 | game |
+| Kalshi | Darius Cooper: 15+ receiving yards | NO | 0.31 | 51.4 | 18.9 | player (untested) |
+| Kalshi | Washington wins by over 4.5 points? | NO | 0.47 | 67.6 | 18.8 | game |
+| Kalshi | Jayden Daniels: 15+ rushing yards | NO | 0.13 | 32.4 | 18.6 | player (untested) |
+| Kalshi | Stefon Diggs: 50+ receiving yards | NO | 0.58 | 78.3 | 18.5 | player (untested) |
+| Kalshi | Dallas Goedert: 6+ receptions | NO | 0.59 | 79.2 | 18.5 | player (untested) |
+| Kalshi | Washington wins by over 5.5 points? | NO | 0.50 | 70.1 | 18.4 | game |
+| Kalshi | Philadelphia wins by over 9.5 points? | YES | 0.11 | 30.0 | 18.3 | game |
+| Kalshi | Philadelphia over 28.5 points scored | YES | 0.10 | 28.9 | 18.3 | game |
+| Kalshi | Dallas Goedert: 40+ receiving yards | NO | 0.40 | 59.9 | 18.2 | player (untested) |
+| Kalshi | Philadelphia over 14.5 points scored | YES | 0.60 | 79.7 | 18.0 | game |
+| Kalshi | Philadelphia wins by over 10.5 points? | YES | 0.09 | 27.6 | 18.0 | game |
+| Kalshi | Stefon Diggs: 70+ receiving yards | NO | 0.78 | 97.0 | 17.8 | player (untested) |
+| Kalshi | Makai Lemon: 50+ receiving yards | NO | 0.59 | 78.5 | 17.8 | player (untested) |
+| Kalshi | Saquon Barkley: 15+ rushing attempts | YES | 0.24 | 43.0 | 17.7 | player (untested) |
+| Kalshi | Saquon Barkley: 80+ rushing yards | YES | 0.17 | 35.4 | 17.4 | player (untested) |
+| Kalshi | Jayden Daniels: 175+ passing yards | NO | 0.33 | 51.9 | 17.3 | player (untested) |
+| Kalshi | Makai Lemon: 6+ receptions | NO | 0.66 | 84.9 | 17.3 | player (untested) |
+| Kalshi | Saquon Barkley: 100+ rushing yards | YES | 0.08 | 25.7 | 17.2 | player (untested) |
+| Kalshi | Saquon Barkley: 25+ receiving yards | NO | 0.75 | 93.5 | 17.2 | player (untested) |
+| Kalshi | Chig Okonkwo: 10+ receiving yards | NO | 0.16 | 33.7 | 16.8 | player (untested) |
+| Kalshi | Dallas Goedert: 7+ receptions | NO | 0.72 | 90.1 | 16.7 | player (untested) |
+| Kalshi | Saquon Barkley: 90+ rushing yards | YES | 0.13 | 30.4 | 16.6 | player (untested) |
+| Kalshi | Makai Lemon: 60+ receiving yards | NO | 0.68 | 86.0 | 16.5 | player (untested) |
+| Kalshi | Jeremy McNichols: 40+ rushing yards | NO | 0.80 | 97.5 | 16.3 | player (untested) |
+| Kalshi | Rachaad White: 70+ rushing yards | NO | 0.80 | 97.5 | 16.3 | player (untested) |
+| Kalshi | Jeremy McNichols: 1+ touchdowns | NO | 0.82 | 99.3 | 16.3 | player (untested) |
+| Kalshi | Makai Lemon: 3+ receptions | NO | 0.18 | 35.3 | 16.2 | player (untested) |
+| Kalshi | Jayden Daniels: 125+ passing yards | NO | 0.14 | 31.0 | 16.2 | player (untested) |
+| Kalshi | Darius Cooper: 20+ receiving yards | NO | 0.39 | 56.8 | 16.2 | player (untested) |
+| Kalshi | Dallas Goedert: 4+ receptions | NO | 0.29 | 46.6 | 16.2 | player (untested) |
+| Kalshi | Washington wins by over 6.5 points? | NO | 0.55 | 72.7 | 16.0 | game |
+| Kalshi | Saquon Barkley: 20+ receiving yards | NO | 0.70 | 87.4 | 15.9 | player (untested) |
+| Kalshi | Saquon Barkley: 15+ receiving yards | NO | 0.61 | 78.5 | 15.8 | player (untested) |
+| Kalshi | Tanner McKee: 34+ passing attempts | NO | 0.51 | 68.5 | 15.8 | player (untested) |
+| Kalshi | Rachaad White: 16+ rushing attempts | NO | 0.82 | 98.4 | 15.4 | player (untested) |
+| Kalshi | Jayden Daniels: 1+ passing touchdowns | NO | 0.21 | 37.3 | 15.2 | player (untested) |
+| Kalshi | Makai Lemon: 7+ receptions | NO | 0.77 | 93.3 | 15.1 | player (untested) |
+| Kalshi | Saquon Barkley: 1+ touchdowns | NO | 0.66 | 82.6 | 15.0 | player (untested) |
+| Kalshi | Tanner McKee: 2+ passing interceptions | NO | 0.77 | 93.1 | 14.9 | player (untested) |
+| Kalshi | Saquon Barkley: 70+ rushing yards | YES | 0.25 | 41.1 | 14.8 | player (untested) |
+| Kalshi | Saquon Barkley: 4+ receptions | NO | 0.83 | 98.6 | 14.6 | player (untested) |
+| Kalshi | Jayden Daniels: 20+ rushing yards | NO | 0.21 | 36.5 | 14.3 | player (untested) |
+| Kalshi | Philadelphia wins by over 14.5 points? | YES | 0.05 | 19.5 | 14.1 | game |
+| Kalshi | Chig Okonkwo: 15+ receiving yards | NO | 0.23 | 38.1 | 13.9 | player (untested) |
+| Kalshi | Philadelphia over 31.5 points scored | YES | 0.06 | 20.2 | 13.8 | game |
+| Kalshi | Saquon Barkley: 110+ rushing yards | YES | 0.07 | 21.3 | 13.8 | player (untested) |
+| Kalshi | Philadelphia wins by over 13.5 points? | YES | 0.07 | 21.2 | 13.8 | game |
+| Kalshi | Stefon Diggs: 40+ receiving yards | NO | 0.45 | 60.5 | 13.8 | player (untested) |
+| Kalshi | Washington wins by over 9.5 points? | NO | 0.64 | 78.9 | 13.3 | game |
+| Kalshi | Saquon Barkley: 60+ rushing yards | YES | 0.32 | 46.6 | 13.0 | player (untested) |
+| Kalshi | Stefon Diggs: 80+ receiving yards | NO | 0.83 | 97.0 | 13.0 | player (untested) |
+| Kalshi | Washington wins by over 7.5 points? | NO | 0.60 | 74.7 | 13.0 | game |
+| Kalshi | Darius Cooper: 25+ receiving yards | NO | 0.47 | 61.7 | 12.9 | player (untested) |
+| Kalshi | Makai Lemon: 70+ receiving yards | NO | 0.78 | 91.7 | 12.5 | player (untested) |
+| Kalshi | Rachaad White: 85+ rushing and receiving yards combined | NO | 0.77 | 90.7 | 12.5 | player (untested) |
+| Kalshi | Darius Cooper: 1+ touchdowns | YES | 0.17 | 30.3 | 12.3 | player (untested) |
+| Kalshi | Chig Okonkwo: 20+ receiving yards | NO | 0.29 | 42.7 | 12.2 | player (untested) |
+| Kalshi | Dallas Goedert: 50+ receiving yards | NO | 0.55 | 68.8 | 12.1 | player (untested) |
+| Kalshi | Jayden Daniels: 200+ passing yards | NO | 0.48 | 61.8 | 12.0 | player (untested) |
+| Kalshi | Washington wins by over 13.5 points? | NO | 0.73 | 86.0 | 11.7 | game |
+| Kalshi | Philadelphia over 10.5 points scored | YES | 0.76 | 88.9 | 11.7 | game |
+| Kalshi | Rachaad White: 80+ rushing yards | NO | 0.85 | 97.5 | 11.6 | player (untested) |
+| Kalshi | Antonio Williams: 20+ receiving yards | NO | 0.26 | 38.9 | 11.5 | player (untested) |
+| Kalshi | Darius Cooper: 5+ receptions | NO | 0.87 | 99.3 | 11.5 | player (untested) |
+| Kalshi | Jayden Daniels: 30+ passing attempts | NO | 0.52 | 65.2 | 11.5 | player (untested) |
+| Kalshi | Antonio Williams: 15+ receiving yards | NO | 0.20 | 32.3 | 11.2 | player (untested) |
+| Kalshi | Saquon Barkley: 95+ rushing and receiving yards combined | YES | 0.21 | 33.4 | 11.2 | player (untested) |
+| Kalshi | Tanner McKee: 10+ rushing yards | NO | 0.81 | 93.2 | 11.1 | player (untested) |
+| Kalshi | Dallas Goedert: 3+ receptions | NO | 0.17 | 29.1 | 11.1 | player (untested) |
+| Kalshi | Tanner McKee: 225+ passing yards | NO | 0.63 | 75.6 | 11.0 | player (untested) |
+| Kalshi | Antonio Williams: 10+ receiving yards | NO | 0.14 | 25.7 | 10.8 | player (untested) |
+| Kalshi | Antonio Williams: 25+ receiving yards | NO | 0.33 | 45.4 | 10.8 | player (untested) |
+| Kalshi | Makai Lemon: 80+ receiving yards | NO | 0.84 | 95.7 | 10.8 | player (untested) |
+| Kalshi | Saquon Barkley: 120+ rushing yards | YES | 0.06 | 17.2 | 10.8 | player (untested) |
+| Kalshi | Dallas Goedert: 1+ touchdowns | YES | 0.27 | 39.2 | 10.8 | player (untested) |
+| Kalshi | Darius Cooper: 30+ receiving yards | NO | 0.54 | 66.5 | 10.7 | player (untested) |
+| Kalshi | Austin Ekeler: 1+ touchdowns | NO | 0.88 | 99.3 | 10.6 | player (untested) |
+| Kalshi | Saquon Barkley: 120+ rushing and receiving yards combined | YES | 0.11 | 22.2 | 10.6 | player (untested) |
+| Kalshi | Full Game: over 44.5 points scored? | YES | 0.36 | 48.1 | 10.5 | game |
+| Kalshi | Washington wins by over 10.5 points? | NO | 0.69 | 80.9 | 10.4 | game |
+| Kalshi | Antonio Williams: 30+ receiving yards | NO | 0.40 | 52.0 | 10.3 | player (untested) |
+| Kalshi | Makai Lemon: 1+ touchdowns | NO | 0.78 | 89.4 | 10.2 | player (untested) |
+| Kalshi | Saquon Barkley: 30+ receiving yards | NO | 0.86 | 97.0 | 10.1 | player (untested) |
+| Kalshi | Antonio Williams: 50+ receiving yards | NO | 0.64 | 75.7 | 10.1 | player (untested) |
+| Kalshi | Antonio Williams: 60+ receiving yards | NO | 0.73 | 84.5 | 10.1 | player (untested) |
+| Kalshi | Dallas Goedert: 8+ receptions | NO | 0.85 | 95.9 | 10.0 | player (untested) |
+| Kalshi | Full Game: over 47.5 points scored? | YES | 0.28 | 39.4 | 10.0 | game |
+| Kalshi | Makai Lemon: 8+ receptions | NO | 0.87 | 97.7 | 9.9 | player (untested) |
+| Kalshi | Jayden Daniels: 70+ rushing yards | YES | 0.13 | 23.6 | 9.8 | player (untested) |
+| Kalshi | Makai Lemon: 2+ receptions | NO | 0.09 | 19.4 | 9.8 | player (untested) |
+| Kalshi | Dallas Goedert: 2+ touchdowns | YES | 0.04 | 13.9 | 9.6 | player (untested) |
+| Kalshi | Jayden Daniels: 25+ rushing yards | NO | 0.30 | 41.0 | 9.5 | player (untested) |
+| Kalshi | Antonio Williams: 40+ receiving yards | NO | 0.53 | 64.2 | 9.5 | player (untested) |
+| Kalshi | Antonio Williams: 1+ touchdowns | NO | 0.77 | 87.6 | 9.3 | player (untested) |
+| Kalshi | Full Game: over 43.5 points scored? | YES | 0.40 | 50.9 | 9.2 | game |
+| Kalshi | Jayden Daniels: 19+ passing completions | NO | 0.52 | 62.9 | 9.2 | player (untested) |
+| Kalshi | Antonio Williams: 70+ receiving yards | NO | 0.81 | 91.2 | 9.2 | player (untested) |
+| Kalshi | Washington wins by over 16.5 points? | NO | 0.80 | 90.1 | 9.0 | game |
+| Kalshi | Tanner McKee: 2+ passing touchdowns | NO | 0.74 | 84.3 | 8.9 | player (untested) |
+| Kalshi | Jeremy McNichols: 50+ rushing yards | NO | 0.88 | 97.5 | 8.7 | player (untested) |
+| Kalshi | Dyami Brown: 1+ touchdowns | NO | 0.90 | 99.3 | 8.7 | player (untested) |
+| Kalshi | Treylon Burks: 10+ receiving yards | NO | 0.30 | 40.0 | 8.6 | player (untested, Q) |
+| Kalshi | Dallas Goedert: 60+ receiving yards | NO | 0.67 | 77.1 | 8.5 | player (untested) |
+| Kalshi | Washington wins by over 14.5 points? | NO | 0.78 | 87.6 | 8.4 | game |
+| Kalshi | Washington over 14.5 points scored | NO | 0.17 | 26.3 | 8.3 | game |
+| Kalshi | Full Game: over 50.5 points scored? | YES | 0.22 | 31.5 | 8.3 | game |
+| Kalshi | Jayden Daniels: 80+ rushing yards | YES | 0.09 | 17.8 | 8.3 | player (untested) |
+| Kalshi | Saquon Barkley: 130+ rushing yards | YES | 0.05 | 13.5 | 8.1 | player (untested) |
+| Kalshi | Philadelphia over 35.5 points scored | YES | 0.03 | 11.3 | 8.1 | game |
+| Kalshi | Full Game: over 42.5 points scored? | YES | 0.44 | 53.7 | 8.0 | game |
+| Kalshi | Dyami Brown: 10+ receiving yards | NO | 0.45 | 54.6 | 7.9 | player (untested) |
+| Kalshi | Chig Okonkwo: 25+ receiving yards | NO | 0.38 | 47.5 | 7.9 | player (untested) |
+| Kalshi | Full Game: over 53.5 points scored? | YES | 0.16 | 24.8 | 7.9 | game |
+| Kalshi | Dallas Goedert: 2+ receptions | NO | 0.07 | 15.3 | 7.8 | player (untested) |
+| Kalshi | Saquon Barkley: 5+ receptions | NO | 0.91 | 99.3 | 7.7 | player (untested) |
+| Kalshi | Full Game: over 41.5 points scored? | YES | 0.47 | 56.4 | 7.7 | game |
+| Kalshi | Saquon Barkley: 50+ rushing yards | YES | 0.43 | 52.4 | 7.7 | player (untested) |
+| Kalshi | Dallas Goedert: 70+ receiving yards | NO | 0.75 | 83.9 | 7.6 | player (untested) |
+| Kalshi | Jayden Daniels: 60+ rushing yards | YES | 0.22 | 30.8 | 7.6 | player (untested) |
+| Kalshi | Makai Lemon: 90+ receiving yards | NO | 0.89 | 97.0 | 7.3 | player (untested) |
+| Kalshi | Jayden Daniels: 1+ passing interceptions | NO | 0.62 | 70.9 | 7.3 | player (untested) |
+| Kalshi | Antonio Williams: 80+ receiving yards | NO | 0.88 | 95.9 | 7.2 | player (untested) |
+| Kalshi | Rachaad White: 90+ rushing yards | NO | 0.90 | 97.5 | 6.8 | player (untested) |
+| Kalshi | Tanner McKee: 15+ rushing yards | NO | 0.90 | 97.5 | 6.8 | player (untested) |
+| Kalshi | Tanner McKee: 1+ touchdowns | NO | 0.92 | 99.3 | 6.8 | player (untested) |
+| Kalshi | Philadelphia over 7.5 points scored | YES | 0.86 | 93.7 | 6.8 | game |
+| Kalshi | Saquon Barkley: 55+ rushing yards | YES | 0.41 | 49.5 | 6.8 | player (untested) |
+| Kalshi | Chig Okonkwo: 30+ receiving yards | NO | 0.44 | 52.5 | 6.8 | player (untested) |
+| Kalshi | Washington over 22.5 points scored | NO | 0.48 | 56.5 | 6.8 | game |
+| Kalshi | Full Game: over 40.5 points scored? | YES | 0.51 | 59.2 | 6.4 | game |
+| Kalshi | Dallas Goedert: 80+ receiving yards | NO | 0.82 | 89.5 | 6.4 | player (untested) |
+| Kalshi | Darius Cooper: 50+ receiving yards | NO | 0.75 | 82.7 | 6.4 | player (untested) |
+| Kalshi | Antonio Williams: 90+ receiving yards | NO | 0.90 | 97.0 | 6.4 | player (untested) |
+| Kalshi | Stefon Diggs: 90+ receiving yards | NO | 0.90 | 97.0 | 6.4 | player (untested) |
+| Kalshi | Washington wins by over 17.5 points? | NO | 0.84 | 91.3 | 6.3 | game |
+| Kalshi | Dallas Goedert: 9+ receptions | NO | 0.92 | 98.7 | 6.2 | player (untested) |
+| Kalshi | Full Game: over 39.5 points scored? | YES | 0.54 | 61.9 | 6.1 | game |
+| Kalshi | Jayden Daniels: 90+ rushing yards | YES | 0.06 | 12.5 | 6.1 | player (untested) |
+| Kalshi | Full Game: over 56.5 points scored? | YES | 0.12 | 18.9 | 6.1 | game |
+| Kalshi | Washington over 10.5 points scored | NO | 0.09 | 15.7 | 6.1 | game |
+| Kalshi | Van Jefferson: 1+ touchdowns | YES | 0.04 | 10.3 | 6.0 | player (untested) |
+| Kalshi | Jayden Daniels: 2+ passing touchdowns | NO | 0.57 | 64.6 | 5.9 | player (untested) |
+| Kalshi | Darius Cooper: 60+ receiving yards | NO | 0.82 | 88.9 | 5.9 | player (untested) |
+| Kalshi | Dallas Goedert: 10+ receptions | NO | 0.93 | 99.3 | 5.9 | player (untested) |
+| Kalshi | Full Game: over 38.5 points scored? | YES | 0.57 | 64.4 | 5.7 | game |
+| Kalshi | Rachaad White: 2+ touchdowns | NO | 0.91 | 97.2 | 5.7 | player (untested) |
+| Kalshi | Darius Cooper: 2+ touchdowns | YES | 0.02 | 7.8 | 5.6 | player (untested) |
+| Kalshi | Saquon Barkley: 12+ rushing attempts | YES | 0.46 | 53.4 | 5.6 | player (untested) |
+| Kalshi | Darius Cooper: 40+ receiving yards | NO | 0.68 | 75.1 | 5.6 | player (untested) |
+| Kalshi | Saquon Barkley: 40+ receiving yards | NO | 0.91 | 97.0 | 5.4 | player (untested) |
+| Kalshi | Washington wins by over 20.5 points? | NO | 0.88 | 94.2 | 5.4 | game |
+| Kalshi | Rachaad White: 110+ rushing and receiving yards combined | NO | 0.91 | 96.9 | 5.4 | player (untested) |
+| Kalshi | Antonio Williams: 3+ receptions | NO | 0.38 | 44.9 | 5.2 | player (untested) |
+| Kalshi | Full Game: over 59.5 points scored? | YES | 0.08 | 13.7 | 5.2 | game |
+| Kalshi | Washington over 21.5 points scored | NO | 0.46 | 52.9 | 5.1 | game |
+| Kalshi | Rachaad White: 10+ receiving yards | NO | 0.41 | 47.8 | 5.1 | player (untested) |
+| Kalshi | Washington over 17.5 points scored | NO | 0.30 | 36.6 | 5.1 | game |
+| Kalshi | Jayden Daniels: 225+ passing yards | NO | 0.65 | 71.7 | 5.1 | player (untested) |
+| Kalshi | Tanner McKee: 250+ passing yards | NO | 0.74 | 80.3 | 4.9 | player (untested) |
+| Kalshi | Makai Lemon: 9+ receptions | NO | 0.94 | 99.3 | 4.9 | player (untested) |
+| Kalshi | Darius Cooper: 6+ receptions | NO | 0.94 | 99.3 | 4.9 | player (untested) |
+| Kalshi | Stefon Diggs: 2+ touchdowns | YES | 0.05 | 10.2 | 4.8 | player (untested) |
+| Kalshi | Jayden Daniels: 30+ rushing yards | NO | 0.39 | 45.4 | 4.7 | player (untested) |
+| Kalshi | Saquon Barkley: 70+ rushing and receiving yards combined | YES | 0.40 | 46.4 | 4.7 | player (untested) |
+| Kalshi | Stefon Diggs: 30+ receiving yards | NO | 0.33 | 39.1 | 4.6 | player (untested) |
+| Kalshi | Jayden Daniels: 50+ rushing yards | YES | 0.32 | 38.1 | 4.5 | player (untested) |
+| Kalshi | Washington over 7.5 points scored | NO | 0.05 | 9.7 | 4.4 | game |
+| Kalshi | Dallas Goedert: 90+ receiving yards | NO | 0.89 | 93.7 | 4.0 | player (untested) |
+| Kalshi | Rachaad White: 100+ rushing yards | NO | 0.93 | 97.5 | 4.0 | player (untested) |
+| Kalshi | Tanner McKee: 20+ rushing yards | NO | 0.93 | 97.5 | 4.0 | player (untested) |
+| Kalshi | Antonio Williams: 2+ receptions | NO | 0.21 | 26.1 | 3.9 | player (untested) |
+| Kalshi | Washington over 20.5 points scored | NO | 0.43 | 48.6 | 3.9 | game |
+| Kalshi | Saquon Barkley: 2+ touchdowns | NO | 0.93 | 97.3 | 3.8 | player (untested) |
+| Kalshi | Jayden Daniels: 2+ touchdowns | YES | 0.04 | 7.9 | 3.7 | player (untested) |
+| Kalshi | Jaydon Blue: 1+ touchdowns | YES | 0.10 | 14.3 | 3.6 | player (untested) |
+| Kalshi | Chig Okonkwo: 1+ touchdowns | NO | 0.78 | 82.8 | 3.6 | player (untested) |
+| Kalshi | Stefon Diggs: 100+ receiving yards | NO | 0.93 | 97.0 | 3.5 | player (untested) |
+| Kalshi | Full Game: over 62.5 points scored? | YES | 0.06 | 9.9 | 3.5 | game |
+| Kalshi | Philadelphia over 38.5 points scored | YES | 0.03 | 6.6 | 3.4 | game |
+| Kalshi | Tanner McKee: 3+ passing touchdowns | NO | 0.92 | 95.8 | 3.3 | player (untested) |
+| Kalshi | Treylon Burks: 15+ receiving yards | NO | 0.41 | 46.0 | 3.3 | player (untested, Q) |
+| Kalshi | Dallas Goedert: 100+ receiving yards | NO | 0.93 | 96.7 | 3.3 | player (untested) |
+| Kalshi | Full Game: over 35.5 points scored? | YES | 0.67 | 71.8 | 3.3 | game |
+| Kalshi | Tanner McKee: 3+ passing interceptions | NO | 0.95 | 98.6 | 3.2 | player (untested) |
+| Kalshi | Washington over 24.5 points scored | NO | 0.59 | 63.8 | 3.1 | game |
+| Kalshi | Elijah Moore: 1+ touchdowns | NO | 0.96 | 99.3 | 3.1 | player (untested) |
+| Kalshi | Jeremy McNichols: 60+ rushing yards | NO | 0.94 | 97.5 | 3.1 | player (untested) |
+| Kalshi | Makai Lemon: 10+ receptions | NO | 0.96 | 99.3 | 3.0 | player (untested) |
+| Kalshi | Darius Cooper: 80+ receiving yards | NO | 0.93 | 96.5 | 3.0 | player (untested) |
+| Kalshi | Antonio Williams: 7+ receptions | NO | 0.94 | 97.4 | 3.0 | player (untested) |
+| Kalshi | Antonio Williams: 4+ receptions | NO | 0.61 | 65.5 | 2.8 | player (untested) |
+| Kalshi | Darius Cooper: 70+ receiving yards | NO | 0.90 | 93.4 | 2.8 | player (untested) |
+| Kalshi | Dallas Goedert: 3+ touchdowns | YES | 0.01 | 3.8 | 2.8 | player (untested) |
+| Kalshi | Saquon Barkley: 50+ receiving yards | NO | 0.94 | 97.0 | 2.6 | player (untested) |
+| Kalshi | Makai Lemon: 100+ receiving yards | NO | 0.94 | 97.0 | 2.6 | player (untested) |
+| Kalshi | Washington over 3.5 points scored | NO | 0.02 | 4.5 | 2.4 | game |
+| Kalshi | Jayden Daniels: 4+ rushing attempts | NO | 0.13 | 16.2 | 2.4 | player (untested) |
+| Kalshi | Washington over 28.5 points scored | NO | 0.74 | 77.6 | 2.2 | game |
+| Kalshi | Antonio Williams: 6+ receptions | NO | 0.89 | 91.9 | 2.2 | player (untested) |
+| Kalshi | Ben Sinnott: 1+ touchdowns | NO | 0.97 | 99.3 | 2.1 | player (untested) |
+| Kalshi | Antonio Williams: 8+ receptions | NO | 0.97 | 99.3 | 2.1 | player (untested) |
+| Kalshi | Dallas Goedert: 11+ receptions | NO | 0.97 | 99.3 | 2.1 | player (untested) |
+| Kalshi | Darius Cooper: 7+ receptions | NO | 0.97 | 99.3 | 2.1 | player (untested) |
+| Kalshi | Stefon Diggs: 1+ touchdowns | YES | 0.31 | 34.6 | 2.1 | player (untested) |
+| Kalshi | Treylon Burks: 20+ receiving yards | NO | 0.48 | 51.8 | 2.1 | player (untested, Q) |
+| Kalshi | Antonio Williams: 5+ receptions | NO | 0.78 | 81.3 | 2.1 | player (untested) |
+| Kalshi | Rachaad White: 15+ receiving yards | NO | 0.53 | 56.7 | 1.9 | player (untested) |
+| Kalshi | Chig Okonkwo: 8+ receptions | NO | 0.95 | 97.2 | 1.9 | player (untested) |
+| Kalshi | Philadelphia over 3.5 points scored | YES | 0.95 | 97.2 | 1.9 | game |
+| Kalshi | Jayden Daniels: 35+ passing attempts | NO | 0.79 | 82.0 | 1.8 | player (untested) |
+| Kalshi | Chig Okonkwo: 70+ receiving yards | YES | 0.13 | 15.5 | 1.7 | player (untested) |
+| Kalshi | Dyami Brown: 15+ receiving yards | NO | 0.56 | 59.4 | 1.7 | player (untested) |
+| Kalshi | Stefon Diggs: 3+ touchdowns | YES | 0.01 | 2.8 | 1.7 | player (untested) |
+| Kalshi | Stefon Diggs: 2+ receptions | NO | 0.10 | 12.3 | 1.6 | player (untested) |
+| Kalshi | Stefon Diggs: 25+ receiving yards | NO | 0.25 | 27.9 | 1.6 | player (untested) |
+| Kalshi | Saquon Barkley: 40+ rushing yards | YES | 0.55 | 58.2 | 1.5 | player (untested) |
+| Kalshi | Rachaad White: 7+ receptions | NO | 0.97 | 98.7 | 1.5 | player (untested) |
+| Kalshi | Jayden Daniels: 3+ passing interceptions | NO | 0.97 | 98.4 | 1.2 | player (untested) |
+| Kalshi | Colson Yankoff: 1+ touchdowns | NO | 0.98 | 99.3 | 1.2 | player (untested) |
+| Kalshi | Jeremy McNichols: 70+ rushing yards | NO | 0.96 | 97.5 | 1.2 | player (untested) |
+| Kalshi | Tanner McKee: 25+ rushing yards | NO | 0.96 | 97.5 | 1.2 | player (untested) |
+| Kalshi | Saquon Barkley: 6+ receptions | NO | 0.98 | 99.3 | 1.2 | player (untested) |
+| Kalshi | Jayden Daniels: 10+ rushing attempts | YES | 0.20 | 22.3 | 1.1 | player (untested) |
+| Kalshi | Full Game: over 32.5 points scored? | YES | 0.76 | 78.4 | 1.1 | game |
+| Kalshi | Rachaad White: 2+ receptions | NO | 0.33 | 35.7 | 1.1 | player (untested) |
+| Kalshi | Dyami Brown: 40+ receiving yards | YES | 0.16 | 18.0 | 1.1 | player (untested) |
+| Kalshi | Chig Okonkwo: 60+ receiving yards | YES | 0.20 | 22.1 | 1.0 | player (untested) |
+| Kalshi | Jayden Daniels: 250+ passing yards | NO | 0.78 | 80.1 | 0.9 | player (untested) |
+| Kalshi | Makai Lemon: 2+ touchdowns | NO | 0.98 | 99.0 | 0.9 | player (untested) |
+| Kalshi | Dyami Brown: 50+ receiving yards | YES | 0.10 | 11.5 | 0.9 | player (untested) |
+| Kalshi | Jayden Daniels: 3+ touchdowns | YES | 0.01 | 1.9 | 0.9 | player (untested) |
+| Kalshi | Stefon Diggs: 10+ receptions | NO | 0.98 | 99.0 | 0.8 | player (untested) |
+| Kalshi | Dyami Brown: 30+ receiving yards | YES | 0.24 | 26.1 | 0.8 | player (untested) |
+| Kalshi | Chig Okonkwo: 40+ receiving yards | NO | 0.59 | 61.5 | 0.8 | player (untested) |
+| Kalshi | Jaydon Blue: 2+ touchdowns | YES | 0.01 | 1.8 | 0.8 | player (untested) |
+| Kalshi | Treylon Burks: 2+ touchdowns | YES | 0.02 | 2.9 | 0.7 | player (untested, Q) |
+| Kalshi | Stefon Diggs: 110+ receiving yards | NO | 0.96 | 97.0 | 0.7 | player (untested) |
+| Kalshi | Dallas Goedert: 110+ receiving yards | NO | 0.96 | 97.0 | 0.7 | player (untested) |
+| Kalshi | Makai Lemon: 110+ receiving yards | NO | 0.96 | 97.0 | 0.7 | player (untested) |
+| Kalshi | Jayden Daniels: 1+ touchdowns | YES | 0.28 | 30.1 | 0.7 | player (untested) |
+| Kalshi | Stefon Diggs: 15+ receiving yards | YES | 0.88 | 89.4 | 0.7 | player (untested) |
+| Kalshi | Rachaad White: 4+ receptions | NO | 0.73 | 75.1 | 0.7 | player (untested) |
+| Kalshi | Washington over 35.5 points scored | NO | 0.91 | 92.2 | 0.7 | game |
+| Kalshi | Jayden Daniels: 275+ passing yards | NO | 0.86 | 87.5 | 0.7 | player (untested) |
+| Kalshi | Rachaad White: 50+ receiving yards | NO | 0.96 | 96.9 | 0.7 | player (untested) |
+| Kalshi | Tanner McKee: 25+ passing completions | NO | 0.81 | 82.7 | 0.6 | player (untested) |
+| Kalshi | Treylon Burks: 5+ receptions | NO | 0.97 | 97.8 | 0.6 | player (untested, Q) |
+| Kalshi | Full Game: over 29.5 points scored? | YES | 0.83 | 84.5 | 0.5 | game |
+| Kalshi | Rachaad White: 6+ receptions | NO | 0.95 | 95.9 | 0.5 | player (untested) |
+| Kalshi | Saquon Barkley: 30+ rushing yards | NO | 0.34 | 36.0 | 0.5 | player (untested) |
+| Kalshi | Washington over 38.5 points scored | NO | 0.95 | 95.8 | 0.4 | game |
+| Kalshi | Jayden Daniels: 4+ passing touchdowns | YES | 0.06 | 6.8 | 0.4 | player (untested) |
+| Kalshi | Jeremy McNichols: 2+ touchdowns | NO | 0.99 | 99.3 | 0.3 | player (untested) |
+| Kalshi | Rachaad White: 3+ touchdowns | NO | 0.99 | 99.3 | 0.3 | player (untested) |
+| Kalshi | Saquon Barkley: 3+ touchdowns | NO | 0.99 | 99.3 | 0.3 | player (untested) |
+| Kalshi | Jeremy McNichols: 80+ rushing yards | NO | 0.97 | 97.5 | 0.3 | player (untested) |
+| Kalshi | Makai Lemon: 11+ receptions | NO | 0.99 | 99.3 | 0.2 | player (untested) |
+| Kalshi | Treylon Burks: 70+ receiving yards | NO | 0.92 | 92.8 | 0.2 | player (untested, Q) |
+| Kalshi | Washington over 42.5 points scored | NO | 0.98 | 98.4 | 0.2 | game |
+| Kalshi | Washington over 31.5 points scored | NO | 0.84 | 85.1 | 0.1 | game |
+| Kalshi | Stefon Diggs: 9+ receptions | NO | 0.97 | 97.3 | 0.1 | player (untested) |
+| Kalshi | Treylon Burks: 1+ touchdowns | YES | 0.16 | 17.0 | 0.0 | player (untested, Q) |
+| Kalshi | Treylon Burks: 4+ receptions | NO | 0.90 | 90.6 | -0.0 | player (untested, Q) |
+| Kalshi | Dyami Brown: 4+ receptions | NO | 0.93 | 93.4 | -0.0 | player (untested) |
+| Kalshi | Tanner McKee: 300+ passing yards | YES | 0.11 | 11.6 | -0.0 | player (untested) |
+| Kalshi | Stefon Diggs: 20+ receiving yards | YES | 0.81 | 82.0 | -0.1 | player (untested) |
+| Kalshi | Jayden Daniels: 300+ passing yards | NO | 0.92 | 92.4 | -0.1 | player (untested) |
+| Kalshi | Treylon Burks: 80+ receiving yards | NO | 0.96 | 96.1 | -0.1 | player (untested, Q) |
+| Kalshi | Chig Okonkwo: 7+ receptions | NO | 0.92 | 92.3 | -0.2 | player (untested) |
+| Kalshi | Treylon Burks: 90+ receiving yards | NO | 0.97 | 97.0 | -0.2 | player (untested, Q) |
+| Kalshi | Rachaad White: 25+ receiving yards | YES | 0.26 | 27.1 | -0.2 | player (untested) |
+| Kalshi | Tanner McKee: 275+ passing yards | NO | 0.84 | 84.6 | -0.3 | player (untested) |
+| Kalshi | Stefon Diggs: 7+ receptions | NO | 0.84 | 84.6 | -0.4 | player (untested) |
+| Kalshi | Philadelphia over 42.5 points scored | YES | 0.03 | 2.8 | -0.4 | game |
+| Kalshi | Austin Ekeler: 2+ touchdowns | YES | 0.01 | 0.7 | -0.4 | player (untested) |
+| Kalshi | Jeremy McNichols: 3+ touchdowns | YES | 0.01 | 0.7 | -0.4 | player (untested) |
+| Kalshi | Dyami Brown: 2+ touchdowns | YES | 0.01 | 0.7 | -0.4 | player (untested) |
+| Kalshi | Treylon Burks: 3+ receptions | YES | 0.25 | 25.9 | -0.4 | player (untested, Q) |
+| Kalshi | Antonio Williams: 2+ touchdowns | NO | 0.99 | 98.6 | -0.5 | player (untested) |
+| Kalshi | Chig Okonkwo: 80+ receiving yards | YES | 0.10 | 10.1 | -0.5 | player (untested) |
+| Kalshi | Rachaad White: 5+ receptions | NO | 0.88 | 88.2 | -0.5 | player (untested) |
+| Kalshi | Chig Okonkwo: 2+ touchdowns | YES | 0.03 | 2.6 | -0.6 | player (untested) |
+| Kalshi | Jayden Daniels: 24+ passing completions | YES | 0.15 | 15.2 | -0.7 | player (untested) |
+| Kalshi | Full Game: over 26.5 points scored? | YES | 0.89 | 89.0 | -0.7 | game |
+| Kalshi | Full Game: over 20.5 points scored? | NO | 0.05 | 4.6 | -0.7 | game |
+| Kalshi | Jayden Daniels: 2+ passing interceptions | NO | 0.92 | 91.8 | -0.7 | player (untested) |
+| Kalshi | Full Game: over 23.5 points scored? | YES | 0.93 | 92.7 | -0.8 | game |
+| Kalshi | Dyami Brown: 5+ receptions | NO | 0.99 | 98.3 | -0.8 | player (untested) |
+| Kalshi | Dyami Brown: 2+ receptions | NO | 0.61 | 61.8 | -0.9 | player (untested) |
+| Kalshi | Full Game: over 20.5 points scored? | YES | 0.96 | 95.4 | -0.9 | game |
+| Kalshi | Dyami Brown: 20+ receiving yards | NO | 0.64 | 64.7 | -0.9 | player (untested) |
+| Kalshi | Stefon Diggs: 8+ receptions | NO | 0.93 | 92.5 | -1.0 | player (untested) |
+| Kalshi | Chig Okonkwo: 2+ receptions | NO | 0.18 | 18.1 | -1.0 | player (untested) |
+| Kalshi | Treylon Burks: 50+ receiving yards | NO | 0.80 | 80.1 | -1.0 | player (untested, Q) |
+| Kalshi | Rachaad White: 30+ receiving yards | YES | 0.20 | 20.1 | -1.1 | player (untested) |
+| Kalshi | Rachaad White: 40+ receiving yards | YES | 0.10 | 9.5 | -1.1 | player (untested) |
+| Kalshi | Stefon Diggs: 4+ receptions | NO | 0.39 | 39.6 | -1.1 | player (untested) |
+| Kalshi | Rachaad White: 3+ receptions | NO | 0.55 | 55.6 | -1.1 | player (untested) |
+| Kalshi | Chig Okonkwo: 5+ receptions | YES | 0.30 | 30.3 | -1.2 | player (untested) |
+| Kalshi | Full Game: over 23.5 points scored? | NO | 0.08 | 7.3 | -1.2 | game |
+| Kalshi | Dyami Brown: 60+ receiving yards | YES | 0.07 | 6.2 | -1.2 | player (untested) |
+| Kalshi | Treylon Burks: 60+ receiving yards | NO | 0.88 | 87.5 | -1.3 | player (untested, Q) |
+| Kalshi | Jayden Daniels: 3+ passing touchdowns | YES | 0.17 | 16.6 | -1.4 | player (untested) |
+| Kalshi | Chig Okonkwo: 90+ receiving yards | YES | 0.07 | 6.1 | -1.4 | player (untested) |
+| Kalshi | Chig Okonkwo: 50+ receiving yards | YES | 0.30 | 30.1 | -1.4 | player (untested) |
+| Kalshi | Chig Okonkwo: 6+ receptions | YES | 0.17 | 16.6 | -1.4 | player (untested) |
+| Kalshi | Jeremy McNichols: 2+ touchdowns | YES | 0.02 | 0.7 | -1.5 | player (untested) |
+| Kalshi | Rachaad White: 3+ touchdowns | YES | 0.02 | 0.7 | -1.5 | player (untested) |
+| Kalshi | Saquon Barkley: 3+ touchdowns | YES | 0.02 | 0.7 | -1.5 | player (untested) |
+| Kalshi | Chig Okonkwo: 6+ receptions | NO | 0.84 | 83.4 | -1.5 | player (untested) |
+| Kalshi | Washington over 42.5 points scored | YES | 0.03 | 1.6 | -1.6 | game |
+| Kalshi | Jayden Daniels: 3+ passing touchdowns | NO | 0.84 | 83.4 | -1.6 | player (untested) |
+| Kalshi | Stefon Diggs: 6+ receptions | YES | 0.28 | 27.8 | -1.6 | player (untested) |
+| Kalshi | Treylon Burks: 25+ receiving yards | NO | 0.57 | 57.1 | -1.6 | player (untested, Q) |
+| Kalshi | Jayden Daniels: 40+ rushing yards | YES | 0.46 | 46.1 | -1.6 | player (untested) |
+| Kalshi | Treylon Burks: 30+ receiving yards | YES | 0.38 | 38.0 | -1.7 | player (untested, Q) |
+| Kalshi | Rachaad White: 20+ receiving yards | NO | 0.65 | 64.9 | -1.7 | player (untested) |
+| Kalshi | Chig Okonkwo: 2+ touchdowns | NO | 0.99 | 97.4 | -1.7 | player (untested) |
+| Kalshi | Jeremy McNichols: 80+ rushing yards | YES | 0.04 | 2.5 | -1.7 | player (untested) |
+| Kalshi | Antonio Williams: 2+ touchdowns | YES | 0.03 | 1.4 | -1.8 | player (untested) |
+| Kalshi | Dyami Brown: 25+ receiving yards | YES | 0.31 | 30.7 | -1.8 | player (untested) |
+| Kalshi | Philadelphia over 42.5 points scored | NO | 0.99 | 97.2 | -1.9 | game |
+| Kalshi | Dyami Brown: 3+ receptions | NO | 0.83 | 82.1 | -1.9 | player (untested) |
+| Kalshi | Treylon Burks: 2+ touchdowns | NO | 0.99 | 97.1 | -1.9 | player (untested, Q) |
+| Kalshi | Chig Okonkwo: 3+ receptions | NO | 0.34 | 33.6 | -2.0 | player (untested) |
+| Kalshi | Jayden Daniels: 300+ passing yards | YES | 0.09 | 7.6 | -2.0 | player (untested) |
+| Kalshi | Stefon Diggs: 5+ receptions | NO | 0.57 | 56.7 | -2.0 | player (untested) |
+| Kalshi | Rachaad White: 40+ receiving yards | NO | 0.92 | 90.5 | -2.0 | player (untested) |
+| Kalshi | Stefon Diggs: 8+ receptions | YES | 0.09 | 7.5 | -2.1 | player (untested) |
+| Kalshi | Jayden Daniels: 24+ passing completions | NO | 0.86 | 84.8 | -2.1 | player (untested) |
+| Kalshi | Treylon Burks: 2+ receptions | NO | 0.50 | 49.7 | -2.1 | player (untested, Q) |
+| Kalshi | Jayden Daniels: 7+ rushing attempts | YES | 0.54 | 53.6 | -2.1 | player (untested) |
+| Kalshi | Chig Okonkwo: 3+ receptions | YES | 0.67 | 66.4 | -2.1 | player (untested) |
+| Kalshi | Rachaad White: 30+ receiving yards | NO | 0.81 | 79.9 | -2.1 | player (untested) |
+| Kalshi | Jayden Daniels: 4+ passing touchdowns | NO | 0.95 | 93.2 | -2.1 | player (untested) |
+| Kalshi | Washington over 38.5 points scored | YES | 0.06 | 4.2 | -2.2 | game |
+| Kalshi | Stefon Diggs: 6+ receptions | NO | 0.73 | 72.2 | -2.2 | player (untested) |
+| Kalshi | Chig Okonkwo: 4+ receptions | NO | 0.52 | 51.5 | -2.2 | player (untested) |
+| Kalshi | Makai Lemon: 2+ touchdowns | YES | 0.03 | 1.0 | -2.2 | player (untested) |
+| Kalshi | Chig Okonkwo: 4+ receptions | YES | 0.49 | 48.5 | -2.3 | player (untested) |
+| Kalshi | Treylon Burks: 60+ receiving yards | YES | 0.14 | 12.5 | -2.3 | player (untested, Q) |
+| Kalshi | Treylon Burks: 50+ receiving yards | YES | 0.21 | 19.9 | -2.3 | player (untested, Q) |
+| Kalshi | Treylon Burks: 90+ receiving yards | YES | 0.05 | 3.0 | -2.3 | player (untested, Q) |
+| Kalshi | Treylon Burks: 40+ receiving yards | YES | 0.29 | 28.1 | -2.4 | player (untested, Q) |
+| Kalshi | Chig Okonkwo: 90+ receiving yards | NO | 0.96 | 93.9 | -2.4 | player (untested) |
+| Kalshi | Tanner McKee: 39+ passing attempts | YES | 0.26 | 25.0 | -2.4 | player (untested) |
+| Kalshi | Stefon Diggs: 5+ receptions | YES | 0.44 | 43.3 | -2.4 | player (untested) |
+| Kalshi | Treylon Burks: 2+ receptions | YES | 0.51 | 50.3 | -2.4 | player (untested, Q) |
+| Kalshi | Stefon Diggs: 3+ receptions | NO | 0.25 | 23.9 | -2.4 | player (untested) |
+| Kalshi | Dyami Brown: 60+ receiving yards | NO | 0.96 | 93.8 | -2.5 | player (untested) |
+| Kalshi | Antonio Williams: 9+ receptions | YES | 0.03 | 0.7 | -2.5 | player (untested) |
+| Kalshi | Chig Okonkwo: 50+ receiving yards | NO | 0.71 | 69.9 | -2.5 | player (untested) |
+| Kalshi | Dyami Brown: 5+ receptions | YES | 0.04 | 1.7 | -2.5 | player (untested) |
+| Kalshi | Rachaad White: 20+ receiving yards | YES | 0.36 | 35.1 | -2.5 | player (untested) |
+| Kalshi | Colson Yankoff: 1+ touchdowns | YES | 0.03 | 0.7 | -2.5 | player (untested) |
+| Kalshi | Stefon Diggs: 7+ receptions | YES | 0.17 | 15.4 | -2.6 | player (untested) |
+| Kalshi | Chig Okonkwo: 5+ receptions | NO | 0.71 | 69.7 | -2.7 | player (untested) |
+| Kalshi | Full Game: over 26.5 points scored? | NO | 0.13 | 11.0 | -2.8 | game |
+| Kalshi | Treylon Burks: 1+ touchdowns | NO | 0.85 | 83.0 | -2.8 | player (untested, Q) |
+| Kalshi | Washington over 35.5 points scored | YES | 0.10 | 7.8 | -2.9 | game |
+| Kalshi | Chig Okonkwo: 7+ receptions | YES | 0.10 | 7.7 | -3.0 | player (untested) |
+| Kalshi | Rachaad White: 7+ receptions | YES | 0.04 | 1.3 | -3.0 | player (untested) |
+| Kalshi | Dyami Brown: 4+ receptions | YES | 0.09 | 6.6 | -3.0 | player (untested) |
+| Kalshi | Dyami Brown: 50+ receiving yards | NO | 0.91 | 88.5 | -3.1 | player (untested) |
+| Kalshi | Washington over 31.5 points scored | YES | 0.17 | 14.9 | -3.1 | game |
+| Kalshi | Stefon Diggs: 3+ receptions | YES | 0.78 | 76.1 | -3.1 | player (untested) |
+| Kalshi | Treylon Burks: 5+ receptions | YES | 0.05 | 2.2 | -3.1 | player (untested, Q) |
+| Kalshi | Stefon Diggs: 20+ receiving yards | NO | 0.20 | 18.0 | -3.1 | player (untested) |
+| Kalshi | Dyami Brown: 3+ receptions | YES | 0.20 | 17.9 | -3.2 | player (untested) |
+| Kalshi | Stefon Diggs: 4+ receptions | YES | 0.62 | 60.4 | -3.2 | player (untested) |
+| Kalshi | Tanner McKee: 300+ passing yards | NO | 0.91 | 88.4 | -3.2 | player (untested) |
+| Kalshi | Stefon Diggs: 15+ receiving yards | NO | 0.13 | 10.6 | -3.2 | player (untested) |
+| Kalshi | Tanner McKee: 39+ passing attempts | NO | 0.77 | 75.0 | -3.2 | player (untested) |
+| Kalshi | Stefon Diggs: 10+ receptions | YES | 0.04 | 1.0 | -3.2 | player (untested) |
+| Kalshi | Rachaad White: 50+ receiving yards | YES | 0.06 | 3.1 | -3.3 | player (untested) |
+| Kalshi | Dyami Brown: 20+ receiving yards | YES | 0.37 | 35.3 | -3.3 | player (untested) |
+| Kalshi | Rachaad White: 3+ receptions | YES | 0.46 | 44.4 | -3.4 | player (untested) |
+| Kalshi | Jayden Daniels: 7+ rushing attempts | NO | 0.48 | 46.4 | -3.4 | player (untested) |
+| Kalshi | Treylon Burks: 70+ receiving yards | YES | 0.10 | 7.2 | -3.4 | player (untested, Q) |
+| Kalshi | Stefon Diggs: 110+ receiving yards | YES | 0.06 | 3.0 | -3.4 | player (untested) |
+| Kalshi | Dallas Goedert: 110+ receiving yards | YES | 0.06 | 3.0 | -3.4 | player (untested) |
+| Kalshi | Makai Lemon: 110+ receiving yards | YES | 0.06 | 3.0 | -3.4 | player (untested) |
+| Kalshi | Jayden Daniels: 275+ passing yards | YES | 0.15 | 12.5 | -3.4 | player (untested) |
+| Kalshi | Rachaad White: 25+ receiving yards | NO | 0.75 | 72.9 | -3.4 | player (untested) |
+| Kalshi | Treylon Burks: 40+ receiving yards | NO | 0.74 | 71.9 | -3.4 | player (untested, Q) |
+| Kalshi | Dyami Brown: 2+ receptions | YES | 0.40 | 38.2 | -3.5 | player (untested) |
+| Kalshi | Jayden Daniels: 2+ passing interceptions | YES | 0.11 | 8.2 | -3.5 | player (untested) |
+| Kalshi | Chig Okonkwo: 80+ receiving yards | NO | 0.93 | 89.9 | -3.5 | player (untested) |
+| Kalshi | Full Game: over 29.5 points scored? | NO | 0.18 | 15.5 | -3.6 | game |
+| Kalshi | Makai Lemon: 11+ receptions | YES | 0.04 | 0.7 | -3.6 | player (untested) |
+| Kalshi | Dallas Goedert: 11+ receptions | YES | 0.04 | 0.7 | -3.6 | player (untested) |
+| Kalshi | Darius Cooper: 7+ receptions | YES | 0.04 | 0.7 | -3.6 | player (untested) |
+| Kalshi | Treylon Burks: 80+ receiving yards | YES | 0.07 | 3.9 | -3.6 | player (untested, Q) |
+| Kalshi | Washington over 3.5 points scored | YES | 0.99 | 95.5 | -3.6 | game |
+| Kalshi | Ben Sinnott: 1+ touchdowns | YES | 0.04 | 0.7 | -3.6 | player (untested) |
+| Kalshi | Philadelphia over 3.5 points scored | NO | 0.06 | 2.8 | -3.6 | game |
+| Kalshi | Stefon Diggs: 9+ receptions | YES | 0.06 | 2.7 | -3.7 | player (untested) |
+| Kalshi | Jayden Daniels: 3+ passing interceptions | YES | 0.05 | 1.6 | -3.8 | player (untested) |
+| Kalshi | Stefon Diggs: 2+ receptions | YES | 0.91 | 87.7 | -3.8 | player (untested) |
+| Kalshi | Jayden Daniels: 40+ rushing yards | NO | 0.56 | 53.9 | -3.9 | player (untested) |
+| Kalshi | Jeremy McNichols: 70+ rushing yards | YES | 0.06 | 2.5 | -3.9 | player (untested) |
+| Kalshi | Tanner McKee: 25+ rushing yards | YES | 0.06 | 2.5 | -3.9 | player (untested) |
+| Kalshi | Dyami Brown: 40+ receiving yards | NO | 0.85 | 82.0 | -3.9 | player (untested) |
+| Kalshi | Chig Okonkwo: 2+ receptions | YES | 0.85 | 81.9 | -4.0 | player (untested) |
+| Kalshi | Rachaad White: 5+ receptions | YES | 0.15 | 11.8 | -4.1 | player (untested) |
+| Kalshi | Dyami Brown: 25+ receiving yards | NO | 0.72 | 69.3 | -4.1 | player (untested) |
+| Kalshi | Treylon Burks: 3+ receptions | NO | 0.77 | 74.1 | -4.1 | player (untested, Q) |
+| Kalshi | Chig Okonkwo: 60+ receiving yards | NO | 0.81 | 77.9 | -4.2 | player (untested) |
+| Kalshi | Dyami Brown: 30+ receiving yards | NO | 0.77 | 73.9 | -4.3 | player (untested) |
+| Kalshi | Jayden Daniels: 250+ passing yards | YES | 0.23 | 19.9 | -4.3 | player (untested) |
+| Kalshi | Rachaad White: 6+ receptions | YES | 0.08 | 4.1 | -4.4 | player (untested) |
+| Kalshi | Treylon Burks: 4+ receptions | YES | 0.13 | 9.4 | -4.4 | player (untested, Q) |
+| Kalshi | Rachaad White: 4+ receptions | YES | 0.28 | 24.9 | -4.5 | player (untested) |
+| Kalshi | Jayden Daniels: 1+ touchdowns | NO | 0.73 | 69.9 | -4.5 | player (untested) |
+| Kalshi | Treylon Burks: 30+ receiving yards | NO | 0.65 | 62.0 | -4.6 | player (untested, Q) |
+| Kalshi | Saquon Barkley: 6+ receptions | YES | 0.05 | 0.7 | -4.7 | player (untested) |
+| Kalshi | Elijah Moore: 1+ touchdowns | YES | 0.05 | 0.7 | -4.7 | player (untested) |
+| Kalshi | Chig Okonkwo: 8+ receptions | YES | 0.07 | 2.8 | -4.7 | player (untested) |
+| Kalshi | Tanner McKee: 275+ passing yards | YES | 0.19 | 15.4 | -4.7 | player (untested) |
+| Kalshi | Full Game: over 32.5 points scored? | NO | 0.25 | 21.6 | -4.7 | game |
+| Kalshi | Tanner McKee: 25+ passing completions | YES | 0.21 | 17.3 | -4.8 | player (untested) |
+| Kalshi | Treylon Burks: 25+ receiving yards | YES | 0.46 | 42.9 | -4.9 | player (untested, Q) |
+| Kalshi | Jayden Daniels: 4+ rushing attempts | YES | 0.88 | 83.8 | -4.9 | player (untested) |
+| Kalshi | Jayden Daniels: 2+ touchdowns | NO | 0.97 | 92.1 | -5.1 | player (untested) |
+| Kalshi | Chig Okonkwo: 40+ receiving yards | YES | 0.42 | 38.5 | -5.2 | player (untested) |
+| Kalshi | Stefon Diggs: 25+ receiving yards | YES | 0.76 | 72.1 | -5.2 | player (untested) |
+| Kalshi | Chig Okonkwo: 70+ receiving yards | NO | 0.89 | 84.5 | -5.2 | player (untested) |
+| Kalshi | Full Game: over 62.5 points scored? | NO | 0.95 | 90.1 | -5.3 | game |
+| Kalshi | Jayden Daniels: 10+ rushing attempts | NO | 0.82 | 77.7 | -5.3 | player (untested) |
+| Kalshi | Tanner McKee: 3+ passing touchdowns | YES | 0.09 | 4.2 | -5.4 | player (untested) |
+| Kalshi | Saquon Barkley: 50+ receiving yards | YES | 0.08 | 3.0 | -5.5 | player (untested) |
+| Kalshi | Philadelphia over 38.5 points scored | NO | 0.99 | 93.4 | -5.7 | game |
+| Kalshi | Antonio Williams: 6+ receptions | YES | 0.13 | 8.1 | -5.7 | player (untested) |
+| Kalshi | Antonio Williams: 8+ receptions | YES | 0.06 | 0.7 | -5.7 | player (untested) |
+| Kalshi | Makai Lemon: 10+ receptions | YES | 0.06 | 0.7 | -5.7 | player (untested) |
+| Kalshi | Saquon Barkley: 2+ touchdowns | YES | 0.08 | 2.7 | -5.8 | player (untested) |
+| Kalshi | Jaydon Blue: 1+ touchdowns | NO | 0.91 | 85.7 | -5.8 | player (untested) |
+| Kalshi | Saquon Barkley: 40+ rushing yards | NO | 0.46 | 41.8 | -6.0 | player (untested) |
+| Kalshi | Washington over 28.5 points scored | YES | 0.27 | 22.4 | -6.0 | game |
+| Kalshi | Rachaad White: 100+ rushing yards | YES | 0.08 | 2.5 | -6.0 | player (untested) |
+| Kalshi | Tanner McKee: 20+ rushing yards | YES | 0.08 | 2.5 | -6.0 | player (untested) |
+| Kalshi | Stefon Diggs: 1+ touchdowns | NO | 0.70 | 65.4 | -6.1 | player (untested) |
+| Kalshi | Darius Cooper: 80+ receiving yards | YES | 0.09 | 3.5 | -6.1 | player (untested) |
+| Kalshi | Rachaad White: 2+ receptions | YES | 0.69 | 64.3 | -6.2 | player (untested) |
+| Kalshi | Darius Cooper: 70+ receiving yards | YES | 0.12 | 6.6 | -6.2 | player (untested) |
+| Kalshi | Dallas Goedert: 100+ receiving yards | YES | 0.09 | 3.3 | -6.3 | player (untested) |
+| Kalshi | Rachaad White: 15+ receiving yards | YES | 0.48 | 43.3 | -6.4 | player (untested) |
+| Kalshi | Stefon Diggs: 2+ touchdowns | NO | 0.96 | 89.8 | -6.4 | player (untested) |
+| Kalshi | Saquon Barkley: 30+ rushing yards | YES | 0.69 | 64.0 | -6.5 | player (untested) |
+| Kalshi | Antonio Williams: 5+ receptions | YES | 0.24 | 18.7 | -6.6 | player (untested) |
+| Kalshi | Stefon Diggs: 100+ receiving yards | YES | 0.09 | 3.0 | -6.6 | player (untested) |
+| Kalshi | Makai Lemon: 100+ receiving yards | YES | 0.09 | 3.0 | -6.6 | player (untested) |
+| Kalshi | Darius Cooper: 2+ touchdowns | NO | 0.99 | 92.2 | -6.8 | player (untested) |
+| Kalshi | Washington over 7.5 points scored | YES | 0.97 | 90.3 | -6.9 | game |
+| Kalshi | Antonio Williams: 7+ receptions | YES | 0.09 | 2.6 | -7.0 | player (untested) |
+| Kalshi | Chig Okonkwo: 1+ touchdowns | YES | 0.23 | 17.2 | -7.0 | player (untested) |
+| Kalshi | Jeremy McNichols: 60+ rushing yards | YES | 0.09 | 2.5 | -7.0 | player (untested) |
+| Kalshi | Full Game: over 59.5 points scored? | NO | 0.93 | 86.3 | -7.1 | game |
+| Kalshi | Dyami Brown: 15+ receiving yards | YES | 0.46 | 40.6 | -7.2 | player (untested) |
+| Kalshi | Jayden Daniels: 35+ passing attempts | YES | 0.24 | 18.0 | -7.3 | player (untested) |
+| Kalshi | Van Jefferson: 1+ touchdowns | NO | 0.97 | 89.7 | -7.5 | player (untested) |
+| Kalshi | Dallas Goedert: 90+ receiving yards | YES | 0.13 | 6.3 | -7.5 | player (untested) |
+| Kalshi | Washington over 24.5 points scored | YES | 0.42 | 36.2 | -7.5 | game |
+| Kalshi | Treylon Burks: 20+ receiving yards | YES | 0.54 | 48.2 | -7.6 | player (untested, Q) |
+| Kalshi | Darius Cooper: 6+ receptions | YES | 0.08 | 0.7 | -7.8 | player (untested) |
+| Kalshi | Dallas Goedert: 10+ receptions | YES | 0.08 | 0.7 | -7.8 | player (untested) |
+| Kalshi | Rachaad White: 2+ touchdowns | YES | 0.10 | 2.8 | -7.9 | player (untested) |
+| Kalshi | Washington wins by over 20.5 points? | YES | 0.13 | 5.9 | -7.9 | game |
+| Kalshi | Tanner McKee: 3+ passing interceptions | YES | 0.09 | 1.4 | -8.1 | player (untested) |
+| Kalshi | Antonio Williams: 2+ receptions | YES | 0.81 | 73.9 | -8.1 | player (untested) |
+| Kalshi | Antonio Williams: 4+ receptions | YES | 0.41 | 34.5 | -8.2 | player (untested) |
+| Kalshi | Washington over 10.5 points scored | YES | 0.92 | 84.3 | -8.2 | game |
+| Kalshi | Washington over 20.5 points scored | YES | 0.58 | 51.4 | -8.3 | game |
+| Kalshi | Full Game: over 35.5 points scored? | NO | 0.35 | 28.2 | -8.4 | game |
+| Kalshi | Full Game: over 56.5 points scored? | NO | 0.89 | 81.2 | -8.5 | game |
+| Kalshi | Jayden Daniels: 50+ rushing yards | NO | 0.69 | 61.9 | -8.6 | player (untested) |
+| Kalshi | Treylon Burks: 15+ receiving yards | YES | 0.61 | 54.0 | -8.6 | player (untested, Q) |
+| Kalshi | Antonio Williams: 90+ receiving yards | YES | 0.11 | 3.0 | -8.7 | player (untested) |
+| Kalshi | Jayden Daniels: 90+ rushing yards | NO | 0.96 | 87.5 | -8.8 | player (untested) |
+| Kalshi | Makai Lemon: 9+ receptions | YES | 0.09 | 0.7 | -8.9 | player (untested) |
+| Kalshi | Tanner McKee: 1+ touchdowns | YES | 0.09 | 0.7 | -8.9 | player (untested) |
+| Kalshi | Darius Cooper: 60+ receiving yards | YES | 0.19 | 11.1 | -9.0 | player (untested) |
+| Kalshi | Washington over 17.5 points scored | YES | 0.71 | 63.4 | -9.0 | game |
+| Kalshi | Rachaad White: 90+ rushing yards | YES | 0.11 | 2.5 | -9.1 | player (untested) |
+| Kalshi | Tanner McKee: 15+ rushing yards | YES | 0.11 | 2.5 | -9.1 | player (untested) |
+| Kalshi | Jayden Daniels: 225+ passing yards | YES | 0.36 | 28.3 | -9.3 | player (untested) |
+| Kalshi | Washington wins by over 17.5 points? | YES | 0.17 | 8.7 | -9.3 | game |
+| Kalshi | Dallas Goedert: 9+ receptions | YES | 0.10 | 1.3 | -9.3 | player (untested) |
+| Kalshi | Philadelphia over 35.5 points scored | NO | 0.98 | 88.7 | -9.4 | game |
+| Kalshi | Rachaad White: 10+ receiving yards | YES | 0.60 | 52.2 | -9.5 | player (untested) |
+| Kalshi | Antonio Williams: 3+ receptions | YES | 0.63 | 55.1 | -9.5 | player (untested) |
+| Kalshi | Dallas Goedert: 80+ receiving yards | YES | 0.19 | 10.5 | -9.5 | player (untested) |
+| Kalshi | Philadelphia over 7.5 points scored | NO | 0.15 | 6.3 | -9.6 | game |
+| Kalshi | Washington over 21.5 points scored | YES | 0.55 | 47.1 | -9.6 | game |
+| Kalshi | Stefon Diggs: 30+ receiving yards | YES | 0.69 | 60.9 | -9.6 | player (untested) |
+| Kalshi | Darius Cooper: 40+ receiving yards | YES | 0.33 | 24.9 | -9.6 | player (untested) |
+| Kalshi | Rachaad White: 110+ rushing and receiving yards combined | YES | 0.12 | 3.1 | -9.7 | player (untested) |
+| Kalshi | Tanner McKee: 250+ passing yards | YES | 0.28 | 19.7 | -9.7 | player (untested) |
+| Kalshi | Saquon Barkley: 40+ receiving yards | YES | 0.12 | 3.0 | -9.7 | player (untested) |
+| Kalshi | Makai Lemon: 90+ receiving yards | YES | 0.12 | 3.0 | -9.7 | player (untested) |
+| Kalshi | Stefon Diggs: 90+ receiving yards | YES | 0.12 | 3.0 | -9.7 | player (untested) |
+| Kalshi | Saquon Barkley: 130+ rushing yards | NO | 0.96 | 86.5 | -9.7 | player (untested) |
+| Kalshi | Jayden Daniels: 30+ rushing yards | YES | 0.63 | 54.6 | -10.0 | player (untested) |
+| Kalshi | Darius Cooper: 50+ receiving yards | YES | 0.26 | 17.3 | -10.1 | player (untested) |
+| Kalshi | Saquon Barkley: 12+ rushing attempts | NO | 0.55 | 46.6 | -10.1 | player (untested) |
+| Kalshi | Full Game: over 38.5 points scored? | NO | 0.44 | 35.6 | -10.1 | game |
+| Kalshi | Jayden Daniels: 2+ passing touchdowns | YES | 0.44 | 35.4 | -10.3 | player (untested) |
+| Kalshi | Dallas Goedert: 2+ receptions | YES | 0.95 | 84.7 | -10.6 | player (untested) |
+| Kalshi | Full Game: over 39.5 points scored? | NO | 0.47 | 38.1 | -10.6 | game |
+| Kalshi | Full Game: over 40.5 points scored? | NO | 0.50 | 40.8 | -10.9 | game |
+| Kalshi | Jayden Daniels: 60+ rushing yards | NO | 0.79 | 69.2 | -10.9 | player (untested) |
+| Kalshi | Saquon Barkley: 5+ receptions | YES | 0.11 | 0.7 | -11.0 | player (untested) |
+| Kalshi | Dyami Brown: 1+ touchdowns | YES | 0.11 | 0.7 | -11.0 | player (untested) |
+| Kalshi | Dallas Goedert: 2+ touchdowns | NO | 0.97 | 86.1 | -11.1 | player (untested) |
+| Kalshi | Saquon Barkley: 55+ rushing yards | NO | 0.60 | 50.5 | -11.2 | player (untested) |
+| Kalshi | Chig Okonkwo: 30+ receiving yards | YES | 0.57 | 47.5 | -11.2 | player (untested) |
+| Kalshi | Washington over 14.5 points scored | YES | 0.84 | 73.7 | -11.2 | game |
+| Kalshi | Washington over 22.5 points scored | YES | 0.53 | 43.5 | -11.2 | game |
+| Kalshi | Jeremy McNichols: 50+ rushing yards | YES | 0.13 | 2.5 | -11.3 | player (untested) |
+| Kalshi | Dallas Goedert: 70+ receiving yards | YES | 0.26 | 16.1 | -11.3 | player (untested) |
+| Kalshi | Jayden Daniels: 80+ rushing yards | NO | 0.93 | 82.2 | -11.3 | player (untested) |
+| Kalshi | Full Game: over 53.5 points scored? | NO | 0.86 | 75.2 | -11.6 | game |
+| Kalshi | Full Game: over 50.5 points scored? | NO | 0.79 | 68.5 | -11.7 | game |
+| Kalshi | Antonio Williams: 80+ receiving yards | YES | 0.15 | 4.1 | -11.8 | player (untested) |
+| Kalshi | Washington wins by over 14.5 points? | YES | 0.23 | 12.4 | -11.8 | game |
+| Kalshi | Washington wins by over 16.5 points? | YES | 0.21 | 9.8 | -12.3 | game |
+| Kalshi | Jayden Daniels: 70+ rushing yards | NO | 0.88 | 76.4 | -12.3 | player (untested) |
+| Kalshi | Antonio Williams: 70+ receiving yards | YES | 0.20 | 8.8 | -12.4 | player (untested) |
+| Kalshi | Full Game: over 42.5 points scored? | NO | 0.57 | 46.3 | -12.4 | game |
+| Kalshi | Treylon Burks: 10+ receiving yards | YES | 0.71 | 60.0 | -12.5 | player (untested, Q) |
+| Kalshi | Makai Lemon: 8+ receptions | YES | 0.14 | 2.3 | -12.5 | player (untested) |
+| Kalshi | Jayden Daniels: 1+ passing interceptions | YES | 0.40 | 29.1 | -12.6 | player (untested) |
+| Kalshi | Dallas Goedert: 60+ receiving yards | YES | 0.34 | 22.9 | -12.6 | player (untested) |
+| Kalshi | Tanner McKee: 2+ passing touchdowns | YES | 0.27 | 15.7 | -12.6 | player (untested) |
+| Kalshi | Makai Lemon: 2+ receptions | YES | 0.93 | 80.6 | -12.8 | player (untested) |
+| Kalshi | Antonio Williams: 1+ touchdowns | YES | 0.24 | 12.4 | -12.9 | player (untested) |
+| Kalshi | Saquon Barkley: 120+ rushing and receiving yards combined | NO | 0.90 | 77.8 | -12.9 | player (untested) |
+| Kalshi | Saquon Barkley: 50+ rushing yards | NO | 0.59 | 47.6 | -13.1 | player (untested) |
+| Kalshi | Austin Ekeler: 1+ touchdowns | YES | 0.13 | 0.7 | -13.1 | player (untested) |
+| Kalshi | Full Game: over 41.5 points scored? | NO | 0.55 | 43.6 | -13.2 | game |
+| Kalshi | Dyami Brown: 10+ receiving yards | YES | 0.57 | 45.4 | -13.3 | player (untested) |
+| Kalshi | Jayden Daniels: 25+ rushing yards | YES | 0.71 | 59.0 | -13.4 | player (untested) |
+| Kalshi | Antonio Williams: 10+ receiving yards | YES | 0.87 | 74.3 | -13.5 | player (untested) |
+| Kalshi | Saquon Barkley: 120+ rushing yards | NO | 0.96 | 82.8 | -13.5 | player (untested) |
+| Kalshi | Full Game: over 43.5 points scored? | NO | 0.61 | 49.1 | -13.5 | game |
+| Kalshi | Makai Lemon: 1+ touchdowns | YES | 0.23 | 10.6 | -13.6 | player (untested) |
+| Kalshi | Jayden Daniels: 19+ passing completions | YES | 0.49 | 37.1 | -13.7 | player (untested) |
+| Kalshi | Makai Lemon: 80+ receiving yards | YES | 0.17 | 4.3 | -13.7 | player (untested) |
+| Kalshi | Full Game: over 47.5 points scored? | NO | 0.73 | 60.6 | -13.8 | game |
+| Kalshi | Antonio Williams: 60+ receiving yards | YES | 0.28 | 15.5 | -13.9 | player (untested) |
+| Kalshi | Dallas Goedert: 8+ receptions | YES | 0.17 | 4.1 | -13.9 | player (untested) |
+| Kalshi | Antonio Williams: 40+ receiving yards | YES | 0.48 | 35.8 | -14.0 | player (untested) |
+| Kalshi | Chig Okonkwo: 25+ receiving yards | YES | 0.65 | 52.5 | -14.1 | player (untested) |
+| Kalshi | Tanner McKee: 10+ rushing yards | YES | 0.20 | 6.8 | -14.3 | player (untested) |
+| Kalshi | Antonio Williams: 50+ receiving yards | YES | 0.37 | 24.3 | -14.3 | player (untested) |
+| Kalshi | Rachaad White: 80+ rushing yards | YES | 0.16 | 2.5 | -14.4 | player (untested) |
+| Kalshi | Washington wins by over 10.5 points? | YES | 0.32 | 19.1 | -14.4 | game |
+| Kalshi | Antonio Williams: 15+ receiving yards | YES | 0.81 | 67.7 | -14.4 | player (untested) |
+| Kalshi | Dallas Goedert: 1+ touchdowns | NO | 0.74 | 60.8 | -14.5 | player (untested) |
+| Kalshi | Antonio Williams: 30+ receiving yards | YES | 0.61 | 48.0 | -14.7 | player (untested) |
+| Kalshi | Full Game: over 44.5 points scored? | NO | 0.65 | 51.9 | -14.7 | game |
+| Kalshi | Antonio Williams: 25+ receiving yards | YES | 0.68 | 54.6 | -14.9 | player (untested) |
+| Kalshi | Saquon Barkley: 70+ rushing and receiving yards combined | NO | 0.67 | 53.6 | -14.9 | player (untested) |
+| Kalshi | Dallas Goedert: 3+ receptions | YES | 0.85 | 70.9 | -15.0 | player (untested) |
+| Kalshi | Antonio Williams: 20+ receiving yards | YES | 0.75 | 61.1 | -15.2 | player (untested) |
+| Kalshi | Darius Cooper: 5+ receptions | YES | 0.15 | 0.7 | -15.2 | player (untested) |
+| Kalshi | Philadelphia over 10.5 points scored | NO | 0.25 | 11.1 | -15.2 | game |
+| Kalshi | Darius Cooper: 1+ touchdowns | NO | 0.84 | 69.7 | -15.3 | player (untested) |
+| Kalshi | Washington wins by over 13.5 points? | YES | 0.28 | 14.0 | -15.5 | game |
+| Kalshi | Philadelphia wins by over 13.5 points? | NO | 0.94 | 78.8 | -15.6 | game |
+| Kalshi | Philadelphia wins by over 14.5 points? | NO | 0.96 | 80.5 | -15.7 | game |
+| Kalshi | Makai Lemon: 70+ receiving yards | YES | 0.23 | 8.3 | -16.0 | player (untested) |
+| Kalshi | Saquon Barkley: 30+ receiving yards | YES | 0.18 | 3.0 | -16.0 | player (untested) |
+| Kalshi | Stefon Diggs: 80+ receiving yards | YES | 0.18 | 3.0 | -16.0 | player (untested) |
+| Kalshi | Chig Okonkwo: 20+ receiving yards | YES | 0.72 | 57.3 | -16.1 | player (untested) |
+| Kalshi | Darius Cooper: 30+ receiving yards | YES | 0.48 | 33.5 | -16.2 | player (untested) |
+| Kalshi | Tanner McKee: 225+ passing yards | YES | 0.39 | 24.4 | -16.3 | player (untested) |
+| Kalshi | Saquon Barkley: 95+ rushing and receiving yards combined | NO | 0.82 | 66.6 | -16.4 | player (untested) |
+| Kalshi | Philadelphia over 31.5 points scored | NO | 0.96 | 79.8 | -16.5 | game |
+| Kalshi | Jayden Daniels: 200+ passing yards | YES | 0.53 | 38.2 | -16.5 | player (untested) |
+| Kalshi | Saquon Barkley: 110+ rushing yards | NO | 0.95 | 78.7 | -16.6 | player (untested) |
+| Kalshi | Dallas Goedert: 50+ receiving yards | YES | 0.46 | 31.2 | -16.6 | player (untested) |
+| Kalshi | Jayden Daniels: 30+ passing attempts | YES | 0.50 | 34.8 | -17.0 | player (untested) |
+| Kalshi | Rachaad White: 85+ rushing and receiving yards combined | YES | 0.25 | 9.3 | -17.0 | player (untested) |
+| Kalshi | Saquon Barkley: 60+ rushing yards | NO | 0.69 | 53.4 | -17.1 | player (untested) |
+| Kalshi | Washington wins by over 7.5 points? | YES | 0.41 | 25.3 | -17.4 | game |
+| Kalshi | Darius Cooper: 25+ receiving yards | YES | 0.54 | 38.3 | -17.4 | player (untested) |
+| Kalshi | Washington wins by over 9.5 points? | YES | 0.37 | 21.1 | -17.5 | game |
+| Kalshi | Jayden Daniels: 20+ rushing yards | YES | 0.80 | 63.5 | -17.6 | player (untested) |
+| Kalshi | Stefon Diggs: 40+ receiving yards | YES | 0.56 | 39.5 | -18.2 | player (untested) |
+| Kalshi | Jayden Daniels: 1+ passing touchdowns | YES | 0.80 | 62.7 | -18.5 | player (untested) |
+| Kalshi | Rachaad White: 16+ rushing attempts | YES | 0.19 | 1.6 | -18.5 | player (untested) |
+| Kalshi | Makai Lemon: 7+ receptions | YES | 0.24 | 6.7 | -18.6 | player (untested) |
+| Kalshi | Saquon Barkley: 90+ rushing yards | NO | 0.88 | 69.6 | -19.1 | player (untested) |
+| Kalshi | Saquon Barkley: 1+ touchdowns | YES | 0.35 | 17.4 | -19.1 | player (untested) |
+| Kalshi | Saquon Barkley: 100+ rushing yards | NO | 0.93 | 74.3 | -19.2 | player (untested) |
+| Kalshi | Makai Lemon: 3+ receptions | YES | 0.83 | 64.7 | -19.3 | player (untested) |
+| Kalshi | Chig Okonkwo: 15+ receiving yards | YES | 0.80 | 61.9 | -19.3 | player (untested) |
+| Kalshi | Tanner McKee: 2+ passing interceptions | YES | 0.25 | 6.9 | -19.4 | player (untested) |
+| Kalshi | Jeremy McNichols: 1+ touchdowns | YES | 0.19 | 0.7 | -19.4 | player (untested) |
+| Kalshi | Jeremy McNichols: 40+ rushing yards | YES | 0.21 | 2.5 | -19.6 | player (untested) |
+| Kalshi | Rachaad White: 70+ rushing yards | YES | 0.21 | 2.5 | -19.6 | player (untested) |
+| Kalshi | Saquon Barkley: 4+ receptions | YES | 0.20 | 1.4 | -19.7 | player (untested) |
+| Kalshi | Jayden Daniels: 125+ passing yards | YES | 0.88 | 69.0 | -19.8 | player (untested) |
+| Kalshi | Dallas Goedert: 4+ receptions | YES | 0.72 | 53.4 | -20.0 | player (untested) |
+| Kalshi | Philadelphia wins by over 10.5 points? | NO | 0.92 | 72.4 | -20.1 | game |
+| Kalshi | Tanner McKee: 34+ passing attempts | YES | 0.50 | 31.5 | -20.3 | player (untested) |
+| Kalshi | Saquon Barkley: 70+ rushing yards | NO | 0.78 | 58.9 | -20.3 | player (untested) |
+| Kalshi | Saquon Barkley: 80+ rushing yards | NO | 0.84 | 64.6 | -20.3 | player (untested) |
+| Kalshi | Washington wins by over 6.5 points? | YES | 0.46 | 27.3 | -20.4 | game |
+| Kalshi | Philadelphia over 28.5 points scored | NO | 0.91 | 71.1 | -20.5 | game |
+| Kalshi | Darius Cooper: 20+ receiving yards | YES | 0.62 | 43.2 | -20.5 | player (untested) |
+| Kalshi | Dallas Goedert: 7+ receptions | YES | 0.29 | 9.9 | -20.6 | player (untested) |
+| Kalshi | Makai Lemon: 60+ receiving yards | YES | 0.33 | 14.0 | -20.6 | player (untested) |
+| Kalshi | Philadelphia wins by over 9.5 points? | NO | 0.90 | 70.0 | -20.6 | game |
+| Kalshi | Saquon Barkley: 25+ receiving yards | YES | 0.26 | 6.5 | -20.8 | player (untested) |
+| Kalshi | Jayden Daniels: 15+ rushing yards | YES | 0.88 | 67.6 | -21.1 | player (untested) |
+| Kalshi | Stefon Diggs: 70+ receiving yards | YES | 0.23 | 3.0 | -21.2 | player (untested) |
+| Kalshi | Jayden Daniels: 175+ passing yards | YES | 0.68 | 48.1 | -21.4 | player (untested) |
+| Kalshi | Makai Lemon: 6+ receptions | YES | 0.35 | 15.1 | -21.4 | player (untested) |
+| Kalshi | Chig Okonkwo: 10+ receiving yards | YES | 0.87 | 66.3 | -21.5 | player (untested) |
+| Kalshi | Saquon Barkley: 20+ receiving yards | YES | 0.33 | 12.6 | -21.9 | player (untested) |
+| Kalshi | Saquon Barkley: 15+ receiving yards | YES | 0.42 | 21.5 | -22.2 | player (untested) |
+| Kalshi | Saquon Barkley: 15+ rushing attempts | NO | 0.78 | 57.0 | -22.2 | player (untested) |
+| Kalshi | Jayden Daniels: 150+ passing yards | YES | 0.80 | 58.7 | -22.4 | player (untested) |
+| Kalshi | Philadelphia over 14.5 points scored | NO | 0.41 | 20.3 | -22.4 | game |
+| Kalshi | Dallas Goedert: 40+ receiving yards | YES | 0.61 | 40.1 | -22.5 | player (untested) |
+| Kalshi | Darius Cooper: 15+ receiving yards | YES | 0.70 | 48.6 | -22.9 | player (untested) |
+| Kalshi | Washington wins by over 5.5 points? | YES | 0.51 | 29.9 | -22.9 | game |
+| Kalshi | Dallas Goedert: 6+ receptions | YES | 0.42 | 20.8 | -22.9 | player (untested) |
+| Kalshi | Stefon Diggs: 50+ receiving yards | YES | 0.43 | 21.7 | -23.0 | player (untested) |
+| Kalshi | Jayden Daniels: 25+ passing attempts | YES | 0.76 | 54.2 | -23.0 | player (untested) |
+| Kalshi | Makai Lemon: 50+ receiving yards | YES | 0.43 | 21.5 | -23.2 | player (untested) |
+| Kalshi | Jayden Daniels: 14+ passing completions | YES | 0.88 | 65.5 | -23.3 | player (untested) |
+| Kalshi | Washington wins by over 4.5 points? | YES | 0.54 | 32.4 | -23.3 | game |
+| Kalshi | Washington wins by over 3.5 points? | YES | 0.57 | 35.3 | -23.5 | game |
+| Kalshi | Rachaad White: 60+ rushing and receiving yards combined | YES | 0.50 | 27.9 | -23.9 | player (untested) |
+| Kalshi | Philadelphia wins by over 2.5 points? | NO | 0.74 | 51.4 | -24.0 | game |
+| Kalshi | Philadelphia wins by over 6.5 points? | NO | 0.85 | 61.8 | -24.1 | game |
+| Kalshi | Makai Lemon: 4+ receptions | YES | 0.69 | 46.3 | -24.2 | player (untested) |
+| Kalshi | Dallas Goedert: 5+ receptions | YES | 0.58 | 35.5 | -24.2 | player (untested) |
+| Kalshi | Philadelphia wins by over 7.5 points? | NO | 0.88 | 64.4 | -24.3 | game |
+| Kalshi | Dallas Goedert: 30+ receiving yards | YES | 0.73 | 50.0 | -24.4 | player (untested) |
+| Kalshi | Dallas Goedert: 25+ receiving yards | YES | 0.78 | 54.7 | -24.5 | player (untested) |
+| Kalshi | Philadelphia wins by over 5.5 points? | NO | 0.83 | 59.2 | -24.8 | game |
+| Kalshi | Dallas Goedert: 20+ receiving yards | YES | 0.84 | 59.7 | -25.2 | player (untested) |
+| Kalshi | Philadelphia wins by over 3.5 points? | NO | 0.78 | 54.0 | -25.2 | game |
+| Kalshi | Saquon Barkley: 18+ rushing attempts | NO | 0.92 | 67.1 | -25.4 | player (untested) |
+| Kalshi | Saquon Barkley: 10+ receiving yards | YES | 0.56 | 32.3 | -25.4 | player (untested) |
+| Kalshi | Darius Cooper: 10+ receiving yards | YES | 0.78 | 53.7 | -25.5 | player (untested) |
+| Kalshi | Philadelphia wins by over 4.5 points? | NO | 0.81 | 56.5 | -25.6 | game |
+| Kalshi | Philadelphia wins by over 1.5 points? | NO | 0.73 | 48.7 | -25.6 | game |
+| Kalshi | Tanner McKee: 1+ passing touchdowns | YES | 0.66 | 41.6 | -25.9 | player (untested) |
+| Kalshi | Makai Lemon: 45+ receiving yards | YES | 0.50 | 25.7 | -26.0 | player (untested) |
+| Kalshi | Rachaad White: 1+ touchdowns | YES | 0.42 | 17.5 | -26.2 | player (untested) |
+| Kalshi | Stefon Diggs: 60+ receiving yards | YES | 0.33 | 8.3 | -26.2 | player (untested) |
+| Kalshi | Makai Lemon: 5+ receptions | YES | 0.53 | 28.4 | -26.3 | player (untested) |
+| Kalshi | Philadelphia over 24.5 points scored | NO | 0.82 | 56.3 | -26.7 | game |
+| Kalshi | Darius Cooper: 4+ receptions | YES | 0.28 | 2.5 | -26.9 | player (untested) |
+| Kalshi | Washington wins | YES | 0.70 | 44.6 | -26.9 | game |
+| Kalshi | Philadelphia wins | NO | 0.70 | 44.6 | -26.9 | game |
+| Kalshi | Saquon Barkley: 2+ receptions | YES | 0.58 | 32.6 | -27.2 | player (untested) |
+| Kalshi | Makai Lemon: 40+ receiving yards | YES | 0.56 | 30.0 | -27.7 | player (untested) |
+| Kalshi | Philadelphia over 20.5 points scored | NO | 0.67 | 40.8 | -27.8 | game |
+| Kalshi | Philadelphia over 17.5 points scored | NO | 0.56 | 29.9 | -27.9 | game |
+| Kalshi | Tanner McKee: 20+ passing completions | YES | 0.55 | 28.9 | -27.9 | player (untested) |
+| Kalshi | Rachaad White: 60+ rushing yards | YES | 0.29 | 2.5 | -27.9 | player (untested) |
+| Kalshi | Tanner McKee: 200+ passing yards | YES | 0.56 | 29.6 | -28.1 | player (untested) |
+| Kalshi | Jeremy McNichols: 30+ rushing yards | YES | 0.33 | 6.2 | -28.3 | player (untested) |
+| Kalshi | Rachaad White: 25+ rushing yards | YES | 0.75 | 47.7 | -28.6 | player (untested) |
+| Kalshi | Philadelphia over 21.5 points scored | NO | 0.72 | 44.7 | -28.7 | game |
+| Kalshi | Washington wins by over 1.5 points? | YES | 0.68 | 40.5 | -29.0 | game |
+| Kalshi | Saquon Barkley: 3+ receptions | YES | 0.37 | 9.6 | -29.0 | player (untested) |
+| Kalshi | Washington wins by over 2.5 points? | YES | 0.66 | 37.8 | -29.7 | game |
+| Kalshi | Jeremy McNichols: 25+ rushing yards | YES | 0.40 | 11.4 | -30.3 | player (untested) |
+| Kalshi | Makai Lemon: 30+ receiving yards | YES | 0.70 | 39.6 | -31.9 | player (untested) |
+| Kalshi | Rachaad White: 30+ rushing yards | YES | 0.69 | 38.1 | -32.4 | player (untested) |
+| Kalshi | Rachaad White: 50+ rushing yards | YES | 0.40 | 8.9 | -32.7 | player (untested) |
+| Kalshi | Makai Lemon: 20+ receiving yards | YES | 0.82 | 50.3 | -32.7 | player (untested) |
+| Kalshi | Jeremy McNichols: 15+ rushing yards | YES | 0.59 | 27.9 | -32.8 | player (untested) |
+| Kalshi | Jeremy McNichols: 20+ rushing yards | YES | 0.50 | 18.5 | -33.3 | player (untested) |
+| Kalshi | Makai Lemon: 25+ receiving yards | YES | 0.77 | 45.0 | -33.3 | player (untested) |
+| Kalshi | Tanner McKee: 1+ passing interceptions | YES | 0.60 | 27.3 | -34.3 | player (untested) |
+| Kalshi | Jeremy McNichols: 10+ rushing yards | YES | 0.72 | 38.7 | -34.7 | player (untested) |
+| Kalshi | Tanner McKee: 175+ passing yards | YES | 0.69 | 35.6 | -34.9 | player (untested) |
+| Kalshi | Rachaad White: 45+ rushing yards | YES | 0.48 | 14.3 | -35.5 | player (untested) |
+| Kalshi | Rachaad White: 40+ rushing yards | YES | 0.55 | 21.0 | -35.8 | player (untested) |
+| Kalshi | Tanner McKee: 29+ passing attempts | YES | 0.73 | 37.8 | -36.6 | player (untested) |
+| Kalshi | Darius Cooper: 3+ receptions | YES | 0.49 | 12.9 | -37.8 | player (untested) |
+| Kalshi | Darius Cooper: 2+ receptions | YES | 0.73 | 35.8 | -38.6 | player (untested) |
+| Kalshi | Tanner McKee: 150+ passing yards | YES | 0.80 | 41.5 | -39.6 | player (untested) |
+| Kalshi | Tanner McKee: 125+ passing yards | YES | 0.88 | 48.0 | -40.8 | player (untested) |
+| Kalshi | Rachaad White: 13+ rushing attempts | YES | 0.42 | 2.1 | -41.6 | player (untested) |
+| Kalshi | Tanner McKee: 15+ passing completions | YES | 0.87 | 42.3 | -45.5 | player (untested) |
+| Kalshi | Rachaad White: 10+ rushing attempts | YES | 0.70 | 14.8 | -56.6 | player (untested) |
 
 ## Player model check (this season's games, not used to fit)
 
@@ -1708,292 +1033,38 @@ Score = average squared miss (lower is better). Guess-the-average is what you ge
 | passing_interceptions | 630 | 0.1335 | 0.1330 | 0.1647 |
 | touchdowns | 4566 | 0.0754 | 0.0737 | 0.0862 |
 
-## Skipped (287)
+## Skipped (33)
 
-- Kalshi | MIA Dolphins D/ST: 1+ touchdowns | only 0 past games
-- Kalshi | NE Patriots D/ST: 1+ touchdowns | only 0 past games
-- Polymarket | 1H Spread: Patriots (-1.5) | not modeled (first_half_spreads)
-- Polymarket | 1H Spread: Patriots (-2.5) | not modeled (first_half_spreads)
-- Polymarket | 1H Spread: Patriots (-3.5) | not modeled (first_half_spreads)
-- Polymarket | 1H Spread: Patriots (-4.5) | not modeled (first_half_spreads)
-- Polymarket | 1H Spread: Patriots (-5.5) | not modeled (first_half_spreads)
-- Polymarket | 1H Spread: Patriots (-6.5) | not modeled (first_half_spreads)
-- Polymarket | 1H Spread: Patriots (-7.5) | not modeled (first_half_spreads)
-- Polymarket | 1H Spread: Patriots (-8.5) | not modeled (first_half_spreads)
-- Polymarket | 1H Spread: Patriots (-9.5) | not modeled (first_half_spreads)
-- Polymarket | 1H Spread: Patriots (-10.5) | not modeled (first_half_spreads)
-- Polymarket | 1H Spread: Patriots (-13.5) | not modeled (first_half_spreads)
-- Polymarket | 1H Spread: Patriots (-14.5) | not modeled (first_half_spreads)
-- Polymarket | 1H Spread: Patriots (-16.5) | not modeled (first_half_spreads)
-- Polymarket | 1H Spread: Patriots (-17.5) | not modeled (first_half_spreads)
-- Polymarket | 1H Spread: Patriots (-20.5) | not modeled (first_half_spreads)
-- Polymarket | 1H Spread: Patriots (-21.5) | not modeled (first_half_spreads)
-- Polymarket | 1H Spread: Dolphins (-1.5) | not modeled (first_half_spreads)
-- Polymarket | 1H Spread: Dolphins (-2.5) | not modeled (first_half_spreads)
-- Polymarket | 1H Spread: Dolphins (-3.5) | not modeled (first_half_spreads)
-- Polymarket | 1H Spread: Dolphins (-4.5) | not modeled (first_half_spreads)
-- Polymarket | 1H Spread: Dolphins (-5.5) | not modeled (first_half_spreads)
-- Polymarket | 1H Spread: Dolphins (-6.5) | not modeled (first_half_spreads)
-- Polymarket | 1H Spread: Dolphins (-7.5) | not modeled (first_half_spreads)
-- Polymarket | 1H Spread: Dolphins (-8.5) | not modeled (first_half_spreads)
-- Polymarket | 1H Spread: Dolphins (-9.5) | not modeled (first_half_spreads)
-- Polymarket | 1H Spread: Dolphins (-10.5) | not modeled (first_half_spreads)
-- Polymarket | 1H Spread: Dolphins (-13.5) | not modeled (first_half_spreads)
-- Polymarket | 1H Spread: Dolphins (-14.5) | not modeled (first_half_spreads)
-- Polymarket | 1H Spread: Dolphins (-16.5) | not modeled (first_half_spreads)
-- Polymarket | 1H Spread: Dolphins (-17.5) | not modeled (first_half_spreads)
-- Polymarket | 1H Spread: Dolphins (-20.5) | not modeled (first_half_spreads)
-- Polymarket | 1H Spread: Dolphins (-21.5) | not modeled (first_half_spreads)
-- Polymarket | 2H Spread: Patriots (-1.5) | not modeled (second_half_spreads)
-- Polymarket | 2H Spread: Patriots (-2.5) | not modeled (second_half_spreads)
-- Polymarket | 2H Spread: Patriots (-3.5) | not modeled (second_half_spreads)
-- Polymarket | 2H Spread: Patriots (-4.5) | not modeled (second_half_spreads)
-- Polymarket | 2H Spread: Patriots (-5.5) | not modeled (second_half_spreads)
-- Polymarket | 2H Spread: Patriots (-6.5) | not modeled (second_half_spreads)
-- Polymarket | 2H Spread: Patriots (-7.5) | not modeled (second_half_spreads)
-- Polymarket | 2H Spread: Patriots (-8.5) | not modeled (second_half_spreads)
-- Polymarket | 2H Spread: Patriots (-9.5) | not modeled (second_half_spreads)
-- Polymarket | 2H Spread: Patriots (-10.5) | not modeled (second_half_spreads)
-- Polymarket | 2H Spread: Patriots (-13.5) | not modeled (second_half_spreads)
-- Polymarket | 2H Spread: Patriots (-14.5) | not modeled (second_half_spreads)
-- Polymarket | 2H Spread: Patriots (-16.5) | not modeled (second_half_spreads)
-- Polymarket | 2H Spread: Patriots (-17.5) | not modeled (second_half_spreads)
-- Polymarket | 2H Spread: Patriots (-20.5) | not modeled (second_half_spreads)
-- Polymarket | 2H Spread: Patriots (-21.5) | not modeled (second_half_spreads)
-- Polymarket | 2H Spread: Dolphins (-1.5) | not modeled (second_half_spreads)
-- Polymarket | 2H Spread: Dolphins (-2.5) | not modeled (second_half_spreads)
-- Polymarket | 2H Spread: Dolphins (-3.5) | not modeled (second_half_spreads)
-- Polymarket | 2H Spread: Dolphins (-4.5) | not modeled (second_half_spreads)
-- Polymarket | 2H Spread: Dolphins (-5.5) | not modeled (second_half_spreads)
-- Polymarket | 2H Spread: Dolphins (-6.5) | not modeled (second_half_spreads)
-- Polymarket | 2H Spread: Dolphins (-7.5) | not modeled (second_half_spreads)
-- Polymarket | 2H Spread: Dolphins (-8.5) | not modeled (second_half_spreads)
-- Polymarket | 2H Spread: Dolphins (-9.5) | not modeled (second_half_spreads)
-- Polymarket | 2H Spread: Dolphins (-10.5) | not modeled (second_half_spreads)
-- Polymarket | 2H Spread: Dolphins (-13.5) | not modeled (second_half_spreads)
-- Polymarket | 2H Spread: Dolphins (-14.5) | not modeled (second_half_spreads)
-- Polymarket | 2H Spread: Dolphins (-16.5) | not modeled (second_half_spreads)
-- Polymarket | 2H Spread: Dolphins (-17.5) | not modeled (second_half_spreads)
-- Polymarket | 2H Spread: Dolphins (-20.5) | not modeled (second_half_spreads)
-- Polymarket | 2H Spread: Dolphins (-21.5) | not modeled (second_half_spreads)
-- Polymarket | 1Q Spread: Patriots (-2.5) | not modeled (q1_spreads)
-- Polymarket | 1Q Spread: Patriots (-3.5) | not modeled (q1_spreads)
-- Polymarket | 1Q Spread: Patriots (-4.5) | not modeled (q1_spreads)
-- Polymarket | 1Q Spread: Patriots (-6.5) | not modeled (q1_spreads)
-- Polymarket | 1Q Spread: Patriots (-7.5) | not modeled (q1_spreads)
-- Polymarket | 1Q Spread: Patriots (-9.5) | not modeled (q1_spreads)
-- Polymarket | 1Q Spread: Patriots (-10.5) | not modeled (q1_spreads)
-- Polymarket | 1Q Spread: Patriots (-13.5) | not modeled (q1_spreads)
-- Polymarket | 1Q Spread: Patriots (-14.5) | not modeled (q1_spreads)
-- Polymarket | 1Q Spread: Dolphins (-2.5) | not modeled (q1_spreads)
-- Polymarket | 1Q Spread: Dolphins (-3.5) | not modeled (q1_spreads)
-- Polymarket | 1Q Spread: Dolphins (-4.5) | not modeled (q1_spreads)
-- Polymarket | 1Q Spread: Dolphins (-6.5) | not modeled (q1_spreads)
-- Polymarket | 1Q Spread: Dolphins (-7.5) | not modeled (q1_spreads)
-- Polymarket | 1Q Spread: Dolphins (-9.5) | not modeled (q1_spreads)
-- Polymarket | 1Q Spread: Dolphins (-10.5) | not modeled (q1_spreads)
-- Polymarket | 1Q Spread: Dolphins (-13.5) | not modeled (q1_spreads)
-- Polymarket | 1Q Spread: Dolphins (-14.5) | not modeled (q1_spreads)
-- Polymarket | 2Q Spread: Patriots (-2.5) | not modeled (q2_spreads)
-- Polymarket | 2Q Spread: Patriots (-3.5) | not modeled (q2_spreads)
-- Polymarket | 2Q Spread: Patriots (-4.5) | not modeled (q2_spreads)
-- Polymarket | 2Q Spread: Patriots (-6.5) | not modeled (q2_spreads)
-- Polymarket | 2Q Spread: Patriots (-7.5) | not modeled (q2_spreads)
-- Polymarket | 2Q Spread: Patriots (-9.5) | not modeled (q2_spreads)
-- Polymarket | 2Q Spread: Patriots (-10.5) | not modeled (q2_spreads)
-- Polymarket | 2Q Spread: Patriots (-13.5) | not modeled (q2_spreads)
-- Polymarket | 2Q Spread: Patriots (-14.5) | not modeled (q2_spreads)
-- Polymarket | 2Q Spread: Dolphins (-2.5) | not modeled (q2_spreads)
-- Polymarket | 2Q Spread: Dolphins (-3.5) | not modeled (q2_spreads)
-- Polymarket | 2Q Spread: Dolphins (-4.5) | not modeled (q2_spreads)
-- Polymarket | 2Q Spread: Dolphins (-6.5) | not modeled (q2_spreads)
-- Polymarket | 2Q Spread: Dolphins (-7.5) | not modeled (q2_spreads)
-- Polymarket | 2Q Spread: Dolphins (-9.5) | not modeled (q2_spreads)
-- Polymarket | 2Q Spread: Dolphins (-10.5) | not modeled (q2_spreads)
-- Polymarket | 2Q Spread: Dolphins (-13.5) | not modeled (q2_spreads)
-- Polymarket | 2Q Spread: Dolphins (-14.5) | not modeled (q2_spreads)
-- Polymarket | 3Q Spread: Patriots (-2.5) | not modeled (q3_spreads)
-- Polymarket | 3Q Spread: Patriots (-3.5) | not modeled (q3_spreads)
-- Polymarket | 3Q Spread: Patriots (-4.5) | not modeled (q3_spreads)
-- Polymarket | 3Q Spread: Patriots (-6.5) | not modeled (q3_spreads)
-- Polymarket | 3Q Spread: Patriots (-7.5) | not modeled (q3_spreads)
-- Polymarket | 3Q Spread: Patriots (-9.5) | not modeled (q3_spreads)
-- Polymarket | 3Q Spread: Patriots (-10.5) | not modeled (q3_spreads)
-- Polymarket | 3Q Spread: Patriots (-13.5) | not modeled (q3_spreads)
-- Polymarket | 3Q Spread: Patriots (-14.5) | not modeled (q3_spreads)
-- Polymarket | 3Q Spread: Dolphins (-2.5) | not modeled (q3_spreads)
-- Polymarket | 3Q Spread: Dolphins (-3.5) | not modeled (q3_spreads)
-- Polymarket | 3Q Spread: Dolphins (-4.5) | not modeled (q3_spreads)
-- Polymarket | 3Q Spread: Dolphins (-6.5) | not modeled (q3_spreads)
-- Polymarket | 3Q Spread: Dolphins (-7.5) | not modeled (q3_spreads)
-- Polymarket | 3Q Spread: Dolphins (-9.5) | not modeled (q3_spreads)
-- Polymarket | 3Q Spread: Dolphins (-10.5) | not modeled (q3_spreads)
-- Polymarket | 3Q Spread: Dolphins (-13.5) | not modeled (q3_spreads)
-- Polymarket | 3Q Spread: Dolphins (-14.5) | not modeled (q3_spreads)
-- Polymarket | 4Q Spread: Patriots (-2.5) | not modeled (q4_spreads)
-- Polymarket | 4Q Spread: Patriots (-3.5) | not modeled (q4_spreads)
-- Polymarket | 4Q Spread: Patriots (-4.5) | not modeled (q4_spreads)
-- Polymarket | 4Q Spread: Patriots (-6.5) | not modeled (q4_spreads)
-- Polymarket | 4Q Spread: Patriots (-7.5) | not modeled (q4_spreads)
-- Polymarket | 4Q Spread: Patriots (-9.5) | not modeled (q4_spreads)
-- Polymarket | 4Q Spread: Patriots (-10.5) | not modeled (q4_spreads)
-- Polymarket | 4Q Spread: Patriots (-13.5) | not modeled (q4_spreads)
-- Polymarket | 4Q Spread: Patriots (-14.5) | not modeled (q4_spreads)
-- Polymarket | 4Q Spread: Dolphins (-2.5) | not modeled (q4_spreads)
-- Polymarket | 4Q Spread: Dolphins (-3.5) | not modeled (q4_spreads)
-- Polymarket | 4Q Spread: Dolphins (-4.5) | not modeled (q4_spreads)
-- Polymarket | 4Q Spread: Dolphins (-6.5) | not modeled (q4_spreads)
-- Polymarket | 4Q Spread: Dolphins (-7.5) | not modeled (q4_spreads)
-- Polymarket | 4Q Spread: Dolphins (-9.5) | not modeled (q4_spreads)
-- Polymarket | 4Q Spread: Dolphins (-10.5) | not modeled (q4_spreads)
-- Polymarket | 4Q Spread: Dolphins (-13.5) | not modeled (q4_spreads)
-- Polymarket | 4Q Spread: Dolphins (-14.5) | not modeled (q4_spreads)
-- Polymarket | Patriots vs. Dolphins: 1H O/U 16.5 | not modeled (first_half_totals)
-- Polymarket | Patriots vs. Dolphins: 1H O/U 19.5 | not modeled (first_half_totals)
-- Polymarket | Patriots vs. Dolphins: 1H O/U 22.5 | not modeled (first_half_totals)
-- Polymarket | Patriots vs. Dolphins: 1H O/U 25.5 | not modeled (first_half_totals)
-- Polymarket | Patriots vs. Dolphins: 1H O/U 28.5 | not modeled (first_half_totals)
-- Polymarket | Patriots vs. Dolphins: 2H O/U 16.5 | not modeled (second_half_totals)
-- Polymarket | Patriots vs. Dolphins: 2H O/U 19.5 | not modeled (second_half_totals)
-- Polymarket | Patriots vs. Dolphins: 2H O/U 22.5 | not modeled (second_half_totals)
-- Polymarket | Patriots vs. Dolphins: 2H O/U 25.5 | not modeled (second_half_totals)
-- Polymarket | Patriots vs. Dolphins: 2H O/U 28.5 | not modeled (second_half_totals)
-- Polymarket | Patriots vs. Dolphins: 1Q O/U 5.5 | not modeled (q1_totals)
-- Polymarket | Patriots vs. Dolphins: 1Q O/U 6.5 | not modeled (q1_totals)
-- Polymarket | Patriots vs. Dolphins: 1Q O/U 7.5 | not modeled (q1_totals)
-- Polymarket | Patriots vs. Dolphins: 1Q O/U 10.5 | not modeled (q1_totals)
-- Polymarket | Patriots vs. Dolphins: 1Q O/U 13.5 | not modeled (q1_totals)
-- Polymarket | Patriots vs. Dolphins: 1Q O/U 14.5 | not modeled (q1_totals)
-- Polymarket | Patriots vs. Dolphins: 2Q O/U 5.5 | not modeled (q2_totals)
-- Polymarket | Patriots vs. Dolphins: 2Q O/U 6.5 | not modeled (q2_totals)
-- Polymarket | Patriots vs. Dolphins: 2Q O/U 7.5 | not modeled (q2_totals)
-- Polymarket | Patriots vs. Dolphins: 2Q O/U 10.5 | not modeled (q2_totals)
-- Polymarket | Patriots vs. Dolphins: 2Q O/U 13.5 | not modeled (q2_totals)
-- Polymarket | Patriots vs. Dolphins: 2Q O/U 14.5 | not modeled (q2_totals)
-- Polymarket | Patriots vs. Dolphins: 3Q O/U 5.5 | not modeled (q3_totals)
-- Polymarket | Patriots vs. Dolphins: 3Q O/U 6.5 | not modeled (q3_totals)
-- Polymarket | Patriots vs. Dolphins: 3Q O/U 7.5 | not modeled (q3_totals)
-- Polymarket | Patriots vs. Dolphins: 3Q O/U 10.5 | not modeled (q3_totals)
-- Polymarket | Patriots vs. Dolphins: 3Q O/U 13.5 | not modeled (q3_totals)
-- Polymarket | Patriots vs. Dolphins: 3Q O/U 14.5 | not modeled (q3_totals)
-- Polymarket | Patriots vs. Dolphins: 4Q O/U 5.5 | not modeled (q4_totals)
-- Polymarket | Patriots vs. Dolphins: 4Q O/U 6.5 | not modeled (q4_totals)
-- Polymarket | Patriots vs. Dolphins: 4Q O/U 7.5 | not modeled (q4_totals)
-- Polymarket | Patriots vs. Dolphins: 4Q O/U 10.5 | not modeled (q4_totals)
-- Polymarket | Patriots vs. Dolphins: 4Q O/U 13.5 | not modeled (q4_totals)
-- Polymarket | Patriots vs. Dolphins: 4Q O/U 14.5 | not modeled (q4_totals)
-- Polymarket | Patriots Team Total: O/U 10.5 | not modeled (team_totals)
-- Polymarket | Patriots Team Total: O/U 12.5 | not modeled (team_totals)
-- Polymarket | Patriots Team Total: O/U 13.5 | not modeled (team_totals)
-- Polymarket | Patriots Team Total: O/U 16.5 | not modeled (team_totals)
-- Polymarket | Patriots Team Total: O/U 19.5 | not modeled (team_totals)
-- Polymarket | Patriots Team Total: O/U 20.5 | not modeled (team_totals)
-- Polymarket | Patriots Team Total: O/U 23.5 | not modeled (team_totals)
-- Polymarket | Patriots Team Total: O/U 26.5 | not modeled (team_totals)
-- Polymarket | Patriots Team Total: O/U 27.5 | not modeled (team_totals)
-- Polymarket | Patriots Team Total: O/U 30.5 | not modeled (team_totals)
-- Polymarket | Patriots Team Total: O/U 34.5 | not modeled (team_totals)
-- Polymarket | Dolphins Team Total: O/U 10.5 | not modeled (team_totals)
-- Polymarket | Dolphins Team Total: O/U 12.5 | not modeled (team_totals)
-- Polymarket | Dolphins Team Total: O/U 13.5 | not modeled (team_totals)
-- Polymarket | Dolphins Team Total: O/U 16.5 | not modeled (team_totals)
-- Polymarket | Dolphins Team Total: O/U 19.5 | not modeled (team_totals)
-- Polymarket | Dolphins Team Total: O/U 20.5 | not modeled (team_totals)
-- Polymarket | Dolphins Team Total: O/U 23.5 | not modeled (team_totals)
-- Polymarket | Dolphins Team Total: O/U 26.5 | not modeled (team_totals)
-- Polymarket | Dolphins Team Total: O/U 27.5 | not modeled (team_totals)
-- Polymarket | Dolphins Team Total: O/U 30.5 | not modeled (team_totals)
-- Polymarket | Dolphins Team Total: O/U 34.5 | not modeled (team_totals)
-- Polymarket | Patriots 1H Team Total: O/U 6.5 | not modeled (first_half_team_totals)
-- Polymarket | Patriots 1H Team Total: O/U 10.5 | not modeled (first_half_team_totals)
-- Polymarket | Patriots 1H Team Total: O/U 12.5 | not modeled (first_half_team_totals)
-- Polymarket | Patriots 1H Team Total: O/U 13.5 | not modeled (first_half_team_totals)
-- Polymarket | Patriots 1H Team Total: O/U 16.5 | not modeled (first_half_team_totals)
-- Polymarket | Patriots 1H Team Total: O/U 17.5 | not modeled (first_half_team_totals)
-- Polymarket | Patriots 1H Team Total: O/U 19.5 | not modeled (first_half_team_totals)
-- Polymarket | Patriots 1H Team Total: O/U 20.5 | not modeled (first_half_team_totals)
-- Polymarket | Dolphins 1H Team Total: O/U 6.5 | not modeled (first_half_team_totals)
-- Polymarket | Dolphins 1H Team Total: O/U 10.5 | not modeled (first_half_team_totals)
-- Polymarket | Dolphins 1H Team Total: O/U 12.5 | not modeled (first_half_team_totals)
-- Polymarket | Dolphins 1H Team Total: O/U 13.5 | not modeled (first_half_team_totals)
-- Polymarket | Dolphins 1H Team Total: O/U 16.5 | not modeled (first_half_team_totals)
-- Polymarket | Dolphins 1H Team Total: O/U 17.5 | not modeled (first_half_team_totals)
-- Polymarket | Dolphins 1H Team Total: O/U 19.5 | not modeled (first_half_team_totals)
-- Polymarket | Dolphins 1H Team Total: O/U 20.5 | not modeled (first_half_team_totals)
-- Polymarket | Patriots 2H Team Total: O/U 6.5 | not modeled (second_half_team_totals)
-- Polymarket | Patriots 2H Team Total: O/U 10.5 | not modeled (second_half_team_totals)
-- Polymarket | Patriots 2H Team Total: O/U 12.5 | not modeled (second_half_team_totals)
-- Polymarket | Patriots 2H Team Total: O/U 13.5 | not modeled (second_half_team_totals)
-- Polymarket | Patriots 2H Team Total: O/U 16.5 | not modeled (second_half_team_totals)
-- Polymarket | Patriots 2H Team Total: O/U 17.5 | not modeled (second_half_team_totals)
-- Polymarket | Patriots 2H Team Total: O/U 19.5 | not modeled (second_half_team_totals)
-- Polymarket | Patriots 2H Team Total: O/U 20.5 | not modeled (second_half_team_totals)
-- Polymarket | Dolphins 2H Team Total: O/U 6.5 | not modeled (second_half_team_totals)
-- Polymarket | Dolphins 2H Team Total: O/U 10.5 | not modeled (second_half_team_totals)
-- Polymarket | Dolphins 2H Team Total: O/U 12.5 | not modeled (second_half_team_totals)
-- Polymarket | Dolphins 2H Team Total: O/U 13.5 | not modeled (second_half_team_totals)
-- Polymarket | Dolphins 2H Team Total: O/U 16.5 | not modeled (second_half_team_totals)
-- Polymarket | Dolphins 2H Team Total: O/U 17.5 | not modeled (second_half_team_totals)
-- Polymarket | Dolphins 2H Team Total: O/U 19.5 | not modeled (second_half_team_totals)
-- Polymarket | Dolphins 2H Team Total: O/U 20.5 | not modeled (second_half_team_totals)
-- Polymarket | Patriots vs. Dolphins: 2H Moneyline | not modeled (second_half_moneyline)
-- Polymarket | Exact Margin: Patriots by 25+ | not modeled (exact_margin)
-- Polymarket | Exact Margin: Patriots by 19-24 | not modeled (exact_margin)
-- Polymarket | Exact Margin: Patriots by 13-18 | not modeled (exact_margin)
-- Polymarket | Exact Margin: Patriots by 7-12 | not modeled (exact_margin)
-- Polymarket | Exact Margin: Patriots by 1-6 | not modeled (exact_margin)
-- Polymarket | Exact Margin: Tie | not modeled (exact_margin)
-- Polymarket | Exact Margin: Dolphins by 1-6 | not modeled (exact_margin)
-- Polymarket | Exact Margin: Dolphins by 7-13 | not modeled (exact_margin)
-- Polymarket | Exact Margin: Dolphins by 14-20 | not modeled (exact_margin)
-- Polymarket | Exact Margin: Dolphins by 21+ | not modeled (exact_margin)
-- Polymarket | Patriots vs. Dolphins: Both Teams to Score Points - 1Q | not modeled (q1_both_teams_to_score_points)
-- Polymarket | Patriots vs. Dolphins: Both Teams to Score Points - 2Q | not modeled (q2_both_teams_to_score_points)
-- Polymarket | Patriots vs. Dolphins: Both Teams to Score Points - 3Q | not modeled (q3_both_teams_to_score_points)
-- Polymarket | Patriots vs. Dolphins: Both Teams to Score Points - 4Q | not modeled (q4_both_teams_to_score_points)
-- Polymarket | Patriots Total Offensive Yards: O/U 350.5 | not modeled (team_offensive_yards)
-- Polymarket | Dolphins Total Offensive Yards: O/U 350.5 | not modeled (team_offensive_yards)
-- Polymarket | Patriots vs. Dolphins: Total Two-Point Conversions O/U 0.5 | not modeled (two_point_conversions)
-- Polymarket | Patriots vs. Dolphins: 1Q Moneyline | not modeled (q1_moneyline)
-- Polymarket | Patriots vs. Dolphins: 1H Moneyline | not modeled (first_half_moneyline)
-- Polymarket | Patriots Total Touchdowns: O/U 3.5 | not modeled (team_touchdowns)
-- Polymarket | Dolphins Total Touchdowns: O/U 1.5 | not modeled (team_touchdowns)
-- Polymarket | Patriots vs. Dolphins: 2Q Moneyline | not modeled (q2_moneyline)
-- Polymarket | Patriots vs. Dolphins: 3Q Moneyline | not modeled (q3_moneyline)
-- Polymarket | Patriots vs. Dolphins: 4Q Moneyline | not modeled (q4_moneyline)
-- Polymarket | Patriots Total Touchdowns: O/U 2.5 | not modeled (team_touchdowns)
-- Polymarket | A.J. Brown: Longest Reception O/U 19.5 | not modeled (longest_reception)
-- Polymarket | Caleb Douglas: Longest Reception O/U 19.5 | not modeled (longest_reception)
-- Polymarket | Hunter Henry: Longest Reception O/U 19.5 | not modeled (longest_reception)
-- Polymarket | Malik Washington: Longest Reception O/U 19.5 | not modeled (longest_reception)
-- Polymarket | A.J. Brown: Team First TD (New England Patriots) | not modeled (team_first_touchdowns)
-- Polymarket | Caleb Douglas: Team First TD (Miami Dolphins) | not modeled (team_first_touchdowns)
-- Polymarket | DeMario Douglas: Team First TD (New England Patriots) | not modeled (team_first_touchdowns)
-- Polymarket | Drake Maye: Team First TD (New England Patriots) | not modeled (team_first_touchdowns)
-- Polymarket | Greg Dulcich: Team First TD (Miami Dolphins) | not modeled (team_first_touchdowns)
-- Polymarket | Hunter Henry: Team First TD (New England Patriots) | not modeled (team_first_touchdowns)
-- Polymarket | Malik Washington: Team First TD (Miami Dolphins) | not modeled (team_first_touchdowns)
-- Polymarket | Malik Willis: Team First TD (Miami Dolphins) | not modeled (team_first_touchdowns)
-- Polymarket | Ollie Gordon II: Team First TD (Miami Dolphins) | not modeled (team_first_touchdowns)
-- Polymarket | Rhamondre Stevenson: Team First TD (New England Patriots) | not modeled (team_first_touchdowns)
-- Polymarket | Jaylen Wright: Team First TD (Miami Dolphins) | not modeled (team_first_touchdowns)
-- Polymarket | TreVeyon Henderson: Team First TD (New England Patriots) | not modeled (team_first_touchdowns)
-- Polymarket | Chris Bell: Team First TD (Miami Dolphins) | not modeled (team_first_touchdowns)
-- Polymarket | Corey Kiner: Team First TD (New England Patriots) | not modeled (team_first_touchdowns)
-- Polymarket | Efton Chism III: Team First TD (New England Patriots) | not modeled (team_first_touchdowns)
-- Polymarket | Eli Raridon: Team First TD (New England Patriots) | not modeled (team_first_touchdowns)
-- Polymarket | Kevin Coleman Jr.: Team First TD (Miami Dolphins) | not modeled (team_first_touchdowns)
-- Polymarket | Kyle Williams: Team First TD (New England Patriots) | not modeled (team_first_touchdowns)
-- Polymarket | Cameron Latu: Team First TD (New England Patriots) | not modeled (team_first_touchdowns)
-- Polymarket | DeMario Douglas: Longest Reception O/U 19.5 | not modeled (longest_reception)
-- Polymarket | Will Kacmarek: Team First TD (Miami Dolphins) | not modeled (team_first_touchdowns)
-- Polymarket | Lan Larison: Anytime Touchdown | only 1 past games
-- Polymarket | Lan Larison: 2+ Touchdowns | only 1 past games
-- Polymarket | Lan Larison: Team First TD (New England Patriots) | not modeled (team_first_touchdowns)
-- Polymarket | Seydou Traore: Anytime Touchdown | only 2 past games
-- Polymarket | Tanner Arkin: Anytime Touchdown | only 1 past games
-- Polymarket | Jalen Tolbert: Team First TD (Miami Dolphins) | not modeled (team_first_touchdowns)
-- Polymarket | Kaytron Allen: Team First TD (Miami Dolphins) | not modeled (team_first_touchdowns)
-- Polymarket | Ryan Miller: Team First TD (New England Patriots) | not modeled (team_first_touchdowns)
-- Polymarket | Seydou Traore: Team First TD (Miami Dolphins) | not modeled (team_first_touchdowns)
-- Polymarket | Tanner Arkin: Team First TD (New England Patriots) | not modeled (team_first_touchdowns)
+- Kalshi | Elijah Mitchell: 15+ rushing yards | only 2 past games
+- Kalshi | Elijah Mitchell: 40+ rushing yards | only 2 past games
+- Kalshi | Elijah Mitchell: 70+ rushing yards | only 2 past games
+- Kalshi | Elijah Mitchell: 25+ rushing yards | only 2 past games
+- Kalshi | Elijah Mitchell: 10+ rushing yards | only 2 past games
+- Kalshi | Elijah Mitchell: 30+ rushing yards | only 2 past games
+- Kalshi | Elijah Mitchell: 80+ rushing yards | only 2 past games
+- Kalshi | Elijah Mitchell: 60+ rushing yards | only 2 past games
+- Kalshi | Elijah Mitchell: 50+ rushing yards | only 2 past games
+- Kalshi | Elijah Mitchell: 20+ rushing yards | only 2 past games
+- Kalshi | Hollywood Brown: 40+ receiving yards | only 0 past games
+- Kalshi | Hollywood Brown: 10+ receiving yards | only 0 past games
+- Kalshi | Hollywood Brown: 50+ receiving yards | only 0 past games
+- Kalshi | Hollywood Brown: 70+ receiving yards | only 0 past games
+- Kalshi | Hollywood Brown: 30+ receiving yards | only 0 past games
+- Kalshi | Hollywood Brown: 15+ receiving yards | only 0 past games
+- Kalshi | Hollywood Brown: 25+ receiving yards | only 0 past games
+- Kalshi | Hollywood Brown: 60+ receiving yards | only 0 past games
+- Kalshi | Hollywood Brown: 20+ receiving yards | only 0 past games
+- Kalshi | Hollywood Brown: 5+ receptions | only 0 past games
+- Kalshi | Hollywood Brown: 3+ receptions | only 0 past games
+- Kalshi | Hollywood Brown: 2+ receptions | only 0 past games
+- Kalshi | Hollywood Brown: 4+ receptions | only 0 past games
+- Kalshi | Hollywood Brown: 6+ receptions | only 0 past games
+- Kalshi | Eli Stowers: 2+ touchdowns | only 1 past games
+- Kalshi | Elijah Mitchell: 2+ touchdowns | only 2 past games
+- Kalshi | WAS Commanders D/ST: 1+ touchdowns | only 0 past games
+- Kalshi | Elijah Mitchell: 1+ touchdowns | only 2 past games
+- Kalshi | Eli Stowers: 1+ touchdowns | only 1 past games
+- Kalshi | Hollywood Brown: 1+ touchdowns | only 0 past games
+- Kalshi | PHI Eagles D/ST: 1+ touchdowns | only 0 past games
+- Kalshi | Hollywood Brown: 2+ touchdowns | only 0 past games
+- Polymarket | no open markets found for nfl-phi-was-2026-11-01
