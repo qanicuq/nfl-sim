@@ -1,0 +1,52 @@
+name: Prop Backtest
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  prop_backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install requirements
+        run: pip install -r requirements.txt
+
+      - name: Run backtest if it has never run
+        run: |
+          if [ ! -f settings.json ]; then
+            python nfl_sim.py backtest
+          fi
+
+      - name: Download Kalshi history
+        run: |
+          if [ ! -f data/kalshi_props.csv.gz ]; then
+            python prop_backtest.py download
+          fi
+
+      - name: Test the player model
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python prop_backtest.py test
+
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for f in data/kalshi_props.csv.gz prop_backtest_results.md settings.json; do
+            if [ -f "$f" ]; then git add "$f"; fi
+          done
+          git diff --cached --quiet || git commit -m "Update prop backtest"
+          git push
