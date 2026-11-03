@@ -33,6 +33,9 @@ INJURY_URL = (
 ESPN = "https://site.api.espn.com/apis/site/v2/sports/football/nfl"
 ESPN_TEAM = {"WSH": "WAS", "LAR": "LA"}
 ESPN_STATUS = {"Injured Reserve": "Out", "Suspended": "Out", "Physically Unable to Perform": "Out"}
+GROUP_SLOTS = {"RB": ["rb"], "TE": ["te"], "WR": ["wr1", "wr2", "wr3"]}
+SWAPS = {}  # player who moved up -> injured player whose role he takes
+REPLACED = set()  # injured players whose role someone else took
 N_SIMS = 10000
 PLAYER_GAMES = 8  # recent games used per player
 MIN_PLAYER_GAMES = 3
@@ -192,6 +195,61 @@ def load_espn_injuries(away, home, today):
     return {}
 
 
+def per_game(stats, key):
+    # Average carries + targets per game over the player's own recent games.
+    rows = stats[stats["key"] == key].tail(PLAYER_GAMES)
+    return float((rows["carries"] + rows["targets"]).mean()) if len(rows) else 0.0
+
+
+def load_swaps(stats, team, injuries):
+    # ESPN depth chart: when a RB/WR/TE who played the team's last game is now Out or
+    # Doubtful, the next healthy player at his spot who usually gets less work takes his role.
+    code = {"WAS": "WSH", "LA": "LAR"}.get(team, team).lower()
+    try:
+        chart = get_json(f"{ESPN}/teams/{code}/depthcharts")
+    except Exception:
+        print(f"ESPN depth chart not available for {team}")
+        return {}
+    slots = {}
+    for formation in chart.get("depthchart", []):
+        for pos, info in formation.get("positions", {}).items():
+            names = []
+            for athlete in info.get("athletes", []):
+                key = norm_name(athlete.get("displayName") or "")
+                names.append(key)
+                for hurt in athlete.get("injuries", []):
+                    status = hurt.get("status") or ""
+                    injuries.setdefault(key, ESPN_STATUS.get(status, status))
+            slots.setdefault(pos, names)
+    team_rows = stats[stats["team"] == team]
+    if team_rows.empty:
+        return {}
+    last = team_rows[["season", "week"]].drop_duplicates().iloc[-1]
+    swaps = {}
+    for group, slot_names in GROUP_SLOTS.items():
+        played = team_rows.loc[
+            (team_rows["season"] == last["season"])
+            & (team_rows["week"] == last["week"])
+            & (team_rows["position"] == group),
+            "key",
+        ]
+        lists = [slots.get(s, []) for s in slot_names]
+        for out_key in played:
+            if injuries.get(out_key, "") not in ("Out", "Doubtful"):
+                continue
+            mine = [names for names in lists if out_key in names] or [sum(lists, [])]
+            for cand in mine[0]:
+                if (
+                    cand != out_key
+                    and injuries.get(cand, "") not in ("Out", "Doubtful")
+                    and per_game(stats, cand) < per_game(stats, out_key)
+                    and cand not in swaps
+                ):
+                    swaps[cand] = out_key
+                    break
+    return swaps
+
+
 def draw(recent, stat, rng, n):
     mean = recent.mean()
     if mean <= 0:
@@ -235,7 +293,7 @@ def player_sims(stats, name, stat, rng, cache):
     key = (norm_name(name), stat)
     if key in cache:
         return cache[key]
-    rows = stats[stats["key"] == key[0]]
+    rows = stats[stats["key"] == SWAPS.get(key[0], key[0])]
     if stat in PASS_STATS:
         rows = starter_rows(stats, rows)
     recent = rows[stat].tail(PLAYER_GAMES).to_numpy(dtype=float)
@@ -352,6 +410,8 @@ def role_scale(stats, name, stat, sims, injuries):
     # Only a teammate who played the team's last game counts; otherwise recent games already show it.
     cols = ROLE_VOLUME.get(stat)
     key = norm_name(name)
+    if key in SWAPS:
+        return sims, 1.0
     rows = stats[stats["key"] == key]
     if cols is None or rows.empty:
         return sims, 1.0
@@ -368,7 +428,7 @@ def role_scale(stats, name, stat, sims, injuries):
     if total <= 0 or volume.get(key, 0) <= 0:
         return sims, 1.0
     share = volume / total
-    out = [k for k in share.index if injuries.get(k, "") in ("Out", "Doubtful") and k in played_last]
+    out = [k for k in share.index if injuries.get(k, "") in ("Out", "Doubtful") and k in played_last and k not in REPLACED]
     out_share = float(share[out].sum())
     left = 1.0 - out_share
     if out_share <= 0 or left <= 0:
@@ -458,6 +518,8 @@ def kalshi_markets(event_code, away, home, sims, stats, rng, cache, out, skipped
                     skipped.append(f"Kalshi | {title} | only {games_used} past games")
                     continue
                 player, factor = role_scale(stats, name, KALSHI_PLAYER_SERIES[series], player, injuries)
+                if norm_name(name) in SWAPS:
+                    kind = kind.replace(")", ", depth swap)")
                 if factor > 1:
                     kind = kind.replace(")", f", role x{factor:.2f})")
                 proj = float(player.mean())
@@ -544,6 +606,8 @@ def poly_markets(slug_base, away, home, names, sims, stats, rng, cache, out, ski
                             skipped.append(f"Polymarket | {question} | only {games_used} past games")
                             continue
                         player, factor = role_scale(stats, name, stat, player, injuries)
+                        if norm_name(name) in SWAPS:
+                            kind = kind.replace(")", ", depth swap)")
                         if factor > 1:
                             kind = kind.replace(")", f", role x{factor:.2f})")
                         proj = float(player.mean())
@@ -601,6 +665,9 @@ def main():
     calibration = fit_calibration(stats, int(row["season"]), rng)
     injuries = load_injuries(int(row["season"]), int(row["week"]), {away, home})
     injuries.update(load_espn_injuries(away, home, today))
+    for team in (away, home):
+        SWAPS.update(load_swaps(stats, team, injuries))
+    REPLACED.update(SWAPS.values())
     cache = {}
     out = []
     skipped = []
@@ -671,6 +738,8 @@ def write_report(away, home, today, sims, out, skipped, calibration):
         "A backup QB uses his team's starting-QB games.",
         "- Market odds include the site's fee.",
         "- Touchdowns: his recent touches (carries + targets) times the league touchdown rate for his position.",
+        "- Depth chart swaps (ESPN): "
+        + ("; ".join(f"{new.title()} plays {old.title()}'s role" for new, old in SWAPS.items()) or "none") + ".",
         "- Edge = sim chance - price - fee. Flagged = 5 points or more.",
         "- The Top 10 shows only the best line for each player and stat.",
         "- Players listed Out or Doubtful on the injury report are left out. Questionable players are marked Q and kept out of the Top 10.",
@@ -735,6 +804,8 @@ def write_report(away, home, today, sims, out, skipped, calibration):
         for i, r in enumerate(top10, 1)
     ]
     message = f"{away} @ {home} Top 10 (player sims unproven vs market)\n" + "\n".join(alert)
+    if SWAPS:
+        message += "\nDepth swaps: " + "; ".join(f"{new.title()} for {old.title()}" for new, old in SWAPS.items())
     nfl_sim._send_push(message)
 
 
